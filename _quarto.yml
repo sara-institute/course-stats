@@ -14,7 +14,7 @@ website:
   
 
   navbar:
-    logo: images/logo-sara.png
+    #logo: images/logo-sara.png
     left:
       - text: "SLIDES"
         href: slides.qmd
