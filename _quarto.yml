@@ -1,0 +1,35 @@
+project:
+  type: website
+  preview:
+    browser: true
+  
+  
+website:
+  title: "SARA Statistics Winter School"
+  description: "The free & open-source slides of the SARA Statistics Winter School."
+  image: 2024winter.jpeg
+  favicon: logo-sara.png
+  twitter-card: true
+  site-url: https://sara-course-stats.netlify.app
+  
+
+  navbar:
+    logo: images/logo-sara.png
+    left:
+      - text: "SLIDES"
+        href: slides.qmd
+    right:
+      - icon: github
+        href: https://github.com/sara-institute
+      - text: "{{< iconify fa6-brands bluesky >}}"
+        href: https://bsky.app/profile/sarainstitute.bsky.social
+      - icon: linkedin
+        href: "https://www.linkedin.com/company/104133989/admin/dashboard/"
+      - icon: youtube
+        href: "https://www.youtube.com/@SARADataScience"
+
+format:
+  html:
+    theme: cosmo 
+      
+  

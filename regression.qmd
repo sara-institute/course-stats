@@ -1,0 +1,72 @@
+---
+title: "[Linear <br> Regression]{.clr-white .r-fit-text}"
+author: "[Dr. Ajay Kumar Koli, PhD | SARA Institute of Data Science, India]{.clr-white .r-fit-text}"
+format: revealjs
+controls: true
+slide-number: true
+scrollable: true
+logo: images/logo-sara.png
+bibliography: references.bib
+theme: style.scss
+title-slide-attributes: 
+  data-background-image: "https://images.unsplash.com/photo-1719487934500-c6aeb08a4c36?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  data-background-size: cover
+---
+
+## Regression
+
+<br>
+
+> Regression is a statistical method to model and analyze relationships between variables.
+
+## Types of Regression
+
+-   **Linear Regression:** Simple (1 predictor) and Multiple (more than 1 predictor).
+
+-   Logistic Regression, Polynomial Regression, etc.
+
+## Objectives of Regression
+
+-   Predict outcomes based on predictor variables.
+
+-   Understand the strength and direction of relationships.
+
+-   Make informed decisions using models.
+
+## Linear Regression Model
+
+-   Simple Linear Regression Equation:
+
+$$y = \beta_0 + \beta_1x + \epsilon$$
+
+-   $y$ = Dependent variable (outcome).
+
+-   $x$ = Independent variable (predictor).
+
+-   $\beta_0$ = Intercept.
+
+-   $\beta_0$ = Slope.
+
+-   $\epsilon$ = Error term.
+
+## Assumptions of Linear Regression
+
+-   **Linearity:** Relationship between $x$ and $y$ is linear.
+
+-   **Independence:** Observations are independent.
+
+-   **Homoscedasticity:** Errors have constant variance.
+
+-   **Normality:** Residuals are normally distributed.
+
+## Practice GLM
+
+General Explanation of Regression Metrics:
+
+- **Intercept:** The baseline prediction when all predictors are zero.
+    
+- **Coefficients:** The change in the dependent variable for a one-unit increase in the predictor.
+
+- **P-value:** Determines statistical significance (p < 0.05 is typically significant).
+
+- **R-squared:** Explains the proportion of variance captured by the model (higher values indicate a better fit).

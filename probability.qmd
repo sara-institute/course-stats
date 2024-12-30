@@ -1,0 +1,176 @@
+---
+title: "[Learning <br>Probability]{.clr-white .r-fit-text}"
+author: "[Dr. Ajay Kumar Koli, PhD | SARA Institute of Data Science, India]{.clr-white .r-fit-text}"
+format: revealjs
+controls: true
+slide-number: true
+scrollable: true
+logo: images/logo-sara.png
+bibliography: references.bib
+theme: style.scss
+title-slide-attributes: 
+  data-background-image: "https://images.unsplash.com/photo-1719487934500-c6aeb08a4c36?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  data-background-size: cover
+---
+
+## Z-score
+
+- Z-score measures how many standard deviations a data point is from the mean.
+
+- Purpose: To understand relative position within a distribution.
+
+## Z-score Calculation
+
+$$z = \frac{x - \mu}{\sigma}$$
+
+- $z$ = standardized score
+
+- $x$ = data point
+
+- $\mu$ = mean value
+
+- $\sigma$ = standard deviation
+
+- If the z-score is positive, the data point is above the mean; if negative, it’s below the mean.
+
+## Practice Z-score {background-color="skyblue"}
+
+Z-scores provide a standardized method to:
+
+- Compare data points across distributions.
+    
+- Detect outliers.
+    
+- Assess relative performance.
+
+# {background-color="black"}
+
+![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTZxYmo1bndla3Rtc3R6cjRwdnc2M3Z5Zm5wNnZjc2IzM2dhM3lsZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o6Mb5WxERQyuy7qJa/giphy.webp){fig-align=center}
+
+## Probability
+
+- Probability is a way to talk about how likely something is to happen.
+
+- It's like making a guess, but with some rules and numbers to help us know how good our guess is.
+
+## Measure Probability
+
+> Probability is a number between 0 and 1
+
+- 0 means it will not happen (impossible).
+
+- 1 means it will definitely happen (certain).
+
+- In-between numbers mean "maybe."
+
+## Probability Interpretation
+
+- A probability between $0.5$ to $1$ means that an event is more **likely** to happen than not, and the closer to $1$ it gets, the more likely it is to happen.
+
+- A probability between $0$ and $0.5$ means that an event is more **unlikely** to happen than to happen, and the closer to $0$ it gets, the less likely it is to happen.
+
+## Probability Density Function
+
+The area under the curve represents probability which is equal to $1$ or the probability of all scores summed together is $1$.
+
+![](https://cdn.corporatefinanceinstitute.com/assets/bell-curve.png){fig-align=center}
+
+## Standard Normal Distribution 
+
+![](images/normal-distribution-standard.png){fig-align=center}
+
+## 68% of the Data
+
+- Lies within 1 standard deviation ($\sigma$) from the mean ($\mu$).
+
+- Between $\mu \pm 1\sigma$: Contains 68% of the total area under the curve.
+
+![](images/normal-distribution-standard.png){fig-align=center}
+
+## 95% of the Data
+
+- Lies within 2 standard deviation ($\sigma$) from the mean ($\mu$).
+
+- Between $\mu \pm 2\sigma$: Contains 95% of the total area under the curve.
+
+![](images/normal-distribution-standard.png){fig-align=center}
+
+## 99.7% of the Data
+
+- Lies within 3 standard deviation ($\sigma$) from the mean ($\mu$).
+
+- Between $\mu \pm 3\sigma$: Contains 99.7% of the total area under the curve.
+
+![](images/normal-distribution-standard.png){fig-align=center}
+
+## Example in Real-Life
+
+**Height of Adults:**
+
+- Assume adult heights follow a normal distribution:
+        Mean ($\mu$) = 170 cm
+        Standard deviation ($\sigma$) = 10 cm
+
+Using the 68-95-99.7 rule:
+
+- **68%** of adults are between 160 and 180 cm.
+
+- **95%** of adults are between 150 and 190 cm.
+    
+- **99.7%** of adults are between 140 and 200 cm.
+
+## Pratice {background-color="skyblue"}
+
+Real-Life Problems Using the 68-95-99.7 Rule with R
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

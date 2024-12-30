@@ -1,0 +1,108 @@
+---
+title: "[Hypothesis <br>Testing]{.clr-white .r-fit-text}"
+author: "[Dr. Ajay Kumar Koli, PhD | SARA Institute of Data Science, India]{.clr-white .r-fit-text}"
+format: revealjs
+controls: true
+slide-number: true
+scrollable: true
+logo: images/logo-sara.png
+bibliography: references.bib
+theme: style.scss
+title-slide-attributes: 
+  data-background-image: "https://images.unsplash.com/photo-1719487934500-c6aeb08a4c36?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  data-background-size: cover
+---
+
+## NHST
+
+<br>
+
+> Null Hypothesis Significance Testing.
+
+## Suggested Steps Before NHST:
+
+1.  Understand the problem and data type.
+
+2.  Visualize the data distribution.
+
+3.  Calculate descriptive statistics.
+
+4.  Formulate null and alternative hypotheses.
+
+5.  Choose the appropriate test based on data type and assumptions.
+
+## Significance Level ($\alpha$)
+
+<br>
+
+> The threshold for rejecting the null hypothesis, commonly set at 0.05
+
+## Errors in Hypothesis Testing {background-color="black"}
+
+![](https://pbs.twimg.com/media/EjM2cGYX0AQDwSq.jpg){fig-align="center"}
+
+## Errors in Hypothesis Testing
+
+-   **Type I Error** ($\alpha$): Rejecting a true null hypothesis (false positive).
+
+-   **Type II Error** ($\beta$): Failing to reject a false null hypothesis (false negative).
+
+## Test Statistics
+
+> A numerical summary of data used to evaluate $H_0$.
+
+-   Example: $t$-statistic, $z$-statistic, or $\chi^2$-statistic
+
+## p-value
+
+-   The probability of obtaining results as extreme as the obsereved data, assuming $H_0$ is true.
+
+-   Interpretation:
+
+    -   If $p \; \le \; \alpha$: Reject $H_0$. (significant result).
+
+    -   If $p \; > \; \alpha$: Fail to reject $H_0$. (insufficient evidence).
+
+## Assumptions of Statistical Tests
+
+Understand the assumptions behind tests like $t$-test or ANOVA:
+
+-   **Normality:** Data follows a normal distribution.
+
+-   **Independence:** Observations are independent.
+
+-   **Homogeneity of Variance:** Groups have equal variance (in some tests).
+
+## Types of Statistical Tests
+
+Learn the purpose and application of key test:
+
+-   $t$-test: Compare means (e.g., one sample, independent two-sample, paired).
+
+-   **ANOVA**: Compare means across more than two groups.
+
+-   $\chi^2$-Test: Test for independence in categorical data.
+
+## Effect Size
+
+-   Measures the magnitude of an effect, independent of sample size.
+
+    -   Examples: Cohen’s $d$, Pearson’s $r$.
+
+-   Essential for understanding the practical significance of results, beyond statistical significance.
+
+## Practice NHST {background-color="skyblue"}
+
+::: {.r-fit-text}
+
+| Test | Scenario | Statistical Test |
+|----|----|----|
+| One-Sample t-Test | Compare a sample mean to a known value. | `t.test()` |
+| Two-Sample t-Test | Compare means of two independent groups. | `t.test()` |
+| Chi-Square Test | Test association between categorical variables. | `chisq.test()` |
+| ANOVA | Compare means across multiple groups. | `aov()` |
+| Correlation Test | Test the strength of the relationship between variables. | `cor.test()` |
+
+:::
+
+![](images/pvalue.jpg){fig-align=center}

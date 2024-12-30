@@ -1,0 +1,253 @@
+---
+title: "[Presenting <br>Data]{.clr-white .r-fit-text}"
+author: "[Dr. Ajay Kumar Koli, PhD | SARA Institute of Data Science, India]{.clr-white .r-fit-text}"
+format: revealjs
+controls: true
+slide-number: true
+scrollable: true
+logo: images/logo-sara.png
+bibliography: references.bib
+theme: style.scss
+title-slide-attributes: 
+  data-background-image: "https://images.unsplash.com/photo-1719487934500-c6aeb08a4c36?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  data-background-size: cover
+---
+
+## Presenting Data
+
+> Graphs are visual representations of data that help in understanding relationships, trends, and distributions.
+
+## How to Choose the Right Graph
+
+| Purpose                          | Best Graph                       |
+|----------------------------------|----------------------------------|
+| Compare categories               | Bar chart, Pie Chart             |
+| Show distribution                | Histogram, Box plot, Violin plot |
+| Show trends over time            | Line graph, Area chart           |
+| Show relationships/correlations  | Scatter plot, Bubble chart       |
+| Visualize patterns in data       | Heatmap                          |
+
+## Bar Chart
+
+![](images/bargraph.png){fig-align="center"}
+
+## Bar Chart
+
+- Purpose: Compare quantities of categorical data.
+    
+- When to Use:
+  - Show comparisons between categories (e.g., sales by region, population by country).
+  - Highlight differences in frequency or proportion.
+  
+## Practice Bar Chart {background-color="skyblue"}
+
+- Unordered Bar Chart: Use for simple category visualization.
+    
+- Ordered Bar Chart: Highlights the most/least common categories.
+    
+- Horizontal Bar Chart: Improves readability for long category names.
+    
+- Grouped Bar Chart: Compares subcategories across main categories.
+    
+- Stacked Bar Chart: Shows composition of each category.
+
+## Histogram
+
+![](http://www.quickmeme.com/img/58/58ea069b7478a55496bd8f49e655de28d712f82df4bae25a933b77a7aff9d0bc.jpg){fig-align=center}
+
+## Histogram
+
+![](images/bargraph.png){fig-align="center"}
+
+## Histogram
+
+- Purpose: Display the distribution of numerical data.
+
+- When to Use:
+    - Visualize frequency distribution (e.g., income levels, test scores).
+    - Identify skewness, spread, and modes in data. 
+
+## Histogram Key Points
+
+- Bins: The range of values divided into intervals. The width of these intervals determines the bin size.
+
+- Axis:
+  - X-axis: The variable of interest (e.g., numerical values).
+  - Y-axis: The frequency (count) or density of observations.    
+
+## Practice Histograms {background-color="skyblue"}
+
+- Basic Histogram: General overview of distribution.
+
+- Custom Bin Width:	Fine-tuning for specific data patterns.
+
+- Density Overlaid:	Assess distribution shape visually.
+
+- Grouped Histogram: Compare distributions across subgroups.
+
+- Faceted Histogram: Side-by-side comparison of subgroups.
+
+- Cumulative Histogram:	Understand cumulative trends in the data.
+
+## Line Graph
+
+![](images/linegraph.png){fig-align="center"}
+
+## Line Graph
+
+- Purpose: Show trends over time or sequences.
+    
+- When to Use:
+    - Analyze patterns over intervals (e.g., stock prices, temperature changes).
+    - Compare multiple trends by plotting multiple lines.
+
+## Practice Line Graphs {background-color="skyblue"}
+
+- Basic Line Graph: Single line showing trends for one variable.
+
+- Multiple Line Graphs: Comparing trends of multiple variables.
+
+- Smoothed Line Graph: Adds a smooth curve to depict trends better.
+
+- Line Graph with Points: Shows data points explicitly.
+
+- Faceted Line Graph: Separate panels for different groups or variables.
+
+- Step Line Graph: Shows data changes stepwise.
+
+## Scatter Plot
+
+![](images/scatterplot.png){fig-align="center"}
+
+## Scatter Plot
+
+- Purpose: Show relationships or correlations between two numerical variables.
+
+- Scatter plots are commonly used to:
+    - Observe correlations or relationships between variables.
+    - Detect patterns, trends, or clusters.
+    - Identify potential outliers.
+
+## Key Points Scatter Points
+
+- X-axis: Represents one variable (independent or predictor).
+
+- Y-axis: Represents another variable (dependent or outcome).
+    
+- Points: Each point represents one observation.
+
+## Practice Scatter Plots {background-color="skyblue"}
+
+- Basic Scatter Plot:	Visualize relationships between two continuous variables.
+- With Groups:	Compare relationships across categories or groups.
+- With Regression Line:	Observe trends and linear relationships.
+- With Size Aesthetic:	Add a third dimension to the plot (e.g., size of points).
+- Faceted Scatter Plot:	Separate the data into different groups or panels.
+- With Transparency:	Handle overplotting when data points overlap.
+
+## Pie Chart
+
+![](images/piechart.png){fig-align="center"}
+
+## Pie Chart
+
+- Purpose: Represent proportions of a whole.
+    
+- When to Use:
+    - Show parts of a total (e.g., market share, budget allocation).
+    - Use with few categories to avoid clutter. 
+
+- Limitations:
+
+  - Hard to interpret with many categories.
+  - Poor for precise comparisons; consider bar charts for clarity.    
+
+## Practice Pie Charts {background-color="skyblue"}
+
+- Basic Pie Chart	Represent proportions of categories in a single dataset.
+
+- With Percentages	Display proportions explicitly for easier interpretation.
+
+- Donut Chart	Aesthetic variation of a pie chart, often used in dashboards.
+
+- Faceted Pie Chart	Compare distributions across multiple groups.
+
+- Exploded Pie Chart	Highlight a specific slice for emphasis.
+
+## Box Plot (or Box-and-Whisker Plot)
+
+![](images/boxplot.png){fig-align="center"}
+## Box Plot
+
+- Purpose: Summarize the distribution of data through quartiles.
+
+- When to Use:
+
+  - Identify spread, outliers, and medians (e.g., comparing test scores across groups).
+  - Compare distributions across categories.
+  
+## Box Plot
+
+![](images/boxplot2.png){fig-align="center"}
+
+## Box Plot, Five-number summary:
+
+:::: {.columns}
+
+::: {.column width="50%"}
+1. Minimum: The smallest data point excluding outliers.
+    
+1. First Quartile (Q1): The median of the lower half of the dataset.
+    
+1. Median (Q2): The middle value of the dataset.
+    
+1. Third Quartile (Q3): The median of the upper half of the dataset.
+    
+1. Maximum: The largest data point excluding outliers.
+:::
+
+::: {.column width="50%"}
+![](images/boxplot2.png){fig-align="center"}
+:::
+
+::::
+  
+## Practice Box Plots {background-color="skyblue"}
+
+- Basic Box Plot:	Summarizing distribution of a single variable.
+
+- Box Plot by Category:	Comparing distributions across categories.
+
+- With Outliers Highlighted:	Identifying potential outliers.
+
+- Horizontal Box Plot:	Improving readability for long category names.
+
+- Grouped Box Plot:	Comparing multiple groups within categories.
+
+- Violin and Box Plot Combination:	Adding detailed distribution insights to a box plot.
+
+- Customized Box Plot:	Enhancing visual appeal for reports or presentations.
+  
+## Heatmap
+
+![](https://datavizcatalogue.com/methods/images/top_images/SVG/heatmap.svg)
+
+## Heatmap
+
+- Purpose: Represent data in a matrix format using color coding.
+    
+- When to Use:
+  - Visualize large datasets (e.g., correlations, gene expression).
+  - Highlight patterns, hotspots and clusters.
+  
+## Practice Heat Maps Plots {background-color="skyblue"}
+
+- Basic Heat Map	Visualizing relationships between categories and values.
+
+- Heat Map with Labels	Adding specific values for easier interpretation.
+
+- Correlation Heat Map	Visualizing pairwise correlations between variables.
+
+- Time-Series Heat Map	Tracking changes over time for multiple categories.
+
+- Diverging Heat Map	Highlighting deviations from a baseline or midpoint.

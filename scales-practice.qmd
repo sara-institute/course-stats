@@ -1,0 +1,646 @@
+---
+title: "[Variables & Measurement]{.r-fit-text}"
+subtitle: "Practice sheet for the SARA Statistics Winter School"
+author: "SARA Institute of Data Science, Sonipat"
+number-sections: true
+toc: true
+toc-location: left
+smooth-scroll: true
+date: today
+date-format: long
+date-modified: last-modified
+---
+
+## Nominal Variables
+
+### Creating Nominal variables
+
+**Gender:**
+
+```{r}
+# Create a nominal variable
+gender <- factor(c("Male", "Female", "Female", "Male", "Male"))
+
+# Check the structure of the variable
+str(gender)
+
+# Print the variable
+print(gender)
+```
+
+**Marital Status:**
+
+```{r}
+# Create a nominal variable
+marital_status <- factor(c("Single", "Married", "Single", "Divorced", "Widowed"))
+
+# Print the variable
+print(marital_status)
+
+# Check the levels
+levels(marital_status)
+```
+
+**Eye Color:**
+
+```{r}
+# Create a nominal variable
+eye_color <- factor(c("Blue", "Brown", "Green", "Brown", "Blue"))
+
+# Print the variable
+print(eye_color)
+
+# Tabulate the frequency of each category
+table(eye_color)
+```
+
+**Dataset:**
+
+```{r}
+# Create a data frame with nominal variables
+data <- data.frame(
+  ID = 1:5,
+  Gender = factor(c("Male", "Female", "Female", "Male", "Male")),
+  Marital_Status = factor(c("Single", "Married", "Single", "Divorced", "Widowed")),
+  Eye_Color = factor(c("Blue", "Brown", "Green", "Brown", "Blue"))
+)
+
+# Print the data
+print(data)
+```
+
+### Visualize Nominal Variables
+
+```{r}
+# Create a nominal variable
+marital_status <- factor(c("Single", "Married", "Single", "Divorced", "Widowed"))
+
+# Bar plot for marital status
+barplot(table(marital_status),
+  main = "Marital Status Distribution",
+  col = "lightblue",
+  ylab = "Frequency",
+  xlab = "Marital Status"
+)
+```
+
+### Analyzing Nominal Variables
+
+**Frequency Table:**
+
+```{r}
+# Frequency table for gender
+table(gender)
+
+# Frequency table for marital status
+table(marital_status)
+```
+
+**Proportions:**
+
+```{r}
+# Proportion of each marital status
+prop.table(table(marital_status))
+```
+
+## Ordinal Variables
+
+### Creating Ordinal Variables
+
+**Education Level**
+
+Education levels often follow an order (e.g., "High School" < "Bachelor's" < "Master's" < "Ph.D.").
+
+```{r}
+# Create an ordinal variable for education level
+education <- factor(c("Bachelor's", "High School", "Master's", 
+                      "Ph.D.", "Bachelor's", "High School"),
+                    levels = c("High School", "Bachelor's", "Master's", "Ph.D."),
+                    ordered = TRUE)
+
+# Print the variable
+print(education)
+
+# Check the structure
+str(education)
+
+```
+
+**Customer Satisfaction Ratings**
+
+Satisfaction levels like "Very Dissatisfied" < "Dissatisfied" < "Neutral" < "Satisfied" < "Very Satisfied" have an inherent order.
+
+```{r}
+# Create an ordinal variable for satisfaction
+satisfaction <- factor(c("Satisfied", "Neutral", "Very Satisfied", 
+                         "Dissatisfied", "Neutral", "Satisfied"),
+                       levels = c("Very Dissatisfied", "Dissatisfied", 
+                                  "Neutral", "Satisfied", "Very Satisfied"),
+                       ordered = TRUE)
+
+# Print the variable
+print(satisfaction)
+
+# Check the levels
+levels(satisfaction)
+
+```
+
+
+### Visualize Ordinal Variables
+
+**Bar Plot**
+
+A bar plot is ideal for visualizing ordinal variables:
+
+```{r}
+# Bar plot for satisfaction
+barplot(table(satisfaction), 
+        main = "Customer Satisfaction Levels", 
+        col = c("red", "orange", "yellow", "green", "blue"), 
+        xlab = "Satisfaction Level", 
+        ylab = "Frequency")
+
+```
+
+Box Plot with Ordinal Data
+
+If ordinal variables are associated with a numeric variable, box plots can show trends.
+
+```{r}
+# Create a numeric variable (e.g., customer spending)
+spending <- c(200, 150, 500, 100, 180, 220)
+
+# Box plot of spending by satisfaction
+boxplot(spending ~ satisfaction, 
+        main = "Spending by Customer Satisfaction", 
+        xlab = "Satisfaction Level", 
+        ylab = "Spending (in $)", 
+        col = "lightblue")
+
+```
+
+### Analyzing Ordinal Variables
+
+**Frequency Table**
+
+```{r}
+# Frequency table for satisfaction
+table(satisfaction)
+
+```
+
+**Summary Statistics for Ordinal Variables**
+
+Although ordinal variables are not numeric, you can explore their distribution:
+
+```{r}
+# Summarize ordinal data
+summary(satisfaction)
+
+```
+
+### Testing Ordinal Variables
+
+```{r}
+# Create a data frame with ordinal variables
+survey_data <- data.frame(
+  ID = 1:6,
+  Education = factor(c("High School", "Bachelor's", "Master's", 
+                       "Ph.D.", "High School", "Bachelor's"),
+                     levels = c("High School", "Bachelor's", "Master's", "Ph.D."),
+                     ordered = TRUE),
+  Satisfaction = factor(c("Neutral", "Satisfied", "Very Satisfied", 
+                          "Dissatisfied", "Neutral", "Satisfied"),
+                        levels = c("Very Dissatisfied", "Dissatisfied", 
+                                   "Neutral", "Satisfied", "Very Satisfied"),
+                        ordered = TRUE),
+  Spending = c(150, 200, 500, 120, 180, 250)
+)
+
+# Print the dataset
+print(survey_data)
+
+```
+
+
+**Compare Groups**
+
+Ordinal variables can be used to group and compare other variables.
+
+```{r}
+# Mean spending by education level
+aggregate(Spending ~ Education, data = survey_data, FUN = mean)
+
+```
+
+**Check Correlation**
+
+While ordinal variables are categorical, they can sometimes be treated as numeric for simple correlation checks.
+
+```{r}
+# Convert satisfaction to numeric and check correlation
+cor(as.numeric(survey_data$Satisfaction), survey_data$Spending)
+
+```
+
+## Interval Variables
+
+### Creating Interval Variables
+
+**Temperature in Celsius**
+
+```{r}
+# Create a vector for temperature
+temperature <- c(20, 15, 30, 25, 10, 18)
+
+# Print the variable
+print(temperature)
+
+# Check the structure
+str(temperature)
+
+```
+
+**IQ Scores**
+
+```{r}
+# Create a vector for IQ scores
+iq_scores <- c(110, 95, 120, 130, 105, 115)
+
+# Print the variable
+print(iq_scores)
+
+```
+
+**Dates**
+
+Dates in interval form represent the time elapsed (e.g., days, months, years).
+
+```{r}
+# Create a vector for dates
+dates <- as.Date(c("2024-01-01", "2024-01-10", "2024-01-15", 
+                   "2024-02-01", "2024-02-15"))
+
+# Calculate intervals (difference in days)
+date_intervals <- diff(dates)
+print(date_intervals)
+
+```
+
+### Analyzing Interval Variables
+
+**Summary Statistics**
+
+```{r}
+# Summary statistics for temperature
+summary(temperature)
+
+# Summary statistics for IQ scores
+summary(iq_scores)
+
+```
+
+**Calculating Differences**
+
+Since interval variables allow meaningful differences, you can calculate and interpret these:
+
+```{r}
+# Difference in temperature
+temperature_diff <- diff(temperature)
+print(temperature_diff)
+
+```
+
+### Visualizing Interval Variables
+
+**Histogram**
+
+A histogram shows the distribution of interval data.
+
+```{r}
+# Histogram for temperature
+hist(temperature, 
+     main = "Temperature Distribution", 
+     xlab = "Temperature (°C)", 
+     col = "lightblue", 
+     breaks = 5)
+
+```
+
+**Line Plot**
+
+If the data has a time component, a line plot is useful.
+
+```{r}
+# Line plot for temperature
+plot(temperature, 
+     type = "o", 
+     main = "Temperature Trend", 
+     xlab = "Day", 
+     ylab = "Temperature (°C)", 
+     col = "blue", 
+     pch = 16)
+
+```
+
+### Working with Dates as Interval Data
+
+**Calculating Differences Between Dates**
+
+```{r}
+# Calculate the interval in days
+date_diff <- as.numeric(diff(dates))
+print(date_diff)
+
+```
+
+**Plotting Dates**
+
+```{r}
+
+# Create a line plot with dates
+plot(dates[-1], cumsum(date_diff), 
+     type = "o", 
+     main = "Cumulative Days Over Time", 
+     xlab = "Dates", 
+     ylab = "Cumulative Days", 
+     col = "green", 
+     pch = 16)
+
+```
+
+### Testing Interval Variables
+
+```{r}
+# Create a dataset
+interval_data <- data.frame(
+  ID = 1:6,
+  Temperature = c(20, 15, 30, 25, 10, 18),      # Interval variable
+  IQ_Score = c(110, 95, 120, 130, 105, 115),   # Interval variable
+  Date = as.Date(c("2024-01-01", "2024-01-10", "2024-01-15", 
+                   "2024-02-01", "2024-02-15", "2024-03-01"))
+)
+
+# Print the dataset
+print(interval_data)
+
+```
+
+**Calculate Mean and Standard Deviation**
+
+```{r}
+# Mean and SD for temperature
+mean_temp <- mean(interval_data$Temperature)
+sd_temp <- sd(interval_data$Temperature)
+
+print(mean_temp)
+print(sd_temp)
+
+```
+
+**Correlation Between Two Interval Variables**
+
+```{r}
+# Correlation between Temperature and IQ Score
+cor(interval_data$Temperature, interval_data$IQ_Score)
+
+```
+
+## Ratio Variables
+
+Ratio variables are numerical variables where both differences and ratios between values are meaningful, and there is a true zero point. 
+
+### Creating Ratio Variables
+
+**Example: Weight (in kg)**
+
+```{r}
+# Create a vector for weight
+weight <- c(60, 70, 55, 80, 90, 65)
+
+# Print the variable
+print(weight)
+
+# Check the structure
+str(weight)
+
+```
+
+**Example: Distance Traveled (in km)**
+
+```{r}
+# Create a vector for distance
+distance <- c(10, 20, 5, 15, 25, 30)
+
+# Print the variable
+print(distance)
+
+```
+
+**Example: Income (in INR)**
+
+```{r}
+# Create a vector for income
+income <- c(25000, 40000, 30000, 45000, 50000, 35000)
+
+# Print the variable
+print(income)
+
+```
+
+
+### Analyzing Ratio Variables
+
+**Summary Statistics**
+
+```{r}
+# Summary statistics for weight
+summary(weight)
+
+# Summary statistics for distance
+summary(distance)
+
+```
+
+**Calculating Ratios**
+
+Ratios between two values are meaningful for ratio variables.
+
+```{r}
+# Ratio of the highest weight to the lowest weight
+max(weight) / min(weight)
+
+# Ratio of the highest income to the lowest income
+max(income) / min(income)
+
+```
+
+**Checking Proportional Relationships**
+
+```{r}
+# Proportion of distances to the total distance
+distance_prop <- distance / sum(distance)
+print(distance_prop)
+
+```
+
+
+### Visualizing Ratio Variables
+
+**Histogram**
+
+A histogram helps visualize the distribution of ratio variables.
+
+```{r}
+# Histogram for weight
+hist(weight, 
+     main = "Weight Distribution", 
+     xlab = "Weight (kg)", 
+     col = "lightblue", 
+     breaks = 5)
+
+```
+
+**Box Plot**
+
+Box plots are useful to show the range and outliers in ratio data.
+
+```{r}
+# Box plot for income
+boxplot(income, 
+        main = "Income Distribution", 
+        ylab = "Income (INR)", 
+        col = "pink")
+
+```
+
+**Scatter Plot**
+
+A scatter plot can show relationships between two ratio variables.
+
+```{r}
+# Scatter plot of weight vs. distance
+plot(weight, distance, 
+     main = "Weight vs. Distance Traveled", 
+     xlab = "Weight (kg)", 
+     ylab = "Distance Traveled (km)", 
+     col = "blue", 
+     pch = 16)
+
+```
+
+### Testing Ratio Variables
+
+Dataset
+
+```{r}
+# Create a dataset with ratio variables
+ratio_data <- data.frame(
+  ID = 1:6,
+  Weight = weight,                    # Ratio variable
+  Distance = distance,                # Ratio variable
+  Income = income,                    # Ratio variable
+  Time = c(2, 4, 1, 3, 5, 6)          # Ratio variable (time in hours)
+)
+
+# Print the dataset
+print(ratio_data)
+
+```
+
+
+**Mean and Standard Deviation**
+
+```{r}
+# Mean and SD for weight
+mean_weight <- mean(ratio_data$Weight)
+sd_weight <- sd(ratio_data$Weight)
+
+print(mean_weight)
+print(sd_weight)
+
+```
+
+**Correlation Between Two Ratio Variables**
+
+```{r}
+# Correlation between Weight and Distance
+cor(ratio_data$Weight, ratio_data$Distance)
+
+# Correlation between Income and Time
+cor(ratio_data$Income, ratio_data$Time)
+
+```
+
+**Proportional Comparisons**
+
+```{r}
+# Proportion of each person's income to the total income
+income_prop <- ratio_data$Income / sum(ratio_data$Income)
+print(income_prop)
+
+```
+
+
+### Visualizing Ratio Relationships
+
+**Bar Plot for Proportions**
+
+```{r}
+# Bar plot for income proportions
+barplot(income_prop, 
+        main = "Income Proportions", 
+        names.arg = ratio_data$ID, 
+        xlab = "ID", 
+        ylab = "Proportion of Total Income", 
+        col = "cyan")
+
+```
+
+**Line Plot for Trend**
+
+```{r}
+# Line plot of time vs. distance
+plot(ratio_data$Time, ratio_data$Distance, 
+     type = "o", 
+     main = "Distance Traveled Over Time", 
+     xlab = "Time (hours)", 
+     ylab = "Distance (km)", 
+     col = "green", 
+     pch = 16)
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

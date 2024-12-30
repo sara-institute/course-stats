@@ -1,0 +1,336 @@
+---
+title: "[Research <br> Methods]{.clr-white .r-fit-text}"
+author: "[Dr. Ajay Kumar Koli, PhD | SARA Institute of Data Science, India]{.clr-white .r-fit-text}"
+format: revealjs
+controls: true
+slide-number: true
+scrollable: true
+logo: images/logo-sara.png
+bibliography: references.bib
+theme: style.scss
+title-slide-attributes: 
+  data-background-image: "https://images.unsplash.com/photo-1719487934500-c6aeb08a4c36?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  data-background-size: cover
+---
+
+## The research process {background-image="images/research-process.png" background-size="45%"}
+
+::: aside
+Source: @field2022
+:::
+
+## Statistics
+
+> **Definition:** A numerical summary of a sample.
+
+<br>
+
+. . .
+
+> **Scope:** Describes the characteristics of a subset (sample).
+
+<br>
+
+. . .
+
+> **Purpose:** Used to estimate or infer the parameter.
+
+## Parameters
+
+> **Definition:** A numerical summary of a population.
+
+<br>
+
+. . .
+
+> **Scope:** Describes the characteristics of the entire group (population).
+
+<br>
+
+. . .
+
+> **Purpose:** Represents the true value for the population.
+
+## 
+
+::: {.callout-note icon="false"}
+## 🤓 **Tellme Moore:** ***Average Test Scores of 500 Students***
+
+**Key Differences**
+
+1.  **Parameter** is about the population (e.g., the average score of all 500 students).
+
+2.  **Statistic** is about a sample (e.g., the average score of 50 students).
+
+3.  **Goal:** A statistic is used to [estimate]{.clr-tom} the parameter.
+:::
+
+## Sampling Variation
+
+> "These statistics vary from one sample to the next."
+
+## Sampling Error
+
+> "These statistics sometimes differ from the population parameter."
+
+## 👨🏽‍💻 Practice Statistics vs. Parameters {background-color="skyblue"}
+
+Imagine we have a population of students' heights, and we take a sample from this population to calculate statistics and compare them to the parameters.
+
+## Statistical Learning
+
+<br>
+
+> "*Statistical Learning* refers to a vast set of tools for *understanding data*."
+
+::: aside
+Source: @jamesIntroductionStatisticalLearning2017
+
+This ebook is free to download from [here](https://www.statlearning.com/).
+:::
+
+## Statistics
+
+<br>
+<br>
+
+::::: columns
+::: {.column width="50%"}
+#### [Descriptive Statistics]{.card}
+:::
+
+::: {.column width="50%"}
+#### [Inferential Statistics]{.card}
+:::
+:::::
+
+## Descriptive Statistics
+
+> Summarizes and organizes data to describe its main features.
+
+<br>
+
+. . .
+
+> Limited to the observed data.
+
+## Inferential Statistics
+
+> Makes predictions or inferences about a population from a sample.
+
+<br>
+
+. . .
+
+> Goes beyond the observed data to infer population characteristics.
+
+## 👨🏽‍💻 Practice Descriptive vs. Inferential Statistics {background-color="skyblue"}
+
+We will practice both descriptive and inferential statistics using a dataset of students' test scores.
+
+# Research Methods
+
+## Research Methods
+
+We can test a hypothesis in one of two ways:
+
+. . .
+
+<br>
+<br>
+
+::::: columns
+::: {.column width="50%"}
+#### [Correlational Method]{.card}
+:::
+
+::: {.column width="50%"}
+#### [Experimental Method]{.card}
+:::
+:::::
+
+## Correlational Method
+
+<br>
+
+> To identify relationship between variables.
+
+## Experimental Method
+
+<br>
+
+> To determine causal relationships between variables.
+
+## 
+
+:::: {.callout-note icon="false"}
+## 🤓 **Tellme Moore:** ***Exercise and Academic Performance:***
+
+::: panel-tabset
+### Correlational Method
+
+**Purpose:** To identify if a relationship exists between two variables but without establishing causation.
+
+You collect data on two variables:
+
+1.  Exercise: The number of hours students exercise per week.
+
+2.  Academic Performance: Students' GPA (Grade Point Average).
+
+You analyze the data to see if there’s a correlation (e.g., higher exercise hours are associated with higher GPAs).
+
+**Outcome:** "Exercise is positively correlated with GPA."
+
+### Experimental Method
+
+**Purpose:** To determine causation by manipulating one variable and controlling others.
+
+You design an experiment where you divide students into two groups:
+
+1.  Experimental Group: Students are asked to exercise 3 times a week for 1 hour.
+
+2.  Control Group: Students are not required to change their exercise habits.
+
+Measure their GPAs over a semester.
+
+**Outcome:** "Exercise improves GPA."
+:::
+::::
+
+## Correlational Methods
+
+<br>
+
+::::: columns
+::: {.column width="50%"}
+#### [Cross-sectional Study]{.card}
+
+> "take a snapshot of many variables at a single point in time"
+:::
+
+::: {.column width="50%"}
+#### [Longitudinal Study]{.card}
+
+> "measure variable repeatedly at different time points"
+:::
+:::::
+
+## 
+
+![](images/cross-long-methods.png)
+
+::: aside
+Image source: @deichselStudyDesignsLevels2024
+:::
+
+## Experimental Methods
+
+> "Comparing two conditions in a **controlled** way is at the heart of it."
+
+## Two Ways to Manipulate
+
+<br>
+
+::::: columns
+::: {.column width="50%"}
+#### [Between Subjects]{.card}
+
+> "manipulate the independent variable using different entities"
+:::
+
+::: {.column width="50%"}
+#### [Within Subjects]{.card}
+
+> "manipulate the independent variable using the same entities"
+:::
+:::::
+
+## Two Ways to Manipulate
+
+<br>
+
+![](images/between-within-methods.jpg)
+
+::: aside
+Image source: [BRAINPSYCHLOPEDIA](https://www.youtube.com/watch?v=K10wnb-MTsI)
+:::
+
+## Two Types of Variation
+
+<br>
+
+::::: columns
+::: {.column width="50%"}
+#### [Systematic Variation]{.card}
+
+> "differences created by a specific experimental manipulation"
+:::
+
+::: {.column width="50%"}
+#### [Unsystematic Variation]{.card}
+
+> "differences created by unmeasured or unknown factors"
+:::
+:::::
+
+## Piecing it all Together
+
+"research is complicated: there are always trade-offs and compromises"
+
+<br>
+
+::::: columns
+::: {.column width="50%"}
+#### [Point Estimate]{.card}
+
+> Using a single value, or point, to estimate the effect in the population.
+:::
+
+::: {.column width="50%"}
+#### [Interval Estimate]{.card}
+
+> A range of values between which we think the populations value is likely to fall.
+:::
+:::::
+
+## 👨🏽‍💻 Practice Point Estimate vs. Interval Estimate {background-color="skyblue"}
+
+Let’s estimate the average height of a population using a sample. We’ll calculate both a point estimate and a confidence interval (interval estimate) for the mean.
+
+## 🤯 Your Turn {background-color="seagreen"}
+
+Write short notes about these key terms and arrange them in the order they should be done:
+
+::::: columns
+::: {.column width="50%"}
+-   Theory
+
+-   Hypothesis
+
+-   Prediction
+
+-   Variables
+
+-   Generalization
+:::
+
+::: {.column width="50%"}
+-   Sample
+
+-   Parmeters
+
+-   Population
+
+-   Representative Sample
+
+- Sampling Error
+:::
+:::::
+
+```{r}
+library(countdown)
+
+countdown(minutes = 15)
+```
+
+## References

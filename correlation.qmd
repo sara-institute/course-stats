@@ -1,0 +1,61 @@
+---
+title: "[Understanding <br>Correlation]{.clr-white .r-fit-text}"
+author: "[Dr. Ajay Kumar Koli, PhD | SARA Institute of Data Science, India]{.clr-white .r-fit-text}"
+format: revealjs
+controls: true
+slide-number: true
+scrollable: true
+logo: images/logo-sara.png
+bibliography: references.bib
+theme: style.scss
+title-slide-attributes: 
+  data-background-image: "https://images.unsplash.com/photo-1719487934500-c6aeb08a4c36?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  data-background-size: cover
+---
+
+## Correlation
+
+<br>
+
+> Correlation measures the strength and direction of the relationship between two variables.
+
+## Types of Correlations
+
+> Values range from **-1** to **+1**.
+
+-   **+1**: Perfect positive correlation (as one variable increases, so does the other).
+
+-   **-1**: Perfect negative correlation (as one variable increases, the other decreases).
+
+-   **0**: No linear relationship.
+
+## Why Correlation?
+
+-   Understand relationships between variables.
+
+-   Identify patterns and dependencies.
+
+-   Inform decision-making and further analysis (e.g., regression).
+
+## Limitations of Correlations
+
+-   **Correlation does not imply causation.**
+
+-   Sensitive to outliers.
+
+-   Only measures linear relationships.
+
+## Practice Correlation {background-color="skyblue"}
+
+::: {.r-fit-text}
+
+| Correlation Type | Description |
+|----|----|
+| Positive Correlation | Variables increase together. |
+| Negative Correlation | One variable increases, the other decreases. |
+| Zero Correlation | No relationship between the variables. |
+| Perfect Positive Correlation | Variables move together perfectly in the same direction. |
+| Perfect Negative Correlation | Variables move together perfectly in opposite directions. |
+| Non-Linear Correlation | Relationship is non-linear. |
+
+:::
