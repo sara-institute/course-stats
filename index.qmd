@@ -7,7 +7,7 @@ format: html
 
 # SARA Statistics Winter School 2024
 
-<span style="text-shadow: none;"><a class="github-button" href="https://github.com/sara-institute/statistics-course.git" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub"> Star this Course on GitHub</a><script async defer src="https://buttons.github.io/buttons.js"></script></span>
+<span style="text-shadow: none;"><a class="github-button" href="https://github.com/sara-institute/course-stats.git" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub"> Star this Course on GitHub</a><script async defer src="https://buttons.github.io/buttons.js"></script></span>
 
 This program aims to help the participants to overcome the fear of numbers, statistics and coding.
 
