@@ -3,21 +3,21 @@ project:
   preview:
     browser: true
   
-  
 website:
-  title: "SARA Statistics Winter School"
-  description: "The free & open-source slides of the SARA Statistics Winter School."
-  image: 2024winter.jpeg
-  favicon: logo-sara.png
-  twitter-card: true
+  title: "Stats with Roar"
+  description: "The best data science education is free and open-source. SARA is committed to provide free data science education to under-represented communities in India."
+  favicon: icon.png
+  twitter-card: 
+    creator: "@sara_institute"
+    site: "@sara_institute"
+    card-style: summary_large_image
+    image: logo-lion.png
   site-url: https://sara-course-stats.netlify.app
   
 
   navbar:
-    #logo: images/logo-sara.png
-    left:
-      - text: "SLIDES"
-        href: slides.qmd
+    logo: images/logo-sara.png
+    
     right:
       - icon: github
         href: https://github.com/sara-institute
