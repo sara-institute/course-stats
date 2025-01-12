@@ -1,5 +1,5 @@
 ---
-title: "Statistics with Roar"
+title: "Statistics with {{< fa brands r-project >}}oar"
 subtitle: "SARA Data Science Winter School 2024"
 format: html
 toc: true
