@@ -1,6 +1,6 @@
 ---
-title: "[Thank You! <br> Ceremony]{.clr-white .r-fit-text}"
-author: "[SARA Statistics Winter School, 16-20 Dec 2024]{.clr-white .r-fit-text}"
+title: "[THANK YOU! <br> Ceremony]{.clr-white .r-fit-text}"
+author: "[2nd SARA Statistics Winter School, 23-27 Jan 2026]{.clr-white .r-fit-text}"
 format: revealjs
 controls: true
 incremental: true
@@ -14,54 +14,54 @@ title-slide-attributes:
   data-background-size: cover
 ---
 
-##  {background-image="https://images.unsplash.com/photo-1615715035868-fc94bd5ffdac?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" background-size="cover" background-repeat="repeat"}
+##  {background-image="https://images.unsplash.com/photo-1615715035868-fc94bd5ffdac?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" background-size="cover"}
+
+<br> <br>
 
 ::::::: centering
 :::::: columns
-::: {.column width="35%"}
-![**Gyanjyoti [Sa]{.clr-red}vitribai Phule**<br><br>🌺 🙏🏽 🌼](images/intro/savitrimai.png)
+::: {.column width="36%"}
+![**GYAN JYOTI [SA]{.clr-red}VITRIBAI PHULE (1831-1897)**<br>🌺 🙏🏽
+🌼](images/intro/savitrimai.png){width="70%"}
 :::
 
-::: {.column width="30%"}
+::: {.column width="29%"}
 <br>
 
-![](images/logo-sara.png){width="3in" fig-align="center"}
+![](images/logo-sara.png){width="2.0in" fig-align="center"}
 :::
 
-::: {.column width="35%"}
-![**Mata [Ra]{.clr-red}mabai Ambedkar**<br><br>🌺 🙏🏽 🌼](images/intro/ramai.png)
+::: {.column width="34.75%"}
+![**MATA [RA]{.clr-red}MABAI AMBEDKAR (1898-1935)**<br>🌺 🙏🏽
+🌼](images/intro/ramai.png){width="70%"}
 :::
 ::::::
 
 [**Savitribai Ramabai (SARA) Institute of Data Science**]{.r-fit-text}
 :::::::
 
-## {background-image="https://images.unsplash.com/photo-1615715035868-fc94bd5ffdac?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" background-size="cover" background-repeat="repeat"}
+#  {background-image="images/intro/flyer.png" background-position="right" background-size="contain" background-color="#003262"}
 
-<br>
-<br>
-
-:::: {.columns .centering}
-
+::::: columns
 ::: {.column width="50%"}
-![**Dr. Ajay Kumar Koli<br>Executive Director, SARA**](images/ajay.png){fig-align="center"}
+[2nd SARA <br>Statistics <br>Winter School]{.r-fit-text}
 :::
 
 ::: {.column width="50%"}
-![**Dr. Kiran Koli<br>Director, SARA**](images/kiran.png){fig-align="center"}
 :::
+:::::
 
-::::
 
-## SARA Statistics Winter School {background-color="#003262"}
 
-- Registered: 12; Attended = 11.
+## Overview {background-image="images/intro/flyer.png" background-position="right" background-size="contain" background-color="#003262"}
 
-- 30-35 hours of teaching data science.
+- 00 participants attended.
 
-- 07 days of food and accommodation for all the participants.
+- Around 40 hours of teaching.
 
-- Provided fellowship around 26 thousand rupees to 11 participants.
+- 05 days of food and accommodation.
+
+## {background-image="images/intro/flyer.png" background-position="right" background-size="contain" background-color="#003262"}
 
 ## {background-image="https://images.unsplash.com/photo-1615715035868-fc94bd5ffdac?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" background-size="cover"}
 
@@ -76,83 +76,8 @@ title-slide-attributes:
 
 ::::
 
-## SARA Supporters {background-image="https://images.unsplash.com/photo-1615715035868-fc94bd5ffdac?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" background-size="cover"}
-
-:::: {.columns  .r-fit-text}
-
-::: {.column width="50%" .nonincremental}
-- Mr. Lalit Kumar, Gurgaon
-
-- Mrs. Kamlesh Devi, Rohtak
-
-- Mr. Jai Bhagwan Bhadoria, Sonipat.
-
-- Mr. Devender Kumar, Sonipat.
-
-- Mr. Raj Singh Poriya, Sonipat.
-
-- Mr. Mukesh Yadav, Delhi.
-
-- Mr. Bhupender Kumar, Sonipat.
-
-- Dr. Prof. Satyendra Kumar, Prayagraj.
-
-- Mr. Jai Bhagwan Bhadoria, Sonipat.
-
-- Mr. Devender Kumar, Sonipat.
-
-- Mr. Raj Singh Poriya, Sonipat.
-
-- Mr. Mukesh Yadav, Delhi.
-:::
-
-::: {.column width="50%" .nonincremental}
-- Mr. Bhupender Kumar, Sonipat.
-
-- Mrs. Jamuna Ingle, Nashik.
-
-- Mr. Pravindra, Hyderabad.
-
-- Col. Sawant, Belgaon.
-
-- Prof. Anil, NDRI.
-
-- Mr. Satpal Dahiya, Sonipat.
-
-- Mr. Tushar Meshram, Bengaluru.
-
-- Dr. Amit Bansode, Maharashtra.
-
-- Mr. Anand Pal Ahlawat, Sonipat.
-
-- Mr. Satyawan Bhatia, Sonipat.
-
-- Mr. Kuldeep Raj, Sonipat.
-
-- Mrs. Vandana Kumari, New Delhi.
-
-:::
-
-::::
-
-# {background-image="images/summer-school.jpeg" background-size="contain" background-color="black"}
-
-# {background-image="images/day1.jpg" background-size="cover"}
 
 
+# [Thank You!]{.theme-cursive} {background-image="https://images.unsplash.com/photo-1553379762-ff913d5513b5?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" background-size="cover"}
 
-#  {background-image="images/intro/guru-ravidas.jpg" background-size="contain" background-position="right" background-color="black"} 
-
-:::: {.columns}
-
-::: {.column width="50%"}
-[Thank You!]{.r-fit-text}
-:::
-
-::: {.column width="50%"}
-
-:::
-
-::::
-
-
+Research Scholar Group, Department of Sociology<br>Delhi School of Economics, Delhi University

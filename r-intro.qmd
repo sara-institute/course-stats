@@ -1,11 +1,12 @@
 ---
-title: "[R, Quarto & <br>RStudio ]{.clr-white .r-fit-text}"
-author: "[Dr. Ajay Kumar Koli, PhD | SARA Institute of Data Science, India]{.clr-white .r-fit-text}"
+title: "[R, RStudio, & Quarto]{.clr-white .r-fit-text}"
+author: "[2nd SARA Statistics Winter School, 23-27 Jan 2026]{.clr-white .r-fit-text}"
 format: revealjs
 echo: false
 controls: true
 slide-number: true
 scrollable: true
+incremental: true
 logo: images/logo-sara.png
 bibliography: references.bib
 theme: style.scss
@@ -28,7 +29,7 @@ Source: [@alstonBeginnersGuideConducting2021]
 
 1.  **Data** - access to original data.
 
-2.  **Code** - others can read, learn & replicate results.
+2.  **[Code]{.clr-tom}** - others can read, learn & replicate results.
 
 3.  **Documentation** - complete information about how to conduct the study.
 
@@ -41,6 +42,8 @@ Source: [@alstonBeginnersGuideConducting2021]
 ::: aside
 Image source: @wickhamDataScienceImport2023
 :::
+
+# R Language {background-image="https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/ef5356a8-a9ee-4a54-9b62-7e1c4cb9f723.png?h=4bafe1cd8d6d09600399aa893554de85" background-size=contain background-position=right background-color=beige}
 
 ## R Programming Language
 
@@ -62,88 +65,288 @@ Image source: @wickhamDataScienceImport2023
 Download R from this link: <https://www.r-project.org/>
 :::
 
-## Practice R Software
+## The Top 10 Languages 2026
 
-1.  Addition
+![](images/ranking-r.png)
 
-2.  Subtraction
+::: aside
+[TIOBE Index](https://www.tiobe.com/tiobe-index/)
+:::
 
-3.  Sequence
+## Practice R Console {background-image="https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/e684f0da-13b1-4d00-ab25-37814e79ee1e.png?h=4da8706d8a98a8d5723b9c2223bb5234" background-position="right" background-size=contain background-color=lightblue}
 
-4.  Combine
+1. Addition
 
-5.  Function structure
+1. Subtraction
 
-6.  Create an object
+1. Multiplication
+
+1. Division
+
+# RStudio {background-image="https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/3c1eda6b-be13-4257-9c32-4cf865f171ae.png?h=337c63dff30b2d30c2f76fec97b6a396" background-size=contain background-position=right background-color=beige}
 
 ## RStudio IDE
 
 <br> <br>
 
 ::::: columns
-::: {.column width="30%"}
+::: {.column width="25%"}
 ![](https://static.macupdate.com/products/50318/l/rstudio-logo.webp?v=1671434805)
 :::
 
-::: {.column width="70%"}
+::: {.column width="75%"}
+<br>
 "The RStudio integrated development environment (IDE) is a set of tools built to help you be more productive with R and Python."
 :::
 :::::
 
 ::: aside
-Download R from this link: <https://posit.co/download/rstudio-desktop/>
+Download RStudio from this link: <https://posit.co/download/rstudio-desktop/>
 :::
 
-## Practice RStudio
+## The Four Main Panes
 
-1.  An overview of RStudio IDE.
+![](images/rstudio-ide.png)
 
-2.  Create project in RStudio.
+## Source/Script Editor
 
-## Quarto Publishing System
+![](images/rstudio-ide-1.png)
 
-<br>
+## Source/Script Editor
 
-::::: columns
-::: {.column width="30%"}
-![](https://raw.githubusercontent.com/github/explore/80f119e965a9a3df7b74c3f7b63a502e3d0ded36/topics/quarto/quarto.png)
+- Where you write and save R scripts (.R files, .qmd files etc.)
+- Code is preserved for future use
+- Can run line-by-line or entire script
+
+![](images/rstudio-ide-1.png)
+
+## Console
+
+![](images/rstudio-ide-2.png)
+
+## Console
+
+- Where R code actually executes
+- Results appear immediately
+- Good for quick tests
+- Commands here are NOT automatically saved
+
+![](images/rstudio-ide-2.png)
+
+## Environment/History
+
+![](images/rstudio-ide-3.png)
+
+## Environment/History
+
+- **Environment tab:** Shows all objects/variables you've created
+- **History tab:** Shows all commands you've run
+- Important concept: Objects in the Environment pane are available for the duration of the current session, but are removed upon restarting R or RStudio
+
+![](images/rstudio-ide-3.png)
+
+## Files/Plots/Packages/Help
+
+![](images/rstudio-ide-4.png)
+
+## Files/Plots/Packages/Help
+
+- **Files:** Browse your computer files
+- **Plots:** View visualizations
+- **Packages:** Install and manage R packages
+- **Help:** Access documentation
+- **Viewer:** Display HTML outputs
+
+![](images/rstudio-ide-4.png)
+
+## Creating and Saving Scripts
+
+- Scripts are "real" - with R scripts and data files, you can recreate the environment 
+- Reproducible research
+- Easy to share with others
+- **Save regularly:** Ctrl+S (Win) or Cmd+S (Mac)
+
+## Working Directory and Projects
+
+- Working directory = where R looks for files by default
+- Projects automatically set working directory
+- Keeps everything organized in one place
+
+# RStudio <br>Project <br>in 4 Steps {background-image=images/project-logo.png background-size=50% background-position=right background-color=teal}
+
+## Open RStudio {background-color=black}
+
+![](images/rstd-proj.png){fig-align=center}
+
+## RStudio Without Project {background-color=black}
+
+![](images/rstd-proj-none.png){fig-align=center}
+
+## RStudio Without Project {background-color=black}
+
+![](images/rstd-proj-folders.png){fig-align=center}
+
+## RStudio Project Helps: {background-image="images/r-projects.jpg" background-size="55%" background-position="bottom right"}
+
+::: columns
+::: {.column width="100%"}
+-   "to divide your work into multiple contexts, each with their own"
+    -   working directory,
+    -   workspace,
+    -   history, and
+    -   source documents."
 :::
-
-::: {.column width="70%"}
-"An open-source scientific and technical publishing system to prepare articles & reports; presentations; dashboards; websites; books; and interactive documents.
 :::
-:::::
 
 ::: aside
-To know more about Quarto: <https://quarto.org/>
+Source: [RStudio](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects) & artwork by [Allison Horst](https://www.allisonhorst.com/)
 :::
 
-## Practice Quarto using RStudio
+## Create RStudio project {background-color=black}
+
+![](images/rstd_proj1.png){fig-align=center}
+
+## Create RStudio project {background-color=black}
+
+![](images/rstd_proj2.png){fig-align=center}
+
+## In case anything goes wrong$...$ {background-color=black}
+
+![](images/rstd_proj3.1.png){fig-align=center}
+
+## Create RStudio Project {background-color=black}
+
+![](images/rstd_proj3.png){fig-align=center}
+
+## Create RStudio project {background-color=black}
+
+![](images/rstd_proj4.png){fig-align=center}
+
+## Create RStudio project {background-color=black}
+
+![](images/rstd_proj4a.png){fig-align=center}
+
+## Create RStudio project {background-color=black}
+
+![](images/rstd_proj4b.png){fig-align=center}
+
+## Create RStudio project {background-color=black}
+
+![](images/rstd_proj4c.png){fig-align=center}
+
+## RStudio project "name" {background-color=black}
+
+![](images/rstd_proj_name.png){fig-align=center}
+
+## RStudio project "path" {background-color=black}
+
+![](images/rstd_proj_path1.png){fig-align=center}
+
+## RStudio project {background-color=black}
+
+![](images/rstd_proj_path2.png){fig-align=center}
+
+## Installing and Loading Packages
+
+::: {.nonincremental}
+
+- **Installing** (only once): 
+
+`install.packages("tidyverse")`
+
+- **Loading** (every session):
+
+`library(tidyverse)`
+
+:::
+
+::: {.aside}
+[METACRAN](https://www.r-pkg.org/)
+:::
+
+## Getting Help 
+
+- `?function_name` - Opens help documentation
+- Help tab (bottom-right pane)
+- Tab key for auto-completion and hints
+
+## Comments (#)
+
+- `# This is a comment` - R ignores this line
+
+- `x <- 5  # Comments can go after code too`
+
+## Essential Keyboard Shortcuts
+
+::: {.r-fit-text}
+
+| Action | Windows/Linux | Mac |
+|--------|---------------|-----|
+| Run current line | Ctrl + Enter | Cmd + Enter |
+| Run entire script | Ctrl + Shift + Enter | Cmd + Shift + Enter |
+| Save script | Ctrl + S | Cmd + S |
+| New script | Ctrl + Shift + N | Cmd + Shift + N |
+| Assignment operator `<-` | Alt + - | Option + - |
+| Comment/Uncomment | Ctrl + Shift + C | Cmd + Shift + C |
+
+:::
+
+## Practice R Software {background-image="https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/e684f0da-13b1-4d00-ab25-37814e79ee1e.png?h=4da8706d8a98a8d5723b9c2223bb5234" background-position="right" background-size=contain background-color=skyblue}
+
+1.  Addition
+
+1.  Subtraction
+
+1.  Sequence
+
+1.  Function structure
+
+1.  Combine
+
+1.  Create an object
+
+::: {.aside}
+[Artwork by Allison Horst](https://allisonhorst.com/allison-horst)
+:::
+
+# {background-image="https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/b041d35c-5117-4dd0-9b08-d2d0f7a77f9a.png?h=21528b7e9f1a2e24c9ec3d46cfca8653" background-size=contain background-color=beige}
+
+## Quarto
+
+> "An open-source scientific and technical publishing system"
+
+. . .
+
+Quarto can produce a wide variety of output formats:
+
+::: {.nonincremental .theme-red}
+[{{< fa square-check >}}]{style="color:tomato"} Articles & Reports
+
+{{< fa square-check >}} Presentations
+
+[{{< fa square-check >}}]{style="color:tomato"} Interactive Docs
+
+{{< fa square-check >}} Websites
+
+[{{< fa square-check >}}]{style="color:tomato"} Books
+:::
+
+::: aside
+Source: [Quarto website](https://quarto.org/)
+:::
+
+## Quarto Structure {background-image="images/render_quarto.png" background-size="contain" background-position="center"}
+
+## Practice Quarto using RStudio {background-color=lightblue}
 
 1.  Create a Quarto document with HTML format.
 
-2.  Explain YAML, Text and Code Chunk
+1.  Explain YAML, more about Quarto [YAML options](https://quarto.org/docs/reference/formats/html.html).
+    
+    
+1.  Explain Text, more about Quarto [text formating](https://quarto.org/docs/authoring/markdown-basics.html)
 
-    -   To know about the all Quarto [YAML options](https://quarto.org/docs/reference/formats/html.html).
-    -   To know about the Quarto [text formating](https://quarto.org/docs/authoring/markdown-basics.html)
-
-## R Packages
-
-<br>
-
-![](images/metacran.png){fig-align="center"}
-
-> "a collection of functions, data and documentation that extends the capabilties of base R." [@wickhamDataScienceImport2023]
-
-::: aside
-Image source: On 29 Nov 2024 [Metacran](https://www.r-pkg.org/) \| [CRAN](https://cran.r-project.org/web/packages/available_packages_by_name.html).
-:::
-
-## Practice Quarto
-
-1.  Explain Code Chunk
-    -   To know about the Quarto [code chunk options](https://quarto.org/docs/computations/execution-options.html)
-2.  Install `tidyverse` package.
+1.  Explain Code Chunk; more about the Quarto [code chunk options](https://quarto.org/docs/computations/execution-options.html)
 
 ## 🤯 Your Turn {background-color="seagreen"}
 

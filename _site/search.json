@@ -1,773 +1,332 @@
 [
   {
-    "objectID": "hypothesis-formulation.html#variable",
-    "href": "hypothesis-formulation.html#variable",
-    "title": "Hypothesis Formulation",
-    "section": "Variable",
-    "text": "Variable\n\n\nA variable is a characteristic or attribute that can take on different values."
-  },
-  {
-    "objectID": "hypothesis-formulation.html#independent-variables",
-    "href": "hypothesis-formulation.html#independent-variables",
-    "title": "Hypothesis Formulation",
-    "section": "Independent Variables",
-    "text": "Independent Variables\n\nThe variable that is manipulated or controlled by the researcher to observe its effect on another variable.\n\n\nPredictor"
-  },
-  {
-    "objectID": "hypothesis-formulation.html#dependent-variables",
-    "href": "hypothesis-formulation.html#dependent-variables",
-    "title": "Hypothesis Formulation",
-    "section": "Dependent Variables",
-    "text": "Dependent Variables\n\nThe variable that is measured or observed to assess the impact of the independent variable.\n\n\nEffect or output or outcome."
-  },
-  {
-    "objectID": "hypothesis-formulation.html#examples",
-    "href": "hypothesis-formulation.html#examples",
-    "title": "Hypothesis Formulation",
-    "section": "Examples",
-    "text": "Examples\nExample 1: Education Study\n\nIndependent Variable: Teaching method (traditional vs. interactive).\nDependent Variable: Student performance on a test.\n\nExample 2: Health Study\n\nIndependent Variable: Amount of daily exercise (30 mins, 60 mins, 90 mins).\nDependent Variable: Weight loss (in kilograms).\n\nExample 3: Marketing Study\n\nIndependent Variable: Type of advertisement (video, banner, text).\nDependent Variable: Number of clicks or purchases."
-  },
-  {
-    "objectID": "hypothesis-formulation.html#practice",
-    "href": "hypothesis-formulation.html#practice",
-    "title": "Hypothesis Formulation",
-    "section": "Practice",
-    "text": "Practice\nWe’ll simulate data to demonstrate the relationship between independent and dependent variables.\n\nExample: Hours of Study and Test Scores\nInverse Relationship Example\nNo-Relation Example"
-  },
-  {
-    "objectID": "hypothesis-formulation.html#hypothesis",
-    "href": "hypothesis-formulation.html#hypothesis",
-    "title": "Hypothesis Formulation",
-    "section": "Hypothesis",
-    "text": "Hypothesis\n\nA hypothesis is a testable statement or prediction about the relationship between two or more variables."
-  },
-  {
-    "objectID": "hypothesis-formulation.html#types-of-hypotheses",
-    "href": "hypothesis-formulation.html#types-of-hypotheses",
-    "title": "Hypothesis Formulation",
-    "section": "Types of Hypotheses",
-    "text": "Types of Hypotheses\n\nNull Hypothesis (\\(H_0\\)): The null hypothesis states that there is no effect, no difference, or no relationship between the variables being studied. It assumes that any observed differences are due to chance.\nAlternative Hypothesis (\\(H_a\\) or \\(H_1\\)): The alternative hypothesis suggests that there is an effect or relationship between the variables. It is the hypothesis that is supported if the null hypothesis is rejected."
-  },
-  {
-    "objectID": "hypothesis-formulation.html#formulate-hypotheses",
-    "href": "hypothesis-formulation.html#formulate-hypotheses",
-    "title": "Hypothesis Formulation",
-    "section": "Formulate Hypotheses",
-    "text": "Formulate Hypotheses\n📚 Education Scenario: Investigating whether a new teaching method improves student test scores compared to the traditional method.\n\n\nNon-DirectionalDirectional\n\n\n\nNull Hypothesis (\\(H_0\\)):: The new teaching method has no effect on student test scores.\nAlternative Hypothesis (\\(H_a\\) or \\(H_1\\)): The new teaching method affects student test scores.\n\n\n\n\nNull Hypothesis (\\(H_0\\)):: The new teaching method does not improve student test scores.\nAlternative Hypothesis (\\(H_a\\) or \\(H_1\\)): The new teaching method improves student test scores."
-  },
-  {
-    "objectID": "hypothesis-formulation.html#key-points",
-    "href": "hypothesis-formulation.html#key-points",
-    "title": "Hypothesis Formulation",
-    "section": "Key Points",
-    "text": "Key Points\n\nNon-Directional Hypotheses are used when you are testing for any effect, regardless of the direction (e.g., an increase or decrease).\nDirectional Hypotheses are used when you have a specific prediction about the direction of the effect (e.g., an improvement or reduction)."
-  },
-  {
-    "objectID": "hypothesis-formulation.html#formulate-hypotheses-1",
-    "href": "hypothesis-formulation.html#formulate-hypotheses-1",
-    "title": "Hypothesis Formulation",
-    "section": "Formulate Hypotheses",
-    "text": "Formulate Hypotheses\n💉 Medicine Scenario: Evaluating whether Drug A lowers blood pressure more effectively than a placebo.\n\n\nNon-DirectionalDirectional\n\n\n\nNull Hypothesis (\\(H_0\\)): Drug A has no effect on blood pressure compared to the placebo.\nAlternative Hypothesis (\\(H_a\\) or \\(H_1\\)): Drug A affects blood pressure compared to the placebo.\n\n\n\n\nNull Hypothesis (\\(H_0\\)): Drug A does not lower blood pressure more effectively than the placebo.\nAlternative Hypothesis (\\(H_a\\) or \\(H_1\\)): Drug A lowers blood pressure more effectively than the placebo."
-  },
-  {
-    "objectID": "hypothesis-formulation.html#formulate-hypotheses-2",
-    "href": "hypothesis-formulation.html#formulate-hypotheses-2",
-    "title": "Hypothesis Formulation",
-    "section": "Formulate Hypotheses",
-    "text": "Formulate Hypotheses\n🌱 Environment Scenario: Determining whether an area’s air quality index (AQI) changes after implementing stricter pollution regulations.\n\n\nNon-DirectionalDirectional\n\n\n\nNull Hypothesis (\\(H_0\\)): Stricter pollution regulations have no effect on the AQI.\nAlternative Hypothesis (\\(H_a\\) or \\(H_1\\)): Stricter pollution regulations affect the AQI.\n\n\n\n\nNull Hypothesis (\\(H_0\\)): Stricter pollution regulations do not improve the AQI.\nAlternative Hypothesis (\\(H_a\\) or \\(H_1\\)): Stricter pollution regulations improve the AQI."
-  },
-  {
-    "objectID": "hypothesis-formulation.html#formulate-hypotheses-3",
-    "href": "hypothesis-formulation.html#formulate-hypotheses-3",
-    "title": "Hypothesis Formulation",
-    "section": "Formulate Hypotheses",
-    "text": "Formulate Hypotheses\n💭 Psychology Scenario: Testing whether mindfulness training reduces stress levels among participants.\n\n\nNon-DirectionalDirectional\n\n\n\nNull Hypothesis (\\(H_0\\)): Mindfulness training has no effect on stress levels.\nAlternative Hypothesis (\\(H_a\\) or \\(H_1\\)): Mindfulness training affects stress levels.\n\n\n\n\nNull Hypothesis (\\(H_0\\)): Mindfulness training does not reduce stress levels.\nAlternative Hypothesis (\\(H_a\\) or \\(H_1\\)): Mindfulness training reduces stress levels."
-  },
-  {
-    "objectID": "hypothesis-formulation.html#formulate-hypotheses-4",
-    "href": "hypothesis-formulation.html#formulate-hypotheses-4",
-    "title": "Hypothesis Formulation",
-    "section": "Formulate Hypotheses",
-    "text": "Formulate Hypotheses\n🧬 Biology Scenario: Investigating whether a specific fertilizer increases plant growth compared to no fertilizer.\n\n\nNon-DirectionalDirectional\n\n\n\nNull Hypothesis (\\(H_0\\)): The fertilizer has no effect on plant growth.\nAlternative Hypothesis (\\(H_a\\) or \\(H_1\\)): The fertilizer affects plant growth.\n\n\n\n\nNull Hypothesis (\\(H_0\\)): The fertilizer does not increase plant growth.\nAlternative Hypothesis (\\(H_a\\) or \\(H_1\\)): The fertilizer increases plant growth."
-  },
-  {
-    "objectID": "hypothesis-formulation.html#formulate-hypotheses-5",
-    "href": "hypothesis-formulation.html#formulate-hypotheses-5",
-    "title": "Hypothesis Formulation",
-    "section": "Formulate Hypotheses",
-    "text": "Formulate Hypotheses\n🚀 Technology Scenario: Examining whether a new smartphone app decreases the average time users spend on their phones daily.\n\n\nNon-DirectionalDirectional\n\n\n\nNull Hypothesis (\\(H_0\\)): The app has no effect on the average time users spend on their phones.\nAlternative Hypothesis (\\(H_a\\) or \\(H_1\\)): The app affects the average time users spend on their phones.\n\n\n\n\nNull Hypothesis (\\(H_0\\)): The app does not decrease the average time users spend on their phones.\nAlternative Hypothesis (\\(H_a\\) or \\(H_1\\)): The app decreases the average time users spend on their phones."
-  },
-  {
-    "objectID": "hypothesis-formulation.html#formulate-hypotheses-6",
-    "href": "hypothesis-formulation.html#formulate-hypotheses-6",
-    "title": "Hypothesis Formulation",
-    "section": "Formulate Hypotheses",
-    "text": "Formulate Hypotheses\n💰 Economics Scenario: Testing whether increasing the minimum wage influences unemployment rates.\n\n\nNon-DirectionalDirectional\n\n\n\nNull Hypothesis (\\(H_0\\)): Increasing the minimum wage has no effect on unemployment rates.\nAlternative Hypothesis (\\(H_a\\) or \\(H_1\\)): Increasing the minimum wage affects unemployment rates.\n\n\n\n\nNull Hypothesis (\\(H_0\\)): Increasing the minimum wage does not increase unemployment rates.\nAlternative Hypothesis (\\(H_a\\) or \\(H_1\\)): Increasing the minimum wage increases unemployment rates."
-  },
-  {
-    "objectID": "hypothesis-formulation.html#key-differences",
-    "href": "hypothesis-formulation.html#key-differences",
-    "title": "Hypothesis Formulation",
-    "section": "Key Differences",
-    "text": "Key Differences\n\n\n\n\n\n\n\n\n\n\nAspect\nDirectional Hypothesis\nNon-Directional Hypothesis\n\n\n\n\nPrediction\nSpecifies the direction of the effect (e.g., increase, decrease).\nPredicts an effect but no specific direction.\n\n\nTest Type\nOne-tailed test\nTwo-tailed test\n\n\nUse Case\nWhen prior research or theory suggests a specific outcome.\nWhen unsure of the outcome’s direction.\n\n\nHypothesis Example\n\\(H_a\\): Group A scores are higher than Group B scores.\n\\(H_a\\): Group A scores are different from Group B scores.\n\n\nNull Hypothesis (\\(H_0\\))\nNo effect in the predicted direction.\nNo effect or difference."
-  },
-  {
-    "objectID": "dispersion.html#dispersion",
-    "href": "dispersion.html#dispersion",
-    "title": "Measures of Dispersion",
-    "section": "Dispersion",
-    "text": "Dispersion\n\n\nHow spread out the data is around its mean."
-  },
-  {
-    "objectID": "dispersion.html#measures-of-dispersion",
-    "href": "dispersion.html#measures-of-dispersion",
-    "title": "Measures of Dispersion",
-    "section": "Measures of Dispersion",
-    "text": "Measures of Dispersion\n\nRange: The difference between the maximum and minimum values.\nVariance: The average of the squared differences from the mean.\nStandard Deviation (SD): The square root of variance, representing average deviation from the mean.\nInterquartile Range (IQR): The difference between the 75th percentile (Q3) and 25th percentile (Q1)."
-  },
-  {
-    "objectID": "dispersion.html#total-errordevianceresidual",
-    "href": "dispersion.html#total-errordevianceresidual",
-    "title": "Measures of Dispersion",
-    "section": "Total Error/Deviance/Residual",
-    "text": "Total Error/Deviance/Residual\n\nAdd up the deviances for each data point\n\n\n\\[\ntotal\\;error = \\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)\n\\]\n\n\n\\[\ntotal\\;deviance = \\displaystyle\\sum_{i=1}^n (x_{i} - \\bar X)\n\\]"
-  },
-  {
-    "objectID": "dispersion.html#sum-of-errors",
-    "href": "dispersion.html#sum-of-errors",
-    "title": "Measures of Dispersion",
-    "section": "Sum of Errors",
-    "text": "Sum of Errors\n\\[\nSum \\; of \\;errors = \\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)\n\\]\n\n\\[\n= (28-30) + (29-30) + (29-30) + (30-30) \\\\+ (30-30) + (30-30) + (31-30) + (31-30) + \\\\(32-30)\\\\\n= -2 + (-1) + (-1) + 0 + 0 + 0 + 1 + 1 +2 \\\\\n= 0\n\\]"
-  },
-  {
-    "objectID": "dispersion.html#graph-ras-errors",
-    "href": "dispersion.html#graph-ras-errors",
-    "title": "Measures of Dispersion",
-    "section": "Graph RAS Errors",
-    "text": "Graph RAS Errors"
-  },
-  {
-    "objectID": "dispersion.html#sum-of-squared-errors",
-    "href": "dispersion.html#sum-of-squared-errors",
-    "title": "Measures of Dispersion",
-    "section": "Sum of Squared Errors",
-    "text": "Sum of Squared Errors\n\\[\nSum \\; of \\; squared \\;errors (SS) = \\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)^2\n\\]\n\n\\[\nSum \\; of \\; squared \\;errors (SS) = \\displaystyle\\sum_{i=1}^n (x_{i} - \\bar{X})^2\n\\]"
-  },
-  {
-    "objectID": "dispersion.html#sum-of-squared-errors-1",
-    "href": "dispersion.html#sum-of-squared-errors-1",
-    "title": "Measures of Dispersion",
-    "section": "Sum of Squared Errors",
-    "text": "Sum of Squared Errors"
-  },
-  {
-    "objectID": "dispersion.html#sum-of-squared-errors-ss",
-    "href": "dispersion.html#sum-of-squared-errors-ss",
-    "title": "Measures of Dispersion",
-    "section": "Sum of Squared Errors (\\(SS\\))",
-    "text": "Sum of Squared Errors (\\(SS\\))\n\n❌ Size of \\(SS\\) depend on how many scores we have in the data.\n❌ It is nuisance if we want to compare the total error across samples of different size.\n✅ An easy solution is to divide \\(SS\\) by the number of scores/observations (\\(N\\))."
-  },
-  {
-    "objectID": "dispersion.html#variance",
-    "href": "dispersion.html#variance",
-    "title": "Measures of Dispersion",
-    "section": "Variance",
-    "text": "Variance\n\\[\nmean \\; squared \\;error = \\frac{SS}{N} = \\frac{\\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)^2}{N}\n\\]\n\n\\[\nvariance (\\sigma^2) = \\frac{SS}{N} = \\frac{\\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)^2}{N}\n\\]\n\nThe symbol of variance in sample is \\(s^2\\).\nThe symbol of variance in population is \\(\\sigma^2\\)."
-  },
-  {
-    "objectID": "dispersion.html#ras-variance",
-    "href": "dispersion.html#ras-variance",
-    "title": "Measures of Dispersion",
-    "section": "RAS Variance",
-    "text": "RAS Variance\nThe average error of the mean was 1.33 RAS units squared\n\\[\nvariance (\\sigma^2) = \\frac{SS}{N} = \\frac{\\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)^2}{N} \\\\ = \\frac{12}{9} \\\\ = 1.33\n\\]"
-  },
-  {
-    "objectID": "dispersion.html#standard-deviation",
-    "href": "dispersion.html#standard-deviation",
-    "title": "Measures of Dispersion",
-    "section": "Standard Deviation",
-    "text": "Standard Deviation\n\\[\n\\sigma = \\sqrt{variance} = \\sqrt\\frac{\\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)^2}{N} \\\\ = \\sqrt\\frac{12}{9} \\\\ = \\sqrt{1.33 } \\\\= 1.15\n\\]"
-  },
-  {
-    "objectID": "dispersion.html#degrees-of-freedom",
-    "href": "dispersion.html#degrees-of-freedom",
-    "title": "Measures of Dispersion",
-    "section": "Degrees of Freedom",
-    "text": "Degrees of Freedom\n\\[\n\\sigma = \\sqrt{variance} = \\sqrt\\frac{\\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)^2}{N - 1} \\\\ = \\sqrt\\frac{12}{8} \\\\ = \\sqrt{1.5} \\\\= 1.22\n\\]"
-  },
-  {
-    "objectID": "dispersion.html#outliers-and-variance",
-    "href": "dispersion.html#outliers-and-variance",
-    "title": "Measures of Dispersion",
-    "section": "Outliers and Variance",
-    "text": "Outliers and Variance\n\nThe variance with the outlier is 37.43\nThe variance without the outlier is 1.5"
-  },
-  {
-    "objectID": "dispersion.html#standard-deviation-and-dispersion",
-    "href": "dispersion.html#standard-deviation-and-dispersion",
-    "title": "Measures of Dispersion",
-    "section": "Standard Deviation and Dispersion",
-    "text": "Standard Deviation and Dispersion\n\nA small standard deviation (relative to the value of the mean) indicates that data points are close to the mean.\nA large standard deviation (relative to the mean) indicates that the data points are distant from the mean.\nA standard deviation of 0 would mean that all of the scores were the same."
-  },
-  {
-    "objectID": "dispersion.html#same-mean-different-sd",
-    "href": "dispersion.html#same-mean-different-sd",
-    "title": "Measures of Dispersion",
-    "section": "Same Mean, Different SD",
-    "text": "Same Mean, Different SD"
-  },
-  {
-    "objectID": "dispersion.html#same-mean-different-sd-1",
-    "href": "dispersion.html#same-mean-different-sd-1",
-    "title": "Measures of Dispersion",
-    "section": "Same Mean, Different SD",
-    "text": "Same Mean, Different SD"
-  },
-  {
-    "objectID": "welcome.html#section-1",
-    "href": "welcome.html#section-1",
-    "title": "Welcome",
+    "objectID": "welcome.html#section",
+    "href": "welcome.html#section",
+    "title": "WELCOME",
     "section": "",
-    "text": "Gyanjyoti Savitribai Phule🌺 🙏🏽 🌼\n\n\n\n\n\n\n\n\n\n\n\n\n\nMata Ramabai Ambedkar🌺 🙏🏽 🌼\n\n\n\nSavitribai Ramabai (SARA) Institute of Data Science"
+    "text": "GYAN JYOTI SAVITRIBAI PHULE (1831-1897)🌺 🙏🏽 🌼\n\n\n\n\n\n\n\n\n\n\n\n\n\nMATA RAMABAI AMBEDKAR (1898-1935)🌺 🙏🏽 🌼\n\n\n\nSavitribai Ramabai (SARA) Institute of Data Science"
   },
   {
-    "objectID": "welcome.html#sara-education-trust",
-    "href": "welcome.html#sara-education-trust",
-    "title": "Welcome",
-    "section": "SARA Education Trust",
-    "text": "SARA Education Trust\n\nMarch 2024 registered charitable Trust in India.\n\n\n\n\n\n5 April 2023 – first class at the SARA."
+    "objectID": "welcome.html#sara-institute-of-data-science",
+    "href": "welcome.html#sara-institute-of-data-science",
+    "title": "WELCOME",
+    "section": "SARA Institute of Data Science",
+    "text": "SARA Institute of Data Science\n\nFirst class was on 5 April 2023 in Bhiwadi, RJ.\n\n\n\n\n\n5 April 2023 – first class at the SARA."
   },
   {
     "objectID": "welcome.html#our-mission",
     "href": "welcome.html#our-mission",
-    "title": "Welcome",
+    "title": "WELCOME",
     "section": "Our Mission",
-    "text": "Our Mission\n\nTo empower under-represented communities in India using data science education."
+    "text": "Our Mission\n\nMaking data science accessible to all.\n\n\nPriority admission for marginalized communities and women."
   },
   {
     "objectID": "welcome.html#free-open-source-courses",
     "href": "welcome.html#free-open-source-courses",
-    "title": "Welcome",
+    "title": "WELCOME",
     "section": "Free & Open-source Courses",
-    "text": "Free & Open-source Courses\n\n\n\n\n\n\n\n\nEnglish Language\n\n\n\nComputer Skills\n\n\n\nData Science\n\n\n\nResearch Methods\n\n\n\n\n\nImage source: Unsplash"
+    "text": "Free & Open-source Courses\n\n\n\n\n\nEnglish Language\n\n\n\nComputer Skills\n\n\n\nData Science\n\n\n\nResearch Methods\n\n\n\n\n\nImage source: Unsplash"
   },
   {
-    "objectID": "welcome.html#our-latest-data-science-training",
-    "href": "welcome.html#our-latest-data-science-training",
-    "title": "Welcome",
-    "section": "Our Latest Data Science Training",
-    "text": "Our Latest Data Science Training\n\n\n\n18 participants successfully completed our five-day SARA Data Science Residential Summer School, July 2024, gaining hands-on experience in R programming.\n\n\n\n\nWatch about it on our YouTube channel."
+    "objectID": "welcome.html#free-data-science-trainings",
+    "href": "welcome.html#free-data-science-trainings",
+    "title": "WELCOME",
+    "section": "Free Data Science Trainings",
+    "text": "Free Data Science Trainings\n\nR & RStudio, Statistics, & Quarto.\n\n\n\n\n\n\n\n\nJuly 2024, Reproducible Research Using R.\n\n\n\n\n\n\n\n\n\nDec 2024, Statistics using R\n\n\n\n\n\n\n\n\n\nMar 2025, Publish using Quarto\n\n\n\n\n\n\n\n\n\nJuly 2025, R for Researchers."
+  },
+  {
+    "objectID": "welcome.html#workshop-collaborations",
+    "href": "welcome.html#workshop-collaborations",
+    "title": "WELCOME",
+    "section": "Workshop Collaborations",
+    "text": "Workshop Collaborations\n\nHands-on data sci education to organizations nationwide.\n\n\n\n\n\n\n\n\n\n\n\nDec 2023, Eco, MDU, Rohtak\n\n\n\n\n\n\n\nMay 2024, SRM Uni, Sonipat\n\n\n\n\n\n\n\n\n\n\n\n\n\nMay 2024, GJU, Hisar\n\n\n\n\n\n\n\n\n\n\n\nJune 2024, Profs., GJU, Hisar\n\n\n\n\n\n\n\n\n\n\n\n\n\nOct 2024, Center for Political Studies, JNU, Delhi\n\n\n\n\n\n\n\nJul 2025, Profs. GJU, Hisar\n\n\n\n\n\n\n\n\n\nAug 2025, IDA, Jaipur\n\n\n\n\n\n\n\nOct 2025, Sociology, DU"
+  },
+  {
+    "objectID": "welcome.html#sara-saksharta-mission",
+    "href": "welcome.html#sara-saksharta-mission",
+    "title": "WELCOME",
+    "section": "SARA Saksharta Mission",
+    "text": "SARA Saksharta Mission\n\nAwareness about Data Science Education & Opportunities."
   },
   {
     "objectID": "welcome.html#latest-news-about-the-sara",
     "href": "welcome.html#latest-news-about-the-sara",
-    "title": "Welcome",
+    "title": "WELCOME",
     "section": "Latest News about the SARA",
     "text": "Latest News about the SARA\n\n\n\nThank You! News Beak team."
   },
   {
     "objectID": "welcome.html#support-sara",
     "href": "welcome.html#support-sara",
-    "title": "Welcome",
+    "title": "WELCOME",
     "section": "Support SARA",
-    "text": "Support SARA\n\n\n\nDonate to SARA. Get Income Tax Rebate! Under 80G.\n\n\n\n\n\n\n\nBank Transfer:\n\nAccount Name: SARA EDUCATION TRUST.\nAccount Number: 42920911856.\nBank Name: STATE BANK OF INDIA.\nIFSC Code: SBIN0000721."
+    "text": "Support SARA\n \n\nTeach at SARA.\n\n\nDonate to SARA."
   },
   {
-    "objectID": "welcome.html#section-2",
-    "href": "welcome.html#section-2",
-    "title": "Welcome",
+    "objectID": "welcome.html#section-1",
+    "href": "welcome.html#section-1",
+    "title": "WELCOME",
     "section": "",
     "text": "Savitribai Ramabai (SARA) Institute of Data Science\n\n\n\n\n\n \nDr. Ajay Kumar Koli, Executive Director, SARA Institute\nDr. Kiran Lata, Director, SARA Institute\n Dr. Ambedkar Bhawan, Kakroi Road, Near Dayanand Hospital, Sonipat - 131001, Haryana, India.\n\n   925 315 2024     sara.institute.info@gmail.com  SARA Website   https://sara-edu.netlify.app/\n Follow SARA Institute on Social Media."
   },
   {
-    "objectID": "welcome.html#sara-statistics-winter-school",
-    "href": "welcome.html#sara-statistics-winter-school",
-    "title": "Welcome",
-    "section": "SARA Statistics Winter School",
-    "text": "SARA Statistics Winter School\n\nAround 30 hours of residential teaching for 5 days.\nNo tuition fee. But 1 week food & accommodation charges Rs.6000.\nFirst 15 participants are given 40% discount on the food and accommodation fee as well.\nFeedback on the last day of the event.\nThank You Ceremony! on Friday, 20 Dec 2024, 6-7 PM 🚂\ne-Certificate of the participation via email."
+    "objectID": "welcome.html#section-3",
+    "href": "welcome.html#section-3",
+    "title": "WELCOME",
+    "section": "",
+    "text": "The Ambedkar Educational Society Sonipat"
+  },
+  {
+    "objectID": "welcome.html#schedule-overview",
+    "href": "welcome.html#schedule-overview",
+    "title": "WELCOME",
+    "section": "Schedule Overview",
+    "text": "Schedule Overview\n\nAround 40 hours of residential teaching for 5 days.\nNo tuition fee. But 1 week food & accommodation charges Rs.3500.\nFeedback on the last day of the event.\nThank You Ceremony! on Tuesday, 27 Jan 2026, 6-7 PM 🚂\ne-Certificate of the participation via email."
   },
   {
     "objectID": "welcome.html#daily-schedule",
     "href": "welcome.html#daily-schedule",
-    "title": "Welcome",
+    "title": "WELCOME",
     "section": "Daily Schedule:",
-    "text": "Daily Schedule:\n\n Food Lectures\n\n\n\n\n\nTime\nActivity\n\n\n\n\n08:30 AM to 09:30 AM\nBreakfast\n\n\n01:30 PM to 02:30 PM\nLunch\n\n\n07:00 PM to 08:00 PM\nDinner\n\n\n\n\n\n\n\n\n\n\n\n\n\nTime\nActivity\n\n\n\n\n10:00 AM to 11:30 AM\nClass 1\n\n\n\nDiscussion\n\n\n12:00 AM to 01:30 PM\nClass 2\n\n\n\nLunch\n\n\n02:30 PM to 04:00 PM\nClass 3\n\n\n\nDiscussion\n\n\n04:30 PM to 06:00 PM\nClass 4"
+    "text": "Daily Schedule:\n\n Food Lectures\n\n\n\n\n\n\n\n\n\nActivity\nTime\n\n\n\n\n Breakfast\n08:30 AM to 09:30 AM\n\n\n Lunch\n01:30 PM to 02:30 PM\n\n\n Dinner\n07:30 PM to 08:30 PM\n\n\n\n\n\n\n\n\n\n\n\n\nActivity\nTime\n\n\n\n\n Class 1\n10:00 AM to 11:30 AM\n\n\n Discussion\n30 minutes\n\n\n Class 2\n12:00 AM to 01:30 PM\n\n\n Class 3\n02:30 PM to 04:00 PM\n\n\n Discussion\n30 minutes\n\n\n Class 4\n04:30 PM to 06:00 PM"
   },
   {
-    "objectID": "welcome.html#logistics",
-    "href": "welcome.html#logistics",
-    "title": "Welcome",
-    "section": "Logistics:",
-    "text": "Logistics:\n\nDon’t be late for the class ~5 minutes\nClasses will be in the Mata Ramabai Auditorium, 1st Floor, Dr. Ambedkar Bhawan.\nYou will have to use your own internet.\nBe kind to each and everyone."
+    "objectID": "welcome.html#code-of-conduct",
+    "href": "welcome.html#code-of-conduct",
+    "title": "WELCOME",
+    "section": "Code of Conduct",
+    "text": "Code of Conduct\n\nBe respectful and kind to everyone.\nAsk questions freely – no question is too small.\nBring your own internet – mobile hotspot or data plan required.\nArrive 5 minutes early to settle in before each session.\nLocation: All classes will be held at Mata Ramabai Auditorium, 1st Floor, Dr. Ambedkar Bhawan."
   },
   {
     "objectID": "welcome.html#contact-numbers",
     "href": "welcome.html#contact-numbers",
-    "title": "Welcome",
+    "title": "WELCOME",
     "section": "Contact Numbers:",
-    "text": "Contact Numbers:\n\n\n\n\n\n\n\nName\nMobile\n\n\n\n\nSARA Office\n925 315 2024\n\n\nDr. Ajay Kumar (Ex. Director, SARA)\n88868 10879\n\n\nDr. Kiran Koli (Director, SARA)\n81680 60500\n\n\nMr. Satyawan Bhatia (President, Dr. Ambedkar Bhawan)\n94165 40721\n\n\nMr. Raj Pal (Supervisor, Dr. Ambedkar Bhawan)\n93063 42596"
+    "text": "Contact Numbers:\n\n\n\n\n\n\n\nName\nMobile\n\n\n\n\nSARA Office\n925 315 2024\n\n\nDr. Ajay Kumar (Ex. Director, SARA)\n88868 10879\n\n\nDr. Kiran Koli (Director, SARA)\n81680 60500\n\n\nMr. Rajesh Kataria (President, Dr. Ambedkar Bhawan)\n90134 99562\n\n\nMr. Raj Pal (Supervisor, Dr. Ambedkar Bhawan)\n93063 42596"
   },
   {
     "objectID": "welcome.html#course-website",
     "href": "welcome.html#course-website",
-    "title": "Welcome",
+    "title": "WELCOME",
     "section": "Course Website",
     "text": "Course Website\nhttps://sara-institute.quarto.pub/stats-course/"
   },
   {
-    "objectID": "index.html#section",
-    "href": "index.html#section",
-    "title": "Statistics with oar",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Statistics using R",
     "section": "",
-    "text": "View slides in full screen\n       \n      \n    \n  \n\n Download Practice Files"
+    "text": "Star on GitHub\n\n\n\nSARA is a not-for-profit organization in India. To know more about SARA, kindly vist our website.\nThis course aims to help the participants to overcome the fear of numbers, statistics and coding.\n\nIt is a five days annual residential training program to learn basics of statistics using R programming language.\nPriority admission for marginalized communities and women.\nThe course is free. Participants only pay for their food and accommodation.\n\nEmail us at sara.institute.info@gmail.com \\(\\cdot\\) Call us at 925 315 2024.\n\n\n\n\n    View slides in full screen\n       \n      \n    \n  \nThe background image is taken from Sandra Ilic via Unsplash.\n\n\n\n\n    View slides in full screen\n       \n      \n    \n  \n\n\n\n\n    View slides in full screen\n       \n      \n    \n  \n\n\n\n\n    View slides in full screen\n       \n      \n    \n  \n\n\n\n\n    View slides in full screen\n       \n      \n    \n  \n\n\n\n\n    View slides in full screen\n       \n      \n    \n  \n\n\n\n\n    View slides in full screen"
   },
   {
     "objectID": "index.html#session",
     "href": "index.html#session",
-    "title": "Statistics with oar",
-    "section": "1 Session",
-    "text": "1 Session\n    View slides in full screen"
+    "title": "Statistics using R",
+    "section": "",
+    "text": "View slides in full screen\n       \n      \n    \n  \nThe background image is taken from Sandra Ilic via Unsplash."
   },
   {
-    "objectID": "index.html#session-1",
-    "href": "index.html#session-1",
-    "title": "Statistics with oar",
-    "section": "2 Session",
-    "text": "2 Session\n    View slides in full screen"
+    "objectID": "eda.html#download-install",
+    "href": "eda.html#download-install",
+    "title": "Exploratory Data Analysis",
+    "section": "Download & Install",
+    "text": "Download & Install\n\n✅ R Software, https://cloud.r-project.org/\n✅ RStudio IDE, https://posit.co/products/open-source/rstudio/?sid=1\n✅ Quarto, https://quarto.org/docs/get-started/"
   },
   {
-    "objectID": "index.html#session-2",
-    "href": "index.html#session-2",
-    "title": "Statistics with oar",
-    "section": "3 Session",
-    "text": "3 Session\n    View slides in full screen"
+    "objectID": "eda.html#your-rstudio-project",
+    "href": "eda.html#your-rstudio-project",
+    "title": "Exploratory Data Analysis",
+    "section": "Your RStudio Project",
+    "text": "Your RStudio Project\n\n✅ Created RStudio Project in your computer\n✅ Created quarto document"
   },
   {
-    "objectID": "index.html#session-3",
-    "href": "index.html#session-3",
-    "title": "Statistics with oar",
-    "section": "4 Session",
-    "text": "4 Session\n    View slides in full screen"
+    "objectID": "eda.html#data-structure",
+    "href": "eda.html#data-structure",
+    "title": "Exploratory Data Analysis",
+    "section": "Data Structure",
+    "text": "Data Structure\n\n\n\n\nSource: R for Data Science (2e)"
   },
   {
-    "objectID": "index.html#session-4",
-    "href": "index.html#session-4",
-    "title": "Statistics with oar",
-    "section": "5 Session",
-    "text": "5 Session\n    View slides in full screen"
+    "objectID": "eda.html#columnvariable-types",
+    "href": "eda.html#columnvariable-types",
+    "title": "Exploratory Data Analysis",
+    "section": "Column/Variable Types",
+    "text": "Column/Variable Types\n\n\n\nData type\nExample\nColumn header\n\n\n\n\nlogical\nTRUE\nlgl\n\n\ninteger\n1L\nint\n\n\ndouble\n1.5\ndbl\n\n\ncharacter\n\"A\"\nchr\n\n\nfactor\nfactor(\"A\")\nfct\n\n\nordered\nordered(\"a\")\nord\n\n\n\n\n\nSource: https://tibble.tidyverse.org/articles/types.html"
   },
   {
-    "objectID": "index.html#session-5",
-    "href": "index.html#session-5",
-    "title": "Statistics with oar",
-    "section": "6 Session",
-    "text": "6 Session\n    View slides in full screen"
+    "objectID": "eda.html#step-1",
+    "href": "eda.html#step-1",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 1",
+    "text": "Step 1\n\nInstall required packagesLoad libraries\n\n\n\ninstall.packages(\"tidyverse\") # Includes readr for importing\ninstall.packages(\"janitor\") # For cleaning column names\ninstall.packages(\"lubridate\") # For date handling\n\n\n\n\nlibrary(tidyverse)\n\nlibrary(janitor)\n\nlibrary(lubridate)"
   },
   {
-    "objectID": "index.html#session-6",
-    "href": "index.html#session-6",
-    "title": "Statistics with oar",
-    "section": "7 Session",
-    "text": "7 Session\n    View slides in full screen"
+    "objectID": "eda.html#step-2.-basic-csv-import-with-read_csv",
+    "href": "eda.html#step-2.-basic-csv-import-with-read_csv",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 2. Basic CSV Import with read_csv()",
+    "text": "Step 2. Basic CSV Import with read_csv()\n \ndf &lt;- read_csv(\"path/to/file.csv\")"
   },
   {
-    "objectID": "index.html#session-7",
-    "href": "index.html#session-7",
-    "title": "Statistics with oar",
-    "section": "8 Session",
-    "text": "8 Session\n    View slides in full screen"
+    "objectID": "eda.html#step-3.-understanding-read_csv-parameters",
+    "href": "eda.html#step-3.-understanding-read_csv-parameters",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 3. Understanding read_csv() Parameters",
+    "text": "Step 3. Understanding read_csv() Parameters\n\ncol_names: Specify if first row contains column names\nskip: Skip rows at the beginning\nn_max: Read only first n rows\nna: Specify what values should be treated as NA\ncol_types: Specify column types explicitly"
   },
   {
-    "objectID": "index.html#session-8",
-    "href": "index.html#session-8",
-    "title": "Statistics with oar",
-    "section": "9 Session",
-    "text": "9 Session\n    View slides in full screen"
+    "objectID": "eda.html#step-4.-cleaning-column-names",
+    "href": "eda.html#step-4.-cleaning-column-names",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 4. Cleaning Column Names",
+    "text": "Step 4. Cleaning Column Names\n🤯 Problem: Column names with spaces, special characters, or inconsistent cases are hard to work with"
   },
   {
-    "objectID": "index.html#session-9",
-    "href": "index.html#session-9",
-    "title": "Statistics with oar",
-    "section": "10 Session",
-    "text": "10 Session\n    View slides in full screen"
+    "objectID": "eda.html#step-5.-converting-data-types",
+    "href": "eda.html#step-5.-converting-data-types",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 5. Converting Data Types",
+    "text": "Step 5. Converting Data Types\n\nConvert character to factor\nConvert character to date"
   },
   {
-    "objectID": "index.html#session-10",
-    "href": "index.html#session-10",
-    "title": "Statistics with oar",
-    "section": "11 Session",
-    "text": "11 Session\n    View slides in full screen"
+    "objectID": "eda.html#step-6.-working-with-factors",
+    "href": "eda.html#step-6.-working-with-factors",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 6. Working with Factors",
+    "text": "Step 6. Working with Factors\n\nFactors are categorical variables with defined levels\nThey’re useful for:\n\nEnsuring valid categories\nControlling sort order\nStatistical modeling"
   },
   {
-    "objectID": "index.html#session-11",
-    "href": "index.html#session-11",
-    "title": "Statistics with oar",
-    "section": "12 Session",
-    "text": "12 Session\n    View slides in full screen"
+    "objectID": "eda.html#exporting-cleaned-data",
+    "href": "eda.html#exporting-cleaned-data",
+    "title": "Exploratory Data Analysis",
+    "section": "Exporting Cleaned Data",
+    "text": "Exporting Cleaned Data\n\nExport to CSV\nExport to Excel"
   },
   {
-    "objectID": "index.html#session-12",
-    "href": "index.html#session-12",
-    "title": "Statistics with oar",
-    "section": "13 Session",
-    "text": "13 Session\n    View slides in full screen"
+    "objectID": "eda.html#reading-other-file-formats",
+    "href": "eda.html#reading-other-file-formats",
+    "title": "Exploratory Data Analysis",
+    "section": "Reading other File Formats",
+    "text": "Reading other File Formats\n\nExcel files (requires readxl package)\nSPSS, Stata, SAS files (requires haven package)"
   },
   {
-    "objectID": "index.html#session-13",
-    "href": "index.html#session-13",
-    "title": "Statistics with oar",
-    "section": "14 Session",
-    "text": "14 Session\n    View slides in full screen"
+    "objectID": "eda.html#tips-and-best-practices",
+    "href": "eda.html#tips-and-best-practices",
+    "title": "Exploratory Data Analysis",
+    "section": "Tips and Best Practices",
+    "text": "Tips and Best Practices\n\nUse read_csv() instead of read.csv()\n\nIt’s faster and creates tibbles\nBetter type detection\n\nClean column names immediately\n\nUse janitor::clean_names()\nConsistent naming makes code easier\n\nBe explicit about data types\n\nUse col_types parameter\nConvert to factors where appropriate\n\nDocument your cleaning steps\n\nComment your code\nKeep track of what you changed and why"
   },
   {
-    "objectID": "index.html#session-14",
-    "href": "index.html#session-14",
-    "title": "Statistics with oar",
-    "section": "15 Session",
-    "text": "15 Session\n    View slides in full screen"
+    "objectID": "eda.html#common-problems-solutions",
+    "href": "eda.html#common-problems-solutions",
+    "title": "Exploratory Data Analysis",
+    "section": "Common Problems & Solutions",
+    "text": "Common Problems & Solutions\n\nPROBLEM 1: Column names with spaces or special characters\n\nSOLUTION: Use clean_names() or backticks (Column Name)\n\nPROBLEM 2: Wrong data types after import\n\nSOLUTION: Specify col_types in read_csv() or use mutate()\n\nPROBLEM 3: Dates imported as character -SOLUTION: Use lubridate functions (ymd, mdy, dmy)\nPROBLEM 4: Mixed encodings or special characters\n\nSOLUTION: Specify encoding: read_csv('file.csv', locale = locale(encoding = 'UTF-8'))\n\nPROBLEM 5: Large files taking too long\n\nSOLUTION: Use n_max to read sample first, or consider data.table::fread()\n\nPROBLEM 6: Multiple CSV files to combine\n\nSOLUTION: Use map_dfr from purrr package files &lt;- list.files(pattern = '.csv') data &lt;- map_dfr(files, read_csv)"
   },
   {
-    "objectID": "index.html#session-15",
-    "href": "index.html#session-15",
-    "title": "Statistics with oar",
-    "section": "16 Session",
-    "text": "16 Session\n    View slides in full screen\n       \n      \n    \n  \n\nThe background image is taken from Sandra Ilic via Unsplash."
+    "objectID": "eda.html#exploratory-data-analysis-eda",
+    "href": "eda.html#exploratory-data-analysis-eda",
+    "title": "Exploratory Data Analysis",
+    "section": "Exploratory Data Analysis (EDA)",
+    "text": "Exploratory Data Analysis (EDA)\n\n\n“how to use visualization and transformation to explore your data in a systematic way”\n\n\n\nSource: R for Data Science (2e)"
   },
   {
-    "objectID": "plots.html#presenting-data",
-    "href": "plots.html#presenting-data",
-    "title": "Presenting Data",
-    "section": "Presenting Data",
-    "text": "Presenting Data\n\nGraphs are visual representations of data that help in understanding relationships, trends, and distributions."
+    "objectID": "eda.html#data-penguins",
+    "href": "eda.html#data-penguins",
+    "title": "Exploratory Data Analysis",
+    "section": "Data: penguins",
+    "text": "Data: penguins\nLive on three island: Biscoe, Dream, & Torgersen.\n\n\n\n\n\n\n\n\n\n\nBill description of penguins\n\n\n\n\n\n\n\nSource: palmerpenguins"
   },
   {
-    "objectID": "plots.html#how-to-choose-the-right-graph",
-    "href": "plots.html#how-to-choose-the-right-graph",
-    "title": "Presenting Data",
-    "section": "How to Choose the Right Graph",
-    "text": "How to Choose the Right Graph\n\n\n\nPurpose\nBest Graph\n\n\n\n\nCompare categories\nBar chart, Pie Chart\n\n\nShow distribution\nHistogram, Box plot, Violin plot\n\n\nShow trends over time\nLine graph, Area chart\n\n\nShow relationships/correlations\nScatter plot, Bubble chart\n\n\nVisualize patterns in data\nHeatmap"
+    "objectID": "eda.html#setup",
+    "href": "eda.html#setup",
+    "title": "Exploratory Data Analysis",
+    "section": "Setup",
+    "text": "Setup\n\nInstall packages\n\ninstall.packages(\"tidyverse\")\ninstall.packages(\"palmerpenguins\")\n\nLoad libraries\n\nlibrary(tidyverse)\nlibrary(palmerpenguins)\n\nLoad the penguins dataset\n\ndata(penguins)\n\nTake a quick look\n\nView(penguins)"
   },
   {
-    "objectID": "plots.html#bar-chart",
-    "href": "plots.html#bar-chart",
-    "title": "Presenting Data",
-    "section": "Bar Chart",
-    "text": "Bar Chart"
+    "objectID": "eda.html#step-1.-first-look-at-the-data",
+    "href": "eda.html#step-1.-first-look-at-the-data",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 1. First Look at the Data",
+    "text": "Step 1. First Look at the Data\n\nLook at your data\nUnderstand what each column means\nCheck the size of your dataset"
   },
   {
-    "objectID": "plots.html#bar-chart-1",
-    "href": "plots.html#bar-chart-1",
-    "title": "Presenting Data",
-    "section": "Bar Chart",
-    "text": "Bar Chart\n\nPurpose: Compare quantities of categorical data.\nWhen to Use:\n\nShow comparisons between categories (e.g., sales by region, population by country).\nHighlight differences in frequency or proportion."
+    "objectID": "eda.html#step-2.-understanding-data-dimensions-structure",
+    "href": "eda.html#step-2.-understanding-data-dimensions-structure",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 2. Understanding Data Dimensions & Structure",
+    "text": "Step 2. Understanding Data Dimensions & Structure\n\nHow big is our dataset?\nWhat are the column names?\nWhat types of data do we have?"
   },
   {
-    "objectID": "plots.html#practice-bar-chart",
-    "href": "plots.html#practice-bar-chart",
-    "title": "Presenting Data",
-    "section": "Practice Bar Chart",
-    "text": "Practice Bar Chart\n\nUnordered Bar Chart: Use for simple category visualization.\nOrdered Bar Chart: Highlights the most/least common categories.\nHorizontal Bar Chart: Improves readability for long category names.\nGrouped Bar Chart: Compares subcategories across main categories.\nStacked Bar Chart: Shows composition of each category."
+    "objectID": "eda.html#step-3.-checking-data-quality",
+    "href": "eda.html#step-3.-checking-data-quality",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 3. Checking Data Quality",
+    "text": "Step 3. Checking Data Quality\n\nMissing Values (NA)\nDuplicates"
   },
   {
-    "objectID": "plots.html#histogram",
-    "href": "plots.html#histogram",
-    "title": "Presenting Data",
-    "section": "Histogram",
-    "text": "Histogram"
+    "objectID": "eda.html#step-4.-summary-statistics",
+    "href": "eda.html#step-4.-summary-statistics",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 4. Summary Statistics",
+    "text": "Step 4. Summary Statistics\n\nExploring Categorical Variables\nKey Question: Which species live on which islands?"
   },
   {
-    "objectID": "plots.html#histogram-1",
-    "href": "plots.html#histogram-1",
-    "title": "Presenting Data",
-    "section": "Histogram",
-    "text": "Histogram"
+    "objectID": "eda.html#step-5.-summary-statistics",
+    "href": "eda.html#step-5.-summary-statistics",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 5. Summary Statistics",
+    "text": "Step 5. Summary Statistics\n\nExploring Numerical Variables"
   },
   {
-    "objectID": "plots.html#histogram-2",
-    "href": "plots.html#histogram-2",
-    "title": "Presenting Data",
-    "section": "Histogram",
-    "text": "Histogram\n\nPurpose: Display the distribution of numerical data.\nWhen to Use:\n\nVisualize frequency distribution (e.g., income levels, test scores).\nIdentify skewness, spread, and modes in data."
+    "objectID": "eda.html#step-6.-comparing-groups",
+    "href": "eda.html#step-6.-comparing-groups",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 6. Comparing Groups",
+    "text": "Step 6. Comparing Groups\n\nAverage measurements by species\nCompare by sex\nCompare by species AND sex"
   },
   {
-    "objectID": "plots.html#histogram-key-points",
-    "href": "plots.html#histogram-key-points",
-    "title": "Presenting Data",
-    "section": "Histogram Key Points",
-    "text": "Histogram Key Points\n\nBins: The range of values divided into intervals. The width of these intervals determines the bin size.\nAxis:\n\nX-axis: The variable of interest (e.g., numerical values).\nY-axis: The frequency (count) or density of observations."
+    "objectID": "eda.html#step-7.-visualization---distributions",
+    "href": "eda.html#step-7.-visualization---distributions",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 7. Visualization - Distributions",
+    "text": "Step 7. Visualization - Distributions\n\nVisualizations help us SEE patterns in data\nDistributions: how values are spread out"
   },
   {
-    "objectID": "plots.html#practice-histograms",
-    "href": "plots.html#practice-histograms",
-    "title": "Presenting Data",
-    "section": "Practice Histograms",
-    "text": "Practice Histograms\n\nBasic Histogram: General overview of distribution.\nCustom Bin Width: Fine-tuning for specific data patterns.\nDensity Overlaid: Assess distribution shape visually.\nGrouped Histogram: Compare distributions across subgroups.\nFaceted Histogram: Side-by-side comparison of subgroups.\nCumulative Histogram: Understand cumulative trends in the data."
+    "objectID": "eda.html#step-8.-visualization---comparing-groups",
+    "href": "eda.html#step-8.-visualization---comparing-groups",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 8. Visualization - Comparing Groups",
+    "text": "Step 8. Visualization - Comparing Groups"
   },
   {
-    "objectID": "plots.html#line-graph",
-    "href": "plots.html#line-graph",
-    "title": "Presenting Data",
-    "section": "Line Graph",
-    "text": "Line Graph"
+    "objectID": "eda.html#step-9.-visualization---relationships-between-variables",
+    "href": "eda.html#step-9.-visualization---relationships-between-variables",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 9. Visualization - Relationships between Variables",
+    "text": "Step 9. Visualization - Relationships between Variables\n\nOne of the most important questions in EDA:\n\nHow do variables relate to each other?"
   },
   {
-    "objectID": "plots.html#line-graph-1",
-    "href": "plots.html#line-graph-1",
-    "title": "Presenting Data",
-    "section": "Line Graph",
-    "text": "Line Graph\n\nPurpose: Show trends over time or sequences.\nWhen to Use:\n\nAnalyze patterns over intervals (e.g., stock prices, temperature changes).\nCompare multiple trends by plotting multiple lines."
+    "objectID": "eda.html#step-10.-correlation-analysis",
+    "href": "eda.html#step-10.-correlation-analysis",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 10. Correlation Analysis",
+    "text": "Step 10. Correlation Analysis\n\nCorrelation measures how strongly two variables are related"
   },
   {
-    "objectID": "plots.html#practice-line-graphs",
-    "href": "plots.html#practice-line-graphs",
-    "title": "Presenting Data",
-    "section": "Practice Line Graphs",
-    "text": "Practice Line Graphs\n\nBasic Line Graph: Single line showing trends for one variable.\nMultiple Line Graphs: Comparing trends of multiple variables.\nSmoothed Line Graph: Adds a smooth curve to depict trends better.\nLine Graph with Points: Shows data points explicitly.\nFaceted Line Graph: Separate panels for different groups or variables.\nStep Line Graph: Shows data changes stepwise."
+    "objectID": "eda.html#step-11.-finding-outliers",
+    "href": "eda.html#step-11.-finding-outliers",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 11. Finding Outliers",
+    "text": "Step 11. Finding Outliers\nOutliers are observations that are very different from others They can be:\n\nErrors in data collection\nRare but real observations\nImportant discoveries!"
   },
   {
-    "objectID": "plots.html#scatter-plot",
-    "href": "plots.html#scatter-plot",
-    "title": "Presenting Data",
-    "section": "Scatter Plot",
-    "text": "Scatter Plot"
-  },
-  {
-    "objectID": "plots.html#scatter-plot-1",
-    "href": "plots.html#scatter-plot-1",
-    "title": "Presenting Data",
-    "section": "Scatter Plot",
-    "text": "Scatter Plot\n\nPurpose: Show relationships or correlations between two numerical variables.\nScatter plots are commonly used to:\n\nObserve correlations or relationships between variables.\nDetect patterns, trends, or clusters.\nIdentify potential outliers."
-  },
-  {
-    "objectID": "plots.html#key-points-scatter-points",
-    "href": "plots.html#key-points-scatter-points",
-    "title": "Presenting Data",
-    "section": "Key Points Scatter Points",
-    "text": "Key Points Scatter Points\n\nX-axis: Represents one variable (independent or predictor).\nY-axis: Represents another variable (dependent or outcome).\nPoints: Each point represents one observation."
-  },
-  {
-    "objectID": "plots.html#practice-scatter-plots",
-    "href": "plots.html#practice-scatter-plots",
-    "title": "Presenting Data",
-    "section": "Practice Scatter Plots",
-    "text": "Practice Scatter Plots\n\nBasic Scatter Plot: Visualize relationships between two continuous variables.\nWith Groups: Compare relationships across categories or groups.\nWith Regression Line: Observe trends and linear relationships.\nWith Size Aesthetic: Add a third dimension to the plot (e.g., size of points).\nFaceted Scatter Plot: Separate the data into different groups or panels.\nWith Transparency: Handle overplotting when data points overlap."
-  },
-  {
-    "objectID": "plots.html#pie-chart",
-    "href": "plots.html#pie-chart",
-    "title": "Presenting Data",
-    "section": "Pie Chart",
-    "text": "Pie Chart"
-  },
-  {
-    "objectID": "plots.html#pie-chart-1",
-    "href": "plots.html#pie-chart-1",
-    "title": "Presenting Data",
-    "section": "Pie Chart",
-    "text": "Pie Chart\n\nPurpose: Represent proportions of a whole.\nWhen to Use:\n\nShow parts of a total (e.g., market share, budget allocation).\nUse with few categories to avoid clutter.\n\nLimitations:\n\nHard to interpret with many categories.\nPoor for precise comparisons; consider bar charts for clarity."
-  },
-  {
-    "objectID": "plots.html#practice-pie-charts",
-    "href": "plots.html#practice-pie-charts",
-    "title": "Presenting Data",
-    "section": "Practice Pie Charts",
-    "text": "Practice Pie Charts\n\nBasic Pie Chart Represent proportions of categories in a single dataset.\nWith Percentages Display proportions explicitly for easier interpretation.\nDonut Chart Aesthetic variation of a pie chart, often used in dashboards.\nFaceted Pie Chart Compare distributions across multiple groups.\nExploded Pie Chart Highlight a specific slice for emphasis."
-  },
-  {
-    "objectID": "plots.html#box-plot-or-box-and-whisker-plot",
-    "href": "plots.html#box-plot-or-box-and-whisker-plot",
-    "title": "Presenting Data",
-    "section": "Box Plot (or Box-and-Whisker Plot)",
-    "text": "Box Plot (or Box-and-Whisker Plot)\n ## Box Plot\n\nPurpose: Summarize the distribution of data through quartiles.\nWhen to Use:\n\nIdentify spread, outliers, and medians (e.g., comparing test scores across groups).\nCompare distributions across categories."
-  },
-  {
-    "objectID": "plots.html#box-plot",
-    "href": "plots.html#box-plot",
-    "title": "Presenting Data",
-    "section": "Box Plot",
-    "text": "Box Plot"
-  },
-  {
-    "objectID": "plots.html#box-plot-five-number-summary",
-    "href": "plots.html#box-plot-five-number-summary",
-    "title": "Presenting Data",
-    "section": "Box Plot, Five-number summary:",
-    "text": "Box Plot, Five-number summary:\n\n\n\nMinimum: The smallest data point excluding outliers.\nFirst Quartile (Q1): The median of the lower half of the dataset.\nMedian (Q2): The middle value of the dataset.\nThird Quartile (Q3): The median of the upper half of the dataset.\nMaximum: The largest data point excluding outliers."
-  },
-  {
-    "objectID": "plots.html#practice-box-plots",
-    "href": "plots.html#practice-box-plots",
-    "title": "Presenting Data",
-    "section": "Practice Box Plots",
-    "text": "Practice Box Plots\n\nBasic Box Plot: Summarizing distribution of a single variable.\nBox Plot by Category: Comparing distributions across categories.\nWith Outliers Highlighted: Identifying potential outliers.\nHorizontal Box Plot: Improving readability for long category names.\nGrouped Box Plot: Comparing multiple groups within categories.\nViolin and Box Plot Combination: Adding detailed distribution insights to a box plot.\nCustomized Box Plot: Enhancing visual appeal for reports or presentations."
-  },
-  {
-    "objectID": "plots.html#heatmap",
-    "href": "plots.html#heatmap",
-    "title": "Presenting Data",
-    "section": "Heatmap",
-    "text": "Heatmap"
-  },
-  {
-    "objectID": "plots.html#heatmap-1",
-    "href": "plots.html#heatmap-1",
-    "title": "Presenting Data",
-    "section": "Heatmap",
-    "text": "Heatmap\n\nPurpose: Represent data in a matrix format using color coding.\nWhen to Use:\n\nVisualize large datasets (e.g., correlations, gene expression).\nHighlight patterns, hotspots and clusters."
-  },
-  {
-    "objectID": "plots.html#practice-heat-maps-plots",
-    "href": "plots.html#practice-heat-maps-plots",
-    "title": "Presenting Data",
-    "section": "Practice Heat Maps Plots",
-    "text": "Practice Heat Maps Plots\n\nBasic Heat Map Visualizing relationships between categories and values.\nHeat Map with Labels Adding specific values for easier interpretation.\nCorrelation Heat Map Visualizing pairwise correlations between variables.\nTime-Series Heat Map Tracking changes over time for multiple categories.\nDiverging Heat Map Highlighting deviations from a baseline or midpoint."
-  },
-  {
-    "objectID": "probability.html#z-score",
-    "href": "probability.html#z-score",
-    "title": "Learning Probability",
-    "section": "Z-score",
-    "text": "Z-score\n\nZ-score measures how many standard deviations a data point is from the mean.\nPurpose: To understand relative position within a distribution."
-  },
-  {
-    "objectID": "probability.html#z-score-calculation",
-    "href": "probability.html#z-score-calculation",
-    "title": "Learning Probability",
-    "section": "Z-score Calculation",
-    "text": "Z-score Calculation\n\\[z = \\frac{x - \\mu}{\\sigma}\\]\n\n\\(z\\) = standardized score\n\\(x\\) = data point\n\\(\\mu\\) = mean value\n\\(\\sigma\\) = standard deviation\nIf the z-score is positive, the data point is above the mean; if negative, it’s below the mean."
-  },
-  {
-    "objectID": "probability.html#practice-z-score",
-    "href": "probability.html#practice-z-score",
-    "title": "Learning Probability",
-    "section": "Practice Z-score",
-    "text": "Practice Z-score\nZ-scores provide a standardized method to:\n\nCompare data points across distributions.\nDetect outliers.\nAssess relative performance."
-  },
-  {
-    "objectID": "probability.html#probability",
-    "href": "probability.html#probability",
-    "title": "Learning Probability",
-    "section": "Probability",
-    "text": "Probability\n\nProbability is a way to talk about how likely something is to happen.\nIt’s like making a guess, but with some rules and numbers to help us know how good our guess is."
-  },
-  {
-    "objectID": "probability.html#measure-probability",
-    "href": "probability.html#measure-probability",
-    "title": "Learning Probability",
-    "section": "Measure Probability",
-    "text": "Measure Probability\n\nProbability is a number between 0 and 1\n\n\n0 means it will not happen (impossible).\n1 means it will definitely happen (certain).\nIn-between numbers mean “maybe.”"
-  },
-  {
-    "objectID": "probability.html#probability-interpretation",
-    "href": "probability.html#probability-interpretation",
-    "title": "Learning Probability",
-    "section": "Probability Interpretation",
-    "text": "Probability Interpretation\n\nA probability between \\(0.5\\) to \\(1\\) means that an event is more likely to happen than not, and the closer to \\(1\\) it gets, the more likely it is to happen.\nA probability between \\(0\\) and \\(0.5\\) means that an event is more unlikely to happen than to happen, and the closer to \\(0\\) it gets, the less likely it is to happen."
-  },
-  {
-    "objectID": "probability.html#probability-density-function",
-    "href": "probability.html#probability-density-function",
-    "title": "Learning Probability",
-    "section": "Probability Density Function",
-    "text": "Probability Density Function\nThe area under the curve represents probability which is equal to \\(1\\) or the probability of all scores summed together is \\(1\\)."
-  },
-  {
-    "objectID": "probability.html#standard-normal-distribution",
-    "href": "probability.html#standard-normal-distribution",
-    "title": "Learning Probability",
-    "section": "Standard Normal Distribution",
-    "text": "Standard Normal Distribution"
-  },
-  {
-    "objectID": "probability.html#of-the-data",
-    "href": "probability.html#of-the-data",
-    "title": "Learning Probability",
-    "section": "68% of the Data",
-    "text": "68% of the Data\n\nLies within 1 standard deviation (\\(\\sigma\\)) from the mean (\\(\\mu\\)).\nBetween \\(\\mu \\pm 1\\sigma\\): Contains 68% of the total area under the curve."
-  },
-  {
-    "objectID": "probability.html#of-the-data-1",
-    "href": "probability.html#of-the-data-1",
-    "title": "Learning Probability",
-    "section": "95% of the Data",
-    "text": "95% of the Data\n\nLies within 2 standard deviation (\\(\\sigma\\)) from the mean (\\(\\mu\\)).\nBetween \\(\\mu \\pm 2\\sigma\\): Contains 95% of the total area under the curve."
-  },
-  {
-    "objectID": "probability.html#of-the-data-2",
-    "href": "probability.html#of-the-data-2",
-    "title": "Learning Probability",
-    "section": "99.7% of the Data",
-    "text": "99.7% of the Data\n\nLies within 3 standard deviation (\\(\\sigma\\)) from the mean (\\(\\mu\\)).\nBetween \\(\\mu \\pm 3\\sigma\\): Contains 99.7% of the total area under the curve."
-  },
-  {
-    "objectID": "probability.html#example-in-real-life",
-    "href": "probability.html#example-in-real-life",
-    "title": "Learning Probability",
-    "section": "Example in Real-Life",
-    "text": "Example in Real-Life\nHeight of Adults:\n\nAssume adult heights follow a normal distribution: Mean (\\(\\mu\\)) = 170 cm Standard deviation (\\(\\sigma\\)) = 10 cm\n\nUsing the 68-95-99.7 rule:\n\n68% of adults are between 160 and 180 cm.\n95% of adults are between 150 and 190 cm.\n99.7% of adults are between 140 and 200 cm."
-  },
-  {
-    "objectID": "probability.html#pratice",
-    "href": "probability.html#pratice",
-    "title": "Learning Probability",
-    "section": "Pratice",
-    "text": "Pratice\nReal-Life Problems Using the 68-95-99.7 Rule with R"
-  },
-  {
-    "objectID": "central-tendency.html#measures-of-central-tendency",
-    "href": "central-tendency.html#measures-of-central-tendency",
-    "title": "Central Tendency",
-    "section": "Measures of Central Tendency",
-    "text": "Measures of Central Tendency\n\nDescribe the center or typical value of a dataset.\n\n\n\nThe three most common measures are:\n\nMean (Average).\nMedian (Middle value).\nMode (Most frequent value)."
-  },
-  {
-    "objectID": "central-tendency.html#mean",
-    "href": "central-tendency.html#mean",
-    "title": "Central Tendency",
-    "section": "Mean",
-    "text": "Mean\n\nThe mean is calculated as the sum of all data points divided by the number of points. It’s sensitive to extreme values (outliers).\n\n\n\n\\[\n\\bar{X} = \\frac{\\displaystyle\\sum_{i=1}^nx_i}{\\displaystyle n}\n\\]"
-  },
-  {
-    "objectID": "central-tendency.html#median",
-    "href": "central-tendency.html#median",
-    "title": "Central Tendency",
-    "section": "Median",
-    "text": "Median\n\nThe median is the middle value of a sorted dataset. It is robust to outliers.\n\n\n\nIf the dataset has an even number of elements, the median is the average of the two middle values."
-  },
-  {
-    "objectID": "central-tendency.html#mode",
-    "href": "central-tendency.html#mode",
-    "title": "Central Tendency",
-    "section": "Mode",
-    "text": "Mode\n\nThe mode is the most frequently occurring value in the dataset."
-  },
-  {
-    "objectID": "central-tendency.html#problems-with-mode",
-    "href": "central-tendency.html#problems-with-mode",
-    "title": "Central Tendency",
-    "section": "Problems with Mode",
-    "text": "Problems with Mode\n\nUnlike the mean and median, there can be no mode, one mode, or multiple modes."
-  },
-  {
-    "objectID": "central-tendency.html#key-insights",
-    "href": "central-tendency.html#key-insights",
-    "title": "Central Tendency",
-    "section": "Key Insights",
-    "text": "Key Insights\n\nMean: Best for symmetric datasets but affected by outliers.\nMedian: Robust to outliers, useful for skewed data.\nMode: Describes the most common value, useful for categorical data."
-  },
-  {
-    "objectID": "central-tendency.html#mean-the-balancing-point",
-    "href": "central-tendency.html#mean-the-balancing-point",
-    "title": "Central Tendency",
-    "section": "Mean the Balancing Point",
-    "text": "Mean the Balancing Point"
-  },
-  {
-    "objectID": "central-tendency.html#effect-on-mean",
-    "href": "central-tendency.html#effect-on-mean",
-    "title": "Central Tendency",
-    "section": "Effect on Mean",
-    "text": "Effect on Mean"
+    "objectID": "eda.html#answering-research-questions",
+    "href": "eda.html#answering-research-questions",
+    "title": "Exploratory Data Analysis",
+    "section": "Answering Research Questions",
+    "text": "Answering Research Questions\nEDA is about asking and answering questions!\n\nQUESTION: Size difference between sexes?\nQUESTION: Do penguins on different islands have different sizes?\nQUESTION: Are bill dimensions related to body size?\nQUESTION: Has penguin size changed over the years?"
   },
   {
     "objectID": "shapes.html#idealised-distributions",
@@ -889,969 +448,745 @@
     "text": "References"
   },
   {
-    "objectID": "research-methods.html#the-research-process",
-    "href": "research-methods.html#the-research-process",
-    "title": "Research  Methods",
-    "section": "The research process",
-    "text": "The research process\n\n\nSource: (field2022?)"
-  },
-  {
-    "objectID": "research-methods.html#statistics",
-    "href": "research-methods.html#statistics",
-    "title": "Research  Methods",
-    "section": "Statistics",
-    "text": "Statistics\n\nDefinition: A numerical summary of a sample.\n\n\n\n\nScope: Describes the characteristics of a subset (sample).\n\n\n\n\n\nPurpose: Used to estimate or infer the parameter."
-  },
-  {
-    "objectID": "research-methods.html#parameters",
-    "href": "research-methods.html#parameters",
-    "title": "Research  Methods",
-    "section": "Parameters",
-    "text": "Parameters\n\nDefinition: A numerical summary of a population.\n\n\n\n\nScope: Describes the characteristics of the entire group (population).\n\n\n\n\n\nPurpose: Represents the true value for the population."
-  },
-  {
-    "objectID": "research-methods.html#section",
-    "href": "research-methods.html#section",
-    "title": "Research  Methods",
-    "section": "",
-    "text": "🤓 Tellme Moore: Average Test Scores of 500 Students\n\n\nKey Differences\n\nParameter is about the population (e.g., the average score of all 500 students).\nStatistic is about a sample (e.g., the average score of 50 students).\nGoal: A statistic is used to estimate the parameter."
-  },
-  {
-    "objectID": "research-methods.html#sampling-variation",
-    "href": "research-methods.html#sampling-variation",
-    "title": "Research  Methods",
-    "section": "Sampling Variation",
-    "text": "Sampling Variation\n\n“These statistics vary from one sample to the next.”"
-  },
-  {
-    "objectID": "research-methods.html#sampling-error",
-    "href": "research-methods.html#sampling-error",
-    "title": "Research  Methods",
-    "section": "Sampling Error",
-    "text": "Sampling Error\n\n“These statistics sometimes differ from the population parameter.”"
-  },
-  {
-    "objectID": "research-methods.html#practice-statistics-vs.-parameters",
-    "href": "research-methods.html#practice-statistics-vs.-parameters",
-    "title": "Research  Methods",
-    "section": "👨🏽‍💻 Practice Statistics vs. Parameters",
-    "text": "👨🏽‍💻 Practice Statistics vs. Parameters\nImagine we have a population of students’ heights, and we take a sample from this population to calculate statistics and compare them to the parameters."
-  },
-  {
-    "objectID": "research-methods.html#statistical-learning",
-    "href": "research-methods.html#statistical-learning",
-    "title": "Research  Methods",
-    "section": "Statistical Learning",
-    "text": "Statistical Learning\n\n\n“Statistical Learning refers to a vast set of tools for understanding data.”\n\n\n\nSource: James et al. (2017)\nThis ebook is free to download from here."
-  },
-  {
-    "objectID": "research-methods.html#statistics-1",
-    "href": "research-methods.html#statistics-1",
-    "title": "Research  Methods",
-    "section": "Statistics",
-    "text": "Statistics\n \n\n\nDescriptive Statistics\n\nInferential Statistics"
-  },
-  {
-    "objectID": "research-methods.html#descriptive-statistics-1",
-    "href": "research-methods.html#descriptive-statistics-1",
-    "title": "Research  Methods",
-    "section": "Descriptive Statistics",
-    "text": "Descriptive Statistics\n\nSummarizes and organizes data to describe its main features.\n\n\n\n\nLimited to the observed data."
-  },
-  {
-    "objectID": "research-methods.html#inferential-statistics-1",
-    "href": "research-methods.html#inferential-statistics-1",
-    "title": "Research  Methods",
-    "section": "Inferential Statistics",
-    "text": "Inferential Statistics\n\nMakes predictions or inferences about a population from a sample.\n\n\n\n\nGoes beyond the observed data to infer population characteristics."
-  },
-  {
-    "objectID": "research-methods.html#practice-descriptive-vs.-inferential-statistics",
-    "href": "research-methods.html#practice-descriptive-vs.-inferential-statistics",
-    "title": "Research  Methods",
-    "section": "👨🏽‍💻 Practice Descriptive vs. Inferential Statistics",
-    "text": "👨🏽‍💻 Practice Descriptive vs. Inferential Statistics\nWe will practice both descriptive and inferential statistics using a dataset of students’ test scores."
-  },
-  {
-    "objectID": "research-methods.html#research-methods-1",
-    "href": "research-methods.html#research-methods-1",
-    "title": "Research  Methods",
-    "section": "Research Methods",
-    "text": "Research Methods\nWe can test a hypothesis in one of two ways:\n\n \n\n\nCorrelational Method\n\nExperimental Method"
-  },
-  {
-    "objectID": "research-methods.html#correlational-method-1",
-    "href": "research-methods.html#correlational-method-1",
-    "title": "Research  Methods",
-    "section": "Correlational Method",
-    "text": "Correlational Method\n\n\nTo identify relationship between variables."
-  },
-  {
-    "objectID": "research-methods.html#experimental-method-1",
-    "href": "research-methods.html#experimental-method-1",
-    "title": "Research  Methods",
-    "section": "Experimental Method",
-    "text": "Experimental Method\n\n\nTo determine causal relationships between variables."
-  },
-  {
-    "objectID": "research-methods.html#section-1",
-    "href": "research-methods.html#section-1",
-    "title": "Research  Methods",
-    "section": "",
-    "text": "🤓 Tellme Moore: Exercise and Academic Performance:\n\n\n\nCorrelational MethodExperimental Method\n\n\nPurpose: To identify if a relationship exists between two variables but without establishing causation.\nYou collect data on two variables:\n\nExercise: The number of hours students exercise per week.\nAcademic Performance: Students’ GPA (Grade Point Average).\n\nYou analyze the data to see if there’s a correlation (e.g., higher exercise hours are associated with higher GPAs).\nOutcome: “Exercise is positively correlated with GPA.”\n\n\nPurpose: To determine causation by manipulating one variable and controlling others.\nYou design an experiment where you divide students into two groups:\n\nExperimental Group: Students are asked to exercise 3 times a week for 1 hour.\nControl Group: Students are not required to change their exercise habits.\n\nMeasure their GPAs over a semester.\nOutcome: “Exercise improves GPA.”"
-  },
-  {
-    "objectID": "research-methods.html#correlational-methods",
-    "href": "research-methods.html#correlational-methods",
-    "title": "Research  Methods",
-    "section": "Correlational Methods",
-    "text": "Correlational Methods\n\n\n\nCross-sectional Study\n\n“take a snapshot of many variables at a single point in time”\n\n\nLongitudinal Study\n\n“measure variable repeatedly at different time points”"
-  },
-  {
-    "objectID": "research-methods.html#section-2",
-    "href": "research-methods.html#section-2",
-    "title": "Research  Methods",
-    "section": "",
-    "text": "Image source: Deichsel, Münch, and Laky (2024)"
-  },
-  {
-    "objectID": "research-methods.html#experimental-methods",
-    "href": "research-methods.html#experimental-methods",
-    "title": "Research  Methods",
-    "section": "Experimental Methods",
-    "text": "Experimental Methods\n\n“Comparing two conditions in a controlled way is at the heart of it.”"
-  },
-  {
-    "objectID": "research-methods.html#two-ways-to-manipulate",
-    "href": "research-methods.html#two-ways-to-manipulate",
-    "title": "Research  Methods",
-    "section": "Two Ways to Manipulate",
-    "text": "Two Ways to Manipulate\n\n\n\nBetween Subjects\n\n“manipulate the independent variable using different entities”\n\n\nWithin Subjects\n\n“manipulate the independent variable using the same entities”"
-  },
-  {
-    "objectID": "research-methods.html#two-ways-to-manipulate-1",
-    "href": "research-methods.html#two-ways-to-manipulate-1",
-    "title": "Research  Methods",
-    "section": "Two Ways to Manipulate",
-    "text": "Two Ways to Manipulate\n\n\n\n\nImage source: BRAINPSYCHLOPEDIA"
-  },
-  {
-    "objectID": "research-methods.html#two-types-of-variation",
-    "href": "research-methods.html#two-types-of-variation",
-    "title": "Research  Methods",
-    "section": "Two Types of Variation",
-    "text": "Two Types of Variation\n\n\n\nSystematic Variation\n\n“differences created by a specific experimental manipulation”\n\n\nUnsystematic Variation\n\n“differences created by unmeasured or unknown factors”"
-  },
-  {
-    "objectID": "research-methods.html#piecing-it-all-together",
-    "href": "research-methods.html#piecing-it-all-together",
-    "title": "Research  Methods",
-    "section": "Piecing it all Together",
-    "text": "Piecing it all Together\n“research is complicated: there are always trade-offs and compromises”\n\n\n\nPoint Estimate\n\nUsing a single value, or point, to estimate the effect in the population.\n\n\nInterval Estimate\n\nA range of values between which we think the populations value is likely to fall."
-  },
-  {
-    "objectID": "research-methods.html#practice-point-estimate-vs.-interval-estimate",
-    "href": "research-methods.html#practice-point-estimate-vs.-interval-estimate",
-    "title": "Research  Methods",
-    "section": "👨🏽‍💻 Practice Point Estimate vs. Interval Estimate",
-    "text": "👨🏽‍💻 Practice Point Estimate vs. Interval Estimate\nLet’s estimate the average height of a population using a sample. We’ll calculate both a point estimate and a confidence interval (interval estimate) for the mean."
-  },
-  {
-    "objectID": "research-methods.html#your-turn",
-    "href": "research-methods.html#your-turn",
-    "title": "Research  Methods",
-    "section": "🤯 Your Turn",
-    "text": "🤯 Your Turn\nWrite short notes about these key terms and arrange them in the order they should be done:\n\n\n\nTheory\nHypothesis\nPrediction\nVariables\nGeneralization\n\n\n\nSample\nParmeters\nPopulation\nRepresentative Sample\nSampling Error\n\n\n\n\n\n−+\n15:00"
-  },
-  {
-    "objectID": "research-methods.html#references",
-    "href": "research-methods.html#references",
-    "title": "Research  Methods",
-    "section": "References",
-    "text": "References\n\n\n\n\nDeichsel, Adrian, Lukas Münch, and Brenda Laky. 2024. “Study Designs, Levels of Evidence, and Scientific biasStudiendesign, Evidenzlevel Und Wissenschaftlicher Bias.” Arthroskopie 37 (April). https://doi.org/10.1007/s00142-024-00681-y.\n\n\nJames, Gareth, Daniela Witten, Trevor Hastie, and Robert Tibshirani. 2017. An Introduction to Statistical Learning: With Applications in R. 1st ed. 2013, Corr. 7th printing 2017 edition. New York: Springer."
-  },
-  {
     "objectID": "thank-you.html#section",
     "href": "thank-you.html#section",
-    "title": "Thank You!  Ceremony",
+    "title": "THANK YOU!  Ceremony",
     "section": "",
-    "text": "Gyanjyoti Savitribai Phule🌺 🙏🏽 🌼\n\n\n\n\n\n\n\n\n\n\n\n\n\nMata Ramabai Ambedkar🌺 🙏🏽 🌼\n\n\n\nSavitribai Ramabai (SARA) Institute of Data Science"
+    "text": "GYAN JYOTI SAVITRIBAI PHULE (1831-1897)🌺 🙏🏽 🌼\n\n\n\n\n\n\n\n\n\n\n\n\n\nMATA RAMABAI AMBEDKAR (1898-1935)🌺 🙏🏽 🌼\n\n\n\nSavitribai Ramabai (SARA) Institute of Data Science"
   },
   {
-    "objectID": "thank-you.html#section-1",
-    "href": "thank-you.html#section-1",
-    "title": "Thank You!  Ceremony",
-    "section": "",
-    "text": "Dr. Ajay Kumar KoliExecutive Director, SARA\n\n\n\n\n\n\nDr. Kiran KoliDirector, SARA"
+    "objectID": "thank-you.html#overview",
+    "href": "thank-you.html#overview",
+    "title": "THANK YOU!  Ceremony",
+    "section": "Overview",
+    "text": "Overview\n\n00 participants attended.\nAround 40 hours of teaching.\n05 days of food and accommodation."
   },
   {
-    "objectID": "thank-you.html#sara-statistics-winter-school",
-    "href": "thank-you.html#sara-statistics-winter-school",
-    "title": "Thank You!  Ceremony",
-    "section": "SARA Statistics Winter School",
-    "text": "SARA Statistics Winter School\n\nRegistered: 12; Attended = 11.\n30-35 hours of teaching data science.\n07 days of food and accommodation for all the participants.\nProvided fellowship around 26 thousand rupees to 11 participants."
-  },
-  {
-    "objectID": "thank-you.html#section-2",
-    "href": "thank-you.html#section-2",
-    "title": "Thank You!  Ceremony",
+    "objectID": "thank-you.html#section-3",
+    "href": "thank-you.html#section-3",
+    "title": "THANK YOU!  Ceremony",
     "section": "",
     "text": "The Ambedkar Educational Society Sonipat"
   },
   {
-    "objectID": "thank-you.html#sara-supporters",
-    "href": "thank-you.html#sara-supporters",
-    "title": "Thank You!  Ceremony",
-    "section": "SARA Supporters",
-    "text": "SARA Supporters\n\n\n\nMr. Lalit Kumar, Gurgaon\nMrs. Kamlesh Devi, Rohtak\nMr. Jai Bhagwan Bhadoria, Sonipat.\nMr. Devender Kumar, Sonipat.\nMr. Raj Singh Poriya, Sonipat.\nMr. Mukesh Yadav, Delhi.\nMr. Bhupender Kumar, Sonipat.\nDr. Prof. Satyendra Kumar, Prayagraj.\nMr. Jai Bhagwan Bhadoria, Sonipat.\nMr. Devender Kumar, Sonipat.\nMr. Raj Singh Poriya, Sonipat.\nMr. Mukesh Yadav, Delhi.\n\n\n\nMr. Bhupender Kumar, Sonipat.\nMrs. Jamuna Ingle, Nashik.\nMr. Pravindra, Hyderabad.\nCol. Sawant, Belgaon.\nProf. Anil, NDRI.\nMr. Satpal Dahiya, Sonipat.\nMr. Tushar Meshram, Bengaluru.\nDr. Amit Bansode, Maharashtra.\nMr. Anand Pal Ahlawat, Sonipat.\nMr. Satyawan Bhatia, Sonipat.\nMr. Kuldeep Raj, Sonipat.\nMrs. Vandana Kumari, New Delhi."
-  },
-  {
-    "objectID": "scales-practice.html",
-    "href": "scales-practice.html",
-    "title": "Variables & Measurement",
-    "section": "",
-    "text": "Gender:\n\n# Create a nominal variable\ngender &lt;- factor(c(\"Male\", \"Female\", \"Female\", \"Male\", \"Male\"))\n\n# Check the structure of the variable\nstr(gender)\n\n Factor w/ 2 levels \"Female\",\"Male\": 2 1 1 2 2\n\n# Print the variable\nprint(gender)\n\n[1] Male   Female Female Male   Male  \nLevels: Female Male\n\n\nMarital Status:\n\n# Create a nominal variable\nmarital_status &lt;- factor(c(\"Single\", \"Married\", \"Single\", \"Divorced\", \"Widowed\"))\n\n# Print the variable\nprint(marital_status)\n\n[1] Single   Married  Single   Divorced Widowed \nLevels: Divorced Married Single Widowed\n\n# Check the levels\nlevels(marital_status)\n\n[1] \"Divorced\" \"Married\"  \"Single\"   \"Widowed\" \n\n\nEye Color:\n\n# Create a nominal variable\neye_color &lt;- factor(c(\"Blue\", \"Brown\", \"Green\", \"Brown\", \"Blue\"))\n\n# Print the variable\nprint(eye_color)\n\n[1] Blue  Brown Green Brown Blue \nLevels: Blue Brown Green\n\n# Tabulate the frequency of each category\ntable(eye_color)\n\neye_color\n Blue Brown Green \n    2     2     1 \n\n\nDataset:\n\n# Create a data frame with nominal variables\ndata &lt;- data.frame(\n  ID = 1:5,\n  Gender = factor(c(\"Male\", \"Female\", \"Female\", \"Male\", \"Male\")),\n  Marital_Status = factor(c(\"Single\", \"Married\", \"Single\", \"Divorced\", \"Widowed\")),\n  Eye_Color = factor(c(\"Blue\", \"Brown\", \"Green\", \"Brown\", \"Blue\"))\n)\n\n# Print the data\nprint(data)\n\n  ID Gender Marital_Status Eye_Color\n1  1   Male         Single      Blue\n2  2 Female        Married     Brown\n3  3 Female         Single     Green\n4  4   Male       Divorced     Brown\n5  5   Male        Widowed      Blue\n\n\n\n\n\n\n# Create a nominal variable\nmarital_status &lt;- factor(c(\"Single\", \"Married\", \"Single\", \"Divorced\", \"Widowed\"))\n\n# Bar plot for marital status\nbarplot(table(marital_status),\n  main = \"Marital Status Distribution\",\n  col = \"lightblue\",\n  ylab = \"Frequency\",\n  xlab = \"Marital Status\"\n)\n\n\n\n\n\n\n\n\n\n\n\nFrequency Table:\n\n# Frequency table for gender\ntable(gender)\n\ngender\nFemale   Male \n     2      3 \n\n# Frequency table for marital status\ntable(marital_status)\n\nmarital_status\nDivorced  Married   Single  Widowed \n       1        1        2        1 \n\n\nProportions:\n\n# Proportion of each marital status\nprop.table(table(marital_status))\n\nmarital_status\nDivorced  Married   Single  Widowed \n     0.2      0.2      0.4      0.2"
-  },
-  {
-    "objectID": "scales-practice.html#nominal-variables",
-    "href": "scales-practice.html#nominal-variables",
-    "title": "Variables & Measurement",
-    "section": "",
-    "text": "Gender:\n\n# Create a nominal variable\ngender &lt;- factor(c(\"Male\", \"Female\", \"Female\", \"Male\", \"Male\"))\n\n# Check the structure of the variable\nstr(gender)\n\n Factor w/ 2 levels \"Female\",\"Male\": 2 1 1 2 2\n\n# Print the variable\nprint(gender)\n\n[1] Male   Female Female Male   Male  \nLevels: Female Male\n\n\nMarital Status:\n\n# Create a nominal variable\nmarital_status &lt;- factor(c(\"Single\", \"Married\", \"Single\", \"Divorced\", \"Widowed\"))\n\n# Print the variable\nprint(marital_status)\n\n[1] Single   Married  Single   Divorced Widowed \nLevels: Divorced Married Single Widowed\n\n# Check the levels\nlevels(marital_status)\n\n[1] \"Divorced\" \"Married\"  \"Single\"   \"Widowed\" \n\n\nEye Color:\n\n# Create a nominal variable\neye_color &lt;- factor(c(\"Blue\", \"Brown\", \"Green\", \"Brown\", \"Blue\"))\n\n# Print the variable\nprint(eye_color)\n\n[1] Blue  Brown Green Brown Blue \nLevels: Blue Brown Green\n\n# Tabulate the frequency of each category\ntable(eye_color)\n\neye_color\n Blue Brown Green \n    2     2     1 \n\n\nDataset:\n\n# Create a data frame with nominal variables\ndata &lt;- data.frame(\n  ID = 1:5,\n  Gender = factor(c(\"Male\", \"Female\", \"Female\", \"Male\", \"Male\")),\n  Marital_Status = factor(c(\"Single\", \"Married\", \"Single\", \"Divorced\", \"Widowed\")),\n  Eye_Color = factor(c(\"Blue\", \"Brown\", \"Green\", \"Brown\", \"Blue\"))\n)\n\n# Print the data\nprint(data)\n\n  ID Gender Marital_Status Eye_Color\n1  1   Male         Single      Blue\n2  2 Female        Married     Brown\n3  3 Female         Single     Green\n4  4   Male       Divorced     Brown\n5  5   Male        Widowed      Blue\n\n\n\n\n\n\n# Create a nominal variable\nmarital_status &lt;- factor(c(\"Single\", \"Married\", \"Single\", \"Divorced\", \"Widowed\"))\n\n# Bar plot for marital status\nbarplot(table(marital_status),\n  main = \"Marital Status Distribution\",\n  col = \"lightblue\",\n  ylab = \"Frequency\",\n  xlab = \"Marital Status\"\n)\n\n\n\n\n\n\n\n\n\n\n\nFrequency Table:\n\n# Frequency table for gender\ntable(gender)\n\ngender\nFemale   Male \n     2      3 \n\n# Frequency table for marital status\ntable(marital_status)\n\nmarital_status\nDivorced  Married   Single  Widowed \n       1        1        2        1 \n\n\nProportions:\n\n# Proportion of each marital status\nprop.table(table(marital_status))\n\nmarital_status\nDivorced  Married   Single  Widowed \n     0.2      0.2      0.4      0.2"
-  },
-  {
-    "objectID": "scales-practice.html#ordinal-variables",
-    "href": "scales-practice.html#ordinal-variables",
-    "title": "Variables & Measurement",
-    "section": "2 Ordinal Variables",
-    "text": "2 Ordinal Variables\n\n2.1 Creating Ordinal Variables\nEducation Level\nEducation levels often follow an order (e.g., “High School” &lt; “Bachelor’s” &lt; “Master’s” &lt; “Ph.D.”).\n\n# Create an ordinal variable for education level\neducation &lt;- factor(c(\"Bachelor's\", \"High School\", \"Master's\", \n                      \"Ph.D.\", \"Bachelor's\", \"High School\"),\n                    levels = c(\"High School\", \"Bachelor's\", \"Master's\", \"Ph.D.\"),\n                    ordered = TRUE)\n\n# Print the variable\nprint(education)\n\n[1] Bachelor's  High School Master's    Ph.D.       Bachelor's  High School\nLevels: High School &lt; Bachelor's &lt; Master's &lt; Ph.D.\n\n# Check the structure\nstr(education)\n\n Ord.factor w/ 4 levels \"High School\"&lt;..: 2 1 3 4 2 1\n\n\nCustomer Satisfaction Ratings\nSatisfaction levels like “Very Dissatisfied” &lt; “Dissatisfied” &lt; “Neutral” &lt; “Satisfied” &lt; “Very Satisfied” have an inherent order.\n\n# Create an ordinal variable for satisfaction\nsatisfaction &lt;- factor(c(\"Satisfied\", \"Neutral\", \"Very Satisfied\", \n                         \"Dissatisfied\", \"Neutral\", \"Satisfied\"),\n                       levels = c(\"Very Dissatisfied\", \"Dissatisfied\", \n                                  \"Neutral\", \"Satisfied\", \"Very Satisfied\"),\n                       ordered = TRUE)\n\n# Print the variable\nprint(satisfaction)\n\n[1] Satisfied      Neutral        Very Satisfied Dissatisfied   Neutral       \n[6] Satisfied     \n5 Levels: Very Dissatisfied &lt; Dissatisfied &lt; Neutral &lt; ... &lt; Very Satisfied\n\n# Check the levels\nlevels(satisfaction)\n\n[1] \"Very Dissatisfied\" \"Dissatisfied\"      \"Neutral\"          \n[4] \"Satisfied\"         \"Very Satisfied\"   \n\n\n\n\n2.2 Visualize Ordinal Variables\nBar Plot\nA bar plot is ideal for visualizing ordinal variables:\n\n# Bar plot for satisfaction\nbarplot(table(satisfaction), \n        main = \"Customer Satisfaction Levels\", \n        col = c(\"red\", \"orange\", \"yellow\", \"green\", \"blue\"), \n        xlab = \"Satisfaction Level\", \n        ylab = \"Frequency\")\n\n\n\n\n\n\n\n\nBox Plot with Ordinal Data\nIf ordinal variables are associated with a numeric variable, box plots can show trends.\n\n# Create a numeric variable (e.g., customer spending)\nspending &lt;- c(200, 150, 500, 100, 180, 220)\n\n# Box plot of spending by satisfaction\nboxplot(spending ~ satisfaction, \n        main = \"Spending by Customer Satisfaction\", \n        xlab = \"Satisfaction Level\", \n        ylab = \"Spending (in $)\", \n        col = \"lightblue\")\n\n\n\n\n\n\n\n\n\n\n2.3 Analyzing Ordinal Variables\nFrequency Table\n\n# Frequency table for satisfaction\ntable(satisfaction)\n\nsatisfaction\nVery Dissatisfied      Dissatisfied           Neutral         Satisfied \n                0                 1                 2                 2 \n   Very Satisfied \n                1 \n\n\nSummary Statistics for Ordinal Variables\nAlthough ordinal variables are not numeric, you can explore their distribution:\n\n# Summarize ordinal data\nsummary(satisfaction)\n\nVery Dissatisfied      Dissatisfied           Neutral         Satisfied \n                0                 1                 2                 2 \n   Very Satisfied \n                1 \n\n\n\n\n2.4 Testing Ordinal Variables\n\n# Create a data frame with ordinal variables\nsurvey_data &lt;- data.frame(\n  ID = 1:6,\n  Education = factor(c(\"High School\", \"Bachelor's\", \"Master's\", \n                       \"Ph.D.\", \"High School\", \"Bachelor's\"),\n                     levels = c(\"High School\", \"Bachelor's\", \"Master's\", \"Ph.D.\"),\n                     ordered = TRUE),\n  Satisfaction = factor(c(\"Neutral\", \"Satisfied\", \"Very Satisfied\", \n                          \"Dissatisfied\", \"Neutral\", \"Satisfied\"),\n                        levels = c(\"Very Dissatisfied\", \"Dissatisfied\", \n                                   \"Neutral\", \"Satisfied\", \"Very Satisfied\"),\n                        ordered = TRUE),\n  Spending = c(150, 200, 500, 120, 180, 250)\n)\n\n# Print the dataset\nprint(survey_data)\n\n  ID   Education   Satisfaction Spending\n1  1 High School        Neutral      150\n2  2  Bachelor's      Satisfied      200\n3  3    Master's Very Satisfied      500\n4  4       Ph.D.   Dissatisfied      120\n5  5 High School        Neutral      180\n6  6  Bachelor's      Satisfied      250\n\n\nCompare Groups\nOrdinal variables can be used to group and compare other variables.\n\n# Mean spending by education level\naggregate(Spending ~ Education, data = survey_data, FUN = mean)\n\n    Education Spending\n1 High School      165\n2  Bachelor's      225\n3    Master's      500\n4       Ph.D.      120\n\n\nCheck Correlation\nWhile ordinal variables are categorical, they can sometimes be treated as numeric for simple correlation checks.\n\n# Convert satisfaction to numeric and check correlation\ncor(as.numeric(survey_data$Satisfaction), survey_data$Spending)\n\n[1] 0.8709492"
-  },
-  {
-    "objectID": "scales-practice.html#interval-variables",
-    "href": "scales-practice.html#interval-variables",
-    "title": "Variables & Measurement",
-    "section": "3 Interval Variables",
-    "text": "3 Interval Variables\n\n3.1 Creating Interval Variables\nTemperature in Celsius\n\n# Create a vector for temperature\ntemperature &lt;- c(20, 15, 30, 25, 10, 18)\n\n# Print the variable\nprint(temperature)\n\n[1] 20 15 30 25 10 18\n\n# Check the structure\nstr(temperature)\n\n num [1:6] 20 15 30 25 10 18\n\n\nIQ Scores\n\n# Create a vector for IQ scores\niq_scores &lt;- c(110, 95, 120, 130, 105, 115)\n\n# Print the variable\nprint(iq_scores)\n\n[1] 110  95 120 130 105 115\n\n\nDates\nDates in interval form represent the time elapsed (e.g., days, months, years).\n\n# Create a vector for dates\ndates &lt;- as.Date(c(\"2024-01-01\", \"2024-01-10\", \"2024-01-15\", \n                   \"2024-02-01\", \"2024-02-15\"))\n\n# Calculate intervals (difference in days)\ndate_intervals &lt;- diff(dates)\nprint(date_intervals)\n\nTime differences in days\n[1]  9  5 17 14\n\n\n\n\n3.2 Analyzing Interval Variables\nSummary Statistics\n\n# Summary statistics for temperature\nsummary(temperature)\n\n   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. \n  10.00   15.75   19.00   19.67   23.75   30.00 \n\n# Summary statistics for IQ scores\nsummary(iq_scores)\n\n   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. \n   95.0   106.2   112.5   112.5   118.8   130.0 \n\n\nCalculating Differences\nSince interval variables allow meaningful differences, you can calculate and interpret these:\n\n# Difference in temperature\ntemperature_diff &lt;- diff(temperature)\nprint(temperature_diff)\n\n[1]  -5  15  -5 -15   8\n\n\n\n\n3.3 Visualizing Interval Variables\nHistogram\nA histogram shows the distribution of interval data.\n\n# Histogram for temperature\nhist(temperature, \n     main = \"Temperature Distribution\", \n     xlab = \"Temperature (°C)\", \n     col = \"lightblue\", \n     breaks = 5)\n\n\n\n\n\n\n\n\nLine Plot\nIf the data has a time component, a line plot is useful.\n\n# Line plot for temperature\nplot(temperature, \n     type = \"o\", \n     main = \"Temperature Trend\", \n     xlab = \"Day\", \n     ylab = \"Temperature (°C)\", \n     col = \"blue\", \n     pch = 16)\n\n\n\n\n\n\n\n\n\n\n3.4 Working with Dates as Interval Data\nCalculating Differences Between Dates\n\n# Calculate the interval in days\ndate_diff &lt;- as.numeric(diff(dates))\nprint(date_diff)\n\n[1]  9  5 17 14\n\n\nPlotting Dates\n\n# Create a line plot with dates\nplot(dates[-1], cumsum(date_diff), \n     type = \"o\", \n     main = \"Cumulative Days Over Time\", \n     xlab = \"Dates\", \n     ylab = \"Cumulative Days\", \n     col = \"green\", \n     pch = 16)\n\n\n\n\n\n\n\n\n\n\n3.5 Testing Interval Variables\n\n# Create a dataset\ninterval_data &lt;- data.frame(\n  ID = 1:6,\n  Temperature = c(20, 15, 30, 25, 10, 18),      # Interval variable\n  IQ_Score = c(110, 95, 120, 130, 105, 115),   # Interval variable\n  Date = as.Date(c(\"2024-01-01\", \"2024-01-10\", \"2024-01-15\", \n                   \"2024-02-01\", \"2024-02-15\", \"2024-03-01\"))\n)\n\n# Print the dataset\nprint(interval_data)\n\n  ID Temperature IQ_Score       Date\n1  1          20      110 2024-01-01\n2  2          15       95 2024-01-10\n3  3          30      120 2024-01-15\n4  4          25      130 2024-02-01\n5  5          10      105 2024-02-15\n6  6          18      115 2024-03-01\n\n\nCalculate Mean and Standard Deviation\n\n# Mean and SD for temperature\nmean_temp &lt;- mean(interval_data$Temperature)\nsd_temp &lt;- sd(interval_data$Temperature)\n\nprint(mean_temp)\n\n[1] 19.66667\n\nprint(sd_temp)\n\n[1] 7.118052\n\n\nCorrelation Between Two Interval Variables\n\n# Correlation between Temperature and IQ Score\ncor(interval_data$Temperature, interval_data$IQ_Score)\n\n[1] 0.7403257"
-  },
-  {
-    "objectID": "scales-practice.html#ratio-variables",
-    "href": "scales-practice.html#ratio-variables",
-    "title": "Variables & Measurement",
-    "section": "4 Ratio Variables",
-    "text": "4 Ratio Variables\nRatio variables are numerical variables where both differences and ratios between values are meaningful, and there is a true zero point.\n\n4.1 Creating Ratio Variables\nExample: Weight (in kg)\n\n# Create a vector for weight\nweight &lt;- c(60, 70, 55, 80, 90, 65)\n\n# Print the variable\nprint(weight)\n\n[1] 60 70 55 80 90 65\n\n# Check the structure\nstr(weight)\n\n num [1:6] 60 70 55 80 90 65\n\n\nExample: Distance Traveled (in km)\n\n# Create a vector for distance\ndistance &lt;- c(10, 20, 5, 15, 25, 30)\n\n# Print the variable\nprint(distance)\n\n[1] 10 20  5 15 25 30\n\n\nExample: Income (in INR)\n\n# Create a vector for income\nincome &lt;- c(25000, 40000, 30000, 45000, 50000, 35000)\n\n# Print the variable\nprint(income)\n\n[1] 25000 40000 30000 45000 50000 35000\n\n\n\n\n4.2 Analyzing Ratio Variables\nSummary Statistics\n\n# Summary statistics for weight\nsummary(weight)\n\n   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. \n  55.00   61.25   67.50   70.00   77.50   90.00 \n\n# Summary statistics for distance\nsummary(distance)\n\n   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. \n   5.00   11.25   17.50   17.50   23.75   30.00 \n\n\nCalculating Ratios\nRatios between two values are meaningful for ratio variables.\n\n# Ratio of the highest weight to the lowest weight\nmax(weight) / min(weight)\n\n[1] 1.636364\n\n# Ratio of the highest income to the lowest income\nmax(income) / min(income)\n\n[1] 2\n\n\nChecking Proportional Relationships\n\n# Proportion of distances to the total distance\ndistance_prop &lt;- distance / sum(distance)\nprint(distance_prop)\n\n[1] 0.09523810 0.19047619 0.04761905 0.14285714 0.23809524 0.28571429\n\n\n\n\n4.3 Visualizing Ratio Variables\nHistogram\nA histogram helps visualize the distribution of ratio variables.\n\n# Histogram for weight\nhist(weight, \n     main = \"Weight Distribution\", \n     xlab = \"Weight (kg)\", \n     col = \"lightblue\", \n     breaks = 5)\n\n\n\n\n\n\n\n\nBox Plot\nBox plots are useful to show the range and outliers in ratio data.\n\n# Box plot for income\nboxplot(income, \n        main = \"Income Distribution\", \n        ylab = \"Income (INR)\", \n        col = \"pink\")\n\n\n\n\n\n\n\n\nScatter Plot\nA scatter plot can show relationships between two ratio variables.\n\n# Scatter plot of weight vs. distance\nplot(weight, distance, \n     main = \"Weight vs. Distance Traveled\", \n     xlab = \"Weight (kg)\", \n     ylab = \"Distance Traveled (km)\", \n     col = \"blue\", \n     pch = 16)\n\n\n\n\n\n\n\n\n\n\n4.4 Testing Ratio Variables\nDataset\n\n# Create a dataset with ratio variables\nratio_data &lt;- data.frame(\n  ID = 1:6,\n  Weight = weight,                    # Ratio variable\n  Distance = distance,                # Ratio variable\n  Income = income,                    # Ratio variable\n  Time = c(2, 4, 1, 3, 5, 6)          # Ratio variable (time in hours)\n)\n\n# Print the dataset\nprint(ratio_data)\n\n  ID Weight Distance Income Time\n1  1     60       10  25000    2\n2  2     70       20  40000    4\n3  3     55        5  30000    1\n4  4     80       15  45000    3\n5  5     90       25  50000    5\n6  6     65       30  35000    6\n\n\nMean and Standard Deviation\n\n# Mean and SD for weight\nmean_weight &lt;- mean(ratio_data$Weight)\nsd_weight &lt;- sd(ratio_data$Weight)\n\nprint(mean_weight)\n\n[1] 70\n\nprint(sd_weight)\n\n[1] 13.0384\n\n\nCorrelation Between Two Ratio Variables\n\n# Correlation between Weight and Distance\ncor(ratio_data$Weight, ratio_data$Distance)\n\n[1] 0.532948\n\n# Correlation between Income and Time\ncor(ratio_data$Income, ratio_data$Time)\n\n[1] 0.5428571\n\n\nProportional Comparisons\n\n# Proportion of each person's income to the total income\nincome_prop &lt;- ratio_data$Income / sum(ratio_data$Income)\nprint(income_prop)\n\n[1] 0.1111111 0.1777778 0.1333333 0.2000000 0.2222222 0.1555556\n\n\n\n\n4.5 Visualizing Ratio Relationships\nBar Plot for Proportions\n\n# Bar plot for income proportions\nbarplot(income_prop, \n        main = \"Income Proportions\", \n        names.arg = ratio_data$ID, \n        xlab = \"ID\", \n        ylab = \"Proportion of Total Income\", \n        col = \"cyan\")\n\n\n\n\n\n\n\n\nLine Plot for Trend\n\n# Line plot of time vs. distance\nplot(ratio_data$Time, ratio_data$Distance, \n     type = \"o\", \n     main = \"Distance Traveled Over Time\", \n     xlab = \"Time (hours)\", \n     ylab = \"Distance (km)\", \n     col = \"green\", \n     pch = 16)"
-  },
-  {
     "objectID": "r-intro.html#reproducible-research",
     "href": "r-intro.html#reproducible-research",
-    "title": "R, Quarto & RStudio",
+    "title": "R, RStudio, & Quarto",
     "section": "Reproducible Research",
     "text": "Reproducible Research\n\n\n“Research is reproducible when others can reproduce the results of a scientific study given only the original data, code, and documentation.”\n\n\n\nSource: (Alston and Rick 2021)"
   },
   {
     "objectID": "r-intro.html#reproducible-research-requires",
     "href": "r-intro.html#reproducible-research-requires",
-    "title": "R, Quarto & RStudio",
+    "title": "R, RStudio, & Quarto",
     "section": "Reproducible Research Requires:",
     "text": "Reproducible Research Requires:\n\nData - access to original data.\nCode - others can read, learn & replicate results.\nDocumentation - complete information about how to conduct the study."
   },
   {
     "objectID": "r-intro.html#data-science-project",
     "href": "r-intro.html#data-science-project",
-    "title": "R, Quarto & RStudio",
+    "title": "R, RStudio, & Quarto",
     "section": "Data Science Project",
     "text": "Data Science Project\n\n\n\n\n\n\n\n\nImage source: Wickham, Cetinkaya-Rundel, and Grolemund (2023)"
   },
   {
     "objectID": "r-intro.html#r-programming-language",
     "href": "r-intro.html#r-programming-language",
-    "title": "R, Quarto & RStudio",
+    "title": "R, RStudio, & Quarto",
     "section": "R Programming Language",
     "text": "R Programming Language\n \n\n\n\n\n\n“R is a free software environment for statistical computing and graphics.”\n\n\n\nDownload R from this link: https://www.r-project.org/"
   },
   {
-    "objectID": "r-intro.html#practice-r-software",
-    "href": "r-intro.html#practice-r-software",
-    "title": "R, Quarto & RStudio",
-    "section": "Practice R Software",
-    "text": "Practice R Software\n\nAddition\nSubtraction\nSequence\nCombine\nFunction structure\nCreate an object"
+    "objectID": "r-intro.html#the-top-10-languages-2026",
+    "href": "r-intro.html#the-top-10-languages-2026",
+    "title": "R, RStudio, & Quarto",
+    "section": "The Top 10 Languages 2026",
+    "text": "The Top 10 Languages 2026\n\n\n\nTIOBE Index"
+  },
+  {
+    "objectID": "r-intro.html#practice-r-console",
+    "href": "r-intro.html#practice-r-console",
+    "title": "R, RStudio, & Quarto",
+    "section": "Practice R Console",
+    "text": "Practice R Console\n\nAddition\nSubtraction\nMultiplication\nDivision"
   },
   {
     "objectID": "r-intro.html#rstudio-ide",
     "href": "r-intro.html#rstudio-ide",
-    "title": "R, Quarto & RStudio",
+    "title": "R, RStudio, & Quarto",
     "section": "RStudio IDE",
-    "text": "RStudio IDE\n \n\n\n\n\n“The RStudio integrated development environment (IDE) is a set of tools built to help you be more productive with R and Python.”\n\n\n\nDownload R from this link: https://posit.co/download/rstudio-desktop/"
+    "text": "RStudio IDE\n \n\n\n\n\n “The RStudio integrated development environment (IDE) is a set of tools built to help you be more productive with R and Python.”\n\n\n\nDownload RStudio from this link: https://posit.co/download/rstudio-desktop/"
   },
   {
-    "objectID": "r-intro.html#practice-rstudio",
-    "href": "r-intro.html#practice-rstudio",
-    "title": "R, Quarto & RStudio",
-    "section": "Practice RStudio",
-    "text": "Practice RStudio\n\nAn overview of RStudio IDE.\nCreate project in RStudio."
+    "objectID": "r-intro.html#the-four-main-panes",
+    "href": "r-intro.html#the-four-main-panes",
+    "title": "R, RStudio, & Quarto",
+    "section": "The Four Main Panes",
+    "text": "The Four Main Panes"
   },
   {
-    "objectID": "r-intro.html#quarto-publishing-system",
-    "href": "r-intro.html#quarto-publishing-system",
-    "title": "R, Quarto & RStudio",
-    "section": "Quarto Publishing System",
-    "text": "Quarto Publishing System\n\n\n\n\n\n“An open-source scientific and technical publishing system to prepare articles & reports; presentations; dashboards; websites; books; and interactive documents.\n\n\n\nTo know more about Quarto: https://quarto.org/"
+    "objectID": "r-intro.html#sourcescript-editor",
+    "href": "r-intro.html#sourcescript-editor",
+    "title": "R, RStudio, & Quarto",
+    "section": "Source/Script Editor",
+    "text": "Source/Script Editor"
+  },
+  {
+    "objectID": "r-intro.html#sourcescript-editor-1",
+    "href": "r-intro.html#sourcescript-editor-1",
+    "title": "R, RStudio, & Quarto",
+    "section": "Source/Script Editor",
+    "text": "Source/Script Editor\n\nWhere you write and save R scripts (.R files, .qmd files etc.)\nCode is preserved for future use\nCan run line-by-line or entire script"
+  },
+  {
+    "objectID": "r-intro.html#console",
+    "href": "r-intro.html#console",
+    "title": "R, RStudio, & Quarto",
+    "section": "Console",
+    "text": "Console"
+  },
+  {
+    "objectID": "r-intro.html#console-1",
+    "href": "r-intro.html#console-1",
+    "title": "R, RStudio, & Quarto",
+    "section": "Console",
+    "text": "Console\n\nWhere R code actually executes\nResults appear immediately\nGood for quick tests\nCommands here are NOT automatically saved"
+  },
+  {
+    "objectID": "r-intro.html#environmenthistory",
+    "href": "r-intro.html#environmenthistory",
+    "title": "R, RStudio, & Quarto",
+    "section": "Environment/History",
+    "text": "Environment/History"
+  },
+  {
+    "objectID": "r-intro.html#environmenthistory-1",
+    "href": "r-intro.html#environmenthistory-1",
+    "title": "R, RStudio, & Quarto",
+    "section": "Environment/History",
+    "text": "Environment/History\n\nEnvironment tab: Shows all objects/variables you’ve created\nHistory tab: Shows all commands you’ve run\nImportant concept: Objects in the Environment pane are available for the duration of the current session, but are removed upon restarting R or RStudio"
+  },
+  {
+    "objectID": "r-intro.html#filesplotspackageshelp",
+    "href": "r-intro.html#filesplotspackageshelp",
+    "title": "R, RStudio, & Quarto",
+    "section": "Files/Plots/Packages/Help",
+    "text": "Files/Plots/Packages/Help"
+  },
+  {
+    "objectID": "r-intro.html#filesplotspackageshelp-1",
+    "href": "r-intro.html#filesplotspackageshelp-1",
+    "title": "R, RStudio, & Quarto",
+    "section": "Files/Plots/Packages/Help",
+    "text": "Files/Plots/Packages/Help\n\nFiles: Browse your computer files\nPlots: View visualizations\nPackages: Install and manage R packages\nHelp: Access documentation\nViewer: Display HTML outputs"
+  },
+  {
+    "objectID": "r-intro.html#creating-and-saving-scripts",
+    "href": "r-intro.html#creating-and-saving-scripts",
+    "title": "R, RStudio, & Quarto",
+    "section": "Creating and Saving Scripts",
+    "text": "Creating and Saving Scripts\n\nScripts are “real” - with R scripts and data files, you can recreate the environment\nReproducible research\nEasy to share with others\nSave regularly: Ctrl+S (Win) or Cmd+S (Mac)"
+  },
+  {
+    "objectID": "r-intro.html#working-directory-and-projects",
+    "href": "r-intro.html#working-directory-and-projects",
+    "title": "R, RStudio, & Quarto",
+    "section": "Working Directory and Projects",
+    "text": "Working Directory and Projects\n\nWorking directory = where R looks for files by default\nProjects automatically set working directory\nKeeps everything organized in one place"
+  },
+  {
+    "objectID": "r-intro.html#open-rstudio",
+    "href": "r-intro.html#open-rstudio",
+    "title": "R, RStudio, & Quarto",
+    "section": "Open RStudio",
+    "text": "Open RStudio"
+  },
+  {
+    "objectID": "r-intro.html#rstudio-without-project",
+    "href": "r-intro.html#rstudio-without-project",
+    "title": "R, RStudio, & Quarto",
+    "section": "RStudio Without Project",
+    "text": "RStudio Without Project"
+  },
+  {
+    "objectID": "r-intro.html#rstudio-without-project-1",
+    "href": "r-intro.html#rstudio-without-project-1",
+    "title": "R, RStudio, & Quarto",
+    "section": "RStudio Without Project",
+    "text": "RStudio Without Project"
+  },
+  {
+    "objectID": "r-intro.html#rstudio-project-helps",
+    "href": "r-intro.html#rstudio-project-helps",
+    "title": "R, RStudio, & Quarto",
+    "section": "RStudio Project Helps:",
+    "text": "RStudio Project Helps:\n\n\n\n“to divide your work into multiple contexts, each with their own”\n\nworking directory,\nworkspace,\nhistory, and\nsource documents.”\n\n\n\n\n\nSource: RStudio & artwork by Allison Horst"
+  },
+  {
+    "objectID": "r-intro.html#create-rstudio-project",
+    "href": "r-intro.html#create-rstudio-project",
+    "title": "R, RStudio, & Quarto",
+    "section": "Create RStudio project",
+    "text": "Create RStudio project"
+  },
+  {
+    "objectID": "r-intro.html#create-rstudio-project-1",
+    "href": "r-intro.html#create-rstudio-project-1",
+    "title": "R, RStudio, & Quarto",
+    "section": "Create RStudio project",
+    "text": "Create RStudio project"
+  },
+  {
+    "objectID": "r-intro.html#in-case-anything-goes-wrong...",
+    "href": "r-intro.html#in-case-anything-goes-wrong...",
+    "title": "R, RStudio, & Quarto",
+    "section": "In case anything goes wrong\\(...\\)",
+    "text": "In case anything goes wrong\\(...\\)"
+  },
+  {
+    "objectID": "r-intro.html#create-rstudio-project-2",
+    "href": "r-intro.html#create-rstudio-project-2",
+    "title": "R, RStudio, & Quarto",
+    "section": "Create RStudio Project",
+    "text": "Create RStudio Project"
+  },
+  {
+    "objectID": "r-intro.html#create-rstudio-project-3",
+    "href": "r-intro.html#create-rstudio-project-3",
+    "title": "R, RStudio, & Quarto",
+    "section": "Create RStudio project",
+    "text": "Create RStudio project"
+  },
+  {
+    "objectID": "r-intro.html#create-rstudio-project-4",
+    "href": "r-intro.html#create-rstudio-project-4",
+    "title": "R, RStudio, & Quarto",
+    "section": "Create RStudio project",
+    "text": "Create RStudio project"
+  },
+  {
+    "objectID": "r-intro.html#create-rstudio-project-5",
+    "href": "r-intro.html#create-rstudio-project-5",
+    "title": "R, RStudio, & Quarto",
+    "section": "Create RStudio project",
+    "text": "Create RStudio project"
+  },
+  {
+    "objectID": "r-intro.html#create-rstudio-project-6",
+    "href": "r-intro.html#create-rstudio-project-6",
+    "title": "R, RStudio, & Quarto",
+    "section": "Create RStudio project",
+    "text": "Create RStudio project"
+  },
+  {
+    "objectID": "r-intro.html#rstudio-project-name",
+    "href": "r-intro.html#rstudio-project-name",
+    "title": "R, RStudio, & Quarto",
+    "section": "RStudio project “name”",
+    "text": "RStudio project “name”"
+  },
+  {
+    "objectID": "r-intro.html#rstudio-project-path",
+    "href": "r-intro.html#rstudio-project-path",
+    "title": "R, RStudio, & Quarto",
+    "section": "RStudio project “path”",
+    "text": "RStudio project “path”"
+  },
+  {
+    "objectID": "r-intro.html#rstudio-project",
+    "href": "r-intro.html#rstudio-project",
+    "title": "R, RStudio, & Quarto",
+    "section": "RStudio project",
+    "text": "RStudio project"
+  },
+  {
+    "objectID": "r-intro.html#installing-and-loading-packages",
+    "href": "r-intro.html#installing-and-loading-packages",
+    "title": "R, RStudio, & Quarto",
+    "section": "Installing and Loading Packages",
+    "text": "Installing and Loading Packages\n\nInstalling (only once):\n\ninstall.packages(\"tidyverse\")\n\nLoading (every session):\n\nlibrary(tidyverse)\n\n\nMETACRAN"
+  },
+  {
+    "objectID": "r-intro.html#getting-help",
+    "href": "r-intro.html#getting-help",
+    "title": "R, RStudio, & Quarto",
+    "section": "Getting Help",
+    "text": "Getting Help\n\n?function_name - Opens help documentation\nHelp tab (bottom-right pane)\nTab key for auto-completion and hints"
+  },
+  {
+    "objectID": "r-intro.html#comments",
+    "href": "r-intro.html#comments",
+    "title": "R, RStudio, & Quarto",
+    "section": "Comments (#)",
+    "text": "Comments (#)\n\n# This is a comment - R ignores this line\nx &lt;- 5  # Comments can go after code too"
+  },
+  {
+    "objectID": "r-intro.html#essential-keyboard-shortcuts",
+    "href": "r-intro.html#essential-keyboard-shortcuts",
+    "title": "R, RStudio, & Quarto",
+    "section": "Essential Keyboard Shortcuts",
+    "text": "Essential Keyboard Shortcuts\n\n\n\n\nAction\nWindows/Linux\nMac\n\n\n\n\nRun current line\nCtrl + Enter\nCmd + Enter\n\n\nRun entire script\nCtrl + Shift + Enter\nCmd + Shift + Enter\n\n\nSave script\nCtrl + S\nCmd + S\n\n\nNew script\nCtrl + Shift + N\nCmd + Shift + N\n\n\nAssignment operator &lt;-\nAlt + -\nOption + -\n\n\nComment/Uncomment\nCtrl + Shift + C\nCmd + Shift + C"
+  },
+  {
+    "objectID": "r-intro.html#practice-r-software",
+    "href": "r-intro.html#practice-r-software",
+    "title": "R, RStudio, & Quarto",
+    "section": "Practice R Software",
+    "text": "Practice R Software\n\nAddition\nSubtraction\nSequence\nFunction structure\nCombine\nCreate an object\n\n\n\nArtwork by Allison Horst"
+  },
+  {
+    "objectID": "r-intro.html#quarto",
+    "href": "r-intro.html#quarto",
+    "title": "R, RStudio, & Quarto",
+    "section": "Quarto",
+    "text": "Quarto\n\n“An open-source scientific and technical publishing system”\n\n\nQuarto can produce a wide variety of output formats:\n\n Articles & Reports\n Presentations\n Interactive Docs\n Websites\n Books\n\n\n\n\nSource: Quarto website"
+  },
+  {
+    "objectID": "r-intro.html#quarto-structure",
+    "href": "r-intro.html#quarto-structure",
+    "title": "R, RStudio, & Quarto",
+    "section": "Quarto Structure",
+    "text": "Quarto Structure"
   },
   {
     "objectID": "r-intro.html#practice-quarto-using-rstudio",
     "href": "r-intro.html#practice-quarto-using-rstudio",
-    "title": "R, Quarto & RStudio",
+    "title": "R, RStudio, & Quarto",
     "section": "Practice Quarto using RStudio",
-    "text": "Practice Quarto using RStudio\n\nCreate a Quarto document with HTML format.\nExplain YAML, Text and Code Chunk\n\nTo know about the all Quarto YAML options.\nTo know about the Quarto text formating"
-  },
-  {
-    "objectID": "r-intro.html#r-packages",
-    "href": "r-intro.html#r-packages",
-    "title": "R, Quarto & RStudio",
-    "section": "R Packages",
-    "text": "R Packages\n\n\n\n\n\n\n\n“a collection of functions, data and documentation that extends the capabilties of base R.” (Wickham, Cetinkaya-Rundel, and Grolemund 2023)\n\n\n\nImage source: On 29 Nov 2024 Metacran | CRAN."
-  },
-  {
-    "objectID": "r-intro.html#practice-quarto",
-    "href": "r-intro.html#practice-quarto",
-    "title": "R, Quarto & RStudio",
-    "section": "Practice Quarto",
-    "text": "Practice Quarto\n\nExplain Code Chunk\n\nTo know about the Quarto code chunk options\n\nInstall tidyverse package."
+    "text": "Practice Quarto using RStudio\n\nCreate a Quarto document with HTML format.\nExplain YAML, more about Quarto YAML options.\nExplain Text, more about Quarto text formating\nExplain Code Chunk; more about the Quarto code chunk options"
   },
   {
     "objectID": "r-intro.html#your-turn",
     "href": "r-intro.html#your-turn",
-    "title": "R, Quarto & RStudio",
+    "title": "R, RStudio, & Quarto",
     "section": "🤯 Your Turn",
-    "text": "🤯 Your Turn\n\n\n\n−+\n15:00"
+    "text": "🤯 Your Turn"
   },
   {
     "objectID": "r-intro.html#references",
     "href": "r-intro.html#references",
-    "title": "R, Quarto & RStudio",
+    "title": "R, RStudio, & Quarto",
     "section": "References",
     "text": "References\n\n\n\n\nAlston, Jesse M., and Jessica A. Rick. 2021. “A Beginner’s Guide to Conducting Reproducible Research.” The Bulletin of the Ecological Society of America 102 (2): e01801. https://doi.org/10.1002/bes2.1801.\n\n\nWickham, Hadley, Mine Cetinkaya-Rundel, and Garrett Grolemund. 2023. R for Data Science: Import, Tidy, Transform, Visualize, and Model Data. 2nd ed. edition. Beijing Boston Farnham Sebastopol Tokyo: O’Reilly Media."
   },
   {
-    "objectID": "scales.html#simple-maths",
-    "href": "scales.html#simple-maths",
-    "title": "Scales of  Measurement",
-    "section": "Simple Maths",
-    "text": "Simple Maths\n\\[\n1 + 2\\times3^2\n\\]\n\nAnswer: 19"
+    "objectID": "central-tendency.html#measures-of-central-tendency",
+    "href": "central-tendency.html#measures-of-central-tendency",
+    "title": "Central Tendency",
+    "section": "Measures of Central Tendency",
+    "text": "Measures of Central Tendency\n\nDescribe the center or typical value of a dataset.\n\n\n\nThe three most common measures are:\n\nMean (Average).\nMedian (Middle value).\nMode (Most frequent value)."
   },
   {
-    "objectID": "scales.html#bodmas",
-    "href": "scales.html#bodmas",
-    "title": "Scales of  Measurement",
-    "section": "BODMAS",
-    "text": "BODMAS\n\nBrackets\nOrder (Power)\nDivide\nMultiplication\nAddition\nSubtraction"
+    "objectID": "central-tendency.html#mean",
+    "href": "central-tendency.html#mean",
+    "title": "Central Tendency",
+    "section": "Mean",
+    "text": "Mean\n\nThe mean is calculated as the sum of all data points divided by the number of points. It’s sensitive to extreme values (outliers).\n\n\n\n\\[\n\\bar{X} = \\frac{\\displaystyle\\sum_{i=1}^nx_i}{\\displaystyle n}\n\\]"
   },
   {
-    "objectID": "scales.html#what-will-be-the-answer-to-this",
-    "href": "scales.html#what-will-be-the-answer-to-this",
-    "title": "Scales of  Measurement",
-    "section": "What will be the answer to this?",
-    "text": "What will be the answer to this?\n\\[\n10 + \\frac{2(3+1)^2}{8} - 5\n\\]\n\n\\[\n10 + \\frac{2\\times16}{8} - 5\n\\]\n\n\nAnswer: 9"
+    "objectID": "central-tendency.html#median",
+    "href": "central-tendency.html#median",
+    "title": "Central Tendency",
+    "section": "Median",
+    "text": "Median\n\nThe median is the middle value of a sorted dataset. It is robust to outliers.\n\n\n\nIf the dataset has an even number of elements, the median is the average of the two middle values."
   },
   {
-    "objectID": "scales.html#lets-understand-this",
-    "href": "scales.html#lets-understand-this",
-    "title": "Scales of  Measurement",
-    "section": "Let’s Understand this",
-    "text": "Let’s Understand this\n\\[\n\\sum_{i=1}^n x_i\n\\]"
+    "objectID": "central-tendency.html#mode",
+    "href": "central-tendency.html#mode",
+    "title": "Central Tendency",
+    "section": "Mode",
+    "text": "Mode\n\nThe mode is the most frequently occurring value in the dataset."
   },
   {
-    "objectID": "scales.html#lets-understand-this-1",
-    "href": "scales.html#lets-understand-this-1",
-    "title": "Scales of  Measurement",
-    "section": "Let’s Understand this",
-    "text": "Let’s Understand this\n\\[\n\\sum_{i=1}^n x_i \\\\ = 10 + 6 \\\\ = 16\n\\]"
+    "objectID": "central-tendency.html#problems-with-mode",
+    "href": "central-tendency.html#problems-with-mode",
+    "title": "Central Tendency",
+    "section": "Problems with Mode",
+    "text": "Problems with Mode\n\nUnlike the mean and median, there can be no mode, one mode, or multiple modes."
   },
   {
-    "objectID": "scales.html#lets-try-this",
-    "href": "scales.html#lets-try-this",
-    "title": "Scales of  Measurement",
-    "section": "Let’s Try this",
-    "text": "Let’s Try this\n\\[\n\\sum_{i=1}^n x^2_i\n\\]"
+    "objectID": "central-tendency.html#key-insights",
+    "href": "central-tendency.html#key-insights",
+    "title": "Central Tendency",
+    "section": "Key Insights",
+    "text": "Key Insights\n\nMean: Best for symmetric datasets but affected by outliers.\nMedian: Robust to outliers, useful for skewed data.\nMode: Describes the most common value, useful for categorical data."
   },
   {
-    "objectID": "scales.html#lets-try-this-1",
-    "href": "scales.html#lets-try-this-1",
-    "title": "Scales of  Measurement",
-    "section": "Let’s Try this",
-    "text": "Let’s Try this\n\\[\n\\sum_{i=1}^n x^2_i \\\\ = 10^2 + 6^2 \\\\ = 100 + 36 \\\\ = 136\n\\]"
+    "objectID": "central-tendency.html#mean-the-balancing-point",
+    "href": "central-tendency.html#mean-the-balancing-point",
+    "title": "Central Tendency",
+    "section": "Mean the Balancing Point",
+    "text": "Mean the Balancing Point"
   },
   {
-    "objectID": "scales.html#lets-try-this-2",
-    "href": "scales.html#lets-try-this-2",
-    "title": "Scales of  Measurement",
-    "section": "Let’s Try this",
-    "text": "Let’s Try this\n\\[\n\\left( \\sum_{i=1}^n x_i \\right )^2\n\\]"
-  },
-  {
-    "objectID": "scales.html#lets-try-this-3",
-    "href": "scales.html#lets-try-this-3",
-    "title": "Scales of  Measurement",
-    "section": "Let’s Try this",
-    "text": "Let’s Try this\n\\[\n\\left( \\sum_{i=1}^n x_i \\right )^2 \\\\ = (10+6)^2 \\\\ = 16^2 \\\\ = 256\n\\]"
-  },
-  {
-    "objectID": "scales.html#scales-of-measurement",
-    "href": "scales.html#scales-of-measurement",
-    "title": "Scales of  Measurement",
-    "section": "Scales of Measurement:",
-    "text": "Scales of Measurement:\n\n\nThe scales of measurement are a way to classify data based on their attributes and the mathematical operations that can be performed on them."
-  },
-  {
-    "objectID": "scales.html#scales-of-measurement-1",
-    "href": "scales.html#scales-of-measurement-1",
-    "title": "Scales of  Measurement",
-    "section": "Scales of Measurement:",
-    "text": "Scales of Measurement:\nThey are classified into four types:\n\nNominal scale.\nOrdinal scale.\nInterval scale.\nRatio scale."
-  },
-  {
-    "objectID": "scales.html#nominal-scale",
-    "href": "scales.html#nominal-scale",
-    "title": "Scales of  Measurement",
-    "section": "Nominal Scale",
-    "text": "Nominal Scale\n\nCategorizes data without any order or rank.\n\n\n\n\n\n\n\n\nImage Source: Voxco"
-  },
-  {
-    "objectID": "scales.html#practice-sheet",
-    "href": "scales.html#practice-sheet",
-    "title": "Scales of  Measurement",
-    "section": "🤯 Practice Sheet",
-    "text": "🤯 Practice Sheet\n\nCreating Nominal Variables.\nExamples: Gender (Male, Female), Colors (Red, Blue, Green), or Types of Fruits.\nVisualization: Bar chart or Pie chart.\nAnalysis: Frequency counts, mode, chi-square tests."
-  },
-  {
-    "objectID": "scales.html#ordinal-scale",
-    "href": "scales.html#ordinal-scale",
-    "title": "Scales of  Measurement",
-    "section": "Ordinal Scale",
-    "text": "Ordinal Scale\n\nData with a meaningful order but unequal intervals.\n\n\n\n\n\n\n\n\nImage source: Voxco"
-  },
-  {
-    "objectID": "scales.html#practice-sheet-1",
-    "href": "scales.html#practice-sheet-1",
-    "title": "Scales of  Measurement",
-    "section": "🤯 Practice Sheet",
-    "text": "🤯 Practice Sheet\n\nCreating Ordinal Variables.\nExamples: Education level (High School, Bachelor’s, Master’s, Ph.D.), Customer satisfaction (Poor, Fair, Good, Excellent).\nVisualization: Bar chart or Box plot.\nAnalysis: Median, rank correlation."
-  },
-  {
-    "objectID": "scales.html#interval-scale",
-    "href": "scales.html#interval-scale",
-    "title": "Scales of  Measurement",
-    "section": "Interval Scale",
-    "text": "Interval Scale\n\nOrdered data with equal intervals but no true zero point.\n\n\n\n\n\n\n\n\nImage source: Voxco"
-  },
-  {
-    "objectID": "scales.html#practice-sheet-2",
-    "href": "scales.html#practice-sheet-2",
-    "title": "Scales of  Measurement",
-    "section": "🤯 Practice Sheet",
-    "text": "🤯 Practice Sheet\n\nCreating Interval Variables\nExamples: Temperature in Celsius or Fahrenheit, IQ scores.\nVisualization: Histogram, Line graph.\nAnalysis: Mean, standard deviation, correlation, regression."
-  },
-  {
-    "objectID": "scales.html#ratio-scale",
-    "href": "scales.html#ratio-scale",
-    "title": "Scales of  Measurement",
-    "section": "Ratio Scale",
-    "text": "Ratio Scale\n\nOrdered data with equal intervals and a true zero point.\n\n\n\n\n\n\n\n\nImage source: Voxco"
-  },
-  {
-    "objectID": "scales.html#practice-sheet-3",
-    "href": "scales.html#practice-sheet-3",
-    "title": "Scales of  Measurement",
-    "section": "🤯 Practice Sheet",
-    "text": "🤯 Practice Sheet\n\nCreating ratio Variables\nExamples: Weight, Height, Income, Age.\nVisualization: Histogram, Scatter plot.\nAnalysis: All statistical methods (mean, median, mode, ratio comparisons)."
-  },
-  {
-    "objectID": "scales.html#different-types-of-scales",
-    "href": "scales.html#different-types-of-scales",
-    "title": "Scales of  Measurement",
-    "section": "Different Types of Scales",
-    "text": "Different Types of Scales\n\n\n\nImage source: Voxco"
-  },
-  {
-    "objectID": "scales.html#discrete-variables",
-    "href": "scales.html#discrete-variables",
-    "title": "Scales of  Measurement",
-    "section": "Discrete Variables",
-    "text": "Discrete Variables\n\n\n\nRepresent countable values, often whole numbers.\nExamples: Number of students, dice rolls, cars in a parking lot.\n\n\n\n\n\n\n\n\n\n\nImage source: Allison Horst"
-  },
-  {
-    "objectID": "scales.html#continuous-variables",
-    "href": "scales.html#continuous-variables",
-    "title": "Scales of  Measurement",
-    "section": "Continuous Variables",
-    "text": "Continuous Variables\n\n\n\nRepresent measureable values, including fractions or decimals.\nExamples: Height, weight, time, temperature.\n\n\n\n\n\n\n\n\n\n\nImage source: Allison Horst"
-  },
-  {
-    "objectID": "scales.html#practice-sheet-4",
-    "href": "scales.html#practice-sheet-4",
-    "title": "Scales of  Measurement",
-    "section": "🤯 Practice Sheet",
-    "text": "🤯 Practice Sheet\n\nDiscrete Variables, visualization and analysis.\nContinuous Variables, visualization and analysis.\nCombining Discrete and Continuous Variables."
-  },
-  {
-    "objectID": "models.html#statistical-models",
-    "href": "models.html#statistical-models",
-    "title": "Statistical Models",
-    "section": "Statistical Models",
-    "text": "Statistical Models\n\nA mathematical framework that represents relationships between variables in a dataset.\nIt is used to understand, explain, or predict outcomes based on observed data."
-  },
-  {
-    "objectID": "models.html#statistical-model-consists",
-    "href": "models.html#statistical-model-consists",
-    "title": "Statistical Models",
-    "section": "Statistical Model Consists:",
-    "text": "Statistical Model Consists:\n\nVariables: Inputs (independent variables) and outputs (dependent variables).\nEquations: Mathematical expressions defining the relationship.\nAssumptions: Underlying rules about the data or process (e.g., normality, linearity)."
-  },
-  {
-    "objectID": "models.html#the-one-and-only-statistical-model",
-    "href": "models.html#the-one-and-only-statistical-model",
-    "title": "Statistical Models",
-    "section": "The One and Only Statistical Model",
-    "text": "The One and Only Statistical Model\n\n\\[\noutcome_i = (model) + error_i\n\\]"
-  },
-  {
-    "objectID": "models.html#simplest-possible-model",
-    "href": "models.html#simplest-possible-model",
-    "title": "Statistical Models",
-    "section": "Simplest Possible Model",
-    "text": "Simplest Possible Model\n\n\\[\noutcome_i = (b_0) + error_i\n\\]\n\n\\(b\\), Greek symbol represents beta (\\(\\beta\\)).\n\\(b_0\\) means we are predicting the outcome from zero other variables, that is, just from a single parameter.\nParameters are estimated (usually) constant values believed to represent some fundamental truth about the relations between variables in the models."
-  },
-  {
-    "objectID": "models.html#adding-variable-to-statistical-model",
-    "href": "models.html#adding-variable-to-statistical-model",
-    "title": "Statistical Models",
-    "section": "Adding Variable to Statistical Model",
-    "text": "Adding Variable to Statistical Model\n\n\\[\noutcome_i = (b_0 + b_1X_1) + error_i\n\\]\n\nA lot of time it is more interesting to see whether we can summarize an outcome variable by predicting from scores on another variable."
-  },
-  {
-    "objectID": "models.html#understand-statistical-model",
-    "href": "models.html#understand-statistical-model",
-    "title": "Statistical Models",
-    "section": "Understand Statistical Model",
-    "text": "Understand Statistical Model\n\n\\[\noutcome_i = (b_0 + b_1X_1) + error_i\n\\]\n\n\\(i\\) = particular entity.\n\\(outcome_i\\) = outcome value for that particular entity.\n\\(X_i\\) = score on the predictor variable.\n\\(b_1\\) = predictor variable has a parameter attached to it which tells us something about the relationship between the predictor (\\(X_i\\)) and outcome.\n\\(b_0\\) = is still there to tell us the overall levels of the outcome if the predictor variable was not in the model."
-  },
-  {
-    "objectID": "models.html#ras-statistical-model",
-    "href": "models.html#ras-statistical-model",
-    "title": "Statistical Models",
-    "section": "RAS Statistical Model",
-    "text": "RAS Statistical Model\n\n\\[\noutcome_i = (b_0 + b_1X_i) + error_i\n\\] \n\\[\nrelationship\\;satisfaction_i = (b_0 + b_1length_i) + error_i\n\\]"
-  },
-  {
-    "objectID": "models.html#ras-statistical-model-1",
-    "href": "models.html#ras-statistical-model-1",
-    "title": "Statistical Models",
-    "section": "RAS Statistical Model",
-    "text": "RAS Statistical Model\n\n\\(relationship\\\\satisfaction_i = (b_0 + b_1length_i + b_2effort_i) + error_i\\)\n\nWe use the sample data to estimate the value of the model parameters, \\(b\\).\nWe use the sample data to estimate (best guess) what the population parameters are likely to be."
-  },
-  {
-    "objectID": "models.html#your-turn",
-    "href": "models.html#your-turn",
-    "title": "Statistical Models",
-    "section": "🤯 Your Turn",
-    "text": "🤯 Your Turn\nCalculate the mean value of these RAS values.\n32, 30, 28, 30, 30, 29, 31, 29, 31"
-  },
-  {
-    "objectID": "models.html#your-turn-answer",
-    "href": "models.html#your-turn-answer",
-    "title": "Statistical Models",
-    "section": "Your Turn: Answer",
-    "text": "Your Turn: Answer\n\\[\n\\bar{X}=\\frac{\\displaystyle\\sum_{i=1}^nx_i}{\\displaystyle n} \\\\\n= \\frac{32 + 30 + 28 + 30 + 30 + 29 + 31 + 29 + 31}{9} \\\\\n= \\frac{270}{9} \\\\\n= 30\n\\]"
-  },
-  {
-    "objectID": "models.html#the-fit-of-the-mean",
-    "href": "models.html#the-fit-of-the-mean",
-    "title": "Statistical Models",
-    "section": "The Fit of the Mean",
-    "text": "The Fit of the Mean\n\\[\noutcome_i = model + error_i\n\\]\n\n\\[\nerror_i = outcome_i - model\n\\]\n\n\n\\[\nerror_i = RAS_i - \\bar{X}\n\\]"
-  },
-  {
-    "objectID": "models.html#the-fit-of-the-mean-week-1",
-    "href": "models.html#the-fit-of-the-mean-week-1",
-    "title": "Statistical Models",
-    "section": "The Fit of the Mean: Week 1",
-    "text": "The Fit of the Mean: Week 1\n\\[\nerror_{week 1} = outcome_{week 1} - model\n\\]\n\n\\[\nerror_{week 1} = RAS_{week 1} - \\bar{X}\n\\]\n\n\n\\[\nerror_{week 1} = 32 - 30 \\\\\n= 2\n\\]"
-  },
-  {
-    "objectID": "models.html#errordevianceresidual",
-    "href": "models.html#errordevianceresidual",
-    "title": "Statistical Models",
-    "section": "Error/Deviance/Residual",
-    "text": "Error/Deviance/Residual\n\nDeviance is the value of the outcome minus the value predicted from the model.\n\n\n\\[\nerror_{i} = outcome_{i} - model\n\\]\n\n\n\\[\ndeviance_{i} = x_{i} - \\bar{X}\n\\]"
-  },
-  {
-    "objectID": "models.html#references",
-    "href": "models.html#references",
-    "title": "Statistical Models",
-    "section": "References",
-    "text": "References"
+    "objectID": "central-tendency.html#effect-on-mean",
+    "href": "central-tendency.html#effect-on-mean",
+    "title": "Central Tendency",
+    "section": "Effect on Mean",
+    "text": "Effect on Mean"
   },
   {
     "objectID": "freq-dist.html#frequency-distribution",
     "href": "freq-dist.html#frequency-distribution",
-    "title": "Frequency  Distributions",
+    "title": "Frequency Distributions",
     "section": "Frequency Distribution",
     "text": "Frequency Distribution\n\n\n“Frequency distribution can either be a table or a graph that shows each possible score along with the number of times that score occurred in the data.”"
   },
   {
     "objectID": "freq-dist.html#frequency-distribution-1",
     "href": "freq-dist.html#frequency-distribution-1",
-    "title": "Frequency  Distributions",
+    "title": "Frequency Distributions",
     "section": "Frequency Distribution",
     "text": "Frequency Distribution\n\nFrequency: how many times each score occurs.\nIf you add up the frequencies (\\(\\sum f\\)) you get the sample size (\\(N\\)).\nWe should mention the category even if the freqency is zero."
   },
   {
     "objectID": "freq-dist.html#how-does-this-help-me-to-understand-whether-women-are-attracted-to-guys-with-high-salaries",
     "href": "freq-dist.html#how-does-this-help-me-to-understand-whether-women-are-attracted-to-guys-with-high-salaries",
-    "title": "Frequency  Distributions",
+    "title": "Frequency Distributions",
     "section": "🤔 How does this help me to understand whether women are attracted to guys with high salaries?",
     "text": "🤔 How does this help me to understand whether women are attracted to guys with high salaries?\n\n\n\nRelative Frequency: How often a response is observed relative to the total number of responses."
   },
   {
     "objectID": "freq-dist.html#relative-frequency",
     "href": "freq-dist.html#relative-frequency",
-    "title": "Frequency  Distributions",
+    "title": "Frequency Distributions",
     "section": "Relative Frequency",
     "text": "Relative Frequency\n\\[\nrelative\\;frequency = \\frac{frequency\\;of\\;response}{total\\;number\\;of\\;responses}\\\\ = \\frac{f}{N}\n\\]"
   },
   {
     "objectID": "freq-dist.html#relative-frequency-of-rating-10",
     "href": "freq-dist.html#relative-frequency-of-rating-10",
-    "title": "Frequency  Distributions",
+    "title": "Frequency Distributions",
     "section": "Relative Frequency of Rating 10",
     "text": "Relative Frequency of Rating 10\n\\[\nrelative\\;frequency = \\frac{frequency\\;of\\;rating\\;10}{total\\;number\\;of\\;responses}\\\\ = \\frac{2}{20}\\\\=0.1\n\\]\n\n\n10% of women rated a high salary’s importance at 10 out of 10."
   },
   {
     "objectID": "freq-dist.html#your-turn",
     "href": "freq-dist.html#your-turn",
-    "title": "Frequency  Distributions",
+    "title": "Frequency Distributions",
     "section": "🤯 Your Turn",
     "text": "🤯 Your Turn\nCalculate Relative Frequency for score 4 on High Salary."
   },
   {
     "objectID": "freq-dist.html#your-turn-answer",
     "href": "freq-dist.html#your-turn-answer",
-    "title": "Frequency  Distributions",
+    "title": "Frequency Distributions",
     "section": "Your Turn: Answer",
     "text": "Your Turn: Answer"
   },
   {
     "objectID": "freq-dist.html#cumulative-percentage",
     "href": "freq-dist.html#cumulative-percentage",
-    "title": "Frequency  Distributions",
+    "title": "Frequency Distributions",
     "section": "Cumulative Percentage",
     "text": "Cumulative Percentage"
   },
   {
     "objectID": "freq-dist.html#graphical-frequency-distributions-histograms",
     "href": "freq-dist.html#graphical-frequency-distributions-histograms",
-    "title": "Frequency  Distributions",
+    "title": "Frequency Distributions",
     "section": "Graphical Frequency Distributions: Histograms",
     "text": "Graphical Frequency Distributions: Histograms"
   },
   {
     "objectID": "freq-dist.html#graphical-frequency-distributions-frequency-polygon",
     "href": "freq-dist.html#graphical-frequency-distributions-frequency-polygon",
-    "title": "Frequency  Distributions",
+    "title": "Frequency Distributions",
     "section": "Graphical Frequency Distributions: Frequency Polygon",
     "text": "Graphical Frequency Distributions: Frequency Polygon"
   },
   {
     "objectID": "freq-dist.html#practice",
     "href": "freq-dist.html#practice",
-    "title": "Frequency  Distributions",
+    "title": "Frequency Distributions",
     "section": "Practice",
     "text": "Practice\n\nFrequency table\nRelative frequency table\nVisualizing Relative Frequencies"
   },
   {
     "objectID": "freq-dist.html#grouped-frequency",
     "href": "freq-dist.html#grouped-frequency",
-    "title": "Frequency  Distributions",
+    "title": "Frequency Distributions",
     "section": "Grouped Frequency",
     "text": "Grouped Frequency\n\n“a frequency distribution where we group scores together”"
   },
   {
     "objectID": "freq-dist.html#grouped-frequency-distribution",
     "href": "freq-dist.html#grouped-frequency-distribution",
-    "title": "Frequency  Distributions",
+    "title": "Frequency Distributions",
     "section": "Grouped Frequency Distribution",
     "text": "Grouped Frequency Distribution\n\\[\ninterval\\;width = \\frac{range\\;of\\;scores}{number\\;of\\;intervals}\n\\]\n\n\\[\n= \\frac{highest\\;score - lowest\\;score}{number\\;of\\;intervals}\n\\]"
   },
   {
     "objectID": "freq-dist.html#relationship-assessment-score",
     "href": "freq-dist.html#relationship-assessment-score",
-    "title": "Frequency  Distributions",
+    "title": "Frequency Distributions",
     "section": "Relationship Assessment Score",
     "text": "Relationship Assessment Score\nThe RAS score of 20 similar age group women are:\n\n16, 23, 26, 22, 14, 20, 8, 19, 22, 25, 17, 26, 27, 11, 32, 17, 20, 17, 14, 28."
   },
   {
     "objectID": "freq-dist.html#section-3",
     "href": "freq-dist.html#section-3",
-    "title": "Frequency  Distributions",
+    "title": "Frequency Distributions",
     "section": "",
     "text": "95% of them rated their relationship satisfaction lower than Alisha (32)."
   },
   {
     "objectID": "freq-dist.html#references",
     "href": "freq-dist.html#references",
-    "title": "Frequency  Distributions",
+    "title": "Frequency Distributions",
     "section": "References",
     "text": "References"
   },
   {
-    "objectID": "research-process.html#the-research-process",
-    "href": "research-process.html#the-research-process",
-    "title": "Research  Process",
-    "section": "The Research Process",
-    "text": "The Research Process\n\n\nSource: Field (2022)"
-  },
-  {
-    "objectID": "research-process.html#theory",
-    "href": "research-process.html#theory",
-    "title": "Research  Process",
+    "objectID": "foundational-stats-research.html#theory",
+    "href": "foundational-stats-research.html#theory",
+    "title": "Foundational Concepts in Statistical Research",
     "section": "Theory",
     "text": "Theory\n\n“Theory is a well-established principle or set of general principles to explain a broad range of observations.”\n\n\nTheory = Explanation\n\n\n\nSource: Field (2022)"
   },
   {
-    "objectID": "research-process.html#theory-1",
-    "href": "research-process.html#theory-1",
-    "title": "Research  Process",
+    "objectID": "foundational-stats-research.html#theory-1",
+    "href": "foundational-stats-research.html#theory-1",
+    "title": "Foundational Concepts in Statistical Research",
     "section": "Theory",
     "text": "Theory\n\n“normally scientists are interested in theories that apply very generally.”\n\n\nGeneralization\n\n\n\nSource: Field (2022)"
   },
   {
-    "objectID": "research-process.html#section",
-    "href": "research-process.html#section",
-    "title": "Research  Process",
-    "section": "",
-    "text": "🤓 Tellme-Moore: Most Famous & Impactful Theories\n\n\n\nPhysicsBiology and MedicineMathematicsPhilosophyPsychology and SociologyEconomicsTechnology and InformationGeneral Interest\n\n\n\nTheory of Relativity (Albert Einstein)\n\nSpecial and General Relativity revolutionized our understanding of space, time, and gravity.\n\nBig Bang Theory\n\nDescribes the origin of the universe as a rapid expansion from a singularity ~13.8 billion years ago.\n\n\n\n\n\nCell Theory (Schleiden, Schwann, and Virchow) -States that all living organisms are composed of cells, which are the basic units of life.\nGerm Theory of Disease (Louis Pasteur, Robert Koch)\n\nExplains that microorganisms are the cause of many diseases.\n\n\n\n\n\nPythagorean Theorem (Pythagoras)\n\nRelates the sides of a right triangle: a2+b2=c2a2+b2=c2.\n\nGame Theory (John von Neumann, John Nash)\n\nStudies strategic interactions and decision-making.\n\n\n\n\n\nTheory of Forms (Plato)\n\nSuggests that non-material abstract forms (e.g., beauty, justice) represent the truest reality.\n\nUtilitarianism (Jeremy Bentham, John Stuart Mill)\n\nAdvocates actions that maximize happiness for the greatest number of people.\n\n\n\n\n\nConflict Theory (Karl Marx)\n\nExplains societal structures as shaped by conflicts between social classes.\n\nMaslow’s Hierarchy of Needs (Abraham Maslow)\n\nDescribes a pyramid of human needs, from basic survival to self-actualization.\n\n\n\n\n\nTheory of Comparative Advantage (David Ricardo)\n\nExplains how nations benefit from specializing in and trading goods they produce most efficiently.\n\nKeynesian Economics (John Maynard Keynes)\n\nArgues that government intervention can stabilize the economy during recessions.\n\n\n\n\n\nInformation Theory (Claude Shannon)\n\nDescribes the quantification, storage, and communication of information.\n\nTuring Machine (Alan Turing)\n\nA theoretical model for how computers process information.\n\n\n\n\n\nChaos Theory\n\nExplains how small changes in initial conditions can lead to vastly different outcomes.\n\nFeminist Theory\n\nExplores gender inequality and advocates for social, political, and economic equity.\n\n\n\n\n\n\n\n\n\n\nSource: ChatGPT"
-  },
-  {
-    "objectID": "research-process.html#population",
-    "href": "research-process.html#population",
-    "title": "Research  Process",
+    "objectID": "foundational-stats-research.html#population",
+    "href": "foundational-stats-research.html#population",
+    "title": "Foundational Concepts in Statistical Research",
     "section": "Population",
-    "text": "Population\n\n“an entire set of entities is known as population”\n\n\n\nA population can be quite diverse but can also be more specific.\nDifferent types of scientists might focus on different populations.\n\n\n\n\nSource: Field (2022)"
+    "text": "Population\n\nThe population is the complete set of all individuals, items, or observations that share a common characteristic and are of interest to the researcher.\nIt represents everyone or everything you want to draw conclusions about.\nThe population has fixed parameters like the true mean (μ) or standard deviation (σ), though these are often unknown and what we’re trying to estimate."
   },
   {
-    "objectID": "research-process.html#section-1",
-    "href": "research-process.html#section-1",
-    "title": "Research  Process",
-    "section": "",
-    "text": "🤓 Tellme Moore: Examples of “population”\n\n\n\n1. Educational Research2. Healthcare Studies3. Market Research4. Environmental Studies5. Political Surveys6. Customer Feedback7. Wildlife Research8. Manufacturing and Quality Control\n\n\n\nPopulation: All 12 class students in India.\nExample: If a researcher wants to study the average marks of 12th class students in India, the population would include every 12th class student across the country who has taken the 12th exam.\n\n\n\n\nPopulation:\nAll diabetic patients in a city.\n\nExample:\nA researcher investigating the effectiveness of a new diabetes medication may define the population as all individuals in the city who have been diagnosed with diabetes.\n\n\n\n\nPopulation:\nAll people who purchase smartphones.\n\nExample:\nA smartphone company wants to know the preferences of its target market. The population might be defined as all individuals globally who have purchased a smartphone in the last year.\n\n\n\n\nPopulation:\nAll trees in a forest.\n\nExample:\nAn environmental scientist measuring the average height of trees in a forest would consider the population to include every tree in that specific forest.\n\n\n\n\nPopulation:\nRegistered voters in a country.\n\nExample:\nA political poll aiming to predict the outcome of an election would define its population as all registered voters eligible to participate in that election.\n\n\n\n\nPopulation:\nAll customers of a particular online store.\n\nExample:\nIf an e-commerce company wants to measure customer satisfaction, the population would include everyone who has made a purchase on their platform.\n\n\n\n\nPopulation:\nAll Bengal tigers in India.\n\nExample:\nA conservationist studying the average territory size of Bengal tigers would define the population as all Bengal tigers living in India.\n\n\n\n\nPopulation:\nAll light bulbs produced by a factory in a week.\n\nExample:\nA factory manager measuring the defect rate in light bulb production would define the population as all light bulbs manufactured in a specific week.\n\n\n\n\n\n\n\n\n\nSource: ChatGPT"
+    "objectID": "foundational-stats-research.html#population-examples",
+    "href": "foundational-stats-research.html#population-examples",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Population Examples",
+    "text": "Population Examples\n\nAll registered voters in a country (if studying voting behavior)\nEvery student enrolled in a university (if studying student satisfaction)\nAll hospitals in a region (if studying healthcare quality)\nThe entire production line output for a year (if studying defect rates)"
   },
   {
-    "objectID": "research-process.html#hypothesis",
-    "href": "research-process.html#hypothesis",
-    "title": "Research  Process",
+    "objectID": "foundational-stats-research.html#sample",
+    "href": "foundational-stats-research.html#sample",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Sample",
+    "text": "Sample\n\nA sample is a subset of the population that’s actually observed or measured in the study.\nSince studying entire populations is often impractical, expensive, or impossible, researchers select a representative group to study instead.\nSamples have statistics like the sample mean (x̄) or sample standard deviation (s), which are used to estimate the population parameters."
+  },
+  {
+    "objectID": "foundational-stats-research.html#population-vs-sample",
+    "href": "foundational-stats-research.html#population-vs-sample",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Population vs Sample",
+    "text": "Population vs Sample\n\n\n\n\n\n\n\nPopulation\nSample\n\n\n\n\nAll registered voters in a country\n1,500 randomly selected registered voters\n\n\nEvery student enrolled in a university\n300 students chosen from different departments\n\n\nAll hospitals in a region\n50 hospitals selected using stratified sampling\n\n\nThe entire production line output for a year\n500 randomly selected products from the production line"
+  },
+  {
+    "objectID": "foundational-stats-research.html#statistical-inference",
+    "href": "foundational-stats-research.html#statistical-inference",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Statistical Inference",
+    "text": "Statistical Inference\n\nThe goal of most research is statistical inference: using sample statistics to make educated guesses about population parameters.\nThe quality of your sample determines how well you can generalize findings back to the population."
+  },
+  {
+    "objectID": "foundational-stats-research.html#hypothesis",
+    "href": "foundational-stats-research.html#hypothesis",
+    "title": "Foundational Concepts in Statistical Research",
     "section": "Hypothesis",
-    "text": "Hypothesis\n\n“you can use existing theory, to generate a hypothesis, which is a proposed explanation of the specific observation that interests you”\n\n\nHypothesis = Proposed Explanation"
+    "text": "Hypothesis\n\nA hypothesis is a testable statement or prediction about the relationship between variables in a population.\nIt’s essentially an educated guess based on theory, prior research, or observation that you’re trying to verify or refute using data from your sample."
   },
   {
-    "objectID": "research-process.html#prediction",
-    "href": "research-process.html#prediction",
-    "title": "Research  Process",
-    "section": "Prediction",
-    "text": "Prediction\n\nA specific outcome you expect to observe if the hypothesis is correct."
+    "objectID": "foundational-stats-research.html#how-hypothesis-connects-to-population-and-sample",
+    "href": "foundational-stats-research.html#how-hypothesis-connects-to-population-and-sample",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "How Hypothesis Connects to Population and Sample",
+    "text": "How Hypothesis Connects to Population and Sample\n\nHypothesis is about the population: Your hypothesis makes a claim about the entire population (all students, all patients, etc.), even though you can’t study everyone.\nSample provides the evidence: You collect data from your sample to test whether the evidence supports or contradicts the null hypothesis.\nStatistical inference bridges the gap: You use statistical tests to determine whether the patterns you observe in your sample are strong enough to conclude something about the population."
   },
   {
-    "objectID": "research-process.html#variables",
-    "href": "research-process.html#variables",
-    "title": "Research  Process",
+    "objectID": "foundational-stats-research.html#variables",
+    "href": "foundational-stats-research.html#variables",
+    "title": "Foundational Concepts in Statistical Research",
     "section": "Variables",
-    "text": "Variables\n\n“Elements in the study that are measured or manipulated.”\n\n\nIndependent variable\nDependent variable\nControl variable"
+    "text": "Variables\n“Elements in the study that are measured or manipulated.”\n\nIndependent variable\nDependent variable"
   },
   {
-    "objectID": "research-process.html#section-2",
-    "href": "research-process.html#section-2",
-    "title": "Research  Process",
-    "section": "",
-    "text": "🤓 Tellme Moore: Academic Performance and Sleep\n\n\nHow They Work Together:\n\nTheory provides the foundation: Sleep impacts cognitive function.\nHypothesis makes the relationship specific: More sleep leads to better exam scores.\nPrediction forecasts the result in measurable terms: Students with more sleep score 10% higher.\nVariables define the structure of the study: Sleep hours (IV), Exam scores (DV), and controlled factors (like study environment)."
+    "objectID": "foundational-stats-research.html#statistical-learning",
+    "href": "foundational-stats-research.html#statistical-learning",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Statistical Learning",
+    "text": "Statistical Learning\n“Statistical Learning refers to a vast set of tools for understanding data.”\n\n\nDescriptive StatisticsInferential Statistics\n\n\n\nSummarizes and organizes data to describe its main features.\nMakes predictions or inferences about a population from a sample.\n\n\n\n\nLimited to the observed data.\nGoes beyond the observed data to infer population characteristics."
   },
   {
-    "objectID": "research-process.html#sample",
-    "href": "research-process.html#sample",
-    "title": "Research  Process",
-    "section": "Sample",
-    "text": "Sample\n\n“you want to draw conclusions about the entire population, but it is impractical to collect data from every entity in the popultion.”\n\n\n\n“so instead we use a sample which is representative of the wider population”\n\nSample = Representative"
+    "objectID": "foundational-stats-research.html#sampling-variation",
+    "href": "foundational-stats-research.html#sampling-variation",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Sampling Variation",
+    "text": "Sampling Variation\n\nThese statistics vary from one sample to the next."
   },
   {
-    "objectID": "research-process.html#sample-1",
-    "href": "research-process.html#sample-1",
-    "title": "Research  Process",
-    "section": "Sample",
-    "text": "Sample"
+    "objectID": "foundational-stats-research.html#sampling-error",
+    "href": "foundational-stats-research.html#sampling-error",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Sampling Error",
+    "text": "Sampling Error\n\nThese statistics sometimes differ from the population parameter."
   },
   {
-    "objectID": "research-process.html#section-3",
-    "href": "research-process.html#section-3",
-    "title": "Research  Process",
-    "section": "",
-    "text": "🤓 Tellme Moore: Customer Satisfaction at “Coffee Bliss”\n\n\nObjective: The company wants to measure customer satisfaction with their service across all branches.\n\n1. Population2. Sample3. Representative SampleWhy It Matters:\n\n\nDefinition: The entire group that is the focus of the study.\nExample:\nAll customers who visit Coffee Bliss branches worldwide in a given month.\n- This includes millions of customers from different locations, ages, and preferences.\n\n\nDefinition: A subset of the population selected for the study.\nExample:\nThe company randomly selects 1,000 customers across various branches to participate in a survey.\n- The sample is smaller than the population but is expected to reflect the larger group.\n\n\nDefinition: A sample that accurately reflects the characteristics of the population.\nExample:\nTo ensure the 1,000 customers represent the population, the company ensures the sample includes:\n- Customers from urban, suburban, and rural branches.\n- A mix of regular and first-time customers.\n- A diversity of ages, genders, and income levels.\nIf the sample has only customers from urban branches or frequent visitors, it may not represent the entire population accurately, leading to biased results.\n\n\n\nPopulation: Represents the “big picture” (all customers).\n\nSample: Makes data collection feasible (1,000 customers).\n\nRepresentative Sample: Ensures findings can be generalized to the whole population (diverse group reflecting all customers)."
+    "objectID": "foundational-stats-research.html#simple-maths",
+    "href": "foundational-stats-research.html#simple-maths",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Simple Maths",
+    "text": "Simple Maths\n\\[\n1 + 2\\times3^2\n\\]\n\nAnswer: 19"
   },
   {
-    "objectID": "research-process.html#references",
-    "href": "research-process.html#references",
-    "title": "Research  Process",
+    "objectID": "foundational-stats-research.html#bodmas",
+    "href": "foundational-stats-research.html#bodmas",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "BODMAS",
+    "text": "BODMAS\n\nBrackets\nOrder (Power)\nDivide\nMultiplication\nAddition\nSubtraction"
+  },
+  {
+    "objectID": "foundational-stats-research.html#what-will-be-the-answer-to-this",
+    "href": "foundational-stats-research.html#what-will-be-the-answer-to-this",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "What will be the answer to this?",
+    "text": "What will be the answer to this?\n\\[\n10 + \\frac{2(3+1)^2}{8} - 5\n\\]\n\n\\[\n10 + \\frac{2\\times16}{8} - 5\n\\]\n\n\nAnswer: 9"
+  },
+  {
+    "objectID": "foundational-stats-research.html#lets-understand-this",
+    "href": "foundational-stats-research.html#lets-understand-this",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Let’s Understand this",
+    "text": "Let’s Understand this\n\\[\n\\sum_{i=1}^n x_i\n\\]"
+  },
+  {
+    "objectID": "foundational-stats-research.html#lets-understand-this-1",
+    "href": "foundational-stats-research.html#lets-understand-this-1",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Let’s Understand this",
+    "text": "Let’s Understand this\n\\[\n\\sum_{i=1}^n x_i \\\\ = 10 + 6 \\\\ = 16\n\\]"
+  },
+  {
+    "objectID": "foundational-stats-research.html#lets-try-this",
+    "href": "foundational-stats-research.html#lets-try-this",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Let’s Try this",
+    "text": "Let’s Try this\n\\[\n\\sum_{i=1}^n x^2_i\n\\]"
+  },
+  {
+    "objectID": "foundational-stats-research.html#lets-try-this-1",
+    "href": "foundational-stats-research.html#lets-try-this-1",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Let’s Try this",
+    "text": "Let’s Try this\n\\[\n\\sum_{i=1}^n x^2_i \\\\ = 10^2 + 6^2 \\\\ = 100 + 36 \\\\ = 136\n\\]"
+  },
+  {
+    "objectID": "foundational-stats-research.html#lets-try-this-2",
+    "href": "foundational-stats-research.html#lets-try-this-2",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Let’s Try this",
+    "text": "Let’s Try this\n\\[\n\\left( \\sum_{i=1}^n x_i \\right )^2\n\\]"
+  },
+  {
+    "objectID": "foundational-stats-research.html#lets-try-this-3",
+    "href": "foundational-stats-research.html#lets-try-this-3",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Let’s Try this",
+    "text": "Let’s Try this\n\\[\n\\left( \\sum_{i=1}^n x_i \\right )^2 \\\\ = (10+6)^2 \\\\ = 16^2 \\\\ = 256\n\\]"
+  },
+  {
+    "objectID": "foundational-stats-research.html#scales-of-measurement",
+    "href": "foundational-stats-research.html#scales-of-measurement",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Scales of measurement",
+    "text": "Scales of measurement\n\nScales of measurement (also called levels of measurement) classify how variables are measured and what mathematical operations can be performed on them.\nThere are four main scales:\n\nNominal scale.\nOrdinal scale.\nInterval scale.\nRatio scale."
+  },
+  {
+    "objectID": "foundational-stats-research.html#nominal-scale",
+    "href": "foundational-stats-research.html#nominal-scale",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Nominal Scale",
+    "text": "Nominal Scale\n\nCategories with no inherent order or ranking.\nCategories are different but not better/worse or higher/lower\nExamples:\n\nGender (male, female, non-binary)\nBlood type (A, B, AB, O)\nMarital status (single, married, divorced, widowed)\nEye color (blue, brown, green, hazel)\nType of car (sedan, SUV, truck)"
+  },
+  {
+    "objectID": "foundational-stats-research.html#ordinal-scale",
+    "href": "foundational-stats-research.html#ordinal-scale",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Ordinal Scale",
+    "text": "Ordinal Scale\n\nCategories with a meaningful order or ranking, but the intervals between ranks are not equal or known.\nYou can rank items from lowest to highest\nExamples:\n\nEducation level (high school, bachelor’s, master’s, doctorate)\nSatisfaction ratings (very dissatisfied, dissatisfied, neutral, satisfied, very satisfied)\nSocioeconomic status (lower class, middle class, upper class)\nMilitary ranks (private, corporal, sergeant, lieutenant)\nPain scale (mild, moderate, severe)"
+  },
+  {
+    "objectID": "foundational-stats-research.html#interval-scale",
+    "href": "foundational-stats-research.html#interval-scale",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Interval Scale",
+    "text": "Interval Scale\n\nOrdered categories with equal intervals between values, but no true zero point.\nEqual distances between consecutive values\nExamples:\n\nTemperature in Celsius or Fahrenheit (0° doesn’t mean “no temperature”)\nIQ scores (an IQ of 0 doesn’t mean “no intelligence”)\nStandardized test scores (SAT, GRE)"
+  },
+  {
+    "objectID": "foundational-stats-research.html#ratio-scale",
+    "href": "foundational-stats-research.html#ratio-scale",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Ratio Scale",
+    "text": "Ratio Scale\n\nOrdered categories with equal intervals AND a true/absolute zero point, where zero means complete absence of the quantity.\nExamples:\n\nHeight (0 cm = no height)\nWeight (0 kg = no weight)\nAge (0 years = just born)\nIncome (0 dollars = no money)\nNumber of children (0 = no children)"
+  },
+  {
+    "objectID": "foundational-stats-research.html#discrete-vs-continuous-variables",
+    "href": "foundational-stats-research.html#discrete-vs-continuous-variables",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Discrete vs Continuous Variables",
+    "text": "Discrete vs Continuous Variables\n\n\n\n\n\n\n\n\nImage source: Allison Horst"
+  },
+  {
+    "objectID": "foundational-stats-research.html#references",
+    "href": "foundational-stats-research.html#references",
+    "title": "Foundational Concepts in Statistical Research",
     "section": "References",
     "text": "References\n\n\n\n\nField, Andy. 2022. An Adventure in Statistics: The Reality Enigma. Second. London: SAGE."
   },
   {
-    "objectID": "regression.html#regression",
-    "href": "regression.html#regression",
-    "title": "Linear  Regression",
-    "section": "Regression",
-    "text": "Regression\n\n\nRegression is a statistical method to model and analyze relationships between variables."
+    "objectID": "index.html#session-1",
+    "href": "index.html#session-1",
+    "title": "Statistics using R",
+    "section": "",
+    "text": "View slides in full screen"
   },
   {
-    "objectID": "regression.html#types-of-regression",
-    "href": "regression.html#types-of-regression",
-    "title": "Linear  Regression",
-    "section": "Types of Regression",
-    "text": "Types of Regression\n\nLinear Regression: Simple (1 predictor) and Multiple (more than 1 predictor).\nLogistic Regression, Polynomial Regression, etc."
+    "objectID": "index.html#session-2",
+    "href": "index.html#session-2",
+    "title": "Statistics using R",
+    "section": "",
+    "text": "View slides in full screen"
   },
   {
-    "objectID": "regression.html#objectives-of-regression",
-    "href": "regression.html#objectives-of-regression",
-    "title": "Linear  Regression",
-    "section": "Objectives of Regression",
-    "text": "Objectives of Regression\n\nPredict outcomes based on predictor variables.\nUnderstand the strength and direction of relationships.\nMake informed decisions using models."
+    "objectID": "index.html#session-3",
+    "href": "index.html#session-3",
+    "title": "Statistics using R",
+    "section": "",
+    "text": "View slides in full screen"
   },
   {
-    "objectID": "regression.html#linear-regression-model",
-    "href": "regression.html#linear-regression-model",
-    "title": "Linear  Regression",
-    "section": "Linear Regression Model",
-    "text": "Linear Regression Model\n\nSimple Linear Regression Equation:\n\n\\[y = \\beta_0 + \\beta_1x + \\epsilon\\]\n\n\\(y\\) = Dependent variable (outcome).\n\\(x\\) = Independent variable (predictor).\n\\(\\beta_0\\) = Intercept.\n\\(\\beta_0\\) = Slope.\n\\(\\epsilon\\) = Error term."
+    "objectID": "index.html#session-4",
+    "href": "index.html#session-4",
+    "title": "Statistics using R",
+    "section": "",
+    "text": "View slides in full screen"
   },
   {
-    "objectID": "regression.html#assumptions-of-linear-regression",
-    "href": "regression.html#assumptions-of-linear-regression",
-    "title": "Linear  Regression",
-    "section": "Assumptions of Linear Regression",
-    "text": "Assumptions of Linear Regression\n\nLinearity: Relationship between \\(x\\) and \\(y\\) is linear.\nIndependence: Observations are independent.\nHomoscedasticity: Errors have constant variance.\nNormality: Residuals are normally distributed."
+    "objectID": "index.html#session-5",
+    "href": "index.html#session-5",
+    "title": "Statistics using R",
+    "section": "",
+    "text": "View slides in full screen"
   },
   {
-    "objectID": "regression.html#practice-glm",
-    "href": "regression.html#practice-glm",
-    "title": "Linear  Regression",
-    "section": "Practice GLM",
-    "text": "Practice GLM\nGeneral Explanation of Regression Metrics:\n\nIntercept: The baseline prediction when all predictors are zero.\nCoefficients: The change in the dependent variable for a one-unit increase in the predictor.\nP-value: Determines statistical significance (p &lt; 0.05 is typically significant).\nR-squared: Explains the proportion of variance captured by the model (higher values indicate a better fit)."
+    "objectID": "index.html#session-6",
+    "href": "index.html#session-6",
+    "title": "Statistics using R",
+    "section": "",
+    "text": "View slides in full screen"
   },
   {
-    "objectID": "correlation.html#correlation",
-    "href": "correlation.html#correlation",
-    "title": "Understanding Correlation",
-    "section": "Correlation",
-    "text": "Correlation\n\n\nCorrelation measures the strength and direction of the relationship between two variables."
-  },
-  {
-    "objectID": "correlation.html#types-of-correlations",
-    "href": "correlation.html#types-of-correlations",
-    "title": "Understanding Correlation",
-    "section": "Types of Correlations",
-    "text": "Types of Correlations\n\nValues range from -1 to +1.\n\n\n+1: Perfect positive correlation (as one variable increases, so does the other).\n-1: Perfect negative correlation (as one variable increases, the other decreases).\n0: No linear relationship."
-  },
-  {
-    "objectID": "correlation.html#why-correlation",
-    "href": "correlation.html#why-correlation",
-    "title": "Understanding Correlation",
-    "section": "Why Correlation?",
-    "text": "Why Correlation?\n\nUnderstand relationships between variables.\nIdentify patterns and dependencies.\nInform decision-making and further analysis (e.g., regression)."
-  },
-  {
-    "objectID": "correlation.html#limitations-of-correlations",
-    "href": "correlation.html#limitations-of-correlations",
-    "title": "Understanding Correlation",
-    "section": "Limitations of Correlations",
-    "text": "Limitations of Correlations\n\nCorrelation does not imply causation.\nSensitive to outliers.\nOnly measures linear relationships."
-  },
-  {
-    "objectID": "correlation.html#practice-correlation",
-    "href": "correlation.html#practice-correlation",
-    "title": "Understanding Correlation",
-    "section": "Practice Correlation",
-    "text": "Practice Correlation\n\n\n\n\n\n\n\n\nCorrelation Type\nDescription\n\n\n\n\nPositive Correlation\nVariables increase together.\n\n\nNegative Correlation\nOne variable increases, the other decreases.\n\n\nZero Correlation\nNo relationship between the variables.\n\n\nPerfect Positive Correlation\nVariables move together perfectly in the same direction.\n\n\nPerfect Negative Correlation\nVariables move together perfectly in opposite directions.\n\n\nNon-Linear Correlation\nRelationship is non-linear."
-  },
-  {
-    "objectID": "hypothesis-testing.html#nhst",
-    "href": "hypothesis-testing.html#nhst",
-    "title": "Hypothesis Testing",
-    "section": "NHST",
-    "text": "NHST\n\n\nNull Hypothesis Significance Testing."
-  },
-  {
-    "objectID": "hypothesis-testing.html#suggested-steps-before-nhst",
-    "href": "hypothesis-testing.html#suggested-steps-before-nhst",
-    "title": "Hypothesis Testing",
-    "section": "Suggested Steps Before NHST:",
-    "text": "Suggested Steps Before NHST:\n\nUnderstand the problem and data type.\nVisualize the data distribution.\nCalculate descriptive statistics.\nFormulate null and alternative hypotheses.\nChoose the appropriate test based on data type and assumptions."
-  },
-  {
-    "objectID": "hypothesis-testing.html#significance-level-alpha",
-    "href": "hypothesis-testing.html#significance-level-alpha",
-    "title": "Hypothesis Testing",
-    "section": "Significance Level (\\(\\alpha\\))",
-    "text": "Significance Level (\\(\\alpha\\))\n\n\nThe threshold for rejecting the null hypothesis, commonly set at 0.05"
-  },
-  {
-    "objectID": "hypothesis-testing.html#errors-in-hypothesis-testing",
-    "href": "hypothesis-testing.html#errors-in-hypothesis-testing",
-    "title": "Hypothesis Testing",
-    "section": "Errors in Hypothesis Testing",
-    "text": "Errors in Hypothesis Testing"
-  },
-  {
-    "objectID": "hypothesis-testing.html#errors-in-hypothesis-testing-1",
-    "href": "hypothesis-testing.html#errors-in-hypothesis-testing-1",
-    "title": "Hypothesis Testing",
-    "section": "Errors in Hypothesis Testing",
-    "text": "Errors in Hypothesis Testing\n\nType I Error (\\(\\alpha\\)): Rejecting a true null hypothesis (false positive).\nType II Error (\\(\\beta\\)): Failing to reject a false null hypothesis (false negative)."
-  },
-  {
-    "objectID": "hypothesis-testing.html#test-statistics",
-    "href": "hypothesis-testing.html#test-statistics",
-    "title": "Hypothesis Testing",
-    "section": "Test Statistics",
-    "text": "Test Statistics\n\nA numerical summary of data used to evaluate \\(H_0\\).\n\n\nExample: \\(t\\)-statistic, \\(z\\)-statistic, or \\(\\chi^2\\)-statistic"
-  },
-  {
-    "objectID": "hypothesis-testing.html#p-value",
-    "href": "hypothesis-testing.html#p-value",
-    "title": "Hypothesis Testing",
-    "section": "p-value",
-    "text": "p-value\n\nThe probability of obtaining results as extreme as the obsereved data, assuming \\(H_0\\) is true.\nInterpretation:\n\nIf \\(p \\; \\le \\; \\alpha\\): Reject \\(H_0\\). (significant result).\nIf \\(p \\; &gt; \\; \\alpha\\): Fail to reject \\(H_0\\). (insufficient evidence)."
-  },
-  {
-    "objectID": "hypothesis-testing.html#assumptions-of-statistical-tests",
-    "href": "hypothesis-testing.html#assumptions-of-statistical-tests",
-    "title": "Hypothesis Testing",
-    "section": "Assumptions of Statistical Tests",
-    "text": "Assumptions of Statistical Tests\nUnderstand the assumptions behind tests like \\(t\\)-test or ANOVA:\n\nNormality: Data follows a normal distribution.\nIndependence: Observations are independent.\nHomogeneity of Variance: Groups have equal variance (in some tests)."
-  },
-  {
-    "objectID": "hypothesis-testing.html#types-of-statistical-tests",
-    "href": "hypothesis-testing.html#types-of-statistical-tests",
-    "title": "Hypothesis Testing",
-    "section": "Types of Statistical Tests",
-    "text": "Types of Statistical Tests\nLearn the purpose and application of key test:\n\n\\(t\\)-test: Compare means (e.g., one sample, independent two-sample, paired).\nANOVA: Compare means across more than two groups.\n\\(\\chi^2\\)-Test: Test for independence in categorical data."
-  },
-  {
-    "objectID": "hypothesis-testing.html#effect-size",
-    "href": "hypothesis-testing.html#effect-size",
-    "title": "Hypothesis Testing",
-    "section": "Effect Size",
-    "text": "Effect Size\n\nMeasures the magnitude of an effect, independent of sample size.\n\nExamples: Cohen’s \\(d\\), Pearson’s \\(r\\).\n\nEssential for understanding the practical significance of results, beyond statistical significance."
-  },
-  {
-    "objectID": "hypothesis-testing.html#practice-nhst",
-    "href": "hypothesis-testing.html#practice-nhst",
-    "title": "Hypothesis Testing",
-    "section": "Practice NHST",
-    "text": "Practice NHST\n\n\n\n\n\n\n\n\n\nTest\nScenario\nStatistical Test\n\n\n\n\nOne-Sample t-Test\nCompare a sample mean to a known value.\nt.test()\n\n\nTwo-Sample t-Test\nCompare means of two independent groups.\nt.test()\n\n\nChi-Square Test\nTest association between categorical variables.\nchisq.test()\n\n\nANOVA\nCompare means across multiple groups.\naov()\n\n\nCorrelation Test\nTest the strength of the relationship between variables.\ncor.test()"
+    "objectID": "r-intro.html",
+    "href": "r-intro.html",
+    "title": "R, RStudio, & Quarto",
+    "section": "",
+    "text": "“Research is reproducible when others can reproduce the results of a scientific study given only the original data, code, and documentation.”\n\n\n\nSource: (Alston and Rick 2021)"
   }
 ]

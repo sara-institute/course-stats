@@ -1,0 +1,140 @@
+---
+title: "[Frequency <br> Distributions]{.clr-white .r-fit-text}"
+author: "[Dr. Ajay Kumar Koli, PhD | SARA Institute of Data Science, India]{.clr-white .r-fit-text}"
+format: revealjs
+controls: true
+slide-number: true
+scrollable: true
+logo: images/logo-sara.png
+bibliography: references.bib
+theme: style.scss
+title-slide-attributes: 
+  data-background-image: "https://images.unsplash.com/photo-1719487934500-c6aeb08a4c36?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  data-background-size: cover
+---
+
+# Do women tend to prefer ❤️ dating men with higher salaries? {background-color="seagreen"}
+
+## 
+
+![](images/data-women.png){fig-align="center"}
+
+#
+
+> 😣😣 "the problem with data is that you usually have too much for your mind to make sense of them"
+
+## Frequency Distribution
+
+<br>
+
+> "Frequency distribution can either be a **table** or a **graph** that shows each possible score along with the number of times that score occurred in the data."
+
+## 
+
+![](images/data-salary.png){fig-align="center"}
+
+## Frequency Distribution 
+
+- **Frequency:** how many times each score occurs.
+
+- If you add up the frequencies ($\sum f$) you get the sample size ($N$).
+
+- We should mention the category even if the freqency is zero.
+
+. . .
+
+![](images/freq-dist-sex.png){fig-align="center" width="50%"}
+
+## 🤔 How does this help me to understand whether women are attracted to guys with high salaries?
+
+<br>
+
+. . .
+
+> **Relative Frequency:** How often a response is observed relative to the total number of responses.
+
+## Relative Frequency
+
+$$
+relative\;frequency = \frac{frequency\;of\;response}{total\;number\;of\;responses}\\ = \frac{f}{N}
+$$
+
+## Relative Frequency of Rating 10
+
+$$
+relative\;frequency = \frac{frequency\;of\;rating\;10}{total\;number\;of\;responses}\\ = \frac{2}{20}\\=0.1
+$$
+
+. . .
+
+> 10% of women rated a high salary's importance at 10 out of 10.
+
+## 🤯 Your Turn {background-color="seagreen"}
+
+Calculate Relative Frequency for score 4 on High Salary.
+
+![](images/data-women.png){fig-align="center"}
+
+## Your Turn: Answer
+
+![](images/relative-freq.png){fig-align="center"}
+
+## Cumulative Percentage
+
+![](images/cumulative-freq.png){fig-align="center"}
+
+## Graphical Frequency Distributions: Histograms
+
+![](images/histogram-freq.png){fig-align="center"}
+
+## Graphical Frequency Distributions: Frequency Polygon
+
+![](images/polygon-freq.png){fig-align="center"}
+
+## Practice {background-color="skyblue"}
+
+- Frequency table
+
+- Relative frequency table
+
+- Visualizing Relative Frequencies
+
+## Grouped Frequency
+
+> "a frequency distribution where we group scores together"
+
+. . .
+
+![](images/group-freq.png){fig-align="center"}
+
+## Grouped Frequency Distribution
+
+$$
+interval\;width = \frac{range\;of\;scores}{number\;of\;intervals}
+$$
+
+. . .
+
+$$
+= \frac{highest\;score - lowest\;score}{number\;of\;intervals}
+$$
+
+## Relationship Assessment Score
+
+The RAS score of 20 similar age group women are:
+
+<br>
+
+16, 23, 26, 22, 14, 20, 8, 19, 22, 25, <br>17, 26, 27, 11, 32, 17, 20, 17, 14, 28.
+
+## 
+
+![](images/group-freq-ras.png){fig-align="center"}
+
+. . .
+
+[95% of them rated their relationship satisfaction lower than Alisha (32).]{.r-fit-text}
+
+
+## References
+

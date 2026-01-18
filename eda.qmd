@@ -1,0 +1,337 @@
+---
+title: "[Exploratory Data Analysis]{.clr-white .r-fit-text}"
+author: "[2nd SARA Statistics Winter School, 23-27 Jan 2026]{.clr-white .r-fit-text}"
+format: revealjs
+echo: false
+controls: true
+slide-number: true
+scrollable: true
+incremental: true
+logo: images/logo-sara.png
+bibliography: references.bib
+theme: style.scss
+title-slide-attributes: 
+  data-background-image: "https://images.unsplash.com/photo-1719487934500-c6aeb08a4c36?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  data-background-size: cover
+---
+
+## Download & Install
+
+<br>
+
+✅ R Software, <https://cloud.r-project.org/>
+
+✅ RStudio IDE, <https://posit.co/products/open-source/rstudio/?sid=1>
+
+✅ Quarto, <https://quarto.org/docs/get-started/>
+
+## Your RStudio Project
+
+<br>
+
+✅ Created RStudio Project in your computer
+
+✅ Created quarto document
+
+# Import Data {background-image="https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/40488240-4609-4dc3-8920-693e078b55ce_rw_1920.jpg?h=2e96a7e21e19c43867546498da026649" background-size="50%" background-position="right" background-color="beige"}
+
+## Data Structure {background-color="black"}
+
+<br>
+
+![](https://r4ds.hadley.nz/images/tidy-1.png)
+
+::: aside
+Source: [R for Data Science (2e)](https://r4ds.hadley.nz/)
+:::
+
+## Column/Variable Types
+
+| Data type | Example         | Column header |
+|-----------|-----------------|---------------|
+| logical   | `TRUE`          | lgl           |
+| integer   | `1L`            | int           |
+| double    | `1.5`           | dbl           |
+| character | `"A"`           | chr           |
+| factor    | `factor("A")`   | fct           |
+| ordered   | `ordered("a")`  | ord           |
+
+::: aside
+Source: <https://tibble.tidyverse.org/articles/types.html>
+:::
+
+## Step 1
+
+::: panel-tabset
+### Install required packages
+
+-   `install.packages("tidyverse")` \# Includes readr for importing
+-   `install.packages("janitor")` \# For cleaning column names
+-   `install.packages("lubridate")` \# For date handling
+
+### Load libraries
+
+-   `library(tidyverse)`\
+-   `library(janitor)`\
+-   `library(lubridate)`
+:::
+
+## Step 2. Basic CSV Import with `read_csv()`
+
+<br> <br>
+
+`df <- read_csv("path/to/file.csv")`
+
+## Step 3. Understanding `read_csv()` Parameters
+
+- `col_names`: Specify if first row contains column names
+
+- `skip`: Skip rows at the beginning
+
+- `n_max`: Read only first n rows
+
+- `na`: Specify what values should be treated as NA
+
+- `col_types`: Specify column types explicitly
+
+## Step 4. Cleaning Column Names
+
+🤯 Problem: Column names with spaces, special characters, or inconsistent cases are hard to work with
+
+## Step 5. Converting Data Types
+
+- Convert character to factor
+
+- Convert character to date
+
+## Step 6. Working with Factors
+
+- Factors are categorical variables with defined levels
+
+- They're useful for:
+  - Ensuring valid categories
+  - Controlling sort order
+  - Statistical modeling
+
+## Exporting Cleaned Data
+
+- Export to CSV
+
+- Export to Excel
+
+## Reading other File Formats
+
+- Excel files (requires `readxl` package)
+
+- SPSS, Stata, SAS files (requires `haven` package)
+
+## Tips and Best Practices
+
+1. Use `read_csv()` instead of `read.csv()`
+   - It's faster and creates tibbles
+   - Better type detection
+
+1. Clean column names immediately
+   - Use `janitor::clean_names()`
+   - Consistent naming makes code easier
+
+1. Be explicit about data types
+   - Use `col_types` parameter
+   - Convert to factors where appropriate
+
+1. Document your cleaning steps
+   - Comment your code
+   - Keep track of what you changed and why
+   
+## Common Problems & Solutions
+
+- **PROBLEM 1: Column names with spaces or special characters**
+  - SOLUTION: Use `clean_names()` or backticks (`Column Name`)
+
+- **PROBLEM 2: Wrong data types after import**
+  - SOLUTION: Specify col_types in `read_csv()` or use `mutate()`
+
+- **PROBLEM 3: Dates imported as character**
+  -SOLUTION: Use lubridate functions (ymd, mdy, dmy)
+
+- **PROBLEM 4: Mixed encodings or special characters**
+  - SOLUTION: Specify encoding: 
+  `read_csv('file.csv', locale = locale(encoding = 'UTF-8'))`
+
+- **PROBLEM 5: Large files taking too long**
+  - SOLUTION: Use n_max to read sample first, or consider `data.table::fread()`
+
+- **PROBLEM 6: Multiple CSV files to combine**
+  - SOLUTION: Use map_dfr from purrr package
+`files <- list.files(pattern = '.csv')`
+`data <- map_dfr(files, read_csv)`
+
+# EDA {background-image="https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/ae747f50-27ee-474a-b312-09a063b38c0e_rw_1920.jpg?h=7f98f2dd734887a88105b57866266a65" background-size="50%" background-position="right" background-color="beige"}
+
+## Exploratory Data Analysis (EDA)
+
+<br>
+
+> "how to use **visualization** and **transformation** to explore your data in a **systematic** way"
+
+::: aside
+Source: [R for Data Science (2e)](https://r4ds.hadley.nz/)
+:::
+   
+## Data: `penguins`
+
+Live on three island: Biscoe, Dream, & Torgersen.
+
+<br>
+
+::: {layout="[[60,40], []]"}
+![](https://allisonhorst.github.io/palmerpenguins/reference/figures/lter_penguins.png)
+
+![Bill description of penguins](https://allisonhorst.github.io/palmerpenguins/reference/figures/culmen_depth.png)
+:::
+
+::: aside
+Source: [palmerpenguins](https://allisonhorst.github.io/palmerpenguins/)
+:::
+
+## Setup
+
+- Install packages 
+  - `install.packages("tidyverse")`
+  - `install.packages("palmerpenguins")`
+
+- Load libraries
+  - `library(tidyverse)`
+  - `library(palmerpenguins)`
+
+- Load the penguins dataset
+  - `data(penguins)`
+
+- Take a quick look
+  - `View(penguins)`
+
+## Step 1. First Look at the Data
+
+- Look at your data
+- Understand what each column means
+- Check the size of your dataset
+
+## Step 2. Understanding Data Dimensions & Structure
+
+- How big is our dataset?
+- What are the column names?
+- What types of data do we have?
+
+## Step 3. Checking Data Quality
+
+- Missing Values (NA)
+- Duplicates
+
+## Step 4. Summary Statistics
+
+- Exploring Categorical Variables
+
+- **Key Question:** Which species live on which islands?
+
+## Step 5. Summary Statistics
+
+- Exploring Numerical Variables
+
+## Step 6. Comparing Groups
+
+- Average measurements by species
+- Compare by sex
+- Compare by species AND sex
+
+## Step 7. Visualization - Distributions
+
+- Visualizations help us SEE patterns in data
+- Distributions: how values are spread out
+
+## Step 8. Visualization - Comparing Groups
+
+## Step 9. Visualization - Relationships between Variables
+
+- One of the most important questions in EDA:
+  - **How do variables relate to each other?**
+  
+## Step 10. Correlation Analysis  
+
+- Correlation measures how strongly two variables are related
+
+## Step 11. Finding Outliers
+
+Outliers are observations that are very different from others They can be:
+
+- Errors in data collection
+- Rare but real observations
+- Important discoveries!
+
+## Answering Research Questions
+
+EDA is about asking and answering questions!
+
+1. **QUESTION:** Size difference between sexes?
+
+1. **QUESTION:** Do penguins on different islands have different sizes?
+
+1. **QUESTION:** Are bill dimensions related to body size?
+
+1. **QUESTION:** Has penguin size changed over the years?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

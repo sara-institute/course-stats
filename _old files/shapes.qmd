@@ -1,0 +1,161 @@
+---
+title: "[Throwing <br>Shapes]{.clr-white .r-fit-text}"
+author: "[Dr. Ajay Kumar Koli, PhD | SARA Institute of Data Science, India]{.clr-white .r-fit-text}"
+format: revealjs
+controls: true
+slide-number: true
+scrollable: true
+logo: images/logo-sara.png
+bibliography: references.bib
+theme: style.scss
+title-slide-attributes: 
+  data-background-image: "https://images.unsplash.com/photo-1719487934500-c6aeb08a4c36?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  data-background-size: cover
+---
+
+## ![](images/superimposed.png){fig-align="center"}
+
+## Idealised Distributions
+
+- The beauty of data is that we can use samples to **estimate the shape** of the distribution of scores in the entire population.
+
+## Relative Frequencies
+
+- It is reasonable to **assume** that the relative frequencies in the sample will be similar to those in the population.
+
+- We do not need to know the **actual frequencies** in the population, we work instead with relative frequencies.
+
+## Probability Distribution
+
+![](images/density-distribution.png){fig-align="center"}
+
+## Common Distributions
+
+- Common shapes of distributions are 
+  - **normal distribution**, 
+  - **$t$-distribution**, 
+  - **$chi-square$ ($\chi^2$) distribution**, 
+  - **$F$-distribution**.
+
+- Each have a specific shape that can be described by an equation. 
+
+## Symmetrical/Normal Distribution
+
+> The curve is **symmetrical** if we draw a vertical line through the centre of the distribution then it looks the same on both sides.
+
+![](images/normal-distribution.png){fig-align="center"}
+
+## Shape of the Distribution
+
+- **Central Tendency:** Mean determines the center of the distribution
+
+- **Variability:** Standard deviation width or spread of the distribution.
+
+- **68-95-99.7 Rule:**
+
+    - 68% of data falls within ±1σ of the mean.
+    - 95% within ±2σ.
+    - 99.7% within ±3σ.
+    
+## Practice    
+
+- Plot the Normal Distribution
+
+- Central Tendency and Variability
+
+- Visualizing Central Tendency
+
+- Interpret the Results
+
+## All Distributions are not "normal"
+
+![](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/7ae925e1-60bb-4b2c-ba7f-13c46b1848fa_rw_1920.png?h=47b190d464b51dd3e7394cdcd5cb9620){fig-align="center"}
+
+## Real Life Data
+
+![](images/data-real-life.jpg){fig-align="center" width="50%"}
+
+::: aside
+Image source LinkedIn: [
+Andres Vourakis](https://www.linkedin.com/in/andresvourakis/recent-activity/all/)
+:::
+
+## Skewness
+
+> Skewness measures the asymmetry of a distribution around its mean.
+
+![](images/skewness.png){fig-align="center"}
+
+## Positive Skew
+
+> "A longer tail on the right side."
+
+![](images/positive-skewness.png){fig-align="center"}
+
+
+## Negative Skew
+
+> A longer tail on the left side.
+
+![](images/negative-skewness.png){fig-align="center"}
+
+## Kurtosis
+
+> Kurtosis measures the "tailedness" or sharpness of a distribution.
+
+![](images/kurtosis.png){fig-align="center"}
+
+## Leptokurtic
+
+> Heavy tails and sharp peak.
+
+![](images/kurtosis-lepo.png){fig-align="center"}
+
+## Platykurtic
+
+> Light tails and flatter peak.
+
+![](images/kurtosis-platy.png){fig-align="center"}
+
+## Practice {background-color="skyblue"}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+### Skewness
+
+- Symmetric Distribution: Skewness = 0.
+
+- Positive Skew: Tail on the right; Skewness > 0.
+
+- Negative Skew: Tail on the left; Skewness < 0.
+:::
+
+::: {.column width="50%"}
+### Kurtosis
+
+- Mesokurtic: Normal distribution, Kurtosis ≈ 3.
+
+- Leptokurtic: Heavy tails, Kurtosis > 3.
+
+- Platykurtic: Light tails, Kurtosis < 3.
+:::
+
+::::
+
+
+## References
+
+
+
+
+
+
+
+
+
+
+
+
+
+

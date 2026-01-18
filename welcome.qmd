@@ -1,6 +1,6 @@
 ---
-title: "[Welcome]{.clr-white .r-fit-text}"
-subtitle: "[SARA Statistics Winter School, Dec 2024 <br> Sonipat, Haryana]{.clr-white .r-fit-text}"
+title: "[WELCOME]{.clr-white .r-fit-text}"
+subtitle: "[2nd SARA Statistics Winter School<br>23-27 Jan 2026 | Sonipat, Haryana]{.clr-white .r-fit-text}"
 #author: "[SARA Institute of Data Science, Sonipat, Haryana, India]{.clr-white .r-fit-text}"
 format: revealjs
 progress: true
@@ -8,55 +8,59 @@ controls: true
 slide-number: true
 scrollable: true
 menu: true
+lightbox: true
 logo: images/logo-sara.png
 bibliography: references.bib
+incremental: true
 theme: style.scss
 title-slide-attributes: 
   data-background-image: "https://images.unsplash.com/photo-1719487934500-c6aeb08a4c36?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   data-background-size: cover
+editor: 
+  markdown: 
+    wrap: 72
 ---
-
-# {background-image="images/logo-sara.png" background-size="25%" background-position="middle center"}
 
 ##  {background-image="https://images.unsplash.com/photo-1615715035868-fc94bd5ffdac?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" background-size="cover"}
 
+<br> <br>
+
 ::::::: centering
 :::::: columns
-::: {.column width="35%"}
-![**Gyanjyoti [Sa]{.clr-red}vitribai Phule**<br><br>🌺 🙏🏽 🌼](images/intro/savitrimai.png)
+::: {.column width="36%"}
+![**GYAN JYOTI [SA]{.clr-red}VITRIBAI PHULE (1831-1897)**<br>🌺 🙏🏽
+🌼](images/intro/savitrimai.png){width="70%"}
 :::
 
-::: {.column width="30%"}
+::: {.column width="29%"}
 <br>
 
-![](images/logo-sara.png){width="3in" fig-align="center"}
+![](images/logo-sara.png){width="2.0in" fig-align="center"}
 :::
 
-::: {.column width="35%"}
-![**Mata [Ra]{.clr-red}mabai Ambedkar**<br><br>🌺 🙏🏽 🌼](images/intro/ramai.png)
+::: {.column width="34.75%"}
+![**MATA [RA]{.clr-red}MABAI AMBEDKAR (1898-1935)**<br>🌺 🙏🏽
+🌼](images/intro/ramai.png){width="70%"}
 :::
 ::::::
 
 [**Savitribai Ramabai (SARA) Institute of Data Science**]{.r-fit-text}
 :::::::
 
-## SARA Education Trust
+## SARA Institute of Data Science
 
-> March 2024 registered charitable Trust in India.
+> First class was on 5 April 2023 in Bhiwadi, RJ.
 
 ::: centering
-![5 April 2023 -- first class at the SARA.](images/intro/terra-sara.jpg){width="78%"}
+![5 April 2023 -- first class at the
+SARA.](images/intro/terra-sara.jpg){width="78%"}
 :::
 
-## Our Mission
+## Our Mission {background-image="images/intro/mission.jpg" background-size="contain" background-position="right"}
 
-> To empower under-represented communities in India using data science education.
+> Making data science <br>accessible to all.
 
-::: {.centering layout-ncol="2" layout-valign="bottom"}
-![](images/intro/visit-hr.jpg)
-
-![](images/intro/visit-rj.jpg)
-:::
+> Priority admission for <br>marginalized communities and <br>women.
 
 ## Free & Open-source Courses
 
@@ -92,15 +96,65 @@ Research Methods
 Image source: [Unsplash](https://unsplash.com/)
 :::
 
-## Our Latest Data Science Training
+## Free Data Science Trainings {background-color="#141414"}
 
-![18 participants successfully completed our five-day SARA Data Science Residential Summer School, July 2024, gaining hands-on experience in R programming.](images/intro/summer-school-students-july24.jpeg){fig-align="center"}
+> [R & RStudio, Statistics, & Quarto.]{.clr-white}
 
-::: aside
-Watch about it on our [YouTube](https://youtu.be/Yh5GaURxfXA?si=6uFMZmGSBkSC5uxl) channel.
+![July 2024, Reproducible Research Using
+R.](images/intro/batch1.jpeg){fig-align="center"}
+
+![Dec 2024, Statistics using
+R](images/intro/batch2.jpeg){fig-align="center"}
+
+![Mar 2025, Publish using
+Quarto](images/intro/batch3.jpg){fig-align="center"}
+
+![July 2025, R for
+Researchers.](images/intro/batch4.jpeg){fig-align="center"}
+
+## Workshop Collaborations {background-color="#141414"}
+
+> [Hands-on data sci education to organizations nationwide.]{.clr-white}
+
+::: {layout-ncol="2" layout-nrow="4"}
+![Dec 2023, Eco, MDU, Rohtak](images/intro/mdu.jpg){fig-align="center"}
+
+![May 2024, SRM Uni, Sonipat](images/intro/srm1.jpg)
+
+![May 2024, GJU, Hisar](images/intro/gju.jpg){fig-align="center"}
+
+![June 2024, Profs., GJU,
+Hisar](images/intro/gju-online.jpg){fig-align="center"}
+
+![Oct 2024, Center for Political Studies, JNU,
+Delhi](images/intro/jnu-talk-participants.jpg){fig-align="center"}
+
+![Jul 2025, Profs. GJU, Hisar](images/intro/gju-online2.jpg)
+
+![Aug 2025, IDA, Jaipur](images/intro/jaipur.png)
+
+![Oct 2025, Sociology, DU](images/intro/du.jpg)
 :::
 
-## Latest News about the SARA
+## SARA Saksharta Mission {background-color="#141414"}
+
+> [Awareness about Data Science Education & Opportunities.]{.clr-white}
+
+::: {layout-ncol="2" layout-nrow="3"}
+![](images/intro/visit1.jpg)
+
+![](images/intro/visit4.jpg)
+
+![](images/intro/visit6.jpg)
+
+![](images/intro/visit5.jpg)
+
+![](images/intro/visit2.jpg)
+
+![](images/intro/visit3.jpg)
+:::
+
+## Latest News about the SARA {background-color="#141414"}
 
 {{< video https://youtu.be/c0ZJQSdoWXI?si=HKRjVfOHuJ1zME1b width="100%" height="75%" >}}
 
@@ -108,27 +162,21 @@ Watch about it on our [YouTube](https://youtu.be/Yh5GaURxfXA?si=6uFMZmGSBkSC5uxl
 Thank You! [*News Beak*](https://thenewsbeak.in/) team.
 :::
 
-## Support SARA {background-image="images/intro/babasaheb.jpg" background-size="contain" background-position="right"}
+## Support SARA {background-image="images/intro/babasaheb.jpg" background-size="contain" background-position="right" background-color="#141414"}
 
-::::: columns
-::: {.column .r-fit-text width="50%"}
-> Donate to SARA. [Get Income Tax Rebate!]() Under 80G.
+<br> <br>
 
-![](images/intro/qrcode-sara.png){width="30%" fig-align="center"}
+> [Teach at SARA.]{.clr-white}
 
--   Bank Transfer:<br>
-    -   Account Name: SARA EDUCATION TRUST.
+> [Donate to SARA.]{.clr-white}
 
-    -   Account Number: 42920911856.
+# {{< fa brands whatsapp >}} Follow<br>SARA {background-color="seagreen" background-image="images/intro/sara-channel.jpeg" background-position="right" background-size="contain"}
 
-    -   Bank Name: STATE BANK OF INDIA.
+Receive Courses, Scholarships, & Talks <br>Updates on your WhatsApp.
 
-    -   IFSC Code: SBIN0000721.
-:::
+# {{< fa handshake >}} Donate<br>to SARA {background-color="#003262" background-image="images/intro/upi-sara.png" background-position="right" background-size="contain"}
 
-::: {.column width="30%"}
-:::
-:::::
+No Amount is too Small.
 
 ## 
 
@@ -136,7 +184,8 @@ Thank You! [*News Beak*](https://thenewsbeak.in/) team.
 ::: {.column .centering width="30%"}
 <br> <br>
 
-![Savitribai Ramabai (SARA) Institute of Data Science](images/logo-sara.png)
+![Savitribai Ramabai (SARA) Institute of Data
+Science](images/logo-sara.png)
 :::
 
 ::: {.column width="10%"}
@@ -149,103 +198,119 @@ Thank You! [*News Beak*](https://thenewsbeak.in/) team.
 
 **Dr. Kiran Lata**, <br>Director, SARA Institute
 
-{{< fa location-dot >}} Dr. Ambedkar Bhawan, <br>Kakroi Road, Near Dayanand Hospital, <br>Sonipat - 131001, Haryana, India.
+{{< fa location-dot >}} Dr. Ambedkar Bhawan, <br>Kakroi Road, Near
+Dayanand Hospital, <br>Sonipat - 131001, Haryana, India.
 
 <br>
 
-{{< fa mobile-screen >}}   925 315 2024 <br> {{< fa envelope >}}   [sara.institute.info\@gmail.com](mailto:%20sara.institute.info@gmail.com) <br> SARA Website   <https://sara-edu.netlify.app/>
+{{< fa mobile-screen >}}   925 315 2024 <br> {{< fa envelope >}}  
+[sara.institute.info\@gmail.com](mailto:%20sara.institute.info@gmail.com)
+<br> SARA Website   <https://sara-edu.netlify.app/>
 
 <br> Follow SARA Institute on Social Media.<br>
 
-[{{< fa brands github >}}](https://github.com/sara-edu)   [{{< fa brands twitter >}}](https://twitter.com/sara_institute)   [{{< fa brands facebook >}}](https://www.facebook.com/profile.php?id=61564043738390)   [{{< fa brands youtube >}}](https://www.youtube.com/@SARADataScience)   [{{< fa brands linkedin >}}](https://www.linkedin.com/company/sara-institute/)   [{{< fa brands whatsapp >}}](https://whatsapp.com/channel/0029Va4r7rGLCoWycMwThl2J)
+[{{< fa brands github >}}](https://github.com/sara-edu)  
+[{{< fa brands twitter >}}](https://twitter.com/sara_institute)  
+[{{< fa brands facebook >}}](https://www.facebook.com/profile.php?id=61564043738390)
+  [{{< fa brands youtube >}}](https://www.youtube.com/@SARADataScience)
+ 
+[{{< fa brands linkedin >}}](https://www.linkedin.com/company/sara-institute/)
+ 
+[{{< fa brands whatsapp >}}](https://whatsapp.com/channel/0029Va4r7rGLCoWycMwThl2J)
+ 
+[{{< fa brands instagram >}}](https://www.instagram.com/sara_data_sci/)
 :::
 ::::::
 
-#  {background-image="images/intro/flyer-winter.png" background-position="right" background-size="contain" background-color="#003262"}
+#  {background-image="images/intro/flyer.png" background-position="right" background-size="contain" background-color="#003262"}
 
-:::: {.columns}
-
+::::: columns
 ::: {.column width="50%"}
-[SARA <br>Statistics <br>Winter <br>School]{.r-fit-text}
+[2nd SARA <br>Statistics <br>Winter School]{.r-fit-text}
 :::
 
 ::: {.column width="50%"}
-
 :::
+:::::
+
+## {background-image="https://images.unsplash.com/photo-1615715035868-fc94bd5ffdac?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" background-size="cover"}
+
+<br>
+<br>
+
+:::: {.centering}
+
+![](images/intro/sonipat-bhawan.png)
+
+[***The Ambedkar <br>Educational Society Sonipat***]{.r-fit-text}
 
 ::::
 
-## SARA Statistics Winter School
+## Schedule Overview
 
--   Around 30 hours of residential teaching for 5 days.
+-   Around **40 hours** of residential teaching for 5 days.
 
--   [No tuition fee.]{.clr-tom} But 1 week food & accommodation charges Rs.6000.
+-   [No tuition fee.]{.clr-tom} But 1 week food & accommodation charges
+    Rs.3500.
 
--   First 15 participants are given 40% discount on the food and accommodation fee as well.
+-   **Feedback** on the last day of the event.
 
-- **Feedback** on the last day of the event.
+-   **Thank You Ceremony!** on Tuesday, 27 Jan 2026, 6-7 PM 🚂
 
--   **Thank You Ceremony!** on Friday, 20 Dec 2024, 6-7 PM 🚂
-
-- **e-Certificate** of the participation via email.
+-   **e-Certificate** of the participation via email.
 
 ## Daily Schedule:
 
 ::: panel-tabset
 ### {{< fa utensils >}} Food
 
-| Time                 | Activity  |
-|----------------------|-----------|
-| 08:30 AM to 09:30 AM | Breakfast |
-| 01:30 PM to 02:30 PM | Lunch     |
-| 07:00 PM to 08:00 PM | Dinner    |
-
+| Activity             | Time                        |       
+|----------------------|-----------------------------|
+| {{< fa coffee >}} Breakfast | 08:30 AM to 09:30 AM |
+| {{< fa sun >}} Lunch        | 01:30 PM to 02:30 PM |
+| {{< fa moon >}} Dinner      | 07:30 PM to 08:30 PM |
 
 ### {{< fa laptop >}} Lectures
 
-::: .r-fit-text
-
-| Time                 | Activity    |
-|----------------------|-------------|
-| 10:00 AM to 11:30 AM | Class 1     |
-| {{< fa mug-hot >}}    | Discussion  |
-| 12:00 AM to 01:30 PM | Class 2     |
-| {{< fa utensils >}}    | Lunch  |
-| 02:30 PM to 04:00 PM | Class 3     |
-| {{< fa mug-hot >}}    | Discussion  |
-| 04:30 PM to 06:00 PM | Class 4     |
+| Activity         | Time                               |
+|------------------|---------------------------|
+| **{{< fa line-chart >}} Class 1** | **10:00 AM to 11:30 AM**  |
+| {{< fa refresh >}} Discussion | 30 minutes            |
+| **{{< fa line-chart >}} Class 2**  | **12:00 AM to 01:30 PM**  |
+| **{{< fa line-chart >}} Class 3**  | **02:30 PM to 04:00 PM**  |
+| {{< fa refresh >}} Discussion | 30 minutes            |
+| **{{< fa line-chart >}} Class 4** | **04:30 PM to 06:00 PM**  |
 
 :::
 
-:::
+## Code of Conduct
 
+- **Be respectful and kind** to everyone.
 
-## Logistics:
+- **Ask questions freely** – no question is too small.
 
--   Don't be late for the class \~5 minutes
+- **Bring your own internet** – mobile hotspot or data plan required.
 
--   Classes will be in the Mata Ramabai Auditorium, 1st Floor, Dr. Ambedkar Bhawan.
+- **Arrive 5 minutes early** to settle in before each session.
 
--   You will have to use your own internet.
-
--   Be kind to each and everyone.
+- **Location:** All classes will be held at **Mata Ramabai Auditorium, 1st Floor, Dr. Ambedkar Bhawan.**
 
 ## Contact Numbers:
 
-| Name                                                | Mobile |
-|-------------------------------------------|----------------------|
-| SARA Office                                         | 925 315 2024  |
-| Dr. Ajay Kumar (Ex. Director, SARA)                 | 88868 10879   |
-| Dr. Kiran Koli (Director, SARA)                     | 81680 60500   |
-| Mr. Satyawan Bhatia <br>(President, Dr. Ambedkar Bhawan) | 94165 40721   |
-| Mr. Raj Pal (Supervisor, Dr. Ambedkar Bhawan)      | 93063 42596   |
+| Name                                                     | Mobile       |
+|--------------------|----------|
+| SARA Office                                              | 925 315 2024 |
+| Dr. Ajay Kumar (Ex. Director, SARA)                      | 88868 10879  |
+| Dr. Kiran Koli (Director, SARA)                          | 81680 60500  |
+| Mr. Rajesh Kataria <br>(President, Dr. Ambedkar Bhawan)  | 90134 99562  |
+| Mr. Raj Pal <br>(Supervisor, Dr. Ambedkar Bhawan)            | 93063 42596  |
 
-## Course Website 
+## Course Website
 
 <https://sara-institute.quarto.pub/stats-course/>
 
-```{=html}
-<iframe width="1500" height="550" src="https://sara-institute.quarto.pub/stats-course/" title="Course Website"></iframe>
-```
+# {background-image="https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/5ccff989-900e-4f2b-aece-55278b563cfa.png?h=ef8e944e5633d60890b3a74c39c74856" background-size="contain"}
 
-# All the Best {background-color="seagreen" .centering}
+::: aside
+Source: [RStudio](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects) & artwork by [Allison Horst](https://www.allisonhorst.com/)
+:::

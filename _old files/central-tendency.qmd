@@ -1,0 +1,76 @@
+---
+title: "[Central <br>Tendency]{.clr-white .r-fit-text}"
+author: "[Dr. Ajay Kumar Koli, PhD | SARA Institute of Data Science, India]{.clr-white .r-fit-text}"
+format: revealjs
+controls: true
+slide-number: true
+scrollable: true
+logo: images/logo-sara.png
+bibliography: references.bib
+theme: style.scss
+title-slide-attributes: 
+  data-background-image: "https://images.unsplash.com/photo-1719487934500-c6aeb08a4c36?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  data-background-size: cover
+---
+
+## Measures of Central Tendency
+
+> Describe the center or typical value of a dataset. 
+
+<br>
+
+. . .
+
+The three most common measures are:
+
+1. Mean (Average).
+
+1. Median (Middle value).
+
+1. Mode (Most frequent value).
+
+## Mean
+
+> The mean is calculated as the sum of all data points divided by the number of points. It’s sensitive to extreme values (outliers).
+
+<br>
+
+. . .
+
+$$
+\bar{X} = \frac{\displaystyle\sum_{i=1}^nx_i}{\displaystyle n}
+$$
+
+## Median
+
+> The median is the middle value of a sorted dataset. It is robust to outliers.
+
+. . .
+
+> If the dataset has an even number of elements, the median is the average of the two middle values.
+
+## Mode
+
+> The mode is the most frequently occurring value in the dataset. 
+
+## Problems with Mode
+
+> Unlike the mean and median, there can be no mode, one mode, or multiple modes.
+
+![](images/mode.png){fig-align="center"}
+
+## Key Insights
+
+- **Mean:** Best for symmetric datasets but affected by outliers.
+
+- **Median:** Robust to outliers, useful for skewed data.
+
+- **Mode:** Describes the most common value, useful for categorical data.
+
+## Mean the Balancing Point
+
+![](images/mean-balance.png){fig-align="center"}
+
+## Effect on Mean
+
+![](images/mean-effect.png){fig-align="center"}
