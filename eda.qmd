@@ -143,29 +143,6 @@ Source: <https://tibble.tidyverse.org/articles/types.html>
    - Comment your code
    - Keep track of what you changed and why
    
-## Common Problems & Solutions
-
-- **PROBLEM 1: Column names with spaces or special characters**
-  - SOLUTION: Use `clean_names()` or backticks (`Column Name`)
-
-- **PROBLEM 2: Wrong data types after import**
-  - SOLUTION: Specify col_types in `read_csv()` or use `mutate()`
-
-- **PROBLEM 3: Dates imported as character**
-  -SOLUTION: Use lubridate functions (ymd, mdy, dmy)
-
-- **PROBLEM 4: Mixed encodings or special characters**
-  - SOLUTION: Specify encoding: 
-  `read_csv('file.csv', locale = locale(encoding = 'UTF-8'))`
-
-- **PROBLEM 5: Large files taking too long**
-  - SOLUTION: Use n_max to read sample first, or consider `data.table::fread()`
-
-- **PROBLEM 6: Multiple CSV files to combine**
-  - SOLUTION: Use map_dfr from purrr package
-`files <- list.files(pattern = '.csv')`
-`data <- map_dfr(files, read_csv)`
-
 # EDA {background-image="https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/ae747f50-27ee-474a-b312-09a063b38c0e_rw_1920.jpg?h=7f98f2dd734887a88105b57866266a65" background-size="50%" background-position="right" background-color="beige"}
 
 ## Exploratory Data Analysis (EDA)

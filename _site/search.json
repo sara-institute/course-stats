@@ -1,332 +1,472 @@
 [
   {
-    "objectID": "welcome.html#section",
-    "href": "welcome.html#section",
-    "title": "WELCOME",
+    "objectID": "dispersion.html#dispersion",
+    "href": "dispersion.html#dispersion",
+    "title": "Measures of Dispersion",
+    "section": "Dispersion",
+    "text": "Dispersion\n\n\nHow spread out the data is around its mean."
+  },
+  {
+    "objectID": "dispersion.html#measures-of-dispersion",
+    "href": "dispersion.html#measures-of-dispersion",
+    "title": "Measures of Dispersion",
+    "section": "Measures of Dispersion",
+    "text": "Measures of Dispersion\n\nRange: The difference between the maximum and minimum values.\nVariance: The average of the squared differences from the mean.\nStandard Deviation (SD): The square root of variance, representing average deviation from the mean.\nInterquartile Range (IQR): The difference between the 75th percentile (Q3) and 25th percentile (Q1)."
+  },
+  {
+    "objectID": "dispersion.html#total-errordevianceresidual",
+    "href": "dispersion.html#total-errordevianceresidual",
+    "title": "Measures of Dispersion",
+    "section": "Total Error/Deviance/Residual",
+    "text": "Total Error/Deviance/Residual\n\nAdd up the deviances for each data point\n\n\n\\[\ntotal\\;error = \\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)\n\\]\n\n\n\\[\ntotal\\;deviance = \\displaystyle\\sum_{i=1}^n (x_{i} - \\bar X)\n\\]"
+  },
+  {
+    "objectID": "dispersion.html#sum-of-errors",
+    "href": "dispersion.html#sum-of-errors",
+    "title": "Measures of Dispersion",
+    "section": "Sum of Errors",
+    "text": "Sum of Errors\n\\[\nSum \\; of \\;errors = \\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)\n\\]\n\n\\[\n= (28-30) + (29-30) + (29-30) + (30-30) \\\\+ (30-30) + (30-30) + (31-30) + (31-30) + \\\\(32-30)\\\\\n= -2 + (-1) + (-1) + 0 + 0 + 0 + 1 + 1 +2 \\\\\n= 0\n\\]"
+  },
+  {
+    "objectID": "dispersion.html#graph-ras-errors",
+    "href": "dispersion.html#graph-ras-errors",
+    "title": "Measures of Dispersion",
+    "section": "Graph RAS Errors",
+    "text": "Graph RAS Errors"
+  },
+  {
+    "objectID": "dispersion.html#sum-of-squared-errors",
+    "href": "dispersion.html#sum-of-squared-errors",
+    "title": "Measures of Dispersion",
+    "section": "Sum of Squared Errors",
+    "text": "Sum of Squared Errors\n\\[\nSum \\; of \\; squared \\;errors (SS) = \\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)^2\n\\]\n\n\\[\nSum \\; of \\; squared \\;errors (SS) = \\displaystyle\\sum_{i=1}^n (x_{i} - \\bar{X})^2\n\\]"
+  },
+  {
+    "objectID": "dispersion.html#sum-of-squared-errors-1",
+    "href": "dispersion.html#sum-of-squared-errors-1",
+    "title": "Measures of Dispersion",
+    "section": "Sum of Squared Errors",
+    "text": "Sum of Squared Errors"
+  },
+  {
+    "objectID": "dispersion.html#sum-of-squared-errors-ss",
+    "href": "dispersion.html#sum-of-squared-errors-ss",
+    "title": "Measures of Dispersion",
+    "section": "Sum of Squared Errors (\\(SS\\))",
+    "text": "Sum of Squared Errors (\\(SS\\))\n\n❌ Size of \\(SS\\) depend on how many scores we have in the data.\n❌ It is nuisance if we want to compare the total error across samples of different size.\n✅ An easy solution is to divide \\(SS\\) by the number of scores/observations (\\(N\\))."
+  },
+  {
+    "objectID": "dispersion.html#variance",
+    "href": "dispersion.html#variance",
+    "title": "Measures of Dispersion",
+    "section": "Variance",
+    "text": "Variance\n\\[\nmean \\; squared \\;error = \\frac{SS}{N} = \\frac{\\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)^2}{N}\n\\]\n\n\\[\nvariance (\\sigma^2) = \\frac{SS}{N} = \\frac{\\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)^2}{N}\n\\]\n\nThe symbol of variance in sample is \\(s^2\\).\nThe symbol of variance in population is \\(\\sigma^2\\)."
+  },
+  {
+    "objectID": "dispersion.html#ras-variance",
+    "href": "dispersion.html#ras-variance",
+    "title": "Measures of Dispersion",
+    "section": "RAS Variance",
+    "text": "RAS Variance\nThe average error of the mean was 1.33 RAS units squared\n\\[\nvariance (\\sigma^2) = \\frac{SS}{N} = \\frac{\\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)^2}{N} \\\\ = \\frac{12}{9} \\\\ = 1.33\n\\]"
+  },
+  {
+    "objectID": "dispersion.html#standard-deviation",
+    "href": "dispersion.html#standard-deviation",
+    "title": "Measures of Dispersion",
+    "section": "Standard Deviation",
+    "text": "Standard Deviation\n\\[\n\\sigma = \\sqrt{variance} = \\sqrt\\frac{\\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)^2}{N} \\\\ = \\sqrt\\frac{12}{9} \\\\ = \\sqrt{1.33 } \\\\= 1.15\n\\]"
+  },
+  {
+    "objectID": "dispersion.html#degrees-of-freedom",
+    "href": "dispersion.html#degrees-of-freedom",
+    "title": "Measures of Dispersion",
+    "section": "Degrees of Freedom",
+    "text": "Degrees of Freedom\n\\[\n\\sigma = \\sqrt{variance} = \\sqrt\\frac{\\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)^2}{N - 1} \\\\ = \\sqrt\\frac{12}{8} \\\\ = \\sqrt{1.5} \\\\= 1.22\n\\]"
+  },
+  {
+    "objectID": "dispersion.html#outliers-and-variance",
+    "href": "dispersion.html#outliers-and-variance",
+    "title": "Measures of Dispersion",
+    "section": "Outliers and Variance",
+    "text": "Outliers and Variance\n\nThe variance with the outlier is 37.43\nThe variance without the outlier is 1.5"
+  },
+  {
+    "objectID": "dispersion.html#standard-deviation-and-dispersion",
+    "href": "dispersion.html#standard-deviation-and-dispersion",
+    "title": "Measures of Dispersion",
+    "section": "Standard Deviation and Dispersion",
+    "text": "Standard Deviation and Dispersion\n\nA small standard deviation (relative to the value of the mean) indicates that data points are close to the mean.\nA large standard deviation (relative to the mean) indicates that the data points are distant from the mean.\nA standard deviation of 0 would mean that all of the scores were the same."
+  },
+  {
+    "objectID": "dispersion.html#same-mean-different-sd",
+    "href": "dispersion.html#same-mean-different-sd",
+    "title": "Measures of Dispersion",
+    "section": "Same Mean, Different SD",
+    "text": "Same Mean, Different SD"
+  },
+  {
+    "objectID": "dispersion.html#same-mean-different-sd-1",
+    "href": "dispersion.html#same-mean-different-sd-1",
+    "title": "Measures of Dispersion",
+    "section": "Same Mean, Different SD",
+    "text": "Same Mean, Different SD"
+  },
+  {
+    "objectID": "thanks.html#section",
+    "href": "thanks.html#section",
+    "title": "THANK YOU!  Ceremony",
     "section": "",
     "text": "GYAN JYOTI SAVITRIBAI PHULE (1831-1897)🌺 🙏🏽 🌼\n\n\n\n\n\n\n\n\n\n\n\n\n\nMATA RAMABAI AMBEDKAR (1898-1935)🌺 🙏🏽 🌼\n\n\n\nSavitribai Ramabai (SARA) Institute of Data Science"
   },
   {
-    "objectID": "welcome.html#sara-institute-of-data-science",
-    "href": "welcome.html#sara-institute-of-data-science",
-    "title": "WELCOME",
-    "section": "SARA Institute of Data Science",
-    "text": "SARA Institute of Data Science\n\nFirst class was on 5 April 2023 in Bhiwadi, RJ."
+    "objectID": "thanks.html#overview",
+    "href": "thanks.html#overview",
+    "title": "THANK YOU!  Ceremony",
+    "section": "Overview",
+    "text": "Overview\n\n00 participants attended.\nAround 40 hours of teaching.\n05 days of food and accommodation."
   },
   {
-    "objectID": "welcome.html#our-mission",
-    "href": "welcome.html#our-mission",
-    "title": "WELCOME",
-    "section": "Our Mission",
-    "text": "Our Mission\n\nMaking data science accessible to all.\n\n\nPriority admission for marginalized communities and women."
-  },
-  {
-    "objectID": "welcome.html#free-open-source-courses",
-    "href": "welcome.html#free-open-source-courses",
-    "title": "WELCOME",
-    "section": "Free & Open-source Courses",
-    "text": "Free & Open-source Courses\n\n\n\n\n\nEnglish Language\n\n\n\nComputer Skills\n\n\n\nData Science\n\n\n\nResearch Methods\n\n\n\n\n\nImage source: Unsplash"
-  },
-  {
-    "objectID": "welcome.html#free-data-science-trainings",
-    "href": "welcome.html#free-data-science-trainings",
-    "title": "WELCOME",
-    "section": "Free Data Science Trainings",
-    "text": "Free Data Science Trainings\n\nR & RStudio, Statistics, & Quarto.\n\n\n\n\n\n\n\n\nJuly 2024, Reproducible Research Using R.\n\n\n\n\n\n\n\n\n\nDec 2024, Statistics using R\n\n\n\n\n\n\n\n\n\nMar 2025, Publish using Quarto\n\n\n\n\n\n\n\n\n\nJuly 2025, R for Researchers."
-  },
-  {
-    "objectID": "welcome.html#workshop-collaborations",
-    "href": "welcome.html#workshop-collaborations",
-    "title": "WELCOME",
-    "section": "Workshop Collaborations",
-    "text": "Workshop Collaborations\n\nHands-on data sci education to organizations nationwide.\n\n\n\n\n\n\n\n\n\n\n\nDec 2023, Eco, MDU, Rohtak\n\n\n\n\n\n\n\nMay 2024, SRM Uni, Sonipat\n\n\n\n\n\n\n\n\n\n\n\n\n\nMay 2024, GJU, Hisar\n\n\n\n\n\n\n\n\n\n\n\nJune 2024, Profs., GJU, Hisar\n\n\n\n\n\n\n\n\n\n\n\n\n\nOct 2024, Center for Political Studies, JNU, Delhi\n\n\n\n\n\n\n\nJul 2025, Profs. GJU, Hisar\n\n\n\n\n\n\n\n\n\nAug 2025, IDA, Jaipur\n\n\n\n\n\n\n\nOct 2025, Sociology, DU"
-  },
-  {
-    "objectID": "welcome.html#sara-saksharta-mission",
-    "href": "welcome.html#sara-saksharta-mission",
-    "title": "WELCOME",
-    "section": "SARA Saksharta Mission",
-    "text": "SARA Saksharta Mission\n\nAwareness about Data Science Education & Opportunities."
-  },
-  {
-    "objectID": "welcome.html#latest-news-about-the-sara",
-    "href": "welcome.html#latest-news-about-the-sara",
-    "title": "WELCOME",
-    "section": "Latest News about the SARA",
-    "text": "Latest News about the SARA\n\n\n\nThank You! News Beak team."
-  },
-  {
-    "objectID": "welcome.html#support-sara",
-    "href": "welcome.html#support-sara",
-    "title": "WELCOME",
-    "section": "Support SARA",
-    "text": "Support SARA\n \n\nTeach at SARA.\n\n\nDonate to SARA."
-  },
-  {
-    "objectID": "welcome.html#section-1",
-    "href": "welcome.html#section-1",
-    "title": "WELCOME",
-    "section": "",
-    "text": "Savitribai Ramabai (SARA) Institute of Data Science\n\n\n\n\n\n \nDr. Ajay Kumar Koli, Executive Director, SARA Institute\nDr. Kiran Lata, Director, SARA Institute\n Dr. Ambedkar Bhawan, Kakroi Road, Near Dayanand Hospital, nipat - 131001, Haryana, India.\n\n   925 315 2024     sara.institute.info@gmail.com  SARA Website   https://sara-edu.netlify.app/\n Follow SARA Institute on cial Media."
-  },
-  {
-    "objectID": "welcome.html#section-3",
-    "href": "welcome.html#section-3",
-    "title": "WELCOME",
+    "objectID": "thanks.html#section-3",
+    "href": "thanks.html#section-3",
+    "title": "THANK YOU!  Ceremony",
     "section": "",
     "text": "The Ambedkar Educational Society Sonipat"
   },
   {
-    "objectID": "welcome.html#schedule-overview",
-    "href": "welcome.html#schedule-overview",
-    "title": "WELCOME",
-    "section": "Schedule Overview",
-    "text": "Schedule Overview\n\nAround 40 hours of residential teaching for 5 days.\nNo tuition fee. But 1 week food & accommodation charges Rs.3500.\nFeedback on the last day of the event.\nThank You Ceremony! on Tuesday, 27 Jan 2026, 6-7 PM 🚂\ne-Certificate of the participation via email."
+    "objectID": "foundational-stats-research.html#theory",
+    "href": "foundational-stats-research.html#theory",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Theory",
+    "text": "Theory\n\n“Theory is a well-established principle or set of general principles to explain a broad range of observations.”\n\n\nTheory = Explanation\n\n\n\nSource: Field (2022)"
   },
   {
-    "objectID": "welcome.html#daily-schedule",
-    "href": "welcome.html#daily-schedule",
-    "title": "WELCOME",
-    "section": "Daily Schedule:",
-    "text": "Daily Schedule:\n\n Food Lectures\n\n\n\n\n\n\n\n\n\nActivity\nTime\n\n\n\n\n Breakfast\n08:30 AM to 09:30 AM\n\n\n Lunch\n01:30 PM to 02:30 PM\n\n\n Dinner\n07:30 PM to 08:30 PM\n\n\n\n\n\n\n\n\n\n\n\n\nActivity\nTime\n\n\n\n\n Class 1\n10:00 AM to 11:30 AM\n\n\n Discussion\n30 minutes\n\n\n Class 2\n12:00 AM to 01:30 PM\n\n\n Class 3\n02:30 PM to 04:00 PM\n\n\n Discussion\n30 minutes\n\n\n Class 4\n04:30 PM to 06:00 PM"
+    "objectID": "foundational-stats-research.html#theory-1",
+    "href": "foundational-stats-research.html#theory-1",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Theory",
+    "text": "Theory\n\n“normally scientists are interested in theories that apply very generally.”\n\n\nGeneralization\n\n\n\nSource: Field (2022)"
   },
   {
-    "objectID": "welcome.html#code-of-conduct",
-    "href": "welcome.html#code-of-conduct",
-    "title": "WELCOME",
-    "section": "Code of Conduct",
-    "text": "Code of Conduct\n\nBe respectful and kind to everyone.\nAsk questions freely – no question is too small.\nBring your own internet – mobile hotspot or data plan required.\nArrive 5 minutes early to settle in before each session.\nLocation: All classes will be held at Mata Ramabai Auditorium, 1st Floor, Dr. Ambedkar Bhawan."
+    "objectID": "foundational-stats-research.html#population",
+    "href": "foundational-stats-research.html#population",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Population",
+    "text": "Population\n\nThe population is the complete set of all individuals, items, or observations that share a common characteristic and are of interest to the researcher.\nIt represents everyone or everything you want to draw conclusions about.\nThe population has fixed parameters like the true mean (μ) or standard deviation (σ), though these are often unknown and what we’re trying to estimate."
   },
   {
-    "objectID": "welcome.html#contact-numbers",
-    "href": "welcome.html#contact-numbers",
-    "title": "WELCOME",
-    "section": "Contact Numbers:",
-    "text": "Contact Numbers:\n\n\n\n\n\n\n\nName\nMobile\n\n\n\n\nSARA Office\n925 315 2024\n\n\nDr. Ajay Kumar (Ex. Director, SARA)\n88868 10879\n\n\nDr. Kiran Koli (Director, SARA)\n81680 60500\n\n\nMr. Rajesh Kataria (President, Dr. Ambedkar Bhawan)\n90134 99562\n\n\nMr. Raj Pal (Supervisor, Dr. Ambedkar Bhawan)\n93063 42596"
+    "objectID": "foundational-stats-research.html#population-examples",
+    "href": "foundational-stats-research.html#population-examples",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Population Examples",
+    "text": "Population Examples\n\nAll registered voters in a country (if studying voting behavior)\nEvery student enrolled in a university (if studying student satisfaction)\nAll hospitals in a region (if studying healthcare quality)\nThe entire production line output for a year (if studying defect rates)"
   },
   {
-    "objectID": "welcome.html#course-website",
-    "href": "welcome.html#course-website",
-    "title": "WELCOME",
-    "section": "Course Website",
-    "text": "Course Website\nhttps://sara-institute.quarto.pub/stats-course/"
+    "objectID": "foundational-stats-research.html#sample",
+    "href": "foundational-stats-research.html#sample",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Sample",
+    "text": "Sample\n\nA sample is a subset of the population that’s actually observed or measured in the study.\nSince studying entire populations is often impractical, expensive, or impossible, researchers select a representative group to study instead.\nSamples have statistics like the sample mean (x̄) or sample standard deviation (s), which are used to estimate the population parameters."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Statistics using R",
-    "section": "",
-    "text": "Star on GitHub\n\n\n\nSARA is a not-for-profit organization in India. To know more about SARA, kindly vist our website.\nThis course aims to help the participants to overcome the fear of numbers, statistics and coding.\n\nIt is a five days annual residential training program to learn basics of statistics using R programming language.\nPriority admission for marginalized communities and women.\nThe course is free. Participants only pay for their food and accommodation.\n\nEmail us at sara.institute.info@gmail.com \\(\\cdot\\) Call us at 925 315 2024.\n\n\n\n\n    View slides in full screen\n       \n      \n    \n  \nThe background image is taken from Sandra Ilic via Unsplash.\n\n\n\n\n    View slides in full screen\n       \n      \n    \n  \n\n\n\n\n    View slides in full screen\n       \n      \n    \n  \n\n\n\n\n    View slides in full screen\n       \n      \n    \n  \n\n\n\n\n    View slides in full screen\n       \n      \n    \n  \n\n\n\n\n    View slides in full screen\n       \n      \n    \n  \n\n\n\n\n    View slides in full screen"
+    "objectID": "foundational-stats-research.html#population-vs-sample",
+    "href": "foundational-stats-research.html#population-vs-sample",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Population vs Sample",
+    "text": "Population vs Sample\n\n\n\n\n\n\n\nPopulation\nSample\n\n\n\n\nAll registered voters in a country\n1,500 randomly selected registered voters\n\n\nEvery student enrolled in a university\n300 students chosen from different departments\n\n\nAll hospitals in a region\n50 hospitals selected using stratified sampling\n\n\nThe entire production line output for a year\n500 randomly selected products from the production line"
   },
   {
-    "objectID": "index.html#session",
-    "href": "index.html#session",
-    "title": "Statistics using R",
-    "section": "",
-    "text": "View slides in full screen\n       \n      \n    \n  \nThe background image is taken from Sandra Ilic via Unsplash."
+    "objectID": "foundational-stats-research.html#statistical-inference",
+    "href": "foundational-stats-research.html#statistical-inference",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Statistical Inference",
+    "text": "Statistical Inference\n\nThe goal of most research is statistical inference: using sample statistics to make educated guesses about population parameters.\nThe quality of your sample determines how well you can generalize findings back to the population."
   },
   {
-    "objectID": "eda.html#download-install",
-    "href": "eda.html#download-install",
-    "title": "Exploratory Data Analysis",
-    "section": "Download & Install",
-    "text": "Download & Install\n\n✅ R Software, https://cloud.r-project.org/\n✅ RStudio IDE, https://posit.co/products/open-source/rstudio/?sid=1\n✅ Quarto, https://quarto.org/docs/get-started/"
+    "objectID": "foundational-stats-research.html#hypothesis",
+    "href": "foundational-stats-research.html#hypothesis",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Hypothesis",
+    "text": "Hypothesis\n\nA hypothesis is a testable statement or prediction about the relationship between variables in a population.\nIt’s essentially an educated guess based on theory, prior research, or observation that you’re trying to verify or refute using data from your sample."
   },
   {
-    "objectID": "eda.html#your-rstudio-project",
-    "href": "eda.html#your-rstudio-project",
-    "title": "Exploratory Data Analysis",
-    "section": "Your RStudio Project",
-    "text": "Your RStudio Project\n\n✅ Created RStudio Project in your computer\n✅ Created quarto document"
+    "objectID": "foundational-stats-research.html#how-hypothesis-connects-to-population-and-sample",
+    "href": "foundational-stats-research.html#how-hypothesis-connects-to-population-and-sample",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "How Hypothesis Connects to Population and Sample",
+    "text": "How Hypothesis Connects to Population and Sample\n\nHypothesis is about the population: Your hypothesis makes a claim about the entire population (all students, all patients, etc.), even though you can’t study everyone.\nSample provides the evidence: You collect data from your sample to test whether the evidence supports or contradicts the null hypothesis.\nStatistical inference bridges the gap: You use statistical tests to determine whether the patterns you observe in your sample are strong enough to conclude something about the population."
   },
   {
-    "objectID": "eda.html#data-structure",
-    "href": "eda.html#data-structure",
-    "title": "Exploratory Data Analysis",
-    "section": "Data Structure",
-    "text": "Data Structure\n\n\n\n\nSource: R for Data Science (2e)"
+    "objectID": "foundational-stats-research.html#variables",
+    "href": "foundational-stats-research.html#variables",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Variables",
+    "text": "Variables\n“Elements in the study that are measured or manipulated.”\n\nIndependent variable\nDependent variable"
   },
   {
-    "objectID": "eda.html#columnvariable-types",
-    "href": "eda.html#columnvariable-types",
-    "title": "Exploratory Data Analysis",
-    "section": "Column/Variable Types",
-    "text": "Column/Variable Types\n\n\n\nData type\nExample\nColumn header\n\n\n\n\nlogical\nTRUE\nlgl\n\n\ninteger\n1L\nint\n\n\ndouble\n1.5\ndbl\n\n\ncharacter\n\"A\"\nchr\n\n\nfactor\nfactor(\"A\")\nfct\n\n\nordered\nordered(\"a\")\nord\n\n\n\n\n\nSource: https://tibble.tidyverse.org/articles/types.html"
+    "objectID": "foundational-stats-research.html#statistical-learning",
+    "href": "foundational-stats-research.html#statistical-learning",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Statistical Learning",
+    "text": "Statistical Learning\n“Statistical Learning refers to a vast set of tools for understanding data.”\n\n\nDescriptive StatisticsInferential Statistics\n\n\n\nSummarizes and organizes data to describe its main features.\nLimited to the observed data.\n\n\n\n\nMakes predictions or inferences about a population from a sample.\n\nGoes beyond the observed data to infer population characteristics."
   },
   {
-    "objectID": "eda.html#step-1",
-    "href": "eda.html#step-1",
-    "title": "Exploratory Data Analysis",
-    "section": "Step 1",
-    "text": "Step 1\n\nInstall required packagesLoad libraries\n\n\n\ninstall.packages(\"tidyverse\") # Includes readr for importing\ninstall.packages(\"janitor\") # For cleaning column names\ninstall.packages(\"lubridate\") # For date handling\n\n\n\n\nlibrary(tidyverse)\n\nlibrary(janitor)\n\nlibrary(lubridate)"
+    "objectID": "foundational-stats-research.html#sampling-variation",
+    "href": "foundational-stats-research.html#sampling-variation",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Sampling Variation",
+    "text": "Sampling Variation\nThese statistics vary from one sample to the next."
   },
   {
-    "objectID": "eda.html#step-2.-basic-csv-import-with-read_csv",
-    "href": "eda.html#step-2.-basic-csv-import-with-read_csv",
-    "title": "Exploratory Data Analysis",
-    "section": "Step 2. Basic CSV Import with read_csv()",
-    "text": "Step 2. Basic CSV Import with read_csv()\n \ndf &lt;- read_csv(\"path/to/file.csv\")"
+    "objectID": "foundational-stats-research.html#sampling-error",
+    "href": "foundational-stats-research.html#sampling-error",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Sampling Error",
+    "text": "Sampling Error\nThese statistics sometimes differ from the population parameter."
   },
   {
-    "objectID": "eda.html#step-3.-understanding-read_csv-parameters",
-    "href": "eda.html#step-3.-understanding-read_csv-parameters",
-    "title": "Exploratory Data Analysis",
-    "section": "Step 3. Understanding read_csv() Parameters",
-    "text": "Step 3. Understanding read_csv() Parameters\n\ncol_names: Specify if first row contains column names\nskip: Skip rows at the beginning\nn_max: Read only first n rows\nna: Specify what values should be treated as NA\ncol_types: Specify column types explicitly"
+    "objectID": "foundational-stats-research.html#simple-maths",
+    "href": "foundational-stats-research.html#simple-maths",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Simple Maths",
+    "text": "Simple Maths\n\\[\n1 + 2\\times3^2\n\\]\n\nAnswer: 19"
   },
   {
-    "objectID": "eda.html#step-4.-cleaning-column-names",
-    "href": "eda.html#step-4.-cleaning-column-names",
-    "title": "Exploratory Data Analysis",
-    "section": "Step 4. Cleaning Column Names",
-    "text": "Step 4. Cleaning Column Names\n🤯 Problem: Column names with spaces, special characters, or inconsistent cases are hard to work with"
+    "objectID": "foundational-stats-research.html#bodmas",
+    "href": "foundational-stats-research.html#bodmas",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "BODMAS",
+    "text": "BODMAS\n\nBrackets\nOrder (Power)\nDivide\nMultiplication\nAddition\nSubtraction"
   },
   {
-    "objectID": "eda.html#step-5.-converting-data-types",
-    "href": "eda.html#step-5.-converting-data-types",
-    "title": "Exploratory Data Analysis",
-    "section": "Step 5. Converting Data Types",
-    "text": "Step 5. Converting Data Types\n\nConvert character to factor\nConvert character to date"
+    "objectID": "foundational-stats-research.html#what-will-be-the-answer-to-this",
+    "href": "foundational-stats-research.html#what-will-be-the-answer-to-this",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "What will be the answer to this?",
+    "text": "What will be the answer to this?\n\\[\n10 + \\frac{2(3+1)^2}{8} - 5\n\\]\n\n\\[\n10 + \\frac{2\\times16}{8} - 5\n\\]\n\n\nAnswer: 9"
   },
   {
-    "objectID": "eda.html#step-6.-working-with-factors",
-    "href": "eda.html#step-6.-working-with-factors",
-    "title": "Exploratory Data Analysis",
-    "section": "Step 6. Working with Factors",
-    "text": "Step 6. Working with Factors\n\nFactors are categorical variables with defined levels\nThey’re useful for:\n\nEnsuring valid categories\nControlling sort order\nStatistical modeling"
+    "objectID": "foundational-stats-research.html#lets-understand-this",
+    "href": "foundational-stats-research.html#lets-understand-this",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Let’s Understand this",
+    "text": "Let’s Understand this\n\\[\n\\sum_{i=1}^n x_i\n\\]"
   },
   {
-    "objectID": "eda.html#exporting-cleaned-data",
-    "href": "eda.html#exporting-cleaned-data",
-    "title": "Exploratory Data Analysis",
-    "section": "Exporting Cleaned Data",
-    "text": "Exporting Cleaned Data\n\nExport to CSV\nExport to Excel"
+    "objectID": "foundational-stats-research.html#lets-understand-this-1",
+    "href": "foundational-stats-research.html#lets-understand-this-1",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Let’s Understand this",
+    "text": "Let’s Understand this\n\\[\n\\sum_{i=1}^n x_i \\\\ = 10 + 6 \\\\ = 16\n\\]"
   },
   {
-    "objectID": "eda.html#reading-other-file-formats",
-    "href": "eda.html#reading-other-file-formats",
-    "title": "Exploratory Data Analysis",
-    "section": "Reading other File Formats",
-    "text": "Reading other File Formats\n\nExcel files (requires readxl package)\nSPSS, Stata, SAS files (requires haven package)"
+    "objectID": "foundational-stats-research.html#lets-try-this",
+    "href": "foundational-stats-research.html#lets-try-this",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Let’s Try this",
+    "text": "Let’s Try this\n\\[\n\\sum_{i=1}^n x^2_i\n\\]"
   },
   {
-    "objectID": "eda.html#tips-and-best-practices",
-    "href": "eda.html#tips-and-best-practices",
-    "title": "Exploratory Data Analysis",
-    "section": "Tips and Best Practices",
-    "text": "Tips and Best Practices\n\nUse read_csv() instead of read.csv()\n\nIt’s faster and creates tibbles\nBetter type detection\n\nClean column names immediately\n\nUse janitor::clean_names()\nConsistent naming makes code easier\n\nBe explicit about data types\n\nUse col_types parameter\nConvert to factors where appropriate\n\nDocument your cleaning steps\n\nComment your code\nKeep track of what you changed and why"
+    "objectID": "foundational-stats-research.html#lets-try-this-1",
+    "href": "foundational-stats-research.html#lets-try-this-1",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Let’s Try this",
+    "text": "Let’s Try this\n\\[\n\\sum_{i=1}^n x^2_i \\\\ = 10^2 + 6^2 \\\\ = 100 + 36 \\\\ = 136\n\\]"
   },
   {
-    "objectID": "eda.html#common-problems-solutions",
-    "href": "eda.html#common-problems-solutions",
-    "title": "Exploratory Data Analysis",
-    "section": "Common Problems & Solutions",
-    "text": "Common Problems & Solutions\n\nPROBLEM 1: Column names with spaces or special characters\n\nSOLUTION: Use clean_names() or backticks (Column Name)\n\nPROBLEM 2: Wrong data types after import\n\nSOLUTION: Specify col_types in read_csv() or use mutate()\n\nPROBLEM 3: Dates imported as character -SOLUTION: Use lubridate functions (ymd, mdy, dmy)\nPROBLEM 4: Mixed encodings or special characters\n\nSOLUTION: Specify encoding: read_csv('file.csv', locale = locale(encoding = 'UTF-8'))\n\nPROBLEM 5: Large files taking too long\n\nSOLUTION: Use n_max to read sample first, or consider data.table::fread()\n\nPROBLEM 6: Multiple CSV files to combine\n\nSOLUTION: Use map_dfr from purrr package files &lt;- list.files(pattern = '.csv') data &lt;- map_dfr(files, read_csv)"
+    "objectID": "foundational-stats-research.html#lets-try-this-2",
+    "href": "foundational-stats-research.html#lets-try-this-2",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Let’s Try this",
+    "text": "Let’s Try this\n\\[\n\\left( \\sum_{i=1}^n x_i \\right )^2\n\\]"
   },
   {
-    "objectID": "eda.html#exploratory-data-analysis-eda",
-    "href": "eda.html#exploratory-data-analysis-eda",
-    "title": "Exploratory Data Analysis",
-    "section": "Exploratory Data Analysis (EDA)",
-    "text": "Exploratory Data Analysis (EDA)\n\n\n“how to use visualization and transformation to explore your data in a systematic way”\n\n\n\nSource: R for Data Science (2e)"
+    "objectID": "foundational-stats-research.html#lets-try-this-3",
+    "href": "foundational-stats-research.html#lets-try-this-3",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Let’s Try this",
+    "text": "Let’s Try this\n\\[\n\\left( \\sum_{i=1}^n x_i \\right )^2 \\\\ = (10+6)^2 \\\\ = 16^2 \\\\ = 256\n\\]"
   },
   {
-    "objectID": "eda.html#data-penguins",
-    "href": "eda.html#data-penguins",
-    "title": "Exploratory Data Analysis",
-    "section": "Data: penguins",
-    "text": "Data: penguins\nLive on three island: Biscoe, Dream, & Torgersen.\n\n\n\n\n\n\n\n\n\n\nBill description of penguins\n\n\n\n\n\n\n\nSource: palmerpenguins"
+    "objectID": "foundational-stats-research.html#scales-of-measurement",
+    "href": "foundational-stats-research.html#scales-of-measurement",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Scales of measurement",
+    "text": "Scales of measurement\n\nScales of measurement (also called levels of measurement) classify how variables are measured and what mathematical operations can be performed on them.\nThere are four main scales:\n\nNominal scale.\nOrdinal scale.\nInterval scale.\nRatio scale."
   },
   {
-    "objectID": "eda.html#setup",
-    "href": "eda.html#setup",
-    "title": "Exploratory Data Analysis",
-    "section": "Setup",
-    "text": "Setup\n\nInstall packages\n\ninstall.packages(\"tidyverse\")\ninstall.packages(\"palmerpenguins\")\n\nLoad libraries\n\nlibrary(tidyverse)\nlibrary(palmerpenguins)\n\nLoad the penguins dataset\n\ndata(penguins)\n\nTake a quick look\n\nView(penguins)"
+    "objectID": "foundational-stats-research.html#nominal-scale",
+    "href": "foundational-stats-research.html#nominal-scale",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Nominal Scale",
+    "text": "Nominal Scale\n\nCategories with no inherent order or ranking.\nCategories are different but not better/worse or higher/lower\nExamples:\n\nGender (male, female, non-binary)\nBlood type (A, B, AB, O)\nMarital status (single, married, divorced, widowed)\nEye color (blue, brown, green, hazel)\nType of car (sedan, SUV, truck)"
   },
   {
-    "objectID": "eda.html#step-1.-first-look-at-the-data",
-    "href": "eda.html#step-1.-first-look-at-the-data",
-    "title": "Exploratory Data Analysis",
-    "section": "Step 1. First Look at the Data",
-    "text": "Step 1. First Look at the Data\n\nLook at your data\nUnderstand what each column means\nCheck the size of your dataset"
+    "objectID": "foundational-stats-research.html#ordinal-scale",
+    "href": "foundational-stats-research.html#ordinal-scale",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Ordinal Scale",
+    "text": "Ordinal Scale\n\nCategories with a meaningful order or ranking, but the intervals between ranks are not equal or known.\nYou can rank items from lowest to highest\nExamples:\n\nEducation level (high school, bachelor’s, master’s, doctorate)\nSatisfaction ratings (very dissatisfied, dissatisfied, neutral, satisfied, very satisfied)\nSocioeconomic status (lower class, middle class, upper class)\nMilitary ranks (private, corporal, sergeant, lieutenant)\nPain scale (mild, moderate, severe)"
   },
   {
-    "objectID": "eda.html#step-2.-understanding-data-dimensions-structure",
-    "href": "eda.html#step-2.-understanding-data-dimensions-structure",
-    "title": "Exploratory Data Analysis",
-    "section": "Step 2. Understanding Data Dimensions & Structure",
-    "text": "Step 2. Understanding Data Dimensions & Structure\n\nHow big is our dataset?\nWhat are the column names?\nWhat types of data do we have?"
+    "objectID": "foundational-stats-research.html#interval-scale",
+    "href": "foundational-stats-research.html#interval-scale",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Interval Scale",
+    "text": "Interval Scale\n\nOrdered categories with equal intervals between values, but no true zero point.\nEqual distances between consecutive values\nExamples:\n\nTemperature in Celsius or Fahrenheit (0° doesn’t mean “no temperature”)\nIQ scores (an IQ of 0 doesn’t mean “no intelligence”)\nStandardized test scores (SAT, GRE)"
   },
   {
-    "objectID": "eda.html#step-3.-checking-data-quality",
-    "href": "eda.html#step-3.-checking-data-quality",
-    "title": "Exploratory Data Analysis",
-    "section": "Step 3. Checking Data Quality",
-    "text": "Step 3. Checking Data Quality\n\nMissing Values (NA)\nDuplicates"
+    "objectID": "foundational-stats-research.html#ratio-scale",
+    "href": "foundational-stats-research.html#ratio-scale",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Ratio Scale",
+    "text": "Ratio Scale\n\nOrdered categories with equal intervals AND a true/absolute zero point, where zero means complete absence of the quantity.\nExamples:\n\nHeight (0 cm = no height)\nWeight (0 kg = no weight)\nAge (0 years = just born)\nIncome (0 dollars = no money)\nNumber of children (0 = no children)"
   },
   {
-    "objectID": "eda.html#step-4.-summary-statistics",
-    "href": "eda.html#step-4.-summary-statistics",
-    "title": "Exploratory Data Analysis",
-    "section": "Step 4. Summary Statistics",
-    "text": "Step 4. Summary Statistics\n\nExploring Categorical Variables\nKey Question: Which species live on which islands?"
+    "objectID": "foundational-stats-research.html#discrete-vs-continuous-variables",
+    "href": "foundational-stats-research.html#discrete-vs-continuous-variables",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "Discrete vs Continuous Variables",
+    "text": "Discrete vs Continuous Variables\n\n\n\n\n\n\n\n\nImage source: Allison Horst"
   },
   {
-    "objectID": "eda.html#step-5.-summary-statistics",
-    "href": "eda.html#step-5.-summary-statistics",
-    "title": "Exploratory Data Analysis",
-    "section": "Step 5. Summary Statistics",
-    "text": "Step 5. Summary Statistics\n\nExploring Numerical Variables"
+    "objectID": "foundational-stats-research.html#references",
+    "href": "foundational-stats-research.html#references",
+    "title": "Foundational Concepts in Statistical Research",
+    "section": "References",
+    "text": "References\n\n\n\n\nField, Andy. 2022. An Adventure in Statistics: The Reality Enigma. Second. London: SAGE."
   },
   {
-    "objectID": "eda.html#step-6.-comparing-groups",
-    "href": "eda.html#step-6.-comparing-groups",
-    "title": "Exploratory Data Analysis",
-    "section": "Step 6. Comparing Groups",
-    "text": "Step 6. Comparing Groups\n\nAverage measurements by species\nCompare by sex\nCompare by species AND sex"
+    "objectID": "freq-dist.html#frequency-distribution",
+    "href": "freq-dist.html#frequency-distribution",
+    "title": "Frequency Distributions",
+    "section": "Frequency Distribution",
+    "text": "Frequency Distribution\n\n\n“Frequency distribution can either be a table or a graph that shows each possible score along with the number of times that score occurred in the data.”"
   },
   {
-    "objectID": "eda.html#step-7.-visualization---distributions",
-    "href": "eda.html#step-7.-visualization---distributions",
-    "title": "Exploratory Data Analysis",
-    "section": "Step 7. Visualization - Distributions",
-    "text": "Step 7. Visualization - Distributions\n\nVisualizations help us SEE patterns in data\nDistributions: how values are spread out"
+    "objectID": "freq-dist.html#frequency-distribution-1",
+    "href": "freq-dist.html#frequency-distribution-1",
+    "title": "Frequency Distributions",
+    "section": "Frequency Distribution",
+    "text": "Frequency Distribution\n\nFrequency: how many times each score occurs.\nIf you add up the frequencies (\\(\\sum f\\)) you get the sample size (\\(N\\)).\nWe should mention the category even if the freqency is zero."
   },
   {
-    "objectID": "eda.html#step-8.-visualization---comparing-groups",
-    "href": "eda.html#step-8.-visualization---comparing-groups",
-    "title": "Exploratory Data Analysis",
-    "section": "Step 8. Visualization - Comparing Groups",
-    "text": "Step 8. Visualization - Comparing Groups"
+    "objectID": "freq-dist.html#how-does-this-help-me-to-understand-whether-women-are-attracted-to-guys-with-high-salaries",
+    "href": "freq-dist.html#how-does-this-help-me-to-understand-whether-women-are-attracted-to-guys-with-high-salaries",
+    "title": "Frequency Distributions",
+    "section": "🤔 How does this help me to understand whether women are attracted to guys with high salaries?",
+    "text": "🤔 How does this help me to understand whether women are attracted to guys with high salaries?\n\n\n\nRelative Frequency: How often a response is observed relative to the total number of responses."
   },
   {
-    "objectID": "eda.html#step-9.-visualization---relationships-between-variables",
-    "href": "eda.html#step-9.-visualization---relationships-between-variables",
-    "title": "Exploratory Data Analysis",
-    "section": "Step 9. Visualization - Relationships between Variables",
-    "text": "Step 9. Visualization - Relationships between Variables\n\nOne of the most important questions in EDA:\n\nHow do variables relate to each other?"
+    "objectID": "freq-dist.html#relative-frequency",
+    "href": "freq-dist.html#relative-frequency",
+    "title": "Frequency Distributions",
+    "section": "Relative Frequency",
+    "text": "Relative Frequency\n\\[\nrelative\\;frequency = \\frac{frequency\\;of\\;response}{total\\;number\\;of\\;responses}\\\\ = \\frac{f}{N}\n\\]"
   },
   {
-    "objectID": "eda.html#step-10.-correlation-analysis",
-    "href": "eda.html#step-10.-correlation-analysis",
-    "title": "Exploratory Data Analysis",
-    "section": "Step 10. Correlation Analysis",
-    "text": "Step 10. Correlation Analysis\n\nCorrelation measures how strongly two variables are related"
+    "objectID": "freq-dist.html#relative-frequency-of-rating-10",
+    "href": "freq-dist.html#relative-frequency-of-rating-10",
+    "title": "Frequency Distributions",
+    "section": "Relative Frequency of Rating 10",
+    "text": "Relative Frequency of Rating 10\n\\[\nrelative\\;frequency = \\frac{frequency\\;of\\;rating\\;10}{total\\;number\\;of\\;responses}\\\\ = \\frac{2}{20}\\\\=0.1\n\\]\n\n\n10% of women rated a high salary’s importance at 10 out of 10."
   },
   {
-    "objectID": "eda.html#step-11.-finding-outliers",
-    "href": "eda.html#step-11.-finding-outliers",
-    "title": "Exploratory Data Analysis",
-    "section": "Step 11. Finding Outliers",
-    "text": "Step 11. Finding Outliers\nOutliers are observations that are very different from others They can be:\n\nErrors in data collection\nRare but real observations\nImportant discoveries!"
+    "objectID": "freq-dist.html#your-turn",
+    "href": "freq-dist.html#your-turn",
+    "title": "Frequency Distributions",
+    "section": "🤯 Your Turn",
+    "text": "🤯 Your Turn\nCalculate Relative Frequency for score 4 on High Salary."
   },
   {
-    "objectID": "eda.html#answering-research-questions",
-    "href": "eda.html#answering-research-questions",
-    "title": "Exploratory Data Analysis",
-    "section": "Answering Research Questions",
-    "text": "Answering Research Questions\nEDA is about asking and answering questions!\n\nQUESTION: Size difference between sexes?\nQUESTION: Do penguins on different islands have different sizes?\nQUESTION: Are bill dimensions related to body size?\nQUESTION: Has penguin size changed over the years?"
+    "objectID": "freq-dist.html#your-turn-answer",
+    "href": "freq-dist.html#your-turn-answer",
+    "title": "Frequency Distributions",
+    "section": "Your Turn: Answer",
+    "text": "Your Turn: Answer"
+  },
+  {
+    "objectID": "freq-dist.html#cumulative-percentage",
+    "href": "freq-dist.html#cumulative-percentage",
+    "title": "Frequency Distributions",
+    "section": "Cumulative Percentage",
+    "text": "Cumulative Percentage"
+  },
+  {
+    "objectID": "freq-dist.html#graphical-frequency-distributions-histograms",
+    "href": "freq-dist.html#graphical-frequency-distributions-histograms",
+    "title": "Frequency Distributions",
+    "section": "Graphical Frequency Distributions: Histograms",
+    "text": "Graphical Frequency Distributions: Histograms"
+  },
+  {
+    "objectID": "freq-dist.html#graphical-frequency-distributions-frequency-polygon",
+    "href": "freq-dist.html#graphical-frequency-distributions-frequency-polygon",
+    "title": "Frequency Distributions",
+    "section": "Graphical Frequency Distributions: Frequency Polygon",
+    "text": "Graphical Frequency Distributions: Frequency Polygon"
+  },
+  {
+    "objectID": "freq-dist.html#practice",
+    "href": "freq-dist.html#practice",
+    "title": "Frequency Distributions",
+    "section": "Practice",
+    "text": "Practice\n\nFrequency table\nRelative frequency table\nVisualizing Relative Frequencies"
+  },
+  {
+    "objectID": "central-tendency.html#measures-of-central-tendency",
+    "href": "central-tendency.html#measures-of-central-tendency",
+    "title": "Central Tendency",
+    "section": "Measures of Central Tendency",
+    "text": "Measures of Central Tendency\n\nDescribe the center or typical value of a dataset.\n\n\n\nThe three most common measures are:\n\nMean (Average).\nMedian (Middle value).\nMode (Most frequent value)."
+  },
+  {
+    "objectID": "central-tendency.html#mean",
+    "href": "central-tendency.html#mean",
+    "title": "Central Tendency",
+    "section": "Mean",
+    "text": "Mean\n\nThe mean is calculated as the sum of all data points divided by the number of points. It’s sensitive to extreme values (outliers).\n\n\n\n\\[\n\\bar{X} = \\frac{\\displaystyle\\sum_{i=1}^nx_i}{\\displaystyle n}\n\\]"
+  },
+  {
+    "objectID": "central-tendency.html#median",
+    "href": "central-tendency.html#median",
+    "title": "Central Tendency",
+    "section": "Median",
+    "text": "Median\n\nThe median is the middle value of a sorted dataset. It is robust to outliers.\n\n\n\nIf the dataset has an even number of elements, the median is the average of the two middle values."
+  },
+  {
+    "objectID": "central-tendency.html#mode",
+    "href": "central-tendency.html#mode",
+    "title": "Central Tendency",
+    "section": "Mode",
+    "text": "Mode\n\nThe mode is the most frequently occurring value in the dataset."
+  },
+  {
+    "objectID": "central-tendency.html#problems-with-mode",
+    "href": "central-tendency.html#problems-with-mode",
+    "title": "Central Tendency",
+    "section": "Problems with Mode",
+    "text": "Problems with Mode\n\nUnlike the mean and median, there can be no mode, one mode, or multiple modes."
+  },
+  {
+    "objectID": "central-tendency.html#key-insights",
+    "href": "central-tendency.html#key-insights",
+    "title": "Central Tendency",
+    "section": "Key Insights",
+    "text": "Key Insights\n\nMean: Best for symmetric datasets but affected by outliers.\nMedian: Robust to outliers, useful for skewed data.\nMode: Describes the most common value, useful for categorical data."
+  },
+  {
+    "objectID": "central-tendency.html#mean-the-balancing-point",
+    "href": "central-tendency.html#mean-the-balancing-point",
+    "title": "Central Tendency",
+    "section": "Mean the Balancing Point",
+    "text": "Mean the Balancing Point"
+  },
+  {
+    "objectID": "central-tendency.html#effect-on-mean",
+    "href": "central-tendency.html#effect-on-mean",
+    "title": "Central Tendency",
+    "section": "Effect on Mean",
+    "text": "Effect on Mean"
   },
   {
     "objectID": "shapes.html#idealised-distributions",
@@ -446,27 +586,6 @@
     "title": "Throwing Shapes",
     "section": "References",
     "text": "References"
-  },
-  {
-    "objectID": "thank-you.html#section",
-    "href": "thank-you.html#section",
-    "title": "THANK YOU!  Ceremony",
-    "section": "",
-    "text": "GYAN JYOTI SAVITRIBAI PHULE (1831-1897)🌺 🙏🏽 🌼\n\n\n\n\n\n\n\n\n\n\n\n\n\nMATA RAMABAI AMBEDKAR (1898-1935)🌺 🙏🏽 🌼\n\n\n\nSavitribai Ramabai (SARA) Institute of Data Science"
-  },
-  {
-    "objectID": "thank-you.html#overview",
-    "href": "thank-you.html#overview",
-    "title": "THANK YOU!  Ceremony",
-    "section": "Overview",
-    "text": "Overview\n\n00 participants attended.\nAround 40 hours of teaching.\n05 days of food and accommodation."
-  },
-  {
-    "objectID": "thank-you.html#section-3",
-    "href": "thank-you.html#section-3",
-    "title": "THANK YOU!  Ceremony",
-    "section": "",
-    "text": "The Ambedkar Educational Society Sonipat"
   },
   {
     "objectID": "r-intro.html#reproducible-research",
@@ -770,426 +889,6 @@
     "text": "References\n\n\n\n\nAlston, Jesse M., and Jessica A. Rick. 2021. “A Beginner’s Guide to Conducting Reproducible Research.” The Bulletin of the Ecological Society of America 102 (2): e01801. https://doi.org/10.1002/bes2.1801.\n\n\nWickham, Hadley, Mine Cetinkaya-Rundel, and Garrett Grolemund. 2023. R for Data Science: Import, Tidy, Transform, Visualize, and Model Data. 2nd ed. edition. Beijing Boston Farnham Sebastopol Tokyo: O’Reilly Media."
   },
   {
-    "objectID": "central-tendency.html#measures-of-central-tendency",
-    "href": "central-tendency.html#measures-of-central-tendency",
-    "title": "Central Tendency",
-    "section": "Measures of Central Tendency",
-    "text": "Measures of Central Tendency\n\nDescribe the center or typical value of a dataset.\n\n\n\nThe three most common measures are:\n\nMean (Average).\nMedian (Middle value).\nMode (Most frequent value)."
-  },
-  {
-    "objectID": "central-tendency.html#mean",
-    "href": "central-tendency.html#mean",
-    "title": "Central Tendency",
-    "section": "Mean",
-    "text": "Mean\n\nThe mean is calculated as the sum of all data points divided by the number of points. It’s sensitive to extreme values (outliers).\n\n\n\n\\[\n\\bar{X} = \\frac{\\displaystyle\\sum_{i=1}^nx_i}{\\displaystyle n}\n\\]"
-  },
-  {
-    "objectID": "central-tendency.html#median",
-    "href": "central-tendency.html#median",
-    "title": "Central Tendency",
-    "section": "Median",
-    "text": "Median\n\nThe median is the middle value of a sorted dataset. It is robust to outliers.\n\n\n\nIf the dataset has an even number of elements, the median is the average of the two middle values."
-  },
-  {
-    "objectID": "central-tendency.html#mode",
-    "href": "central-tendency.html#mode",
-    "title": "Central Tendency",
-    "section": "Mode",
-    "text": "Mode\n\nThe mode is the most frequently occurring value in the dataset."
-  },
-  {
-    "objectID": "central-tendency.html#problems-with-mode",
-    "href": "central-tendency.html#problems-with-mode",
-    "title": "Central Tendency",
-    "section": "Problems with Mode",
-    "text": "Problems with Mode\n\nUnlike the mean and median, there can be no mode, one mode, or multiple modes."
-  },
-  {
-    "objectID": "central-tendency.html#key-insights",
-    "href": "central-tendency.html#key-insights",
-    "title": "Central Tendency",
-    "section": "Key Insights",
-    "text": "Key Insights\n\nMean: Best for symmetric datasets but affected by outliers.\nMedian: Robust to outliers, useful for skewed data.\nMode: Describes the most common value, useful for categorical data."
-  },
-  {
-    "objectID": "central-tendency.html#mean-the-balancing-point",
-    "href": "central-tendency.html#mean-the-balancing-point",
-    "title": "Central Tendency",
-    "section": "Mean the Balancing Point",
-    "text": "Mean the Balancing Point"
-  },
-  {
-    "objectID": "central-tendency.html#effect-on-mean",
-    "href": "central-tendency.html#effect-on-mean",
-    "title": "Central Tendency",
-    "section": "Effect on Mean",
-    "text": "Effect on Mean"
-  },
-  {
-    "objectID": "freq-dist.html#frequency-distribution",
-    "href": "freq-dist.html#frequency-distribution",
-    "title": "Frequency Distributions",
-    "section": "Frequency Distribution",
-    "text": "Frequency Distribution\n\n\n“Frequency distribution can either be a table or a graph that shows each possible score along with the number of times that score occurred in the data.”"
-  },
-  {
-    "objectID": "freq-dist.html#frequency-distribution-1",
-    "href": "freq-dist.html#frequency-distribution-1",
-    "title": "Frequency Distributions",
-    "section": "Frequency Distribution",
-    "text": "Frequency Distribution\n\nFrequency: how many times each score occurs.\nIf you add up the frequencies (\\(\\sum f\\)) you get the sample size (\\(N\\)).\nWe should mention the category even if the freqency is zero."
-  },
-  {
-    "objectID": "freq-dist.html#how-does-this-help-me-to-understand-whether-women-are-attracted-to-guys-with-high-salaries",
-    "href": "freq-dist.html#how-does-this-help-me-to-understand-whether-women-are-attracted-to-guys-with-high-salaries",
-    "title": "Frequency Distributions",
-    "section": "🤔 How does this help me to understand whether women are attracted to guys with high salaries?",
-    "text": "🤔 How does this help me to understand whether women are attracted to guys with high salaries?\n\n\n\nRelative Frequency: How often a response is observed relative to the total number of responses."
-  },
-  {
-    "objectID": "freq-dist.html#relative-frequency",
-    "href": "freq-dist.html#relative-frequency",
-    "title": "Frequency Distributions",
-    "section": "Relative Frequency",
-    "text": "Relative Frequency\n\\[\nrelative\\;frequency = \\frac{frequency\\;of\\;response}{total\\;number\\;of\\;responses}\\\\ = \\frac{f}{N}\n\\]"
-  },
-  {
-    "objectID": "freq-dist.html#relative-frequency-of-rating-10",
-    "href": "freq-dist.html#relative-frequency-of-rating-10",
-    "title": "Frequency Distributions",
-    "section": "Relative Frequency of Rating 10",
-    "text": "Relative Frequency of Rating 10\n\\[\nrelative\\;frequency = \\frac{frequency\\;of\\;rating\\;10}{total\\;number\\;of\\;responses}\\\\ = \\frac{2}{20}\\\\=0.1\n\\]\n\n\n10% of women rated a high salary’s importance at 10 out of 10."
-  },
-  {
-    "objectID": "freq-dist.html#your-turn",
-    "href": "freq-dist.html#your-turn",
-    "title": "Frequency Distributions",
-    "section": "🤯 Your Turn",
-    "text": "🤯 Your Turn\nCalculate Relative Frequency for score 4 on High Salary."
-  },
-  {
-    "objectID": "freq-dist.html#your-turn-answer",
-    "href": "freq-dist.html#your-turn-answer",
-    "title": "Frequency Distributions",
-    "section": "Your Turn: Answer",
-    "text": "Your Turn: Answer"
-  },
-  {
-    "objectID": "freq-dist.html#cumulative-percentage",
-    "href": "freq-dist.html#cumulative-percentage",
-    "title": "Frequency Distributions",
-    "section": "Cumulative Percentage",
-    "text": "Cumulative Percentage"
-  },
-  {
-    "objectID": "freq-dist.html#graphical-frequency-distributions-histograms",
-    "href": "freq-dist.html#graphical-frequency-distributions-histograms",
-    "title": "Frequency Distributions",
-    "section": "Graphical Frequency Distributions: Histograms",
-    "text": "Graphical Frequency Distributions: Histograms"
-  },
-  {
-    "objectID": "freq-dist.html#graphical-frequency-distributions-frequency-polygon",
-    "href": "freq-dist.html#graphical-frequency-distributions-frequency-polygon",
-    "title": "Frequency Distributions",
-    "section": "Graphical Frequency Distributions: Frequency Polygon",
-    "text": "Graphical Frequency Distributions: Frequency Polygon"
-  },
-  {
-    "objectID": "freq-dist.html#practice",
-    "href": "freq-dist.html#practice",
-    "title": "Frequency Distributions",
-    "section": "Practice",
-    "text": "Practice\n\nFrequency table\nRelative frequency table\nVisualizing Relative Frequencies"
-  },
-  {
-    "objectID": "freq-dist.html#grouped-frequency",
-    "href": "freq-dist.html#grouped-frequency",
-    "title": "Frequency Distributions",
-    "section": "Grouped Frequency",
-    "text": "Grouped Frequency\n\n“a frequency distribution where we group scores together”"
-  },
-  {
-    "objectID": "freq-dist.html#grouped-frequency-distribution",
-    "href": "freq-dist.html#grouped-frequency-distribution",
-    "title": "Frequency Distributions",
-    "section": "Grouped Frequency Distribution",
-    "text": "Grouped Frequency Distribution\n\\[\ninterval\\;width = \\frac{range\\;of\\;scores}{number\\;of\\;intervals}\n\\]\n\n\\[\n= \\frac{highest\\;score - lowest\\;score}{number\\;of\\;intervals}\n\\]"
-  },
-  {
-    "objectID": "freq-dist.html#relationship-assessment-score",
-    "href": "freq-dist.html#relationship-assessment-score",
-    "title": "Frequency Distributions",
-    "section": "Relationship Assessment Score",
-    "text": "Relationship Assessment Score\nThe RAS score of 20 similar age group women are:\n\n16, 23, 26, 22, 14, 20, 8, 19, 22, 25, 17, 26, 27, 11, 32, 17, 20, 17, 14, 28."
-  },
-  {
-    "objectID": "freq-dist.html#section-3",
-    "href": "freq-dist.html#section-3",
-    "title": "Frequency Distributions",
-    "section": "",
-    "text": "95% of them rated their relationship satisfaction lower than Alisha (32)."
-  },
-  {
-    "objectID": "freq-dist.html#references",
-    "href": "freq-dist.html#references",
-    "title": "Frequency Distributions",
-    "section": "References",
-    "text": "References"
-  },
-  {
-    "objectID": "foundational-stats-research.html#theory",
-    "href": "foundational-stats-research.html#theory",
-    "title": "Foundational Concepts in Statistical Research",
-    "section": "Theory",
-    "text": "Theory\n\n“Theory is a well-established principle or set of general principles to explain a broad range of observations.”\n\n\nTheory = Explanation\n\n\n\nSource: Field (2022)"
-  },
-  {
-    "objectID": "foundational-stats-research.html#theory-1",
-    "href": "foundational-stats-research.html#theory-1",
-    "title": "Foundational Concepts in Statistical Research",
-    "section": "Theory",
-    "text": "Theory\n\n“normally scientists are interested in theories that apply very generally.”\n\n\nGeneralization\n\n\n\nSource: Field (2022)"
-  },
-  {
-    "objectID": "foundational-stats-research.html#population",
-    "href": "foundational-stats-research.html#population",
-    "title": "Foundational Concepts in Statistical Research",
-    "section": "Population",
-    "text": "Population\n\nThe population is the complete set of all individuals, items, or observations that share a common characteristic and are of interest to the researcher.\nIt represents everyone or everything you want to draw conclusions about.\nThe population has fixed parameters like the true mean (μ) or standard deviation (σ), though these are often unknown and what we’re trying to estimate."
-  },
-  {
-    "objectID": "foundational-stats-research.html#population-examples",
-    "href": "foundational-stats-research.html#population-examples",
-    "title": "Foundational Concepts in Statistical Research",
-    "section": "Population Examples",
-    "text": "Population Examples\n\nAll registered voters in a country (if studying voting behavior)\nEvery student enrolled in a university (if studying student satisfaction)\nAll hospitals in a region (if studying healthcare quality)\nThe entire production line output for a year (if studying defect rates)"
-  },
-  {
-    "objectID": "foundational-stats-research.html#sample",
-    "href": "foundational-stats-research.html#sample",
-    "title": "Foundational Concepts in Statistical Research",
-    "section": "Sample",
-    "text": "Sample\n\nA sample is a subset of the population that’s actually observed or measured in the study.\nSince studying entire populations is often impractical, expensive, or impossible, researchers select a representative group to study instead.\nSamples have statistics like the sample mean (x̄) or sample standard deviation (s), which are used to estimate the population parameters."
-  },
-  {
-    "objectID": "foundational-stats-research.html#population-vs-sample",
-    "href": "foundational-stats-research.html#population-vs-sample",
-    "title": "Foundational Concepts in Statistical Research",
-    "section": "Population vs Sample",
-    "text": "Population vs Sample\n\n\n\n\n\n\n\nPopulation\nSample\n\n\n\n\nAll registered voters in a country\n1,500 randomly selected registered voters\n\n\nEvery student enrolled in a university\n300 students chosen from different departments\n\n\nAll hospitals in a region\n50 hospitals selected using stratified sampling\n\n\nThe entire production line output for a year\n500 randomly selected products from the production line"
-  },
-  {
-    "objectID": "foundational-stats-research.html#statistical-inference",
-    "href": "foundational-stats-research.html#statistical-inference",
-    "title": "Foundational Concepts in Statistical Research",
-    "section": "Statistical Inference",
-    "text": "Statistical Inference\n\nThe goal of most research is statistical inference: using sample statistics to make educated guesses about population parameters.\nThe quality of your sample determines how well you can generalize findings back to the population."
-  },
-  {
-    "objectID": "foundational-stats-research.html#hypothesis",
-    "href": "foundational-stats-research.html#hypothesis",
-    "title": "Foundational Concepts in Statistical Research",
-    "section": "Hypothesis",
-    "text": "Hypothesis\n\nA hypothesis is a testable statement or prediction about the relationship between variables in a population.\nIt’s essentially an educated guess based on theory, prior research, or observation that you’re trying to verify or refute using data from your sample."
-  },
-  {
-    "objectID": "foundational-stats-research.html#how-hypothesis-connects-to-population-and-sample",
-    "href": "foundational-stats-research.html#how-hypothesis-connects-to-population-and-sample",
-    "title": "Foundational Concepts in Statistical Research",
-    "section": "How Hypothesis Connects to Population and Sample",
-    "text": "How Hypothesis Connects to Population and Sample\n\nHypothesis is about the population: Your hypothesis makes a claim about the entire population (all students, all patients, etc.), even though you can’t study everyone.\nSample provides the evidence: You collect data from your sample to test whether the evidence supports or contradicts the null hypothesis.\nStatistical inference bridges the gap: You use statistical tests to determine whether the patterns you observe in your sample are strong enough to conclude something about the population."
-  },
-  {
-    "objectID": "foundational-stats-research.html#variables",
-    "href": "foundational-stats-research.html#variables",
-    "title": "Foundational Concepts in Statistical Research",
-    "section": "Variables",
-    "text": "Variables\n“Elements in the study that are measured or manipulated.”\n\nIndependent variable\nDependent variable"
-  },
-  {
-    "objectID": "foundational-stats-research.html#statistical-learning",
-    "href": "foundational-stats-research.html#statistical-learning",
-    "title": "Foundational Concepts in Statistical Research",
-    "section": "Statistical Learning",
-    "text": "Statistical Learning\n“Statistical Learning refers to a vast set of tools for understanding data.”\n\n\nDescriptive StatisticsInferential Statistics\n\n\n\nSummarizes and organizes data to describe its main features.\nMakes predictions or inferences about a population from a sample.\n\n\n\n\nLimited to the observed data.\nGoes beyond the observed data to infer population characteristics."
-  },
-  {
-    "objectID": "foundational-stats-research.html#sampling-variation",
-    "href": "foundational-stats-research.html#sampling-variation",
-    "title": "Foundational Concepts in Statistical Research",
-    "section": "Sampling Variation",
-    "text": "Sampling Variation\n\nThese statistics vary from one sample to the next."
-  },
-  {
-    "objectID": "foundational-stats-research.html#sampling-error",
-    "href": "foundational-stats-research.html#sampling-error",
-    "title": "Foundational Concepts in Statistical Research",
-    "section": "Sampling Error",
-    "text": "Sampling Error\n\nThese statistics sometimes differ from the population parameter."
-  },
-  {
-    "objectID": "foundational-stats-research.html#simple-maths",
-    "href": "foundational-stats-research.html#simple-maths",
-    "title": "Foundational Concepts in Statistical Research",
-    "section": "Simple Maths",
-    "text": "Simple Maths\n\\[\n1 + 2\\times3^2\n\\]\n\nAnswer: 19"
-  },
-  {
-    "objectID": "foundational-stats-research.html#bodmas",
-    "href": "foundational-stats-research.html#bodmas",
-    "title": "Foundational Concepts in Statistical Research",
-    "section": "BODMAS",
-    "text": "BODMAS\n\nBrackets\nOrder (Power)\nDivide\nMultiplication\nAddition\nSubtraction"
-  },
-  {
-    "objectID": "foundational-stats-research.html#what-will-be-the-answer-to-this",
-    "href": "foundational-stats-research.html#what-will-be-the-answer-to-this",
-    "title": "Foundational Concepts in Statistical Research",
-    "section": "What will be the answer to this?",
-    "text": "What will be the answer to this?\n\\[\n10 + \\frac{2(3+1)^2}{8} - 5\n\\]\n\n\\[\n10 + \\frac{2\\times16}{8} - 5\n\\]\n\n\nAnswer: 9"
-  },
-  {
-    "objectID": "foundational-stats-research.html#lets-understand-this",
-    "href": "foundational-stats-research.html#lets-understand-this",
-    "title": "Foundational Concepts in Statistical Research",
-    "section": "Let’s Understand this",
-    "text": "Let’s Understand this\n\\[\n\\sum_{i=1}^n x_i\n\\]"
-  },
-  {
-    "objectID": "foundational-stats-research.html#lets-understand-this-1",
-    "href": "foundational-stats-research.html#lets-understand-this-1",
-    "title": "Foundational Concepts in Statistical Research",
-    "section": "Let’s Understand this",
-    "text": "Let’s Understand this\n\\[\n\\sum_{i=1}^n x_i \\\\ = 10 + 6 \\\\ = 16\n\\]"
-  },
-  {
-    "objectID": "foundational-stats-research.html#lets-try-this",
-    "href": "foundational-stats-research.html#lets-try-this",
-    "title": "Foundational Concepts in Statistical Research",
-    "section": "Let’s Try this",
-    "text": "Let’s Try this\n\\[\n\\sum_{i=1}^n x^2_i\n\\]"
-  },
-  {
-    "objectID": "foundational-stats-research.html#lets-try-this-1",
-    "href": "foundational-stats-research.html#lets-try-this-1",
-    "title": "Foundational Concepts in Statistical Research",
-    "section": "Let’s Try this",
-    "text": "Let’s Try this\n\\[\n\\sum_{i=1}^n x^2_i \\\\ = 10^2 + 6^2 \\\\ = 100 + 36 \\\\ = 136\n\\]"
-  },
-  {
-    "objectID": "foundational-stats-research.html#lets-try-this-2",
-    "href": "foundational-stats-research.html#lets-try-this-2",
-    "title": "Foundational Concepts in Statistical Research",
-    "section": "Let’s Try this",
-    "text": "Let’s Try this\n\\[\n\\left( \\sum_{i=1}^n x_i \\right )^2\n\\]"
-  },
-  {
-    "objectID": "foundational-stats-research.html#lets-try-this-3",
-    "href": "foundational-stats-research.html#lets-try-this-3",
-    "title": "Foundational Concepts in Statistical Research",
-    "section": "Let’s Try this",
-    "text": "Let’s Try this\n\\[\n\\left( \\sum_{i=1}^n x_i \\right )^2 \\\\ = (10+6)^2 \\\\ = 16^2 \\\\ = 256\n\\]"
-  },
-  {
-    "objectID": "foundational-stats-research.html#scales-of-measurement",
-    "href": "foundational-stats-research.html#scales-of-measurement",
-    "title": "Foundational Concepts in Statistical Research",
-    "section": "Scales of measurement",
-    "text": "Scales of measurement\n\nScales of measurement (also called levels of measurement) classify how variables are measured and what mathematical operations can be performed on them.\nThere are four main scales:\n\nNominal scale.\nOrdinal scale.\nInterval scale.\nRatio scale."
-  },
-  {
-    "objectID": "foundational-stats-research.html#nominal-scale",
-    "href": "foundational-stats-research.html#nominal-scale",
-    "title": "Foundational Concepts in Statistical Research",
-    "section": "Nominal Scale",
-    "text": "Nominal Scale\n\nCategories with no inherent order or ranking.\nCategories are different but not better/worse or higher/lower\nExamples:\n\nGender (male, female, non-binary)\nBlood type (A, B, AB, O)\nMarital status (single, married, divorced, widowed)\nEye color (blue, brown, green, hazel)\nType of car (sedan, SUV, truck)"
-  },
-  {
-    "objectID": "foundational-stats-research.html#ordinal-scale",
-    "href": "foundational-stats-research.html#ordinal-scale",
-    "title": "Foundational Concepts in Statistical Research",
-    "section": "Ordinal Scale",
-    "text": "Ordinal Scale\n\nCategories with a meaningful order or ranking, but the intervals between ranks are not equal or known.\nYou can rank items from lowest to highest\nExamples:\n\nEducation level (high school, bachelor’s, master’s, doctorate)\nSatisfaction ratings (very dissatisfied, dissatisfied, neutral, satisfied, very satisfied)\nSocioeconomic status (lower class, middle class, upper class)\nMilitary ranks (private, corporal, sergeant, lieutenant)\nPain scale (mild, moderate, severe)"
-  },
-  {
-    "objectID": "foundational-stats-research.html#interval-scale",
-    "href": "foundational-stats-research.html#interval-scale",
-    "title": "Foundational Concepts in Statistical Research",
-    "section": "Interval Scale",
-    "text": "Interval Scale\n\nOrdered categories with equal intervals between values, but no true zero point.\nEqual distances between consecutive values\nExamples:\n\nTemperature in Celsius or Fahrenheit (0° doesn’t mean “no temperature”)\nIQ scores (an IQ of 0 doesn’t mean “no intelligence”)\nStandardized test scores (SAT, GRE)"
-  },
-  {
-    "objectID": "foundational-stats-research.html#ratio-scale",
-    "href": "foundational-stats-research.html#ratio-scale",
-    "title": "Foundational Concepts in Statistical Research",
-    "section": "Ratio Scale",
-    "text": "Ratio Scale\n\nOrdered categories with equal intervals AND a true/absolute zero point, where zero means complete absence of the quantity.\nExamples:\n\nHeight (0 cm = no height)\nWeight (0 kg = no weight)\nAge (0 years = just born)\nIncome (0 dollars = no money)\nNumber of children (0 = no children)"
-  },
-  {
-    "objectID": "foundational-stats-research.html#discrete-vs-continuous-variables",
-    "href": "foundational-stats-research.html#discrete-vs-continuous-variables",
-    "title": "Foundational Concepts in Statistical Research",
-    "section": "Discrete vs Continuous Variables",
-    "text": "Discrete vs Continuous Variables\n\n\n\n\n\n\n\n\nImage source: Allison Horst"
-  },
-  {
-    "objectID": "foundational-stats-research.html#references",
-    "href": "foundational-stats-research.html#references",
-    "title": "Foundational Concepts in Statistical Research",
-    "section": "References",
-    "text": "References\n\n\n\n\nField, Andy. 2022. An Adventure in Statistics: The Reality Enigma. Second. London: SAGE."
-  },
-  {
-    "objectID": "index.html#session-1",
-    "href": "index.html#session-1",
-    "title": "Statistics using R",
-    "section": "",
-    "text": "View slides in full screen"
-  },
-  {
-    "objectID": "index.html#session-2",
-    "href": "index.html#session-2",
-    "title": "Statistics using R",
-    "section": "",
-    "text": "View slides in full screen"
-  },
-  {
-    "objectID": "index.html#session-3",
-    "href": "index.html#session-3",
-    "title": "Statistics using R",
-    "section": "",
-    "text": "View slides in full screen"
-  },
-  {
-    "objectID": "index.html#session-4",
-    "href": "index.html#session-4",
-    "title": "Statistics using R",
-    "section": "",
-    "text": "View slides in full screen"
-  },
-  {
-    "objectID": "index.html#session-5",
-    "href": "index.html#session-5",
-    "title": "Statistics using R",
-    "section": "",
-    "text": "View slides in full screen"
-  },
-  {
-    "objectID": "index.html#session-6",
-    "href": "index.html#session-6",
-    "title": "Statistics using R",
-    "section": "",
-    "text": "View slides in full screen"
-  },
-  {
-    "objectID": "r-intro.html",
-    "href": "r-intro.html",
-    "title": "R, RStudio, & Quarto",
-    "section": "",
-    "text": "“Research is reproducible when others can reproduce the results of a scientific study given only the original data, code, and documentation.”\n\n\n\nSource: (Alston and Rick 2021)"
-  },
-  {
     "objectID": "models.html#statistical-models",
     "href": "models.html#statistical-models",
     "title": "Statistical Models",
@@ -1288,116 +987,291 @@
     "text": "References"
   },
   {
-    "objectID": "dispersion.html#dispersion",
-    "href": "dispersion.html#dispersion",
-    "title": "Measures of Dispersion",
-    "section": "Dispersion",
-    "text": "Dispersion\n\n\nHow spread out the data is around its mean."
+    "objectID": "eda.html#download-install",
+    "href": "eda.html#download-install",
+    "title": "Exploratory Data Analysis",
+    "section": "Download & Install",
+    "text": "Download & Install\n\n✅ R Software, https://cloud.r-project.org/\n✅ RStudio IDE, https://posit.co/products/open-source/rstudio/?sid=1\n✅ Quarto, https://quarto.org/docs/get-started/"
   },
   {
-    "objectID": "dispersion.html#measures-of-dispersion",
-    "href": "dispersion.html#measures-of-dispersion",
-    "title": "Measures of Dispersion",
-    "section": "Measures of Dispersion",
-    "text": "Measures of Dispersion\n\nRange: The difference between the maximum and minimum values.\nVariance: The average of the squared differences from the mean.\nStandard Deviation (SD): The square root of variance, representing average deviation from the mean.\nInterquartile Range (IQR): The difference between the 75th percentile (Q3) and 25th percentile (Q1)."
+    "objectID": "eda.html#your-rstudio-project",
+    "href": "eda.html#your-rstudio-project",
+    "title": "Exploratory Data Analysis",
+    "section": "Your RStudio Project",
+    "text": "Your RStudio Project\n\n✅ Created RStudio Project in your computer\n✅ Created quarto document"
   },
   {
-    "objectID": "dispersion.html#total-errordevianceresidual",
-    "href": "dispersion.html#total-errordevianceresidual",
-    "title": "Measures of Dispersion",
-    "section": "Total Error/Deviance/Residual",
-    "text": "Total Error/Deviance/Residual\n\nAdd up the deviances for each data point\n\n\n\\[\ntotal\\;error = \\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)\n\\]\n\n\n\\[\ntotal\\;deviance = \\displaystyle\\sum_{i=1}^n (x_{i} - \\bar X)\n\\]"
+    "objectID": "eda.html#data-structure",
+    "href": "eda.html#data-structure",
+    "title": "Exploratory Data Analysis",
+    "section": "Data Structure",
+    "text": "Data Structure\n\n\n\n\nSource: R for Data Science (2e)"
   },
   {
-    "objectID": "dispersion.html#sum-of-errors",
-    "href": "dispersion.html#sum-of-errors",
-    "title": "Measures of Dispersion",
-    "section": "Sum of Errors",
-    "text": "Sum of Errors\n\\[\nSum \\; of \\;errors = \\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)\n\\]\n\n\\[\n= (28-30) + (29-30) + (29-30) + (30-30) \\\\+ (30-30) + (30-30) + (31-30) + (31-30) + \\\\(32-30)\\\\\n= -2 + (-1) + (-1) + 0 + 0 + 0 + 1 + 1 +2 \\\\\n= 0\n\\]"
+    "objectID": "eda.html#columnvariable-types",
+    "href": "eda.html#columnvariable-types",
+    "title": "Exploratory Data Analysis",
+    "section": "Column/Variable Types",
+    "text": "Column/Variable Types\n\n\n\nData type\nExample\nColumn header\n\n\n\n\nlogical\nTRUE\nlgl\n\n\ninteger\n1L\nint\n\n\ndouble\n1.5\ndbl\n\n\ncharacter\n\"A\"\nchr\n\n\nfactor\nfactor(\"A\")\nfct\n\n\nordered\nordered(\"a\")\nord\n\n\n\n\n\nSource: https://tibble.tidyverse.org/articles/types.html"
   },
   {
-    "objectID": "dispersion.html#graph-ras-errors",
-    "href": "dispersion.html#graph-ras-errors",
-    "title": "Measures of Dispersion",
-    "section": "Graph RAS Errors",
-    "text": "Graph RAS Errors"
+    "objectID": "eda.html#step-1",
+    "href": "eda.html#step-1",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 1",
+    "text": "Step 1\n\nInstall required packagesLoad libraries\n\n\n\ninstall.packages(\"tidyverse\") # Includes readr for importing\ninstall.packages(\"janitor\") # For cleaning column names\ninstall.packages(\"lubridate\") # For date handling\n\n\n\n\nlibrary(tidyverse)\n\nlibrary(janitor)\n\nlibrary(lubridate)"
   },
   {
-    "objectID": "dispersion.html#sum-of-squared-errors",
-    "href": "dispersion.html#sum-of-squared-errors",
-    "title": "Measures of Dispersion",
-    "section": "Sum of Squared Errors",
-    "text": "Sum of Squared Errors\n\\[\nSum \\; of \\; squared \\;errors (SS) = \\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)^2\n\\]\n\n\\[\nSum \\; of \\; squared \\;errors (SS) = \\displaystyle\\sum_{i=1}^n (x_{i} - \\bar{X})^2\n\\]"
+    "objectID": "eda.html#step-2.-basic-csv-import-with-read_csv",
+    "href": "eda.html#step-2.-basic-csv-import-with-read_csv",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 2. Basic CSV Import with read_csv()",
+    "text": "Step 2. Basic CSV Import with read_csv()\n \ndf &lt;- read_csv(\"path/to/file.csv\")"
   },
   {
-    "objectID": "dispersion.html#sum-of-squared-errors-1",
-    "href": "dispersion.html#sum-of-squared-errors-1",
-    "title": "Measures of Dispersion",
-    "section": "Sum of Squared Errors",
-    "text": "Sum of Squared Errors"
+    "objectID": "eda.html#step-3.-understanding-read_csv-parameters",
+    "href": "eda.html#step-3.-understanding-read_csv-parameters",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 3. Understanding read_csv() Parameters",
+    "text": "Step 3. Understanding read_csv() Parameters\n\ncol_names: Specify if first row contains column names\nskip: Skip rows at the beginning\nn_max: Read only first n rows\nna: Specify what values should be treated as NA\ncol_types: Specify column types explicitly"
   },
   {
-    "objectID": "dispersion.html#sum-of-squared-errors-ss",
-    "href": "dispersion.html#sum-of-squared-errors-ss",
-    "title": "Measures of Dispersion",
-    "section": "Sum of Squared Errors (\\(SS\\))",
-    "text": "Sum of Squared Errors (\\(SS\\))\n\n❌ Size of \\(SS\\) depend on how many scores we have in the data.\n❌ It is nuisance if we want to compare the total error across samples of different size.\n✅ An easy solution is to divide \\(SS\\) by the number of scores/observations (\\(N\\))."
+    "objectID": "eda.html#step-4.-cleaning-column-names",
+    "href": "eda.html#step-4.-cleaning-column-names",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 4. Cleaning Column Names",
+    "text": "Step 4. Cleaning Column Names\n🤯 Problem: Column names with spaces, special characters, or inconsistent cases are hard to work with"
   },
   {
-    "objectID": "dispersion.html#variance",
-    "href": "dispersion.html#variance",
-    "title": "Measures of Dispersion",
-    "section": "Variance",
-    "text": "Variance\n\\[\nmean \\; squared \\;error = \\frac{SS}{N} = \\frac{\\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)^2}{N}\n\\]\n\n\\[\nvariance (\\sigma^2) = \\frac{SS}{N} = \\frac{\\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)^2}{N}\n\\]\n\nThe symbol of variance in sample is \\(s^2\\).\nThe symbol of variance in population is \\(\\sigma^2\\)."
+    "objectID": "eda.html#step-5.-converting-data-types",
+    "href": "eda.html#step-5.-converting-data-types",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 5. Converting Data Types",
+    "text": "Step 5. Converting Data Types\n\nConvert character to factor\nConvert character to date"
   },
   {
-    "objectID": "dispersion.html#ras-variance",
-    "href": "dispersion.html#ras-variance",
-    "title": "Measures of Dispersion",
-    "section": "RAS Variance",
-    "text": "RAS Variance\nThe average error of the mean was 1.33 RAS units squared\n\\[\nvariance (\\sigma^2) = \\frac{SS}{N} = \\frac{\\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)^2}{N} \\\\ = \\frac{12}{9} \\\\ = 1.33\n\\]"
+    "objectID": "eda.html#step-6.-working-with-factors",
+    "href": "eda.html#step-6.-working-with-factors",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 6. Working with Factors",
+    "text": "Step 6. Working with Factors\n\nFactors are categorical variables with defined levels\nThey’re useful for:\n\nEnsuring valid categories\nControlling sort order\nStatistical modeling"
   },
   {
-    "objectID": "dispersion.html#standard-deviation",
-    "href": "dispersion.html#standard-deviation",
-    "title": "Measures of Dispersion",
-    "section": "Standard Deviation",
-    "text": "Standard Deviation\n\\[\n\\sigma = \\sqrt{variance} = \\sqrt\\frac{\\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)^2}{N} \\\\ = \\sqrt\\frac{12}{9} \\\\ = \\sqrt{1.33 } \\\\= 1.15\n\\]"
+    "objectID": "eda.html#exporting-cleaned-data",
+    "href": "eda.html#exporting-cleaned-data",
+    "title": "Exploratory Data Analysis",
+    "section": "Exporting Cleaned Data",
+    "text": "Exporting Cleaned Data\n\nExport to CSV\nExport to Excel"
   },
   {
-    "objectID": "dispersion.html#degrees-of-freedom",
-    "href": "dispersion.html#degrees-of-freedom",
-    "title": "Measures of Dispersion",
-    "section": "Degrees of Freedom",
-    "text": "Degrees of Freedom\n\\[\n\\sigma = \\sqrt{variance} = \\sqrt\\frac{\\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)^2}{N - 1} \\\\ = \\sqrt\\frac{12}{8} \\\\ = \\sqrt{1.5} \\\\= 1.22\n\\]"
+    "objectID": "eda.html#reading-other-file-formats",
+    "href": "eda.html#reading-other-file-formats",
+    "title": "Exploratory Data Analysis",
+    "section": "Reading other File Formats",
+    "text": "Reading other File Formats\n\nExcel files (requires readxl package)\nSPSS, Stata, SAS files (requires haven package)"
   },
   {
-    "objectID": "dispersion.html#outliers-and-variance",
-    "href": "dispersion.html#outliers-and-variance",
-    "title": "Measures of Dispersion",
-    "section": "Outliers and Variance",
-    "text": "Outliers and Variance\n\nThe variance with the outlier is 37.43\nThe variance without the outlier is 1.5"
+    "objectID": "eda.html#tips-and-best-practices",
+    "href": "eda.html#tips-and-best-practices",
+    "title": "Exploratory Data Analysis",
+    "section": "Tips and Best Practices",
+    "text": "Tips and Best Practices\n\nUse read_csv() instead of read.csv()\n\nIt’s faster and creates tibbles\nBetter type detection\n\nClean column names immediately\n\nUse janitor::clean_names()\nConsistent naming makes code easier\n\nBe explicit about data types\n\nUse col_types parameter\nConvert to factors where appropriate\n\nDocument your cleaning steps\n\nComment your code\nKeep track of what you changed and why"
   },
   {
-    "objectID": "dispersion.html#standard-deviation-and-dispersion",
-    "href": "dispersion.html#standard-deviation-and-dispersion",
-    "title": "Measures of Dispersion",
-    "section": "Standard Deviation and Dispersion",
-    "text": "Standard Deviation and Dispersion\n\nA small standard deviation (relative to the value of the mean) indicates that data points are close to the mean.\nA large standard deviation (relative to the mean) indicates that the data points are distant from the mean.\nA standard deviation of 0 would mean that all of the scores were the same."
+    "objectID": "eda.html#exploratory-data-analysis-eda",
+    "href": "eda.html#exploratory-data-analysis-eda",
+    "title": "Exploratory Data Analysis",
+    "section": "Exploratory Data Analysis (EDA)",
+    "text": "Exploratory Data Analysis (EDA)\n\n\n“how to use visualization and transformation to explore your data in a systematic way”\n\n\n\nSource: R for Data Science (2e)"
   },
   {
-    "objectID": "dispersion.html#same-mean-different-sd",
-    "href": "dispersion.html#same-mean-different-sd",
-    "title": "Measures of Dispersion",
-    "section": "Same Mean, Different SD",
-    "text": "Same Mean, Different SD"
+    "objectID": "eda.html#data-penguins",
+    "href": "eda.html#data-penguins",
+    "title": "Exploratory Data Analysis",
+    "section": "Data: penguins",
+    "text": "Data: penguins\nLive on three island: Biscoe, Dream, & Torgersen.\n\n\n\n\n\n\n\n\n\n\nBill description of penguins\n\n\n\n\n\n\n\nSource: palmerpenguins"
   },
   {
-    "objectID": "dispersion.html#same-mean-different-sd-1",
-    "href": "dispersion.html#same-mean-different-sd-1",
-    "title": "Measures of Dispersion",
-    "section": "Same Mean, Different SD",
-    "text": "Same Mean, Different SD"
+    "objectID": "eda.html#setup",
+    "href": "eda.html#setup",
+    "title": "Exploratory Data Analysis",
+    "section": "Setup",
+    "text": "Setup\n\nInstall packages\n\ninstall.packages(\"tidyverse\")\ninstall.packages(\"palmerpenguins\")\n\nLoad libraries\n\nlibrary(tidyverse)\nlibrary(palmerpenguins)\n\nLoad the penguins dataset\n\ndata(penguins)\n\nTake a quick look\n\nView(penguins)"
+  },
+  {
+    "objectID": "eda.html#step-1.-first-look-at-the-data",
+    "href": "eda.html#step-1.-first-look-at-the-data",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 1. First Look at the Data",
+    "text": "Step 1. First Look at the Data\n\nLook at your data\nUnderstand what each column means\nCheck the size of your dataset"
+  },
+  {
+    "objectID": "eda.html#step-2.-understanding-data-dimensions-structure",
+    "href": "eda.html#step-2.-understanding-data-dimensions-structure",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 2. Understanding Data Dimensions & Structure",
+    "text": "Step 2. Understanding Data Dimensions & Structure\n\nHow big is our dataset?\nWhat are the column names?\nWhat types of data do we have?"
+  },
+  {
+    "objectID": "eda.html#step-3.-checking-data-quality",
+    "href": "eda.html#step-3.-checking-data-quality",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 3. Checking Data Quality",
+    "text": "Step 3. Checking Data Quality\n\nMissing Values (NA)\nDuplicates"
+  },
+  {
+    "objectID": "eda.html#step-4.-summary-statistics",
+    "href": "eda.html#step-4.-summary-statistics",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 4. Summary Statistics",
+    "text": "Step 4. Summary Statistics\n\nExploring Categorical Variables\nKey Question: Which species live on which islands?"
+  },
+  {
+    "objectID": "eda.html#step-5.-summary-statistics",
+    "href": "eda.html#step-5.-summary-statistics",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 5. Summary Statistics",
+    "text": "Step 5. Summary Statistics\n\nExploring Numerical Variables"
+  },
+  {
+    "objectID": "eda.html#step-6.-comparing-groups",
+    "href": "eda.html#step-6.-comparing-groups",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 6. Comparing Groups",
+    "text": "Step 6. Comparing Groups\n\nAverage measurements by species\nCompare by sex\nCompare by species AND sex"
+  },
+  {
+    "objectID": "eda.html#step-7.-visualization---distributions",
+    "href": "eda.html#step-7.-visualization---distributions",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 7. Visualization - Distributions",
+    "text": "Step 7. Visualization - Distributions\n\nVisualizations help us SEE patterns in data\nDistributions: how values are spread out"
+  },
+  {
+    "objectID": "eda.html#step-8.-visualization---comparing-groups",
+    "href": "eda.html#step-8.-visualization---comparing-groups",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 8. Visualization - Comparing Groups",
+    "text": "Step 8. Visualization - Comparing Groups"
+  },
+  {
+    "objectID": "eda.html#step-9.-visualization---relationships-between-variables",
+    "href": "eda.html#step-9.-visualization---relationships-between-variables",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 9. Visualization - Relationships between Variables",
+    "text": "Step 9. Visualization - Relationships between Variables\n\nOne of the most important questions in EDA:\n\nHow do variables relate to each other?"
+  },
+  {
+    "objectID": "eda.html#step-10.-correlation-analysis",
+    "href": "eda.html#step-10.-correlation-analysis",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 10. Correlation Analysis",
+    "text": "Step 10. Correlation Analysis\n\nCorrelation measures how strongly two variables are related"
+  },
+  {
+    "objectID": "eda.html#step-11.-finding-outliers",
+    "href": "eda.html#step-11.-finding-outliers",
+    "title": "Exploratory Data Analysis",
+    "section": "Step 11. Finding Outliers",
+    "text": "Step 11. Finding Outliers\nOutliers are observations that are very different from others They can be:\n\nErrors in data collection\nRare but real observations\nImportant discoveries!"
+  },
+  {
+    "objectID": "eda.html#answering-research-questions",
+    "href": "eda.html#answering-research-questions",
+    "title": "Exploratory Data Analysis",
+    "section": "Answering Research Questions",
+    "text": "Answering Research Questions\nEDA is about asking and answering questions!\n\nQUESTION: Size difference between sexes?\nQUESTION: Do penguins on different islands have different sizes?\nQUESTION: Are bill dimensions related to body size?\nQUESTION: Has penguin size changed over the years?"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Statistics using R",
+    "section": "",
+    "text": "Star on GitHub\n\n\n\nSARA is a not-for-profit organization in India. To know more about SARA, kindly vist our website.\nThis course aims to help the participants to overcome the fear of numbers, statistics and coding.\n\nIt is a five days annual residential training program to learn basics of statistics using R programming language.\nPriority admission for marginalized communities and women.\nThe course is free. Participants only pay for their food and accommodation.\n\nEmail us at sara.institute.info@gmail.com \\(\\cdot\\) Call us at 925 315 2024.\n\n Download Practice Files\n\n\n\n    View slides in full screen\n       \n      \n    \n  \nThe background image is taken from Sandra Ilic via Unsplash.\n\n\n\n\n    View slides in full screen\n       \n      \n    \n  \n\n\n\n\n    View slides in full screen\n       \n      \n    \n  \n\n\n\n\n    View slides in full screen\n       \n      \n    \n  \n\n\n\n\n    View slides in full screen\n       \n      \n    \n  \n\n\n\n\n    View slides in full screen\n       \n      \n    \n  \n\n\n\n\n    View slides in full screen\n       \n      \n    \n  \n\n\n\n\n    View slides in full screen\n       \n      \n    \n  \n\n\n\n\n    View slides in full screen\n       \n      \n    \n  \n\n\n\n\n    View slides in full screen\n       \n      \n    \n  \n\n\n\n\n    View slides in full screen\n       \n      \n    \n  \n\n\n\n\n    View slides in full screen"
+  },
+  {
+    "objectID": "index.html#session",
+    "href": "index.html#session",
+    "title": "Statistics using R",
+    "section": "",
+    "text": "View slides in full screen\n       \n      \n    \n  \nThe background image is taken from Sandra Ilic via Unsplash."
+  },
+  {
+    "objectID": "index.html#session-1",
+    "href": "index.html#session-1",
+    "title": "Statistics using R",
+    "section": "",
+    "text": "View slides in full screen"
+  },
+  {
+    "objectID": "index.html#session-2",
+    "href": "index.html#session-2",
+    "title": "Statistics using R",
+    "section": "",
+    "text": "View slides in full screen"
+  },
+  {
+    "objectID": "index.html#session-3",
+    "href": "index.html#session-3",
+    "title": "Statistics using R",
+    "section": "",
+    "text": "View slides in full screen"
+  },
+  {
+    "objectID": "index.html#session-4",
+    "href": "index.html#session-4",
+    "title": "Statistics using R",
+    "section": "",
+    "text": "View slides in full screen"
+  },
+  {
+    "objectID": "index.html#session-5",
+    "href": "index.html#session-5",
+    "title": "Statistics using R",
+    "section": "",
+    "text": "View slides in full screen"
+  },
+  {
+    "objectID": "index.html#session-6",
+    "href": "index.html#session-6",
+    "title": "Statistics using R",
+    "section": "",
+    "text": "View slides in full screen"
+  },
+  {
+    "objectID": "index.html#session-7",
+    "href": "index.html#session-7",
+    "title": "Statistics using R",
+    "section": "",
+    "text": "View slides in full screen"
+  },
+  {
+    "objectID": "index.html#session-8",
+    "href": "index.html#session-8",
+    "title": "Statistics using R",
+    "section": "",
+    "text": "View slides in full screen"
+  },
+  {
+    "objectID": "index.html#session-9",
+    "href": "index.html#session-9",
+    "title": "Statistics using R",
+    "section": "",
+    "text": "View slides in full screen"
+  },
+  {
+    "objectID": "index.html#session-10",
+    "href": "index.html#session-10",
+    "title": "Statistics using R",
+    "section": "",
+    "text": "View slides in full screen"
+  },
+  {
+    "objectID": "index.html#session-11",
+    "href": "index.html#session-11",
+    "title": "Statistics using R",
+    "section": "",
+    "text": "View slides in full screen"
   },
   {
     "objectID": "visualization.html#section-1",
@@ -1650,5 +1524,117 @@
     "title": "Data Visualization",
     "section": "Export Plot",
     "text": "Export Plot\n\nTaskCodeOutput\n\n\nExport/save plot as pdf, jpg or png file.\n\n\n\nggplot(data = penguins,\n       mapping = aes(x = bill_length_mm, y = bill_depth_mm)) +\n  geom_point(aes(color = species, shape = species)) +\n  labs(\n    title = \"The title of the plot\",\n    subtitle = \"The subtitle of the plot\",\n    x = \"Bill length (mm)\",\n    y = \"Bill depth (mm)\"\n  ) +\n  theme_clean() +\n  scale_color_manual(values = wes_palette(\"BottleRocket2\", n = 3))\n\nggsave(\"penguins-plot.pdf\")\n\n\n\n\n\n\n\n\n\n\n\nFigure 24"
+  },
+  {
+    "objectID": "welcome.html#section",
+    "href": "welcome.html#section",
+    "title": "WELCOME",
+    "section": "",
+    "text": "GYAN JYOTI SAVITRIBAI PHULE (1831-1897)🌺 🙏🏽 🌼\n\n\n\n\n\n\n\n\n\n\n\n\n\nMATA RAMABAI AMBEDKAR (1898-1935)🌺 🙏🏽 🌼\n\n\n\nSavitribai Ramabai (SARA) Institute of Data Science"
+  },
+  {
+    "objectID": "welcome.html#sara-institute-of-data-science",
+    "href": "welcome.html#sara-institute-of-data-science",
+    "title": "WELCOME",
+    "section": "SARA Institute of Data Science",
+    "text": "SARA Institute of Data Science\n\nFirst class was on 5 April 2023 in Bhiwadi, RJ."
+  },
+  {
+    "objectID": "welcome.html#our-mission",
+    "href": "welcome.html#our-mission",
+    "title": "WELCOME",
+    "section": "Our Mission",
+    "text": "Our Mission\n\nMaking data science accessible to all.\n\n\nPriority admission for marginalized communities and women."
+  },
+  {
+    "objectID": "welcome.html#free-open-source-courses",
+    "href": "welcome.html#free-open-source-courses",
+    "title": "WELCOME",
+    "section": "Free & Open-source Courses",
+    "text": "Free & Open-source Courses\n\n\n\n\n\nEnglish Language\n\n\n\nComputer Skills\n\n\n\nData Science\n\n\n\nResearch Methods\n\n\n\n\n\nImage source: Unsplash"
+  },
+  {
+    "objectID": "welcome.html#free-data-science-trainings",
+    "href": "welcome.html#free-data-science-trainings",
+    "title": "WELCOME",
+    "section": "Free Data Science Trainings",
+    "text": "Free Data Science Trainings\n\nR & RStudio, Statistics, & Quarto.\n\n\n\n\n\n\n\n\nJuly 2024, Reproducible Research Using R.\n\n\n\n\n\n\n\n\n\nDec 2024, Statistics using R\n\n\n\n\n\n\n\n\n\nMar 2025, Publish using Quarto\n\n\n\n\n\n\n\n\n\nJuly 2025, R for Researchers."
+  },
+  {
+    "objectID": "welcome.html#workshop-collaborations",
+    "href": "welcome.html#workshop-collaborations",
+    "title": "WELCOME",
+    "section": "Workshop Collaborations",
+    "text": "Workshop Collaborations\n\nHands-on data sci education to organizations nationwide.\n\n\n\n\n\n\n\n\n\n\n\nDec 2023, Eco, MDU, Rohtak\n\n\n\n\n\n\n\nMay 2024, SRM Uni, Sonipat\n\n\n\n\n\n\n\n\n\n\n\n\n\nMay 2024, GJU, Hisar\n\n\n\n\n\n\n\n\n\n\n\nJune 2024, Profs., GJU, Hisar\n\n\n\n\n\n\n\n\n\n\n\n\n\nOct 2024, Center for Political Studies, JNU, Delhi\n\n\n\n\n\n\n\nJul 2025, Profs. GJU, Hisar\n\n\n\n\n\n\n\n\n\nAug 2025, IDA, Jaipur\n\n\n\n\n\n\n\nOct 2025, Sociology, DU"
+  },
+  {
+    "objectID": "welcome.html#sara-saksharta-mission",
+    "href": "welcome.html#sara-saksharta-mission",
+    "title": "WELCOME",
+    "section": "SARA Saksharta Mission",
+    "text": "SARA Saksharta Mission\n\nAwareness about Data Science Education & Opportunities."
+  },
+  {
+    "objectID": "welcome.html#latest-news-about-the-sara",
+    "href": "welcome.html#latest-news-about-the-sara",
+    "title": "WELCOME",
+    "section": "Latest News about the SARA",
+    "text": "Latest News about the SARA\n\n\n\nThank You! News Beak team."
+  },
+  {
+    "objectID": "welcome.html#support-sara",
+    "href": "welcome.html#support-sara",
+    "title": "WELCOME",
+    "section": "Support SARA",
+    "text": "Support SARA\n \n\nTeach at SARA.\n\n\nDonate to SARA."
+  },
+  {
+    "objectID": "welcome.html#section-1",
+    "href": "welcome.html#section-1",
+    "title": "WELCOME",
+    "section": "",
+    "text": "Savitribai Ramabai (SARA) Institute of Data Science\n\n\n\n\n\n \nDr. Ajay Kumar Koli, Executive Director, SARA Institute\nDr. Kiran Lata, Director, SARA Institute\n Dr. Ambedkar Bhawan, Kakroi Road, Near Dayanand Hospital, nipat - 131001, Haryana, India.\n\n   925 315 2024     sara.institute.info@gmail.com  SARA Website   https://sara-edu.netlify.app/\n Follow SARA Institute on cial Media."
+  },
+  {
+    "objectID": "welcome.html#section-3",
+    "href": "welcome.html#section-3",
+    "title": "WELCOME",
+    "section": "",
+    "text": "The Ambedkar Educational Society Sonipat"
+  },
+  {
+    "objectID": "welcome.html#schedule-overview",
+    "href": "welcome.html#schedule-overview",
+    "title": "WELCOME",
+    "section": "Schedule Overview",
+    "text": "Schedule Overview\n\nAround 40 hours of residential teaching for 5 days.\nNo tuition fee. But 1 week food & accommodation charges Rs.3500.\nFeedback on the last day of the event.\nThank You Ceremony! on Tuesday, 27 Jan 2026, 6-7 PM 🚂\ne-Certificate of the participation via email."
+  },
+  {
+    "objectID": "welcome.html#daily-schedule",
+    "href": "welcome.html#daily-schedule",
+    "title": "WELCOME",
+    "section": "Daily Schedule:",
+    "text": "Daily Schedule:\n\n Food Lectures\n\n\n\n\n\n\n\n\n\nActivity\nTime\n\n\n\n\n Breakfast\n08:30 AM to 09:30 AM\n\n\n Lunch\n01:30 PM to 02:30 PM\n\n\n Dinner\n07:30 PM to 08:30 PM\n\n\n\n\n\n\n\n\n\n\n\n\nActivity\nTime\n\n\n\n\n Class 1\n10:00 AM to 11:30 AM\n\n\n Discussion\n30 minutes\n\n\n Class 2\n12:00 AM to 01:30 PM\n\n\n Class 3\n02:30 PM to 04:00 PM\n\n\n Discussion\n30 minutes\n\n\n Class 4\n04:30 PM to 06:00 PM"
+  },
+  {
+    "objectID": "welcome.html#code-of-conduct",
+    "href": "welcome.html#code-of-conduct",
+    "title": "WELCOME",
+    "section": "Code of Conduct",
+    "text": "Code of Conduct\n\nBe respectful and kind to everyone.\nAsk questions freely – no question is too small.\nBring your own internet – mobile hotspot or data plan required.\nArrive 5 minutes early to settle in before each session.\nLocation: All classes will be held at Mata Ramabai Auditorium, 1st Floor, Dr. Ambedkar Bhawan."
+  },
+  {
+    "objectID": "welcome.html#contact-numbers",
+    "href": "welcome.html#contact-numbers",
+    "title": "WELCOME",
+    "section": "Contact Numbers:",
+    "text": "Contact Numbers:\n\n\n\n\n\n\n\nName\nMobile\n\n\n\n\nSARA Office\n925 315 2024\n\n\nDr. Ajay Kumar (Ex. Director, SARA)\n88868 10879\n\n\nDr. Kiran Koli (Director, SARA)\n81680 60500\n\n\nMr. Rajesh Kataria (President, Dr. Ambedkar Bhawan)\n90134 99562\n\n\nMr. Raj Pal (Supervisor, Dr. Ambedkar Bhawan)\n93063 42596"
+  },
+  {
+    "objectID": "welcome.html#course-website",
+    "href": "welcome.html#course-website",
+    "title": "WELCOME",
+    "section": "Course Website",
+    "text": "Course Website\nhttps://sara-institute.quarto.pub/stats-course/"
   }
 ]

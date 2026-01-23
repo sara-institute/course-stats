@@ -320,32 +320,6 @@
 <li class="fragment">Keep track of what you changed and why</li>
 </ul></li>
 </ol>
-</section>
-<section id="common-problems-solutions" class="slide level2">
-<h2>Common Problems &amp; Solutions</h2>
-<ul>
-<li class="fragment"><p><strong>PROBLEM 1: Column names with spaces or special characters</strong></p>
-<ul>
-<li class="fragment">SOLUTION: Use <code>clean_names()</code> or backticks (<code>Column Name</code>)</li>
-</ul></li>
-<li class="fragment"><p><strong>PROBLEM 2: Wrong data types after import</strong></p>
-<ul>
-<li class="fragment">SOLUTION: Specify col_types in <code>read_csv()</code> or use <code>mutate()</code></li>
-</ul></li>
-<li class="fragment"><p><strong>PROBLEM 3: Dates imported as character</strong> -SOLUTION: Use lubridate functions (ymd, mdy, dmy)</p></li>
-<li class="fragment"><p><strong>PROBLEM 4: Mixed encodings or special characters</strong></p>
-<ul>
-<li class="fragment">SOLUTION: Specify encoding: <code>read_csv('file.csv', locale = locale(encoding = 'UTF-8'))</code></li>
-</ul></li>
-<li class="fragment"><p><strong>PROBLEM 5: Large files taking too long</strong></p>
-<ul>
-<li class="fragment">SOLUTION: Use n_max to read sample first, or consider <code>data.table::fread()</code></li>
-</ul></li>
-<li class="fragment"><p><strong>PROBLEM 6: Multiple CSV files to combine</strong></p>
-<ul>
-<li class="fragment">SOLUTION: Use map_dfr from purrr package <code>files &lt;- list.files(pattern = '.csv')</code> <code>data &lt;- map_dfr(files, read_csv)</code></li>
-</ul></li>
-</ul>
 </section></section>
 <section>
 <section id="eda" class="title-slide slide level1 center" data-background-image="https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/ae747f50-27ee-474a-b312-09a063b38c0e_rw_1920.jpg?h=7f98f2dd734887a88105b57866266a65" data-background-size="50%" data-background-position="right" data-background-color="beige">

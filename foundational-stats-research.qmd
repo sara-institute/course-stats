@@ -75,13 +75,13 @@ Source: @fieldAdventureStatisticsReality2022
 
 -   The goal of most research is **statistical inference**: using **sample statistics** to make educated guesses about **population parameters**.
 
--   The quality of your sample determines how well you can generalize findings back to the population.
+-   The **quality of your sample** determines how well you can **generalize** findings back to the **population**.
 
 ## Hypothesis
 
--   A hypothesis is a testable statement or prediction about the relationship between variables in a population.
+-   A hypothesis is a **testable** statement or prediction about the relationship between variables in a population.
 
--   It's essentially an educated guess based on theory, prior research, or observation that you're trying to verify or refute using data from your sample.
+-   It's essentially an **educated guess** based on theory, prior research, or observation that you're trying to verify or refute using data from your sample.
 
 ## [How Hypothesis Connects to Population and Sample]{.r-fit-text}
 
@@ -110,24 +110,28 @@ Source: @fieldAdventureStatisticsReality2022
 ### Descriptive Statistics  
 
 - Summarizes and organizes data to describe its main features. 
-- Makes predictions or inferences about a population from a sample. 
-
+- Limited to the observed data. 
+ 
 ### Inferential Statistics 
 
-- Limited to the observed data. 
+- Makes predictions or inferences about a population from a sample.    
 - Goes beyond the observed data to infer population characteristics.
 
 :::
 
 ## Sampling Variation
 
-- These statistics vary from one sample to the next.
+These statistics vary from one sample to the next.
+
+![](images/sampling-variation.png){fig-align=center}
 
 ## Sampling Error
 
-- These statistics sometimes differ from the population parameter.
+These statistics sometimes differ from the population parameter.
 
-# Maths & Statistical Notation
+![](images/sampling-error.png){fig-align=center}
+
+# Maths & Statistical Notation {background-color=seagreen}
 
 ## Simple Maths
 
@@ -207,7 +211,7 @@ $$
 
 ## Scales of measurement
 
-- Scales of measurement (also called levels of measurement) classify how variables are measured and what mathematical operations can be performed on them. 
+- Scales of measurement (also called levels of measurement) **classify** how variables are measured and what mathematical operations can be performed on them. 
 
 - There are four main scales:
   - Nominal scale.

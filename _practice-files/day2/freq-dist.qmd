@@ -1,0 +1,346 @@
+---
+title: "Practice Sheet Day 2"
+subtitle: "2nd SARA Statistics Winter School"
+author: "Dr. Ajay Koli"
+date: today
+format: html
+toc: true
+number-sections: true
+---
+
+## Frequency Distribution
+
+### Step 1: Create a Data Set
+
+```{r}
+# Read a CSV file
+dating <- read.csv("data/dating.csv")
+
+# Display the first few rows
+head(dating)
+```
+
+Always check the structure of the imported data:
+
+```{r}
+str(dating)
+summary(dating)
+```
+
+### Step 2: Frequency Table
+
+We first calculate the frequency of each score:
+
+```{r}
+freq_table <- table(dating$HighSalary)
+
+print(freq_table)
+```
+
+### Step 3: Calculate Relative Frequencies
+
+Divide each frequency by the total number of observations:
+
+```{r}
+# Total observations
+total_observations <- sum(freq_table)
+
+# Relative frequency
+relative_freq <- (freq_table / total_observations)*100
+print(relative_freq)
+```
+
+This means:
+
+- 5% of ladies chose "score 1" for high salary
+    
+- 20% of ladies chose "score 4" for high salary
+
+- 10% of ladies chose "score 10" for high salary
+
+### Step 4: Visualizing Relative Frequencies using Bar Plot.
+
+```{r}
+# Bar plot
+barplot(relative_freq, col = rainbow(10), main = "Relative Frequency of Favorite Fruits", 
+        xlab = "Fruit", ylab = "Relative Frequency")
+
+```
+
+### Frequency Polygon
+
+1. Generate or Load Data
+
+We will create an example dataset of students' exam scores:
+
+```{r}
+# Example dataset: Exam scores of 50 students
+set.seed(123)
+exam_scores <- round(rnorm(50, mean = 75, sd = 10), 0)
+
+exam_scores
+```
+
+2. Create a Frequency Table
+
+Define intervals (bins) and calculate frequencies:
+
+```{r}
+# Define bins (class intervals)
+bins <- seq(50, 100, by = 5)  # Intervals from 50 to 100 with a width of 5
+
+# Create a frequency table
+freq_table <- table(cut(exam_scores, breaks = bins, right = FALSE))
+print(freq_table)
+
+```
+
+3. Plot the Frequency Polygon
+
+Extract the midpoints of each class interval and use them for the x-axis:
+
+```{r}
+# Calculate midpoints of the bins
+midpoints <- (bins[-1] + bins[-length(bins)]) / 2
+
+# Frequency values
+freq_values <- as.numeric(freq_table)
+
+# Plot the frequency polygon
+plot(midpoints, freq_values, type = "o", col = "blue", lwd = 2,
+     xlab = "Exam Scores", ylab = "Frequency", 
+     main = "Frequency Polygon of Exam Scores")
+
+# Add grid for better visualization
+grid()
+
+```
+
+4. Adding a Histogram for Comparison
+
+You can overlay a histogram with the frequency polygon:
+
+```{r}
+# Plot histogram
+hist(exam_scores, breaks = bins, freq = TRUE, col = "lightgray", 
+     main = "Frequency Polygon Overlaid on Histogram", xlab = "Exam Scores")
+
+# Overlay frequency polygon
+lines(midpoints, freq_values, type = "o", col = "red", lwd = 2)
+
+```
+
+## Normal Distribution in R
+
+### 1. Simulate Data
+
+Generate random data following a normal distribution:
+
+```{r}
+# Generate 1000 random values with mean = 50 and standard deviation = 10
+set.seed(123)
+data <- rnorm(1000, mean = 50, sd = 10)
+```
+
+### 2. Plot the Normal Distribution
+
+Visualize the data with a histogram and overlay the theoretical normal curve:
+
+```{r}
+# Histogram of the data
+hist(data, breaks = 30, prob = TRUE, col = "lightblue", 
+     main = "Normal Distribution with Mean and SD", xlab = "Values")
+
+# Overlay the normal curve
+curve(dnorm(x, mean = mean(data), sd = sd(data)), 
+      col = "red", lwd = 2, add = TRUE)
+```
+
+### 3. Central Tendency and Variability
+
+Compute the mean, median, and standard deviation:
+
+```{r}
+# Central tendency
+mean_value <- mean(data)
+median_value <- median(data)
+
+# Variability
+sd_value <- sd(data)
+
+# Print the results
+cat("Mean:", mean_value, "\nMedian:", median_value, "\nStandard Deviation:", sd_value, "\n")
+```
+
+### Visualizing Central Tendency
+
+Add vertical lines for the mean, median, and ±1 standard deviation:
+
+```{r}
+# Histogram with indicators
+hist(data, breaks = 30, prob = TRUE, col = "lightblue", 
+     main = "Normal Distribution with Central Tendency", xlab = "Values")
+
+# Overlay normal curve
+curve(dnorm(x, mean = mean(data), sd = sd(data)), 
+      col = "red", lwd = 2, add = TRUE)
+
+# Add mean, median, and standard deviation lines
+abline(v = mean_value, col = "gold", lwd = 2, lty = 2)  # Mean
+abline(v = median_value, col = "green", lwd = 2, lty = 2)  # Median
+abline(v = mean_value + sd_value, col = "purple", lwd = 2, lty = 3)  # +1 SD
+abline(v = mean_value - sd_value, col = "purple", lwd = 2, lty = 3)  # -1 SD
+legend("topright", legend = c("Mean", "Median", "+1 SD", "-1 SD"),
+       col = c("gold", "green", "purple", "purple"), lty = c(2, 2, 3, 3), lwd = 2)
+
+```
+
+### 5. Interpret the Results
+
+- Shape: The histogram matches the bell shape of a normal distribution.
+
+- Mean and Median: Both align, confirming symmetry.
+
+- Spread: The standard deviation defines how data points are distributed around the mean.
+
+## Skewness & Kurtosis
+
+### 1. Simulating Data
+
+Create datasets with different skewness and kurtosis:
+
+```{r}
+# Libraries
+library(e1071)  # For skewness
+library(moments)  # For kurtosis
+
+# Data with normal distribution
+set.seed(123)
+data_normal <- rnorm(1000, mean = 50, sd = 10)
+
+# Data with positive skew
+data_pos_skew <- rexp(1000, rate = 0.1)
+
+# Data with negative skew
+data_neg_skew <- -rexp(1000, rate = 0.1) + 100
+
+```
+
+### 2. Calculating Skewness and Kurtosis
+
+```{r}
+# Skewness
+cat("Normal Data Skewness:", skewness(data_normal), "\n")
+cat("Positive Skew Data Skewness:", skewness(data_pos_skew), "\n")
+cat("Negative Skew Data Skewness:", skewness(data_neg_skew), "\n")
+
+# Kurtosis
+cat("Normal Data Kurtosis:", kurtosis(data_normal), "\n")
+cat("Positive Skew Data Kurtosis:", kurtosis(data_pos_skew), "\n")
+cat("Negative Skew Data Kurtosis:", kurtosis(data_neg_skew), "\n")
+
+```
+
+### 3. Visualizing Distributions
+
+```{r}
+# Plot all distributions
+#par(mfrow = c(3, 1))  # Arrange plots in a single column
+
+# Normal Distribution
+hist(data_normal, breaks = 30, prob = TRUE, col = "lightblue", main = "Normal Distribution")
+curve(dnorm(x, mean = mean(data_normal), sd = sd(data_normal)), col = "red", lwd = 2, add = TRUE)
+
+# Positive Skew
+hist(data_pos_skew, breaks = 30, prob = TRUE, col = "lightgreen", main = "Positive Skew Distribution")
+
+# Negative Skew
+hist(data_neg_skew, breaks = 30, prob = TRUE, col = "lightcoral", main = "Negative Skew Distribution")
+
+```
+
+## Example for Skewness and Kurtosis
+
+### 1. Generate Custom Data
+
+We will create datasets with varying skewness and kurtosis:
+
+```{r}
+# Libraries
+library(e1071)   # For skewness
+library(moments) # For kurtosis
+
+# Custom datasets
+set.seed(456)
+data_normal <- rnorm(1000, mean = 50, sd = 10)       # Normal distribution
+data_pos_skew <- rexp(1000, rate = 0.1)             # Positive skew
+data_neg_skew <- -rexp(1000, rate = 0.1) + 100      # Negative skew
+data_high_kurt <- c(rnorm(950, mean = 50, sd = 5),  # High kurtosis
+                    rnorm(50, mean = 50, sd = 25))
+data_low_kurt <- runif(1000, min = 30, max = 70)    # Low kurtosis
+
+```
+
+### 2. Calculate Skewness and Kurtosis
+
+```{r}
+# Skewness and Kurtosis summary
+results <- data.frame(
+  Dataset = c("Normal", "Positive Skew", "Negative Skew", "High Kurtosis", "Low Kurtosis"),
+  Skewness = c(skewness(data_normal), skewness(data_pos_skew), skewness(data_neg_skew), 
+               skewness(data_high_kurt), skewness(data_low_kurt)),
+  Kurtosis = c(kurtosis(data_normal), kurtosis(data_pos_skew), kurtosis(data_neg_skew), 
+               kurtosis(data_high_kurt), kurtosis(data_low_kurt))
+)
+print(results)
+
+```
+
+### 3. Annotated Visualizations
+
+```{r}
+# Plot all distributions
+#par(mfrow = c(3, 2))  # Arrange plots in a 3x2 grid
+
+# Function to annotate skewness and kurtosis on a histogram
+plot_distribution <- function(data, title) {
+  hist(data, breaks = 30, prob = TRUE, col = "lightblue", main = title, xlab = "Values")
+  skew <- round(skewness(data), 2)
+  kurt <- round(kurtosis(data), 2)
+  text(x = mean(data), y = 0.02, 
+       labels = paste("Skewness:", skew, "\nKurtosis:", kurt), col = "red")
+}
+
+# Plot distributions with annotations
+plot_distribution(data_normal, "Normal Distribution")
+plot_distribution(data_pos_skew, "Positive Skew Distribution")
+plot_distribution(data_neg_skew, "Negative Skew Distribution")
+plot_distribution(data_high_kurt, "High Kurtosis Distribution")
+plot_distribution(data_low_kurt, "Low Kurtosis Distribution")
+
+```
+
+### Advanced Analysis
+
+**Boxplots for Comparison:**
+
+```{r}
+# Combine all datasets into a data frame with proper grouping
+all_data <- data.frame(
+  Values = c(data_normal, data_pos_skew, data_neg_skew, data_high_kurt, data_low_kurt),
+  Category = rep(c("Normal", "Positive Skew", "Negative Skew", "High Kurtosis", "Low Kurtosis"), 
+                 each = 1000) # Correct grouping
+)
+
+# Create a boxplot for comparison
+boxplot(Values ~ Category, data = all_data, col = rainbow(5),
+        main = "Comparison of Distributions via Boxplot", 
+        ylab = "Values", xlab = "Distribution Types")
+
+```
+
+
+
+
+
+
