@@ -1,0 +1,177 @@
+---
+title: "[Statistical Models]{.clr-white .r-fit-text}"
+author: "[2nd SARA Statistics Winter School, 23-27 Jan 2026]{.clr-white .r-fit-text}"
+format: revealjs
+echo: false
+controls: true
+slide-number: true
+scrollable: true
+incremental: true
+logo: images/logo-sara.png
+bibliography: references.bib
+theme: style.scss
+title-slide-attributes: 
+  data-background-image: "https://images.unsplash.com/photo-1719487934500-c6aeb08a4c36?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  data-background-size: cover
+---
+
+## 
+
+![](images/model.png){fig-align="center"}
+
+## Statistical Models
+
+- A mathematical framework that represents relationships between variables in a dataset. 
+
+- It is used to understand, explain, or predict outcomes based on observed data.
+
+## Statistical Model Consists:
+
+1. **Variables:** Inputs (independent variables) and outputs (dependent variables).
+
+1. **Equations:** Mathematical expressions defining the relationship.
+
+1. **Assumptions:** Underlying rules about the data or process (e.g., normality, linearity).
+
+## The One and Only Statistical Model
+
+<br>
+
+$$
+outcome_i = (model) + error_i
+$$
+
+## Simplest Possible Model
+
+<br>
+
+$$
+outcome_i = (b_0) + error_i
+$$
+
+- $b$, Greek symbol represents beta ($\beta$).
+
+- $b_0$ means we are predicting the outcome from zero other variables, that is, just from a single parameter.
+
+- **Parameters** are estimated (usually) constant values believed to represent some fundamental truth about the relations between variables in the models.
+
+## Adding Variable to Statistical Model
+
+<br>
+
+$$
+outcome_i = (b_0 + b_1X_1) + error_i
+$$
+
+- A lot of time it is more interesting to see whether we can summarize an outcome variable by predicting from scores on another variable.
+
+## Understand Statistical Model
+
+<br>
+
+$$
+outcome_i = (b_0 + b_1X_1) + error_i
+$$
+
+- $i$ = particular entity.
+
+- $outcome_i$ = outcome value for that particular entity.
+
+- $X_i$ = score on the predictor variable.
+
+- $b_1$ = predictor variable has a parameter attached to it which tells us something about the relationship between the predictor ($X_i$) and outcome.
+
+- $b_0$ = is still there to tell us the overall levels of the outcome if the predictor variable was not in the model.
+
+## RAS Statistical Model
+
+<br>
+
+$$
+outcome_i = (b_0 + b_1X_i) + error_i
+$$
+<br>
+
+$$
+relationship\;satisfaction_i = (b_0 + b_1length_i) + error_i
+$$
+
+## RAS Statistical Model
+
+<br>
+
+$relationship\\satisfaction_i = (b_0 + b_1length_i + b_2effort_i) + error_i$
+
+- We use the sample data to estimate the value of the model parameters, $b$.
+
+- We use the sample data to estimate (best guess) what the population parameters are likely to be.
+
+## 🤯 Your Turn {background-color="seagreen"}
+
+Calculate the mean value of these RAS values.
+
+32, 30, 28, 30, 30, 29, 31, 29, 31
+
+## Your Turn: Answer
+
+$$
+\bar{X}=\frac{\displaystyle\sum_{i=1}^nx_i}{\displaystyle n} \\
+= \frac{32 + 30 + 28 + 30 + 30 + 29 + 31 + 29 + 31}{9} \\
+= \frac{270}{9} \\
+= 30
+$$
+
+## The Fit of the Mean
+
+$$
+outcome_i = model + error_i
+$$
+
+. . .
+
+$$
+error_i = outcome_i - model
+$$
+
+. . .
+
+$$
+error_i = RAS_i - \bar{X} 
+$$
+
+## The Fit of the Mean: Week 1
+
+$$
+error_{week 1} = outcome_{week 1} - model
+$$
+
+. . .
+
+$$
+error_{week 1} = RAS_{week 1} - \bar{X} 
+$$
+
+. . .
+
+$$
+error_{week 1} = 32 - 30 \\
+= 2
+$$
+
+## Error/Deviance/Residual
+
+> Deviance is the value of the outcome minus the value predicted from the model.
+
+. . .
+
+$$
+error_{i} = outcome_{i} - model
+$$
+
+. . .
+
+$$
+deviance_{i} = x_{i} - \bar{X}
+$$
+
+## References

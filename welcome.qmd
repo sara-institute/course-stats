@@ -52,8 +52,7 @@ editor:
 > First class was on 5 April 2023 in Bhiwadi, RJ.
 
 ::: centering
-![5 April 2023 -- first class at the
-SARA.](images/intro/terra-sara.jpg){width="78%"}
+![](images/intro/terra-sara.jpg){width="78%"}
 :::
 
 ## Our Mission {background-image="images/intro/mission.jpg" background-size="contain" background-position="right"}
@@ -199,7 +198,7 @@ Science](images/logo-sara.png)
 **Dr. Kiran Lata**, <br>Director, SARA Institute
 
 {{< fa location-dot >}} Dr. Ambedkar Bhawan, <br>Kakroi Road, Near
-Dayanand Hospital, <br>Sonipat - 131001, Haryana, India.
+Dayanand Hospital, <br>nipat - 131001, Haryana, India.
 
 <br>
 
@@ -207,7 +206,7 @@ Dayanand Hospital, <br>Sonipat - 131001, Haryana, India.
 [sara.institute.info\@gmail.com](mailto:%20sara.institute.info@gmail.com)
 <br> SARA Website   <https://sara-edu.netlify.app/>
 
-<br> Follow SARA Institute on Social Media.<br>
+<br> Follow SARA Institute on cial Media.<br>
 
 [{{< fa brands github >}}](https://github.com/sara-edu)  
 [{{< fa brands twitter >}}](https://twitter.com/sara_institute)  
@@ -311,6 +310,3 @@ Dayanand Hospital, <br>Sonipat - 131001, Haryana, India.
 
 # {background-image="https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/5ccff989-900e-4f2b-aece-55278b563cfa.png?h=ef8e944e5633d60890b3a74c39c74856" background-size="contain"}
 
-::: aside
-Source: [RStudio](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects) & artwork by [Allison Horst](https://www.allisonhorst.com/)
-:::

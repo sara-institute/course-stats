@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://sara-course-stats.netlify.app/welcome.html</loc>
-    <lastmod>2026-01-14T10:45:28.781Z</lastmod>
+    <lastmod>2026-01-23T03:43:20.025Z</lastmod>
   </url>
   <url>
     <loc>https://sara-course-stats.netlify.app/index.html</loc>
@@ -35,5 +35,17 @@
   <url>
     <loc>https://sara-course-stats.netlify.app/foundational-stats-research.html</loc>
     <lastmod>2026-01-18T13:35:39.227Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sara-course-stats.netlify.app/models.html</loc>
+    <lastmod>2026-01-19T10:54:19.244Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sara-course-stats.netlify.app/dispersion.html</loc>
+    <lastmod>2026-01-19T10:56:06.763Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sara-course-stats.netlify.app/visualization.html</loc>
+    <lastmod>2026-01-19T11:11:38.704Z</lastmod>
   </url>
 </urlset>

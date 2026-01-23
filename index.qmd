@@ -74,3 +74,33 @@ The background image is taken from [Sandra Ilic](https://unsplash.com/photos/a-b
 {{< revealjs file="central-tendency.html" height="500px" class="ratio ratio-16x9" >}}
 
 <br>
+
+## Session
+
+{{< revealjs file="models.html" height="500px" class="ratio ratio-16x9" >}}
+
+<br>
+
+## Session
+
+{{< revealjs file="dispersion.html" height="500px" class="ratio ratio-16x9" >}}
+
+<br>
+
+## Session
+
+{{< revealjs file="visualization.html" height="500px" class="ratio ratio-16x9" >}}
+
+<br>
+
+## Session
+
+{{< revealjs file="github.html" height="500px" class="ratio ratio-16x9" >}}
+
+<br>
+
+## Session
+
+{{< revealjs file="thanks.html" height="500px" class="ratio ratio-16x9" >}}
+
+<br>

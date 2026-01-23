@@ -11,7 +11,7 @@
     "href": "welcome.html#sara-institute-of-data-science",
     "title": "WELCOME",
     "section": "SARA Institute of Data Science",
-    "text": "SARA Institute of Data Science\n\nFirst class was on 5 April 2023 in Bhiwadi, RJ.\n\n\n\n\n\n5 April 2023 – first class at the SARA."
+    "text": "SARA Institute of Data Science\n\nFirst class was on 5 April 2023 in Bhiwadi, RJ."
   },
   {
     "objectID": "welcome.html#our-mission",
@@ -67,7 +67,7 @@
     "href": "welcome.html#section-1",
     "title": "WELCOME",
     "section": "",
-    "text": "Savitribai Ramabai (SARA) Institute of Data Science\n\n\n\n\n\n \nDr. Ajay Kumar Koli, Executive Director, SARA Institute\nDr. Kiran Lata, Director, SARA Institute\n Dr. Ambedkar Bhawan, Kakroi Road, Near Dayanand Hospital, Sonipat - 131001, Haryana, India.\n\n   925 315 2024     sara.institute.info@gmail.com  SARA Website   https://sara-edu.netlify.app/\n Follow SARA Institute on Social Media."
+    "text": "Savitribai Ramabai (SARA) Institute of Data Science\n\n\n\n\n\n \nDr. Ajay Kumar Koli, Executive Director, SARA Institute\nDr. Kiran Lata, Director, SARA Institute\n Dr. Ambedkar Bhawan, Kakroi Road, Near Dayanand Hospital, nipat - 131001, Haryana, India.\n\n   925 315 2024     sara.institute.info@gmail.com  SARA Website   https://sara-edu.netlify.app/\n Follow SARA Institute on cial Media."
   },
   {
     "objectID": "welcome.html#section-3",
@@ -1188,5 +1188,467 @@
     "title": "R, RStudio, & Quarto",
     "section": "",
     "text": "“Research is reproducible when others can reproduce the results of a scientific study given only the original data, code, and documentation.”\n\n\n\nSource: (Alston and Rick 2021)"
+  },
+  {
+    "objectID": "models.html#statistical-models",
+    "href": "models.html#statistical-models",
+    "title": "Statistical Models",
+    "section": "Statistical Models",
+    "text": "Statistical Models\n\nA mathematical framework that represents relationships between variables in a dataset.\nIt is used to understand, explain, or predict outcomes based on observed data."
+  },
+  {
+    "objectID": "models.html#statistical-model-consists",
+    "href": "models.html#statistical-model-consists",
+    "title": "Statistical Models",
+    "section": "Statistical Model Consists:",
+    "text": "Statistical Model Consists:\n\nVariables: Inputs (independent variables) and outputs (dependent variables).\nEquations: Mathematical expressions defining the relationship.\nAssumptions: Underlying rules about the data or process (e.g., normality, linearity)."
+  },
+  {
+    "objectID": "models.html#the-one-and-only-statistical-model",
+    "href": "models.html#the-one-and-only-statistical-model",
+    "title": "Statistical Models",
+    "section": "The One and Only Statistical Model",
+    "text": "The One and Only Statistical Model\n\n\\[\noutcome_i = (model) + error_i\n\\]"
+  },
+  {
+    "objectID": "models.html#simplest-possible-model",
+    "href": "models.html#simplest-possible-model",
+    "title": "Statistical Models",
+    "section": "Simplest Possible Model",
+    "text": "Simplest Possible Model\n\n\\[\noutcome_i = (b_0) + error_i\n\\]\n\n\\(b\\), Greek symbol represents beta (\\(\\beta\\)).\n\\(b_0\\) means we are predicting the outcome from zero other variables, that is, just from a single parameter.\nParameters are estimated (usually) constant values believed to represent some fundamental truth about the relations between variables in the models."
+  },
+  {
+    "objectID": "models.html#adding-variable-to-statistical-model",
+    "href": "models.html#adding-variable-to-statistical-model",
+    "title": "Statistical Models",
+    "section": "Adding Variable to Statistical Model",
+    "text": "Adding Variable to Statistical Model\n\n\\[\noutcome_i = (b_0 + b_1X_1) + error_i\n\\]\n\nA lot of time it is more interesting to see whether we can summarize an outcome variable by predicting from scores on another variable."
+  },
+  {
+    "objectID": "models.html#understand-statistical-model",
+    "href": "models.html#understand-statistical-model",
+    "title": "Statistical Models",
+    "section": "Understand Statistical Model",
+    "text": "Understand Statistical Model\n\n\\[\noutcome_i = (b_0 + b_1X_1) + error_i\n\\]\n\n\\(i\\) = particular entity.\n\\(outcome_i\\) = outcome value for that particular entity.\n\\(X_i\\) = score on the predictor variable.\n\\(b_1\\) = predictor variable has a parameter attached to it which tells us something about the relationship between the predictor (\\(X_i\\)) and outcome.\n\\(b_0\\) = is still there to tell us the overall levels of the outcome if the predictor variable was not in the model."
+  },
+  {
+    "objectID": "models.html#ras-statistical-model",
+    "href": "models.html#ras-statistical-model",
+    "title": "Statistical Models",
+    "section": "RAS Statistical Model",
+    "text": "RAS Statistical Model\n\n\\[\noutcome_i = (b_0 + b_1X_i) + error_i\n\\] \n\\[\nrelationship\\;satisfaction_i = (b_0 + b_1length_i) + error_i\n\\]"
+  },
+  {
+    "objectID": "models.html#ras-statistical-model-1",
+    "href": "models.html#ras-statistical-model-1",
+    "title": "Statistical Models",
+    "section": "RAS Statistical Model",
+    "text": "RAS Statistical Model\n\n\\(relationship\\\\satisfaction_i = (b_0 + b_1length_i + b_2effort_i) + error_i\\)\n\nWe use the sample data to estimate the value of the model parameters, \\(b\\).\nWe use the sample data to estimate (best guess) what the population parameters are likely to be."
+  },
+  {
+    "objectID": "models.html#your-turn",
+    "href": "models.html#your-turn",
+    "title": "Statistical Models",
+    "section": "🤯 Your Turn",
+    "text": "🤯 Your Turn\nCalculate the mean value of these RAS values.\n32, 30, 28, 30, 30, 29, 31, 29, 31"
+  },
+  {
+    "objectID": "models.html#your-turn-answer",
+    "href": "models.html#your-turn-answer",
+    "title": "Statistical Models",
+    "section": "Your Turn: Answer",
+    "text": "Your Turn: Answer\n\\[\n\\bar{X}=\\frac{\\displaystyle\\sum_{i=1}^nx_i}{\\displaystyle n} \\\\\n= \\frac{32 + 30 + 28 + 30 + 30 + 29 + 31 + 29 + 31}{9} \\\\\n= \\frac{270}{9} \\\\\n= 30\n\\]"
+  },
+  {
+    "objectID": "models.html#the-fit-of-the-mean",
+    "href": "models.html#the-fit-of-the-mean",
+    "title": "Statistical Models",
+    "section": "The Fit of the Mean",
+    "text": "The Fit of the Mean\n\\[\noutcome_i = model + error_i\n\\]\n\n\\[\nerror_i = outcome_i - model\n\\]\n\n\n\\[\nerror_i = RAS_i - \\bar{X}\n\\]"
+  },
+  {
+    "objectID": "models.html#the-fit-of-the-mean-week-1",
+    "href": "models.html#the-fit-of-the-mean-week-1",
+    "title": "Statistical Models",
+    "section": "The Fit of the Mean: Week 1",
+    "text": "The Fit of the Mean: Week 1\n\\[\nerror_{week 1} = outcome_{week 1} - model\n\\]\n\n\\[\nerror_{week 1} = RAS_{week 1} - \\bar{X}\n\\]\n\n\n\\[\nerror_{week 1} = 32 - 30 \\\\\n= 2\n\\]"
+  },
+  {
+    "objectID": "models.html#errordevianceresidual",
+    "href": "models.html#errordevianceresidual",
+    "title": "Statistical Models",
+    "section": "Error/Deviance/Residual",
+    "text": "Error/Deviance/Residual\n\nDeviance is the value of the outcome minus the value predicted from the model.\n\n\n\\[\nerror_{i} = outcome_{i} - model\n\\]\n\n\n\\[\ndeviance_{i} = x_{i} - \\bar{X}\n\\]"
+  },
+  {
+    "objectID": "models.html#references",
+    "href": "models.html#references",
+    "title": "Statistical Models",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "dispersion.html#dispersion",
+    "href": "dispersion.html#dispersion",
+    "title": "Measures of Dispersion",
+    "section": "Dispersion",
+    "text": "Dispersion\n\n\nHow spread out the data is around its mean."
+  },
+  {
+    "objectID": "dispersion.html#measures-of-dispersion",
+    "href": "dispersion.html#measures-of-dispersion",
+    "title": "Measures of Dispersion",
+    "section": "Measures of Dispersion",
+    "text": "Measures of Dispersion\n\nRange: The difference between the maximum and minimum values.\nVariance: The average of the squared differences from the mean.\nStandard Deviation (SD): The square root of variance, representing average deviation from the mean.\nInterquartile Range (IQR): The difference between the 75th percentile (Q3) and 25th percentile (Q1)."
+  },
+  {
+    "objectID": "dispersion.html#total-errordevianceresidual",
+    "href": "dispersion.html#total-errordevianceresidual",
+    "title": "Measures of Dispersion",
+    "section": "Total Error/Deviance/Residual",
+    "text": "Total Error/Deviance/Residual\n\nAdd up the deviances for each data point\n\n\n\\[\ntotal\\;error = \\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)\n\\]\n\n\n\\[\ntotal\\;deviance = \\displaystyle\\sum_{i=1}^n (x_{i} - \\bar X)\n\\]"
+  },
+  {
+    "objectID": "dispersion.html#sum-of-errors",
+    "href": "dispersion.html#sum-of-errors",
+    "title": "Measures of Dispersion",
+    "section": "Sum of Errors",
+    "text": "Sum of Errors\n\\[\nSum \\; of \\;errors = \\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)\n\\]\n\n\\[\n= (28-30) + (29-30) + (29-30) + (30-30) \\\\+ (30-30) + (30-30) + (31-30) + (31-30) + \\\\(32-30)\\\\\n= -2 + (-1) + (-1) + 0 + 0 + 0 + 1 + 1 +2 \\\\\n= 0\n\\]"
+  },
+  {
+    "objectID": "dispersion.html#graph-ras-errors",
+    "href": "dispersion.html#graph-ras-errors",
+    "title": "Measures of Dispersion",
+    "section": "Graph RAS Errors",
+    "text": "Graph RAS Errors"
+  },
+  {
+    "objectID": "dispersion.html#sum-of-squared-errors",
+    "href": "dispersion.html#sum-of-squared-errors",
+    "title": "Measures of Dispersion",
+    "section": "Sum of Squared Errors",
+    "text": "Sum of Squared Errors\n\\[\nSum \\; of \\; squared \\;errors (SS) = \\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)^2\n\\]\n\n\\[\nSum \\; of \\; squared \\;errors (SS) = \\displaystyle\\sum_{i=1}^n (x_{i} - \\bar{X})^2\n\\]"
+  },
+  {
+    "objectID": "dispersion.html#sum-of-squared-errors-1",
+    "href": "dispersion.html#sum-of-squared-errors-1",
+    "title": "Measures of Dispersion",
+    "section": "Sum of Squared Errors",
+    "text": "Sum of Squared Errors"
+  },
+  {
+    "objectID": "dispersion.html#sum-of-squared-errors-ss",
+    "href": "dispersion.html#sum-of-squared-errors-ss",
+    "title": "Measures of Dispersion",
+    "section": "Sum of Squared Errors (\\(SS\\))",
+    "text": "Sum of Squared Errors (\\(SS\\))\n\n❌ Size of \\(SS\\) depend on how many scores we have in the data.\n❌ It is nuisance if we want to compare the total error across samples of different size.\n✅ An easy solution is to divide \\(SS\\) by the number of scores/observations (\\(N\\))."
+  },
+  {
+    "objectID": "dispersion.html#variance",
+    "href": "dispersion.html#variance",
+    "title": "Measures of Dispersion",
+    "section": "Variance",
+    "text": "Variance\n\\[\nmean \\; squared \\;error = \\frac{SS}{N} = \\frac{\\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)^2}{N}\n\\]\n\n\\[\nvariance (\\sigma^2) = \\frac{SS}{N} = \\frac{\\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)^2}{N}\n\\]\n\nThe symbol of variance in sample is \\(s^2\\).\nThe symbol of variance in population is \\(\\sigma^2\\)."
+  },
+  {
+    "objectID": "dispersion.html#ras-variance",
+    "href": "dispersion.html#ras-variance",
+    "title": "Measures of Dispersion",
+    "section": "RAS Variance",
+    "text": "RAS Variance\nThe average error of the mean was 1.33 RAS units squared\n\\[\nvariance (\\sigma^2) = \\frac{SS}{N} = \\frac{\\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)^2}{N} \\\\ = \\frac{12}{9} \\\\ = 1.33\n\\]"
+  },
+  {
+    "objectID": "dispersion.html#standard-deviation",
+    "href": "dispersion.html#standard-deviation",
+    "title": "Measures of Dispersion",
+    "section": "Standard Deviation",
+    "text": "Standard Deviation\n\\[\n\\sigma = \\sqrt{variance} = \\sqrt\\frac{\\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)^2}{N} \\\\ = \\sqrt\\frac{12}{9} \\\\ = \\sqrt{1.33 } \\\\= 1.15\n\\]"
+  },
+  {
+    "objectID": "dispersion.html#degrees-of-freedom",
+    "href": "dispersion.html#degrees-of-freedom",
+    "title": "Measures of Dispersion",
+    "section": "Degrees of Freedom",
+    "text": "Degrees of Freedom\n\\[\n\\sigma = \\sqrt{variance} = \\sqrt\\frac{\\displaystyle\\sum_{i=1}^n (outcome_{i} - model_i)^2}{N - 1} \\\\ = \\sqrt\\frac{12}{8} \\\\ = \\sqrt{1.5} \\\\= 1.22\n\\]"
+  },
+  {
+    "objectID": "dispersion.html#outliers-and-variance",
+    "href": "dispersion.html#outliers-and-variance",
+    "title": "Measures of Dispersion",
+    "section": "Outliers and Variance",
+    "text": "Outliers and Variance\n\nThe variance with the outlier is 37.43\nThe variance without the outlier is 1.5"
+  },
+  {
+    "objectID": "dispersion.html#standard-deviation-and-dispersion",
+    "href": "dispersion.html#standard-deviation-and-dispersion",
+    "title": "Measures of Dispersion",
+    "section": "Standard Deviation and Dispersion",
+    "text": "Standard Deviation and Dispersion\n\nA small standard deviation (relative to the value of the mean) indicates that data points are close to the mean.\nA large standard deviation (relative to the mean) indicates that the data points are distant from the mean.\nA standard deviation of 0 would mean that all of the scores were the same."
+  },
+  {
+    "objectID": "dispersion.html#same-mean-different-sd",
+    "href": "dispersion.html#same-mean-different-sd",
+    "title": "Measures of Dispersion",
+    "section": "Same Mean, Different SD",
+    "text": "Same Mean, Different SD"
+  },
+  {
+    "objectID": "dispersion.html#same-mean-different-sd-1",
+    "href": "dispersion.html#same-mean-different-sd-1",
+    "title": "Measures of Dispersion",
+    "section": "Same Mean, Different SD",
+    "text": "Same Mean, Different SD"
+  },
+  {
+    "objectID": "visualization.html#section-1",
+    "href": "visualization.html#section-1",
+    "title": "Data Visualization",
+    "section": "",
+    "text": "“The simple graph has brought more information to the data analyst’s mind than any other device.” — John Tukey"
+  },
+  {
+    "objectID": "visualization.html#goal",
+    "href": "visualization.html#goal",
+    "title": "Data Visualization",
+    "section": "Goal",
+    "text": "Goal\nHow to visualize data using R package ggplot2."
+  },
+  {
+    "objectID": "visualization.html#section-2",
+    "href": "visualization.html#section-2",
+    "title": "Data Visualization",
+    "section": "",
+    "text": "Source: Tanya Shapiro"
+  },
+  {
+    "objectID": "visualization.html#ggplot2-layers",
+    "href": "visualization.html#ggplot2-layers",
+    "title": "Data Visualization",
+    "section": "ggplot2 Layers",
+    "text": "ggplot2 Layers"
+  },
+  {
+    "objectID": "visualization.html#import-data",
+    "href": "visualization.html#import-data",
+    "title": "Data Visualization",
+    "section": "Import Data",
+    "text": "Import Data\n\nTaskCodeOutput\n\n\n\n\n\n\nlibrary(tidyverse)\nlibrary(palmerpenguins)\n\nggplot(data = penguins)\n\n\n\n\n\n\n\n\n\n\n\nFigure 1"
+  },
+  {
+    "objectID": "visualization.html#map-variables-aesthetics",
+    "href": "visualization.html#map-variables-aesthetics",
+    "title": "Data Visualization",
+    "section": "Map Variables Aesthetics",
+    "text": "Map Variables Aesthetics\n\nTaskCodeOutput\n\n\n\n\n\n\nggplot(data = penguins,\n       mapping = aes(x = species))\n\n\n\n\n\n\n\n\n\n\n\nFigure 2"
+  },
+  {
+    "objectID": "visualization.html#add-geometric-shapes",
+    "href": "visualization.html#add-geometric-shapes",
+    "title": "Data Visualization",
+    "section": "Add Geometric Shapes",
+    "text": "Add Geometric Shapes\n\nTaskCodeOutput\n\n\n\n\n\n\nggplot(data = penguins,\n       mapping = aes(x = species)) +\n  geom_bar()\n\n\n\n\n\n\n\n\n\n\n\nFigure 3"
+  },
+  {
+    "objectID": "visualization.html#key-components-are",
+    "href": "visualization.html#key-components-are",
+    "title": "Data Visualization",
+    "section": "Key Components are:",
+    "text": "Key Components are:\n\n\ndata,\nA set of aesthetic mappings between variables in the data and visual properties, and\nAt least one layer which describes how to render each observation. Layers are usually created with a geom function."
+  },
+  {
+    "objectID": "visualization.html#your-turn",
+    "href": "visualization.html#your-turn",
+    "title": "Data Visualization",
+    "section": "🧠 YOUR TURN",
+    "text": "🧠 YOUR TURN\n\nTaskAnswer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nggplot(data = penguins,\n       mapping = aes(x = island)) +\n  geom_bar()"
+  },
+  {
+    "objectID": "visualization.html#common-mistakes",
+    "href": "visualization.html#common-mistakes",
+    "title": "Data Visualization",
+    "section": "Common Mistakes",
+    "text": "Common Mistakes\n\nMake sure that every ( is matched with a ) and every \" is paired with another \".\nConsole shows no results but a + sign that means your code is incomplete and R is waiting for you to complete the code.\nin ggplot + has to come at the end of the line, not the start"
+  },
+  {
+    "objectID": "visualization.html#fill-color",
+    "href": "visualization.html#fill-color",
+    "title": "Data Visualization",
+    "section": "“Fill” Color",
+    "text": "“Fill” Color\n\nTaskCodeOutput\n\n\n\n\n\n\nggplot(data = penguins,\n       mapping = aes(x = species)) +\n  geom_bar(fill = \"blue\")\n\n\n\n\n\n\n\n\n\n\n\nFigure 4"
+  },
+  {
+    "objectID": "visualization.html#fill-colors",
+    "href": "visualization.html#fill-colors",
+    "title": "Data Visualization",
+    "section": "“Fill” Colors",
+    "text": "“Fill” Colors\n\nTaskCodeOutput\n\n\n\n\n\n\nggplot(data = penguins,\n       mapping = aes(x = species)) +\n  geom_bar(fill = c(\"blue\", \"green\", \"yellow\"))\n\n\n\n\n\n\n\n\n\n\n\nFigure 5"
+  },
+  {
+    "objectID": "visualization.html#fill-color-colors",
+    "href": "visualization.html#fill-color-colors",
+    "title": "Data Visualization",
+    "section": "“Fill” & “Color” Colors",
+    "text": "“Fill” & “Color” Colors\n\nTaskCodeOutput\n\n\n\n\n\n\nggplot(data = penguins,\n       mapping = aes(x = species)) +\n  geom_bar(fill = c(\"blue\", \"green\", \"yellow\"),\n           color = \"black\")\n\n\n\n\n\n\n\n\n\n\n\nFigure 6"
+  },
+  {
+    "objectID": "visualization.html#your-turn-1",
+    "href": "visualization.html#your-turn-1",
+    "title": "Data Visualization",
+    "section": "🧠 YOUR TURN",
+    "text": "🧠 YOUR TURN\n\nTaskAnswer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nggplot(data = penguins,\n       mapping = aes(x = island)) +\n  geom_bar(fill = c(\"red\", \"yellow\", \"darkgreen\"),\n           color = \"black\")"
+  },
+  {
+    "objectID": "visualization.html#know-your-data",
+    "href": "visualization.html#know-your-data",
+    "title": "Data Visualization",
+    "section": "Know Your Data",
+    "text": "Know Your Data\n\n\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           &lt;fct&gt; Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel…\n$ island            &lt;fct&gt; Torgersen, Torgersen, Torgersen, Torgersen, Torgerse…\n$ bill_length_mm    &lt;dbl&gt; 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, …\n$ bill_depth_mm     &lt;dbl&gt; 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, …\n$ flipper_length_mm &lt;int&gt; 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186…\n$ body_mass_g       &lt;int&gt; 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, …\n$ sex               &lt;fct&gt; male, female, female, NA, female, male, female, male…\n$ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…"
+  },
+  {
+    "objectID": "visualization.html#plot-a-continuous-variable",
+    "href": "visualization.html#plot-a-continuous-variable",
+    "title": "Data Visualization",
+    "section": "Plot A Continuous Variable",
+    "text": "Plot A Continuous Variable\n\nTaskCodeOutput\n\n\n\n\n\n\n# bill_length_mm is dbl type variable/column\n\nggplot(data = penguins,\n       mapping = aes(x = bill_length_mm)) +\n  geom_histogram()\n\n\n\n\n\n\n\n\n\n\n\nFigure 7"
+  },
+  {
+    "objectID": "visualization.html#your-turn-2",
+    "href": "visualization.html#your-turn-2",
+    "title": "Data Visualization",
+    "section": "🧠 YOUR TURN",
+    "text": "🧠 YOUR TURN\n\nTaskAnswer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nggplot(data = penguins,\n       mapping = aes(x = bill_length_mm)) +\n  geom_histogram(fill = \"darkblue\",\n                 color = \"white\")"
+  },
+  {
+    "objectID": "visualization.html#two-continuous-variables",
+    "href": "visualization.html#two-continuous-variables",
+    "title": "Data Visualization",
+    "section": "Two Continuous Variables",
+    "text": "Two Continuous Variables\n\nTaskCodeOutput\n\n\n\n\n\n\nggplot(data = penguins,\n       mapping = aes(x = bill_length_mm, y = bill_depth_mm)) +\n  geom_point()\n\n\n\n\n\n\n\n\n\n\n\nFigure 8"
+  },
+  {
+    "objectID": "visualization.html#geom-size",
+    "href": "visualization.html#geom-size",
+    "title": "Data Visualization",
+    "section": "Geom Size",
+    "text": "Geom Size\n\nTaskCodeOutput\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nggplot(data = penguins,\n       mapping = aes(x = bill_length_mm, y = bill_depth_mm)) +\n  geom_point(size = 5)\n\n\n\n\n\n\n\n\n\n\n\nFigure 9"
+  },
+  {
+    "objectID": "visualization.html#geom-shape",
+    "href": "visualization.html#geom-shape",
+    "title": "Data Visualization",
+    "section": "Geom Shape",
+    "text": "Geom Shape\n\nTaskCodeOutput\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nggplot(data = penguins,\n       mapping = aes(x = bill_length_mm, y = bill_depth_mm)) +\n  geom_point(size = 5,\n             shape = 8)\n\n\n\n\n\n\n\n\n\n\n\nFigure 10"
+  },
+  {
+    "objectID": "visualization.html#your-turn-3",
+    "href": "visualization.html#your-turn-3",
+    "title": "Data Visualization",
+    "section": "🧠 YOUR TURN",
+    "text": "🧠 YOUR TURN\n\nTaskAnswer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nggplot(data = penguins,\n       mapping = aes(x = body_mass_g, y = flipper_length_mm)) +\n  geom_point(size = 2, shape = 23, color = \"red\", fill = \"gold\")"
+  },
+  {
+    "objectID": "visualization.html#plot-a-factor-factor",
+    "href": "visualization.html#plot-a-factor-factor",
+    "title": "Data Visualization",
+    "section": "Plot A Factor & Factor",
+    "text": "Plot A Factor & Factor\n\nTaskCodeOutput\n\n\nSometimes, we want to differentiate values of a factor/category variable on the basis of another factor/category variable.\n\n\n\nggplot(data = penguins,\n       mapping = aes(x = island)) +\n  geom_bar(aes(fill = sex))\n\n\n\n\n\n\n\n\n\n\n\nFigure 11"
+  },
+  {
+    "objectID": "visualization.html#plot-a-factor-continuous",
+    "href": "visualization.html#plot-a-factor-continuous",
+    "title": "Data Visualization",
+    "section": "Plot A Factor & Continuous",
+    "text": "Plot A Factor & Continuous\n\nTaskCodeOutput\n\n\nSometimes, we want to differentiate values from a continuous variable on the basis of factor/category variables.\n\n\n\nggplot(data = penguins,\n       mapping = aes(x = bill_length_mm)) +\n  geom_histogram(aes(fill = sex), color = \"black\")\n\n\n\n\n\n\n\n\n\n\n\nFigure 12"
+  },
+  {
+    "objectID": "visualization.html#a-factor-two-cont.",
+    "href": "visualization.html#a-factor-two-cont.",
+    "title": "Data Visualization",
+    "section": "A Factor & Two Cont.",
+    "text": "A Factor & Two Cont.\n\nTaskCodeOutput\n\n\n\n\n\n\nggplot(data = penguins,\n       mapping = aes(x = bill_length_mm, y = bill_depth_mm)) +\n  geom_point(aes(color = sex))\n\n\n\n\n\n\n\n\n\n\n\nFigure 13"
+  },
+  {
+    "objectID": "visualization.html#a-factor-two-cont.-1",
+    "href": "visualization.html#a-factor-two-cont.-1",
+    "title": "Data Visualization",
+    "section": "A Factor & Two Cont.",
+    "text": "A Factor & Two Cont.\n\nTaskCodeOutput\n\n\n\n\n\n\nggplot(data = penguins,\n       mapping = aes(x = bill_length_mm, y = bill_depth_mm)) +\n  geom_point(aes(color = species))\n\n\n\n\n\n\n\n\n\n\n\nFigure 14"
+  },
+  {
+    "objectID": "visualization.html#write-labels",
+    "href": "visualization.html#write-labels",
+    "title": "Data Visualization",
+    "section": "Write Labels",
+    "text": "Write Labels\n\nTaskCodeOutput\n\n\n\nTitle of the plot\nSubtitle of the plot with more information\nTitle of the x-axis\nTitle of the y-axis\n\n\n\n\nggplot(data = penguins,\n       mapping = aes(x = bill_length_mm, y = bill_depth_mm)) +\n  geom_point(aes(color = species)) +\n  labs(\n    title = \"The title of the plot\",\n    subtitle = \"The subtitle of the plot\",\n    x = \"Bill length (mm)\",\n    y = \"Bill depth (mm)\"\n  )\n\n\n\n\n\n\n\n\n\n\n\nFigure 15"
+  },
+  {
+    "objectID": "visualization.html#different-shapes",
+    "href": "visualization.html#different-shapes",
+    "title": "Data Visualization",
+    "section": "Different Shapes",
+    "text": "Different Shapes\n\nTaskCodeOutput\n\n\nEach level of the factor/category can be shown using a different shape of different color.\n\n\n\nggplot(data = penguins,\n       mapping = aes(x = bill_length_mm, y = bill_depth_mm)) +\n  geom_point(aes(color = species, shape = species)) +\n  labs(\n    title = \"The title of the plot\",\n    subtitle = \"The subtitle of the plot\",\n    x = \"Bill length (mm)\",\n    y = \"Bill depth (mm)\"\n  )\n\n\n\n\n\n\n\n\n\n\n\nFigure 16"
+  },
+  {
+    "objectID": "visualization.html#various-themes",
+    "href": "visualization.html#various-themes",
+    "title": "Data Visualization",
+    "section": "Various Themes",
+    "text": "Various Themes\n\nTaskCodeOutput\n\n\nSource: ggthemes\n\nlibrary(ggthemes)\n\n\n\n\nggplot(data = penguins,\n       mapping = aes(x = bill_length_mm, y = bill_depth_mm)) +\n  geom_point(aes(color = species, shape = species)) +\n  labs(\n    title = \"The title of the plot\",\n    subtitle = \"The subtitle of the plot\",\n    x = \"Bill length (mm)\",\n    y = \"Bill depth (mm)\"\n  ) +\n  theme_economist()\n\n\n\n\n\n\n\n\n\n\n\nFigure 17"
+  },
+  {
+    "objectID": "visualization.html#various-themes-1",
+    "href": "visualization.html#various-themes-1",
+    "title": "Data Visualization",
+    "section": "Various Themes",
+    "text": "Various Themes\n\nTaskCodeOutput\n\n\nSource: ggthemes\n\nlibrary(ggthemes)\n\n\n\n\nggplot(data = penguins,\n       mapping = aes(x = bill_length_mm, y = bill_depth_mm)) +\n  geom_point(aes(color = species, shape = species)) +\n  labs(\n    title = \"The title of the plot\",\n    subtitle = \"The subtitle of the plot\",\n    x = \"Bill length (mm)\",\n    y = \"Bill depth (mm)\"\n  ) +\n  theme_solarized_2()\n\n\n\n\n\n\n\n\n\n\n\nFigure 18"
+  },
+  {
+    "objectID": "visualization.html#various-themes-2",
+    "href": "visualization.html#various-themes-2",
+    "title": "Data Visualization",
+    "section": "Various Themes",
+    "text": "Various Themes\n\nTaskCodeOutput\n\n\nSource: ggthemes\n\nlibrary(ggthemes)\n\n\n\n\nggplot(data = penguins,\n       mapping = aes(x = bill_length_mm, y = bill_depth_mm)) +\n  geom_point(aes(color = species, shape = species)) +\n  labs(\n    title = \"The title of the plot\",\n    subtitle = \"The subtitle of the plot\",\n    x = \"Bill length (mm)\",\n    y = \"Bill depth (mm)\"\n  ) +\n  theme_tufte()\n\n\n\n\n\n\n\n\n\n\n\nFigure 19"
+  },
+  {
+    "objectID": "visualization.html#various-themes-3",
+    "href": "visualization.html#various-themes-3",
+    "title": "Data Visualization",
+    "section": "Various Themes",
+    "text": "Various Themes\n\nTaskCodeOutput\n\n\nSource: ggthemes\n\nlibrary(ggthemes)\n\n\n\n\nggplot(data = penguins,\n       mapping = aes(x = bill_length_mm, y = bill_depth_mm)) +\n  geom_point(aes(color = species, shape = species)) +\n  labs(\n    title = \"The title of the plot\",\n    subtitle = \"The subtitle of the plot\",\n    x = \"Bill length (mm)\",\n    y = \"Bill depth (mm)\"\n  ) +\n  theme_clean()\n\n\n\n\n\n\n\n\n\n\n\nFigure 20"
+  },
+  {
+    "objectID": "visualization.html#color-palette",
+    "href": "visualization.html#color-palette",
+    "title": "Data Visualization",
+    "section": "Color Palette",
+    "text": "Color Palette"
+  },
+  {
+    "objectID": "visualization.html#color-palette-1",
+    "href": "visualization.html#color-palette-1",
+    "title": "Data Visualization",
+    "section": "Color Palette",
+    "text": "Color Palette\n\nTaskCodeOutput\n\n\nR package ggthemes have function to use color scheme for colorblindness. Know more\n\n\n\nggplot(data = penguins,\n       mapping = aes(x = bill_length_mm, y = bill_depth_mm)) +\n  geom_point(aes(color = species, shape = species)) +\n  labs(\n    title = \"The title of the plot\",\n    subtitle = \"The subtitle of the plot\",\n    x = \"Bill length (mm)\",\n    y = \"Bill depth (mm)\"\n  ) +\n  theme_clean() +\n  scale_color_colorblind()\n\n\n\n\n\n\n\n\n\n\n\nFigure 21"
+  },
+  {
+    "objectID": "visualization.html#color-palette-2",
+    "href": "visualization.html#color-palette-2",
+    "title": "Data Visualization",
+    "section": "Color Palette",
+    "text": "Color Palette\n\nTaskCodeOutput\n\n\n\nlibrary(RColorBrewer)\n\n\n\n\nggplot(data = penguins,\n       mapping = aes(x = bill_length_mm, y = bill_depth_mm)) +\n  geom_point(aes(color = species, shape = species)) +\n  labs(\n    title = \"The title of the plot\",\n    subtitle = \"The subtitle of the plot\",\n    x = \"Bill length (mm)\",\n    y = \"Bill depth (mm)\"\n  ) +\n  theme_clean() +\n  scale_color_brewer(palette = \"Dark2\")\n\n\n\n\n\n\n\n\n\n\n\nFigure 22"
+  },
+  {
+    "objectID": "visualization.html#color-palette-3",
+    "href": "visualization.html#color-palette-3",
+    "title": "Data Visualization",
+    "section": "Color Palette",
+    "text": "Color Palette\n\nTaskCodeOutput\n\n\n\nlibrary(wesanderson)\n\nnames(wes_palettes)\n\n [1] \"BottleRocket1\"     \"BottleRocket2\"     \"Rushmore1\"        \n [4] \"Rushmore\"          \"Royal1\"            \"Royal2\"           \n [7] \"Zissou1\"           \"Zissou1Continuous\" \"Darjeeling1\"      \n[10] \"Darjeeling2\"       \"Chevalier1\"        \"FantasticFox1\"    \n[13] \"Moonrise1\"         \"Moonrise2\"         \"Moonrise3\"        \n[16] \"Cavalcanti1\"       \"GrandBudapest1\"    \"GrandBudapest2\"   \n[19] \"IsleofDogs1\"       \"IsleofDogs2\"       \"FrenchDispatch\"   \n[22] \"AsteroidCity1\"     \"AsteroidCity2\"     \"AsteroidCity3\"    \n\n\n\n\n\nggplot(data = penguins,\n       mapping = aes(x = bill_length_mm, y = bill_depth_mm)) +\n  geom_point(aes(color = species, shape = species)) +\n  labs(\n    title = \"The title of the plot\",\n    subtitle = \"The subtitle of the plot\",\n    x = \"Bill length (mm)\",\n    y = \"Bill depth (mm)\"\n  ) +\n  theme_clean() +\n  scale_color_manual(values = wes_palette(\"BottleRocket2\", n = 3))\n\n\n\n\n\n\n\n\n\n\n\nFigure 23"
+  },
+  {
+    "objectID": "visualization.html#export-plot",
+    "href": "visualization.html#export-plot",
+    "title": "Data Visualization",
+    "section": "Export Plot",
+    "text": "Export Plot\n\nTaskCodeOutput\n\n\nExport/save plot as pdf, jpg or png file.\n\n\n\nggplot(data = penguins,\n       mapping = aes(x = bill_length_mm, y = bill_depth_mm)) +\n  geom_point(aes(color = species, shape = species)) +\n  labs(\n    title = \"The title of the plot\",\n    subtitle = \"The subtitle of the plot\",\n    x = \"Bill length (mm)\",\n    y = \"Bill depth (mm)\"\n  ) +\n  theme_clean() +\n  scale_color_manual(values = wes_palette(\"BottleRocket2\", n = 3))\n\nggsave(\"penguins-plot.pdf\")\n\n\n\n\n\n\n\n\n\n\n\nFigure 24"
   }
 ]
