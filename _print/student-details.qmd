@@ -10,7 +10,7 @@ classoption: "landscape"
 abstract: |
   |
   |
-  | Total 18 participants registered and attended the five days residentail training during the 2nd SARA Statistics Winter School from 23-27 Jan 2026. There are **3 female participants.** SARA gave **fellowship to six participants** to attend the winter school. The whole event is proudly supported by **The ambedkar Educational Society, Sonipat.** 
+  | Total 20 participants registered and attended the five days residentail training during the 2nd SARA Statistics Winter School from 23-27 Jan 2026. There are **4 female participants.** SARA gave **fellowship to six participants** to attend the winter school. The whole event is proudly supported by **The ambedkar Educational Society, Sonipat.** 
   | 
   |  
   | 
@@ -86,8 +86,6 @@ abstract: |
   [18.], [Mr. Sukh Pal], [Haryana], [MPhil, UGC-NET], [94161 39129],
   [19.], [Mr. Apoorv Gupta], [Delhi], [PhD Student, LPU], [96543 77351],
   [20.], [Miss. Vibhutti Narwal (F)], [Haryana], [BTech Data Science, SRM University], [92530 04525],
-  [21.], [Miss. Saumya Sahay (F)], [], [], [],
-  
 )
 
 ```

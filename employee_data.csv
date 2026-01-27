@@ -1,0 +1,11 @@
+ID,First Name,Last Name,Age,Department,Salary,Start Date,Status,Performance Score
+1,John,Doe,25,Sales,50000,2020-01-15,Active,4.2
+2,Jane,Smith,30,HR,60000,2019-03-22,Active,4.5
+3,Bob,Johnson,35,IT,75000,2018-07-10,Active,3.8
+4,Alice,Williams,28,Sales,52000,2021-02-01,Active,4
+5,Charlie,Brown,45,IT,80000,2017-11-05,Inactive,4.7
+6,Diana,Jones,33,HR,61000,2020-06-18,Active,4.1
+7,Eve,Garcia,29,Sales,49000,2021-09-12,Active,3.9
+8,Frank,Miller,41,IT,78000,2016-04-30,Inactive,4.3
+9,Grace,Davis,27,HR,58000,2019-12-03,Active,4.6
+10,Henry,Rodriguez,38,Sales,53000,2020-10-25,Active,4

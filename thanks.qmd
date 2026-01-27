@@ -3,9 +3,10 @@ title: "[THANK YOU! <br> Ceremony]{.clr-white .r-fit-text}"
 author: "[2nd SARA Statistics Winter School, 23-27 Jan 2026]{.clr-white .r-fit-text}"
 format: revealjs
 controls: true
-incremental: true
+incremental: false
 slide-number: false
 scrollable: true
+transition: slide
 logo: images/logo-sara.png
 bibliography: references.bib
 theme: style.scss
@@ -40,6 +41,47 @@ title-slide-attributes:
 [**Savitribai Ramabai (SARA) Institute of Data Science**]{.r-fit-text}
 :::::::
 
+## Our Mission {background-image="images/intro/mission.jpg" background-size="contain" background-position="right"}
+
+> Making data science <br>accessible to all.
+
+> Priority admission for <br>marginalized communities and <br>women.
+
+## Free & Open-source Courses
+
+<br>
+
+::::::: {.centering layout-ncol="4" layout-valign="bottom"}
+::: card
+![](https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=2922&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+
+English Language
+:::
+
+::: card
+![](https://images.unsplash.com/photo-1649433391420-542fcd3835ea?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+
+Computer Skills
+:::
+
+::: card
+![](https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+
+Data Science
+:::
+
+::: card
+![](https://images.unsplash.com/photo-1508004680771-708b02aabdc0?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+
+Research Methods
+:::
+:::::::
+
+::: aside
+Image source: [Unsplash](https://unsplash.com/)
+:::
+
+
 #  {background-image="images/intro/flyer.png" background-position="right" background-size="contain" background-color="#003262"}
 
 ::::: columns
@@ -53,15 +95,56 @@ title-slide-attributes:
 
 
 
-## Overview {background-image="images/intro/flyer.png" background-position="right" background-size="contain" background-color="#003262"}
+## Instructors {background-image="images/thanks/teachers.png" background-position="center" background-size="90%" background-color="#003262"}
 
-- 00 participants attended.
+# Participants {background-image="images/thanks/class-students.jpeg" background-position="right" background-size="50%" background-color="#003262"}
 
-- Around 40 hours of teaching.
+- 5 Days | 40 Hours
 
-- 05 days of food and accommodation.
+- 20 Students (4 Female)
 
-## {background-image="images/intro/flyer.png" background-position="right" background-size="contain" background-color="#003262"}
+- 6 Students Sponsored 
+
+## {background-image="images/thanks/1.png" background-position="right" background-size="contain" background-color="#003262"}
+
+## {background-image="images/thanks/2.png" background-position="right" background-size="contain" background-color="#003262"}
+
+## {background-image="images/thanks/3.png" background-position="right" background-size="contain" background-color="#003262"}
+
+## {background-image="images/thanks/4.png" background-position="right" background-size="contain" background-color="#003262"}
+
+## {background-image="images/thanks/5.png" background-position="right" background-size="contain" background-color="#003262"}
+
+## {background-image="images/thanks/6.png" background-position="right" background-size="contain" background-color="#003262"}
+
+## {background-image="images/thanks/7.png" background-position="right" background-size="contain" background-color="#003262"}
+
+## {background-image="images/thanks/8.png" background-position="right" background-size="contain" background-color="#003262"}
+
+## {background-image="images/thanks/9.png" background-position="right" background-size="contain" background-color="#003262"}
+
+## {background-image="images/thanks/10.png" background-position="right" background-size="contain" background-color="#003262"}
+
+## {background-image="images/thanks/11.png" background-position="right" background-size="contain" background-color="#003262"}
+
+## {background-image="images/thanks/12.png" background-position="right" background-size="contain" background-color="#003262"}
+
+## {background-image="images/thanks/13.png" background-position="right" background-size="contain" background-color="#003262"}
+
+## {background-image="images/thanks/14.png" background-position="right" background-size="contain" background-color="#003262"}
+
+## {background-image="images/thanks/15.png" background-position="right" background-size="contain" background-color="#003262"}
+
+## {background-image="images/thanks/16.png" background-position="right" background-size="contain" background-color="#003262"}
+
+## {background-image="images/thanks/17.png" background-position="right" background-size="contain" background-color="#003262"}
+
+## {background-image="images/thanks/18.png" background-position="right" background-size="contain" background-color="#003262"}
+
+## {background-image="images/thanks/19.png" background-position="right" background-size="contain" background-color="#003262"}
+
+## {background-image="images/thanks/20.png" background-position="right" background-size="contain" background-color="#003262"}
+
 
 ## {background-image="https://images.unsplash.com/photo-1615715035868-fc94bd5ffdac?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" background-size="cover"}
 
@@ -76,8 +159,8 @@ title-slide-attributes:
 
 ::::
 
+# {{< fa handshake >}} Donate<br>to SARA {background-color="#003262" background-image="images/thanks/upi-sara.png" background-position="right" background-size="contain"}
 
+No Amount is too Small.
 
-# [Thank You!]{.theme-cursive} {background-image="https://images.unsplash.com/photo-1553379762-ff913d5513b5?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" background-size="cover"}
-
-Research Scholar Group, Department of Sociology<br>Delhi School of Economics, Delhi University
+# [Thank You!]{.theme-cursive} {background-image="images/thanks/dinner-flyer.png" background-size="contain" background-position=right}
