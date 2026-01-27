@@ -97,12 +97,6 @@ The background image is taken from [Sandra Ilic](https://unsplash.com/photos/a-b
 
 ## Session
 
-{{< revealjs file="github.html" height="500px" class="ratio ratio-16x9" >}}
-
-<br>
-
-## Session
-
 {{< revealjs file="thanks.html" height="500px" class="ratio ratio-16x9" >}}
 
 <br>
